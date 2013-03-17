@@ -1,0 +1,24 @@
+12 Mountain
+4 Stomping Ground
+4 Rootbound Crag
+
+4 Boros Reckoner
+4 Burning-Tree Emissary
+4 Flinthoof Boar
+4 Hellrider
+4 Lightning Mauler
+4 Rakdos Cackler
+4 Stromkirk Noble
+3 Ghor-Clan Rampager
+
+4 Brimstone Volley
+4 Searing Spear
+1 Pillar of Flame
+
+SIDEBOARD
+2 Blasphemous Act
+3 Grafdigger's Cage
+1 Mizzium Mortars
+4 Skullcrack
+2 Traitorous Blood
+3 Volcanic Strength
