@@ -1,0 +1,81 @@
+#!/usr/bin/env ruby
+
+require "rubygems"
+require "magic_xml"
+
+class Card
+  def initialize(c)
+    @name = c[:@name]
+    @manacost = c[:@manacost]
+    @type = c[:@type]
+    @text = c[:@text]
+    @generated_colors = []
+    @used_colors = []
+    parse_manacost!
+    parse_text!
+    parse_type!
+    simplify_colors!
+  end
+
+  def data
+    [@name, @generated_colors, @used_colors]
+  end
+  
+  def simplify_colors!
+    key = {"w" => 0, "u" => 1, "b" => 2, "r" => 3, "g" => 4}
+    @generated_colors = @generated_colors.join.gsub(/[^wubrg]/, "").split(//).uniq.sort_by{|c| key[c]}.join
+    @used_colors = @used_colors.join.gsub(/[^wubrg]/, "").split(//).uniq.sort.sort_by{|c| key[c]}.join
+  end
+  
+  def parse_manacost!
+    m = @manacost.sub(/\A(\d|X|Y|Z)+/, "").downcase
+    @used_colors << $1 while m.sub!(/\A([WUBRG]|\([WUBRG2]\/[WUBRGP]\))/i, "")
+    puts "WTF mana: #{m}" unless m.empty?
+  end
+
+  def parse_cost!(cost)
+    puts "WTF COST? #{cost}" if cost =~ /mana pool/ and cost =~ /\{/
+    @used_colors += cost.scan(/\{(.*?)\}/).flatten.map(&:downcase)
+  end
+
+  def parse_effect!(effect)
+    @generated_colors += effect.scan(/\{(.*?)\}/).flatten.map(&:downcase)
+    @generated_colors << "wubrg" if effect =~ /any/
+  end
+
+  def parse_text!
+    @text.split("\n").each{|line|
+      line.gsub!(/\{(\d+|X|T)\}/){ $1 }
+      @used_colors << "(w/b)" if line =~ /\bExtort\b/i
+      next unless line =~ /\{|mana/
+      # This is sort of dubious
+      if line.sub!(/Adds? (.*) to (?:your|his or her|that player's) mana pool/i, "")
+        parse_effect! $1
+      end
+      if line.sub!(/Add to (?:your|his or her) mana pool (.*)/i, "")
+        parse_effect! $1
+      end
+      parse_cost! line
+    }
+  end
+
+  def parse_type!
+    @generated_colors << "w" if @type =~ /\bPlains\b/i
+    @generated_colors << "u" if @type =~ /\bIsland\b/i
+    @generated_colors << "b" if @type =~ /\bSwamp\b/i
+    @generated_colors << "r" if @type =~ /\bMountain\b/i
+    @generated_colors << "g" if @type =~ /\bForest\b/i
+  end
+
+end
+
+cards = []
+XML.parse_as_twigs(File.open("cards.xml")) {|node|
+  next unless node.name == :card
+  node.complete! # Read all children of <page>...</page> node
+  card = Card.new(node)
+  cards << card.data
+}
+cards.sort.each{|name, gen, use|
+  puts [name, gen, use].join("\t")
+}
