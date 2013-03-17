@@ -1,0 +1,52 @@
+#!/usr/bin/env ruby
+
+require "set"
+
+class CardColors
+  attr_reader :uses, :generates
+  def initialize
+    @generates = {}
+    @uses = {}
+    File.open("colors.tsv").each_line{|line|
+      n, g, u = line.chomp.split(/\t/, 3)
+      @generates[n] = Set[*g.split(//)]
+      @uses[n] = Set[*u.split(//)]
+    }
+  end
+  def include?(card_name)
+    @uses.include?(card_name)
+  end
+  def self.instance
+    @instance ||= new
+  end
+end
+
+class Deck
+  def initialize(list)
+    @generates = Set[]
+    @uses = Set[]
+    @cards = []
+    list.each{|line|
+      line.strip!
+      next unless line =~ /\A(\d+)x?\s*(.*)/
+      @cards << [$1.to_i, $2]
+    }
+    @cards.each{|cnt, name|
+      if CardColors.instance.include?(name)
+        @generates |= CardColors.instance.generates[name]
+        @uses |= CardColors.instance.uses[name]
+      else
+        warn "Unknown card: #{name}"
+      end
+    }
+  end
+  def color
+    key = {"w" => 0, "u" => 1, "b" => 2, "r" => 3, "g" => 4}
+    (@generates & @uses).to_a.sort_by{|c| key[c]}.join
+  end
+end
+
+card_colors = CardColors.new
+deck = Deck.new(STDIN.readlines)
+
+puts deck.color
