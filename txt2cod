@@ -24,11 +24,11 @@ class Deck
       else
         @main[$2] += $1.to_i
       end
-    when /\ASideboard:?\z/i
+    when /\ASideboard:?/i
       @in_sideboard = true
     when ""
     else
-      puts line
+      # possibly weird stuff, ignore anyway
     end
   end
 
