@@ -20,13 +20,13 @@ class Card
   def data
     [@name, @generated_colors, @used_colors]
   end
-  
+
   def simplify_colors!
     key = {"w" => 0, "u" => 1, "b" => 2, "r" => 3, "g" => 4}
     @generated_colors = @generated_colors.join.gsub(/[^wubrg]/, "").split(//).uniq.sort_by{|c| key[c]}.join
     @used_colors = @used_colors.join.gsub(/[^wubrg]/, "").split(//).uniq.sort.sort_by{|c| key[c]}.join
   end
-  
+
   def parse_manacost!
     m = @manacost.sub(/\A(\d|X|Y|Z)+/, "").downcase
     @used_colors << $1 while m.sub!(/\A([WUBRG]|\([WUBRG2]\/[WUBRGP]\))/i, "")
@@ -76,6 +76,6 @@ XML.parse_as_twigs(File.open("cards.xml")) {|node|
   card = Card.new(node)
   cards << card.data
 }
-cards.sort.each{|name, gen, use|
-  puts [name, gen, use].join("\t")
-}
+puts cards.sort.map{|name, gen, use|
+  [name, gen, use].join("\t")
+}.uniq
