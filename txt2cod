@@ -16,7 +16,11 @@ class Deck
   def add_card!(name, number, sideboard=@in_sideboard)
     # Common differences between cards.xml
     # and what people type in their decklists online
-    name = name.gsub("’", "'")
+    name = name.dup
+    name.gsub!("’", "'")
+    name.gsub!("Æ", "AE")
+    name.gsub!(/\AAether/, "AEther")
+    name.gsub!(%r[\s*(/+|&)\s*], " // ")
     if sideboard
       @side[name] += number
     else
