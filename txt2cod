@@ -13,17 +13,24 @@ class Deck
     @comment = ""
   end
 
+  def add_card!(name, number, sideboard=@in_sideboard)
+    # Common differences between cards.xml
+    # and what people type in their decklists online
+    name = name.gsub("’", "'")
+    if sideboard
+      @side[name] += number
+    else
+      @main[name] += number
+    end
+  end
+
   def parse_line!(line)
     line = line.strip
     case line
     when /\ASB:\s*(\d+)\s*(.*)\z/
-      @side[$2] += $1.to_i
+      add_card! $2, $1.to_i, true
     when /\A(\d+)\s*(.*)\z/
-      if @in_sideboard
-        @side[$2] += $1.to_i
-      else
-        @main[$2] += $1.to_i
-      end
+      add_card! $2, $1.to_i
     when /\ASideboard:?/i
       @in_sideboard = true
     when ""
