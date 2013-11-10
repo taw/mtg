@@ -1,0 +1,69 @@
+#!/usr/bin/env ruby -I.
+
+require "magic_xml"
+
+class Deck
+  def initialize
+    @main = Hash.new(0)
+    @side = Hash.new(0)
+    @in_sideboard = false
+  end
+
+  def parse_line!(line)
+    line = line.strip
+    case line
+    when /\ASB:\s*(\d+)\s*(.*)\z/
+      @side[$2] += $1.to_i
+    when /\A(\d+)\s*(.*)\z/
+      if @in_sideboard
+        @side[$2] += $1.to_i
+      else
+        @main[$2] += $1.to_i
+      end
+    when /\ASideboard:?\z/i
+      @in_sideboard = true
+    when ""
+    else
+      puts line
+    end
+  end
+
+  def parse!(input)
+    input.each do |line|
+      parse_line! line.chomp
+    end
+  end
+
+  def each_main_card(&blk)
+    @main.to_a.sort.each(&blk)
+  end
+
+  def each_side_card(&blk)
+    @side.to_a.sort.each(&blk)
+  end
+
+  def zone_to_xml(zone, name)
+    xml(:zone, name: name) do
+      zone.to_a.sort.each do |name, count|
+        card! number: count, price: 0, name: name
+      end
+    end
+  end
+
+  def to_cod
+    out = xml(:cockatrice_deck)
+    out << (deckname = xml(:deckname))
+    out << (comments = xml(:comments))
+    out << zone_to_xml(@main, :main)
+    out << zone_to_xml(@side, :side)
+    out.add_pretty_printing!
+    # Don't prettyprint within these
+    deckname << "Unknown"
+    comments << "No comment"
+    out
+  end
+end
+
+deck = Deck.new
+deck.parse!(STDIN)
+puts deck.to_cod
