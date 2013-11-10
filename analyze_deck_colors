@@ -47,6 +47,13 @@ class Deck
 end
 
 card_colors = CardColors.new
-deck = Deck.new(STDIN.readlines)
 
-puts deck.color
+if ARGV.empty?
+  deck = Deck.new(STDIN.readlines)
+  puts deck.color
+else
+  ARGV.each do |path|
+    deck = Deck.new(File.readlines(path))
+    puts "#{deck.color}\t#{path}"
+  end
+end
