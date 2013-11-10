@@ -1,12 +1,16 @@
 #!/usr/bin/env ruby -I.
 
 require "magic_xml"
+require 'trollop'
 
 class Deck
+  attr_accessor :name, :comment
   def initialize
     @main = Hash.new(0)
     @side = Hash.new(0)
     @in_sideboard = false
+    @name = ""
+    @comment = ""
   end
 
   def parse_line!(line)
@@ -58,12 +62,27 @@ class Deck
     out << zone_to_xml(@side, :side)
     out.add_pretty_printing!
     # Don't prettyprint within these
-    deckname << "Unknown"
-    comments << "No comment"
+    deckname << @name
+    comments << @comment
     out
   end
 end
 
+opts = Trollop::options do
+  opt :name, "Deck name", type: :string, default: "Unknown"
+  opt :comment, "Comment", type: :string, defaul: ""
+  opt :input, "input (default STDIN)", type: :string
+  opt :output, "output (default STDOUT)", type: :string
+end
+
 deck = Deck.new
-deck.parse!(STDIN)
-puts deck.to_cod
+deck.name = opts[:name]
+deck.comment = opts[:comment]
+deck.parse!(opts[:input] ? File.readlines(opts[:input]) : STDIN.readlines)
+if opts[:output]
+  File.open(opts[:output], 'w') do |fh|
+    fh.puts deck.to_cod
+  end
+else
+  puts deck.to_cod
+end
