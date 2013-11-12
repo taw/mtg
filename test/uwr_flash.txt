@@ -3,6 +3,7 @@ Creatures (13)
 3 Snapcaster Mage
 4 Restoration Angel
 2 Thundermaw Hellkite
+
 Spells (22)
 3 Pillar of Flame
 4 Azorius Charm
@@ -14,6 +15,7 @@ Spells (22)
 1 Turn/Burn
 3 Sphinx’s Revelation
 2 Syncopate
+
 Lands (25)
 4 Hallowed Fountain
 4 Steam Vents
@@ -24,6 +26,7 @@ Lands (25)
 1 Island
 2 Cavern of Souls
 1 Moorland Haunt
+
 Sideboard (15)
 1 Celestial Flare
 2 Counterflux

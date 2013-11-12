@@ -1,0 +1,26 @@
+#!/usr/bin/env ruby
+
+def cleanup_name(name)
+  name = name.dup
+  name.gsub!("’", "'")
+  name.gsub!("Æ", "AE")
+  name.gsub!(/\AAether/, "AEther")
+  name.gsub!(%r[\s*(/+|&)\s*], " // ")
+  name
+end
+
+sideboard = ""
+
+STDIN.each_line do |line|
+  line = line.chomp.strip
+  case line
+  when %r[\ASB:\s*(\d+)\s*(.*)]
+    puts "SB: #{$1} #{cleanup_name($2)}"
+  when %r[\ASideboard]i
+    sideboard = "SB: "
+  when %r[\A(\d+)\s*(.*)]
+    puts "#{sideboard}#{$1} #{cleanup_name($2)}"
+  else
+    # warn "Unrecognized line: #{line}"
+  end
+end
