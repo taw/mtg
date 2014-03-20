@@ -4,11 +4,12 @@ require "magic_xml"
 require 'trollop'
 
 class Deck
-  attr_accessor :name, :comment
+  attr_accessor :name, :comment, :empty_line_starts_sideboard
   def initialize
     @main = Hash.new(0)
     @side = Hash.new(0)
     @in_sideboard = false
+    @empty_line_starts_sideboard = false
     @name = ""
     @comment = ""
   end
@@ -38,6 +39,7 @@ class Deck
     when /\ASideboard:?/i
       @in_sideboard = true
     when ""
+      @in_sideboard = true if empty_line_starts_sideboard
     else
       # possibly weird stuff, ignore anyway
     end
@@ -84,9 +86,11 @@ opts = Trollop::options do
   opt :comment, "Comment", type: :string, defaul: ""
   opt :input, "input (default STDIN)", type: :string
   opt :output, "output (default STDOUT)", type: :string
+  opt :dailymtg, "use format from DailyMTG (sideboard indicated by empty line)", type: :boolean,  default: false
 end
 
 deck = Deck.new
+deck.empty_line_starts_sideboard = opts[:dailymtg]
 deck.name = opts[:name]
 deck.comment = opts[:comment]
 deck.parse!(opts[:input] ? File.readlines(opts[:input]) : STDIN.readlines)
