@@ -43,12 +43,6 @@ class DeckImporter
   end
 end
 
-# ARGV.each do |url|
-#   importer = DeckImporter.new(url).import!
-# end
-
-# importer.import! "http://sales.starcitygames.com//deckdatabase/displaydeck.php?DeckID=64282"
-# importer.import! "http://www.mtgtop8.com/export_files/deck239546.mwDeck"
-# importer.import! "http://www.mtgtop8.com/event?e=6883&d=239546&f=MO"
-
-DeckImporter.new("https://www.wizards.com/Magic/Magazine/Article.aspx?x=mtg/daily/ftl/291").import!
+ARGV.each do |url|
+  importer = DeckImporter.new(url).import!
+end
