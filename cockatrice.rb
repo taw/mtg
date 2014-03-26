@@ -26,16 +26,23 @@ class Deck
     end
   end
 
-  def add_card!(name, number, sideboard)
+  def canonical_name(name)
     # Common differences between cards.xml
     # and what people type in their decklists online
     name = name.dup
+    # Unicode
     name.gsub!("’", "'")
     name.gsub!("Æ", "AE")
     name.gsub!(/\AAether/, "AEther")
+    # Split/Fuse cards
     name.gsub!(%r[\s*(/+|&)\s*], " // ")
     # Strip expansion name if any
     name.sub!(/\A\[[A-Z0-9]+\]\s+/, "")
+    name
+  end
+
+  def add_card!(name, number, sideboard)
+    name = canonical_name(name)
     if sideboard
       @side[name] += number
     else
