@@ -31,6 +31,10 @@ class Deck
     end
   end
 
+  def process_comment!(comment)
+    debug! "Unrecognized comment: #{comment}"
+  end
+
   def parse_line!(line)
     line = line.strip
     case line
@@ -42,8 +46,10 @@ class Deck
       @in_sideboard = true
     when ""
       @in_sideboard = true if empty_line_starts_sideboard
+    when /\A\/\/(.*)/
+      process_comment! $1
     else
-      # possibly weird stuff, ignore anyway
+      debug! "Unrecognized line: #{line}"
     end
   end
 
@@ -83,14 +89,20 @@ class Deck
   end
 end
 
+def debug!(msg)
+  STDERR.puts(msg) if $debug
+end
+
 opts = Trollop::options do
   opt :name, "Deck name", type: :string, default: "Unknown"
   opt :comment, "Comment", type: :string, defaul: ""
   opt :input, "input (default STDIN)", type: :string
   opt :output, "output (default STDOUT)", type: :string
-  opt :dailymtg, "use format from DailyMTG (sideboard indicated by empty line)", type: :boolean,  default: false
+  opt :dailymtg, "use format from DailyMTG (sideboard indicated by empty line)", type: :boolean, default: false
+  opt :verbose, "print warnings for weird input", type: :boolean, default: false
 end
 
+$debug = opts[:verbose]
 deck = Deck.new
 deck.empty_line_starts_sideboard = opts[:dailymtg]
 deck.name = opts[:name]
