@@ -22,6 +22,8 @@ class Deck
     name.gsub!("Æ", "AE")
     name.gsub!(/\AAether/, "AEther")
     name.gsub!(%r[\s*(/+|&)\s*], " // ")
+    # Strip expansion name if any
+    name.sub!(/\A\[[A-Z0-9]+\]\s+/, "")
     if sideboard
       @side[name] += number
     else
