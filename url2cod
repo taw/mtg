@@ -1,0 +1,54 @@
+#!/usr/bin/env ruby -I.
+
+require "trollop"
+require "cockatrice"
+require "open-uri"
+require "nokogiri"
+
+class DeckImporter
+  attr_reader :url
+
+  def initialize(url)
+    @url = url
+  end
+
+  def host
+    URI.parse(url).host
+  end
+
+  def doc
+    @doc ||= Nokogiri::HTML(open(url).read)
+  end
+
+  def import_wizardscom!
+    doc.css(".deck").each do |node|
+      title = node.css('heading').text.strip
+      link = URI.parse(@url) + node.css('.dekoptions a')[0][:href]
+      parser = TextDeckParser.new
+      parser.empty_line_starts_sideboard = true
+      deck = parser.parse! open(link)
+      deck.name = title
+      deck.comment = url
+      file_name = title.gsub("/", "") + ".cod"
+      deck.save_as!(file_name)
+    end
+  end
+
+  def import!
+    if host == "www.wizards.com"
+      import_wizardscom!
+    else
+      raise "Don't know how to import from #{host}"
+    end
+  end
+end
+
+# ARGV.each do |url|
+#   importer = DeckImporter.new(url).import!
+# end
+
+# importer.import! "http://sales.starcitygames.com//deckdatabase/displaydeck.php?DeckID=64282"
+# importer.import! "http://www.mtgtop8.com/export_files/deck239546.mwDeck"
+# importer.import! "http://www.mtgtop8.com/event?e=6883&d=239546&f=MO"
+
+DeckImporter.new("https://www.wizards.com/Magic/Magazine/Article.aspx?x=mtg/daily/ftl/291").import!

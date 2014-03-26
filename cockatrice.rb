@@ -119,5 +119,6 @@ class TextDeckParser
     input.each do |line|
       parse_line! line.chomp
     end
+    deck
   end
 end
