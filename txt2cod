@@ -2,6 +2,7 @@
 
 require "trollop"
 require "cockatrice"
+require "open-uri"
 
 opts = Trollop::options do
   opt :name, "Deck name", type: :string, default: "Unknown"
@@ -15,7 +16,7 @@ end
 parser = TextDeckParser.new
 parser.empty_line_starts_sideboard = opts[:dailymtg]
 parser.verbose = opts[:verbose]
-parser.parse!(opts[:input] ? File.readlines(opts[:input]) : STDIN.readlines)
+parser.parse!(opts[:input] ? open(opts[:input]).readlines : STDIN.readlines)
 parser.deck.name = opts[:name] if opts[:name]
 parser.deck.comment = opts[:comment] if opts[:comment]
 
