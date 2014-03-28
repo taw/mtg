@@ -11,6 +11,7 @@ opts = Trollop::options do
   opt :output, "output (default STDOUT)", type: :string
   opt :dailymtg, "use format from DailyMTG (sideboard indicated by empty line)", type: :boolean, default: false
   opt :verbose, "print warnings for weird input", type: :boolean, default: false
+  opt :autofilename, "select file name based on deck name", type: :boolean, default: false
 end
 
 parser = TextDeckParser.new
@@ -23,6 +24,8 @@ parser.deck.comment = opts[:comment] if opts[:comment]
 
 if opts[:output]
   parser.deck.save_as!(opts[:output])
+elsif opts[:autofilename]
+  parser.deck.save_as!(parser.deck.name.gsub("/", "") + ".cod")
 else
   parser.deck.print!
 end
