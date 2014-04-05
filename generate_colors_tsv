@@ -1,7 +1,7 @@
-#!/usr/bin/env ruby -I.
+#!/usr/bin/env ruby
 
 require "rubygems"
-require "magic_xml"
+require_relative "magic_xml"
 
 class Card
   def initialize(c)

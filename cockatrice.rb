@@ -1,4 +1,4 @@
-require "magic_xml"
+require_relative "magic_xml"
 
 class Deck
   attr_accessor :name, :comment
