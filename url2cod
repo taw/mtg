@@ -34,9 +34,25 @@ class DeckImporter
     end
   end
 
+  def import_scg!
+    deck = Deck.new
+    doc.css(".deck_card_wrapper li").each do |cards|
+      in_sideboard = !cards.ancestors(".deck_sideboard").empty?
+      raise "Parse error: `#{cards}'" unless cards.text =~ /\A(\d+)\s+(.*)/
+      deck.add_card! $2, $1.to_i, in_sideboard
+    end
+    title = doc.css(".deck_title").text
+    deck.name = title
+    deck.comment = @url
+    file_name = title.gsub("/", "") + ".cod"
+    deck.save_as!(file_name)
+  end
+
   def import!
     if host == "www.wizards.com"
       import_wizardscom!
+    elsif host == "sales.starcitygames.com"
+      import_scg!
     else
       raise "Don't know how to import from #{host}"
     end
