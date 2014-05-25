@@ -67,13 +67,36 @@ class DeckImporter
     deck.save_as!(file_name)
   end
 
+  def import_mtggoldfish!
+    deck = Deck.new
+    title = doc.css("h2")[0].text.strip.gsub(/\u00A0/, " ").sub(/\s+Suggest a Better Name/, "")
+    in_sideboard = false
+    doc.css("#online .deck tr").each do |row|
+      header = row.css(".header").text.strip
+      if header.empty?
+        count = row.css(".quantity").text.strip.to_i
+        name = row.css(".card-name").text.strip
+        deck.add_card! name, count, in_sideboard
+      elsif header == "Sideboard"
+        in_sideboard = true
+      end
+    end
+    deck.name = title
+    deck.comment = @url
+    file_name = title.gsub("/", "") + ".cod"
+    deck.save_as!(file_name)
+  end
+
   def import!
-    if host == "www.wizards.com"
+    case host
+    when "www.wizards.com"
       import_wizardscom!
-    elsif host == "sales.starcitygames.com"
+    when "sales.starcitygames.com"
       import_scg!
-    elsif host == "www.mtgtop8.com"
+    when "www.mtgtop8.com"
       import_mtgtop8!
+    when "www.mtggoldfish.com"
+      import_mtggoldfish!
     else
       raise "Don't know how to import from #{host}"
     end
