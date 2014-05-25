@@ -48,11 +48,32 @@ class DeckImporter
     deck.save_as!(file_name)
   end
 
+  def import_mtgtop8!
+    title = doc.title.sub(" @ mtgtop8.com", "")
+    deck = Deck.new
+    in_sideboard = false
+    doc.css(".G14,.O13").sort.each do |node|
+      text = node.text
+      if node['class'] == 'G14'
+        raise "Parse error: `#{text}'" unless text =~ /\A(\d+)\s+(.*)/
+        deck.add_card! $2, $1.to_i, in_sideboard
+      elsif text == "SIDEBOARD"
+        in_sideboard = true
+      end
+    end
+    deck.name = title
+    deck.comment = @url
+    file_name = title.gsub("/", "") + ".cod"
+    deck.save_as!(file_name)
+  end
+
   def import!
     if host == "www.wizards.com"
       import_wizardscom!
     elsif host == "sales.starcitygames.com"
       import_scg!
+    elsif host == "www.mtgtop8.com"
+      import_mtgtop8!
     else
       raise "Don't know how to import from #{host}"
     end
