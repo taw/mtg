@@ -72,6 +72,18 @@ class Deck
       fh.puts to_cod
     end
   end
+
+  def save!
+    suffix = ""
+    cnt = 1
+    while true
+      file_name = @name.gsub("/", "") + suffix + ".cod"
+      break unless File.exist?(file_name)
+      cnt += 1
+      suffix = " #{cnt}"
+    end
+    save_as!(file_name)
+  end
 end
 
 class TextDeckParser

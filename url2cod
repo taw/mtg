@@ -29,8 +29,7 @@ class DeckImporter
       deck = parser.parse! open(link)
       deck.name = title
       deck.comment = url
-      file_name = title.gsub("/", "") + ".cod"
-      deck.save_as!(file_name)
+      deck.save!
     end
   end
 
@@ -44,8 +43,7 @@ class DeckImporter
     title = doc.css(".deck_title").text
     deck.name = title
     deck.comment = @url
-    file_name = title.gsub("/", "") + ".cod"
-    deck.save_as!(file_name)
+    deck.save!
   end
 
   def import_mtgtop8!
@@ -63,8 +61,7 @@ class DeckImporter
     end
     deck.name = title
     deck.comment = @url
-    file_name = title.gsub("/", "") + ".cod"
-    deck.save_as!(file_name)
+    deck.save!
   end
 
   def import_mtggoldfish!
@@ -83,8 +80,7 @@ class DeckImporter
     end
     deck.name = title
     deck.comment = @url
-    file_name = title.gsub("/", "") + ".cod"
-    deck.save_as!(file_name)
+    deck.save!
   end
 
   def import!
