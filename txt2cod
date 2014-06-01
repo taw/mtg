@@ -25,7 +25,7 @@ parser.deck.comment = opts[:comment] if opts[:comment]
 if opts[:output]
   parser.deck.save_as!(opts[:output])
 elsif opts[:autofilename]
-  parser.deck.save_as!(parser.deck.name.gsub("/", "") + ".cod")
+  parser.deck.save!
 else
   parser.deck.print!
 end
