@@ -20,6 +20,23 @@ class DeckImporter
     @doc ||= Nokogiri::HTML(open(url).read)
   end
 
+  def import_magicwizardscom!
+    doc.css(".deck-list-text").each do |node|
+      deck = Deck.new
+      node.css(".sorted-by-overview-container").css(".row").map(&:text).each do |line|
+        raise "Parse error: `#{line}'" unless line =~ /\A(\d+)\s+(.*)\z/
+        deck.add_card! $2, $1.to_i, false
+      end
+      node.css(".sorted-by-sideboard-container").css(".row").map(&:text).each do |line|
+        raise "Parse error: `#{line}'" unless line =~ /\A(\d+)\s+(.*)\z/
+        deck.add_card! $2, $1.to_i, true
+      end
+      deck.name = node.parent.parent.css("h4").text
+      deck.comment = url
+      deck.save!
+    end
+  end
+
   def import_wizardscom!
     doc.css(".deck").each do |node|
       title = node.css('heading').text.strip
@@ -86,7 +103,9 @@ class DeckImporter
   def import!
     case host
     when "www.wizards.com"
-      import_wizardscom!
+      import_wizardscom! # Old website
+    when "magic.wizards.com"
+      import_magicwizardscom! # New website
     when "sales.starcitygames.com"
       import_scg!
     when "www.mtgtop8.com"
