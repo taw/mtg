@@ -108,7 +108,7 @@ class DeckImporter
       import_magicwizardscom! # New website
     when "sales.starcitygames.com"
       import_scg!
-    when "www.mtgtop8.com"
+    when "www.mtgtop8.com", "mtgtop8.com"
       import_mtgtop8!
     when "www.mtggoldfish.com"
       import_mtggoldfish!
