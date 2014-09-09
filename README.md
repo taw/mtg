@@ -11,3 +11,4 @@ contents
 * `colors.tsv` - generated colors.tsv up to Commander 2013
 * `magic_xml.rb` - bundled for convenience [ https://github.com/taw/magic-xml ]
 * `txt2cod` - convert plaintext deck formats to Cockatrice's cod
+* `cod2txt` - convert Cockatrice's .cod to .txt format

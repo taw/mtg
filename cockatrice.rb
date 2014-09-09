@@ -1,5 +1,13 @@
 require_relative "magic_xml"
 
+class File
+  def self.write(path, content)
+    File.open(path, 'w') do |fh|
+      fh.print content
+    end
+  end
+end
+
 class Deck
   attr_accessor :name, :comment
 
@@ -63,26 +71,72 @@ class Deck
     out
   end
 
+  def to_txt
+    out = ""
+    out << "// NAME: #{@name}\n"
+    out << "// COMMENTS: #{@comment.gsub(/\s+/, " ")}\n" unless @comment.nil? or @comment.empty?
+    @main.each do |n,c|
+      out << "#{c} #{n}\n"
+    end
+    out << "\n"
+    out << "Sideboard\n"
+    @side.each do |n,c|
+      out << "#{c} #{n}\n"
+    end
+    out
+  end
+
   def print!
     puts to_cod
   end
 
+  def print_txt!
+    puts to_txt
+  end
+
   def save_as!(path)
-    File.open(path, 'w') do |fh|
-      fh.puts to_cod
+    File.write(path, to_cod)
+  end
+
+  def save_as_txt!(path)
+    File.write(path, to_txt)
+  end
+
+  def find_free_filename(ext)
+    suffix = ""
+    cnt = 1
+    while true
+      file_name = "#{ @name.gsub("/", "") }#{ suffix }#{ ext }"
+      return file_name unless File.exist?(file_name)
+      cnt += 1
+      suffix = " #{cnt}"
     end
   end
 
   def save!
-    suffix = ""
-    cnt = 1
-    while true
-      file_name = @name.gsub("/", "") + suffix + ".cod"
-      break unless File.exist?(file_name)
-      cnt += 1
-      suffix = " #{cnt}"
+    save_as! find_free_filename(".cod")
+  end
+
+  def save_txt!
+    save_as_txt! find_free_filename(".txt")
+  end
+end
+
+class CockatriceDeckParser
+  attr_reader :deck
+  def initialize
+    @deck = Deck.new
+  end
+
+  def parse!(input)
+    cod = XML.parse(input)
+    @deck.name = cod[:@deckname]
+    @deck.comment = cod[:@comments]
+    cod.children(:zone).each do |zone|
+      zone.children(:card).each do |card|
+        @deck.add_card!(card[:name], card[:number].to_i, zone[:name] == "side")
+      end
     end
-    save_as!(file_name)
   end
 end
 

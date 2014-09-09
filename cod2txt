@@ -1,0 +1,21 @@
+#!/usr/bin/env ruby
+
+require "trollop"
+require_relative "cockatrice"
+
+opts = Trollop::options do
+  opt :input, "input (default STDIN)", type: :string
+  opt :output, "output (default STDOUT)", type: :string
+  opt :autofilename, "select file name based on deck name", type: :boolean, default: false
+end
+
+parser = CockatriceDeckParser.new
+parser.parse!(opts[:input] ? open(opts[:input]).read : STDIN.read)
+
+if opts[:output]
+  parser.deck.save_as_txt!(opts[:output])
+elsif opts[:autofilename]
+  parser.deck.save_txt!
+else
+  parser.deck.print_txt!
+end
