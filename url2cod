@@ -89,7 +89,13 @@ class DeckImporter
       header = row.css(".deck-header").text.strip
       if header.empty?
         count = row.css(".deck-col-qty").text.strip.to_i
-        name = row.css("td a").text.strip
+        # Some card names are not links, warn
+        name  = row.css("td a").text.strip
+        name2 = row.css("td:nth-child(2)").text.strip
+        if name != name2
+          warn "Names don't match: `#{name}' `#{name2}'"
+          name = name2
+        end
         deck.add_card! name, count, in_sideboard
       elsif header =~ /\ASideboard\s*\(\d+\)\z/
         in_sideboard = true
