@@ -1,0 +1,74 @@
+#!/usr/bin/env ruby
+
+require "pathname"
+
+class MageCardMapGenerator
+  def initialize(sets_data_path, card_data_path)
+    @sets_data_path = Pathname(sets_data_path)
+    @card_data_path = Pathname(card_data_path)
+  end
+
+  def sets
+    unless @sets
+      @sets = {}
+      @sets_data_path.readlines.map(&:chomp).each do |line|
+        name, symbol = line.split("|")
+        @sets[name] = symbol
+      end
+    end
+    @sets
+  end
+
+  def card_data
+    @card_data ||= @card_data_path.open("r:bom|utf-8").readlines.map(&:chomp).map{|line| line.split("|")[0,3] }
+  end
+
+  def cards_all_versions
+    unless @cards_all_versions
+      @cards_all_versions = {}
+      card_data.each do |card, set, number|
+        if sets[set] == nil
+          # warn "Unknown set `#{set}'"
+          next
+        end
+        version = [sets[set], number].join(":")
+        @cards_all_versions[card] ||= []
+        @cards_all_versions[card] << version
+      end
+    end
+    @cards_all_versions
+  end
+
+  def cards_best_version
+    unless @cards_best_versions
+      @cards_best_versions = {}
+      cards_all_versions.each do |card, versions|
+        # Take Unhinged for basic lands, whatever you want for everything else
+        # Generally it would be nice to prefer more recent printings,
+        # but let's not overcomplicate things for now
+        best_version = versions.sort_by{|v| [v.include?("UNH") ? 1 : 0, v]}[-1]
+        @cards_best_versions[card] = best_version
+      end
+    end
+    @cards_best_versions
+  end
+
+  def run!
+    open("mage_cards.txt", "w") do |fh|
+      cards_best_version.sort.each do |card, best_version|
+        fh.puts "#{card}\t#{best_version}"
+      end
+    end
+  end
+end
+
+# Generates mage_cards.txt
+
+unless ARGV.size == 2
+  STDERR.puts "Usage: #{$0} /path/to/mtg-sets-data.txt /path/to/mtg-cards-data.txt"
+  STDERR.puts "It generates mage_cards.txt"
+  exit 1
+end
+
+mapgen = MageCardMapGenerator.new(ARGV[0], ARGV[1])
+mapgen.run!
