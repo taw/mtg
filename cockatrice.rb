@@ -92,18 +92,27 @@ class Deck
 
   def mage_card_version(card)
     unless mage_cards[card]
+      fixed_card = mage_cards.keys.find do |c|
+        card.unicode_normalize(:nfd).downcase.scan(/[a-z]/).join ==
+           c.unicode_normalize(:nfd).downcase.scan(/[a-z]/).join
+      end
+      if mage_cards[fixed_card]
+        card = fixed_card
+      end
+    end
+    unless mage_cards[card]
       warn "No card `#{card}' in mage database"
     end
-    "[#{ mage_cards[card] }]"
+    "[#{ mage_cards[card] }] #{card}"
   end
 
   def to_dck
     out = ""
     @main.each do |n,c|
-      out << "#{c} #{mage_card_version(n)} #{n}\n"
+      out << "#{c} #{mage_card_version(n)}\n"
     end
     @side.each do |n,c|
-      out << "SB: #{c} #{mage_card_version(n)} #{n}\n"
+      out << "SB: #{c} #{mage_card_version(n)}\n"
     end
     out
   end
