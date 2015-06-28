@@ -86,6 +86,28 @@ class Deck
     out
   end
 
+  def mage_cards
+    @mage_cards ||= Hash[File.readlines("mage_cards.txt").map{|x| x.chomp.split("\t")}]
+  end
+
+  def mage_card_version(card)
+    unless mage_cards[card]
+      warn "No card `#{card}' in mage database"
+    end
+    "[#{ mage_cards[card] }]"
+  end
+
+  def to_dck
+    out = ""
+    @main.each do |n,c|
+      out << "#{c} #{mage_card_version(n)} #{n}\n"
+    end
+    @side.each do |n,c|
+      out << "SB: #{c} #{mage_card_version(n)} #{n}\n"
+    end
+    out
+  end
+
   def print!
     puts to_cod
   end
@@ -100,6 +122,10 @@ class Deck
 
   def save_as_txt!(path)
     File.write(path, to_txt)
+  end
+
+  def save_as_dck!(path)
+    File.write(path, to_dck)
   end
 
   def find_free_filename(ext)

@@ -1,0 +1,49 @@
+#!/usr/bin/env ruby
+
+require_relative "cockatrice"
+require "pathname"
+
+class Cockarice2MageConverter
+  def initialize(input_path, output_path)
+    @input_path  = input_path
+    @output_path = output_path
+  end
+
+  def convert!(source_path, target_path)
+    parser = CockatriceDeckParser.new
+    parser.parse!(source_path.read)
+    parser.deck.save_as_dck!(target_path)
+  end
+
+  def map_path(path)
+    @output_path +
+      path.relative_path_from(@input_path).dirname +
+      "#{path.basename(".cod")}.dck"
+  end
+
+  def run!
+    if @input_path.directory?
+      @input_path.find do |source_path|
+        next if source_path.directory?
+        target_path = map_path(source_path)
+        next if target_path.exist?
+        target_path.parent.mkpath
+        convert!(source_path, target_path)
+      end
+    else
+      convert!(@input_path, @output_path)
+    end
+  end
+end
+
+unless ARGV.size == 2
+  STDERR.puts "Converts cockatrice to mage format"
+  STDERR.puts "Usage #{$0} deck.cod deck.dck"
+  STDERR.puts "   or #{$0} cod_folder/ dck_folder/"
+  exit 1
+end
+
+input_path = Pathname(ARGV[0])
+output_path = Pathname(ARGV[1])
+
+Cockarice2MageConverter.new(input_path, output_path).run!
