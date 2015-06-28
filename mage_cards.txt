@@ -143,7 +143,8 @@ Aeronaut Tinkerer	M15:43
 Aesthir Glider	ME4:176
 Affa Guard Hound	ROE:14
 Afflict	ODY:115
-Afflicted Deserter	DKA:81a
+Afflicted Deserter	DKA:81
+Afflicted Deserter // Werewolf Ransacker	DKA:81
 Afiya Grove	MIR:103
 Afterlife	VMA:10
 Aftershock	VMA:149
@@ -193,7 +194,8 @@ Akki Avalanchers	CHK:151
 Akki Blizzard-Herder	BOK:91
 Akki Coalflinger	EVG:33
 Akki Drillmaster	SOK:92
-Akki Lavarunner	CHK:153a
+Akki Lavarunner	CHK:153
+Akki Lavarunner // Tok-Tok, Volcano Born	CHK:153
 Akki Raider	BOK:92
 Akki Rockspeaker	CHK:154
 Akki Underling	SOK:93
@@ -251,7 +253,8 @@ Alhammarret's Archive	ORI:221
 Ali Baba	ARN:43
 Ali from Cairo	ME4:107
 Aliban's Tower	HML:77
-Alive	DGM:121a
+Alive	DGM:121
+Alive // Well	DGM:121
 All Hallow's Eve	ME3:57
 All Is Dust	ROE:1
 All Suns' Dawn	5DN:81
@@ -507,7 +510,8 @@ Archangel of Strife	CMD:7
 Archangel of Thune	M14:5
 Archangel of Tithes	ORI:4
 Archangel's Light	DKA:1
-Archdemon of Greed	PTC:52b
+Archdemon of Greed	PTC:52
+Archdemon of Greed // Ravenous Demon	PTC:52
 Archdemon of Unx	ALA:64
 Archers of Qarsi	FRF:124
 Archers' Parapet	KTK:128
@@ -568,7 +572,8 @@ Armageddon Clock	ME4:180
 Armament Corps	KTK:165
 Armament Master	ZEN:1
 Armament of Nyx	JOU:4
-Armed	DGM:122b
+Armed	DGM:122
+Armed // Dangerous	DGM:122
 Armed Response	5DN:2
 Armillary Sphere	PC2:108
 Armistice	MMQ:3
@@ -654,7 +659,8 @@ Asphyxiate	BNG:60
 Assassin's Blade	POR:2
 Assassin's Strike	RTR:57
 Assassinate	TSP:95
-Assault	TSB:106a
+Assault	TSB:106
+Assault // Battery	TSB:106
 Assault Formation	DTK:173
 Assault Griffin	M12:8
 Assault Strobe	SOM:82
@@ -730,7 +736,8 @@ Austere Command	LRW:3
 Autochthon Wurm	RAV:191
 Autumn Willow	MED:113
 Autumn's Veil	M12:164
-Autumn-Tail, Kitsune Sage	CHK:28b
+Autumn-Tail, Kitsune Sage	CHK:28
+Autumn-Tail, Kitsune Sage // Kitsune Mystic	CHK:28
 Avacyn's Collar	DKA:145
 Avacyn's Pilgrim	ISD:170
 Avacyn, Angel of Hope	AVR:6
@@ -793,7 +800,8 @@ Awaken the Bear	KTK:129
 Awakener Druid	M11:163
 Awakening	STH:51
 Awakening Zone	ROE:176
-Away	DGM:127b
+Away	DGM:127
+Away // Far	DGM:127
 Awe Strike	MRD:6
 Awe for the Guilds	DGM:31
 Awesome Presence	ALL:34
@@ -882,7 +890,8 @@ Bamboozle	ODY:68
 Bandage	TPR:7
 Bane Alley Blackguard	DGM:21
 Bane Alley Broker	GTC:145
-Bane of Hanweir	ISD:145b
+Bane of Hanweir	ISD:145
+Bane of Hanweir // Hanweir Watchkeep	ISD:145
 Bane of Progress	C13:137
 Bane of the Living	LGN:60
 Banefire	DDN:31
@@ -972,7 +981,8 @@ Battering Ram	ATQ:6
 Battering Sliver	PLC:95
 Battering Wurm	GPT:79
 Batterskull	NPH:130
-Battery	TSB:106b
+Battery	TSB:106
+Battery // Assault	TSB:106
 Battle Brawler	FRF:63
 Battle Cry	ICE:229
 Battle Frenzy	ICE:175
@@ -1032,7 +1042,8 @@ Beastbreaker of Bala Ged	ROE:178
 Beastmaster Ascension	ZEN:159
 Beastmaster's Magemark	GPT:80
 Beasts of Bogardan	LEG:133
-Beck	DGM:123a
+Beck	DGM:123
+Beck // Call	DGM:123
 Beckon Apparition	GTC:212
 Become Immense	KTK:130
 Bedlam	USG:175
@@ -1227,7 +1238,8 @@ Blizzard Specter	CSP:126
 Bloated Toad	ULG:97
 Blockade Runner	MMQ:60
 Blockbuster	RAV:115
-Blood	DGM:128b
+Blood	DGM:128
+Blood // Flesh	DGM:128
 Blood Artist	AVR:86
 Blood Bairn	M14:87
 Blood Baron of Vizkopa	DGM:57
@@ -1284,7 +1296,8 @@ Bloodhunter Bat	M13:82
 Bloodhusk Ritualist	WWK:50
 Bloodied Ghost	EVE:83
 Bloodletter Quill	RAV:254
-Bloodline Keeper	ISD:90a
+Bloodline Keeper	ISD:90
+Bloodline Keeper // Lord of Lineage	ISD:90
 Bloodline Shaman	ONS:249
 Bloodlord of Vaasgoth	PTC:50
 Bloodmark Mentor	SHM:83
@@ -1396,7 +1409,8 @@ Bonfire of the Damned	AVR:129
 Booby Trap	TMP:267
 Book Burning	JUD:80
 Book of Rass	ME4:183
-Boom	PLC:112a
+Boom	PLC:112
+Boom // Bust	PLC:112
 Boomerang	MIR:56
 Boon Reflection	SHM:5
 Boon Satyr	THS:152
@@ -1442,7 +1456,8 @@ Bottomless Pit	STH:1
 Bottomless Vault	FEM:177
 Boulderfall	THS:115
 Bouncing Beebles	ULG:28
-Bound	DIS:149a
+Bound	DIS:149
+Bound // Determined	DIS:149
 Bound in Silence	MMA:8
 Bounding Krasis	ORI:212
 Boundless Realms	M13:162
@@ -1502,7 +1517,8 @@ Break Asunder	SCG:113
 Break Open	ONS:190
 Break Through the Line	FRF:94
 Break of Day	DKA:3
-Breaking	MLP:22a
+Breaking	MLP:22
+Breaking // Entering	MLP:22
 Breaking Point	JUD:81
 Breaking Wave	INV:48
 Breakthrough	TOR:26
@@ -1592,7 +1608,8 @@ Bubble Matrix	WTH:147
 Bubbling Beebles	UDS:29
 Bubbling Cauldron	M14:205
 Bubbling Muck	UDS:54
-Budoka Gardener	CHK:202a
+Budoka Gardener	CHK:202
+Budoka Gardener // Dokai, Weaver of Life	CHK:202
 Budoka Pupil	BOK:122
 Builder's Bane	MIR:160
 Builder's Blessing	AVR:8
@@ -1610,7 +1627,8 @@ Burden of Guilt	DKA:4
 Burgeoning	STH:52
 Buried Alive	WTH:5
 Buried Ruin	M12:224
-Burn	DGM:134a
+Burn	DGM:134
+Burn // Turn	DGM:134
 Burn Away	KTK:104
 Burn Trail	SHM:86
 Burn at the Stake	AVR:130
@@ -1643,8 +1661,10 @@ Burst Lightning	ZEN:119
 Burst of Energy	ULG:3
 Burst of Speed	M10:129
 Burst of Strength	GTC:115
-Bushi Tenderfoot	CHK:2a
-Bust	PLC:112b
+Bushi Tenderfoot	CHK:2
+Bushi Tenderfoot // Kenzo the Hardhearted	CHK:2
+Bust	PLC:112
+Bust // Boom	PLC:112
 Butcher Ghoul	AVR:89
 Butcher Orgg	ONS:192
 Butcher of Malakir	WWK:53
@@ -1686,7 +1706,8 @@ Calcite Snapper	WWK:25
 Caldera Hellion	ALA:95
 Caldera Kavu	PLS:58
 Caldera Lake	VMA:295
-Call	DGM:123b
+Call	DGM:123
+Call // Beck	DGM:123
 Call for Blood	BOK:63
 Call of the Conclave	RTR:146
 Call of the Herd	TSB:74
@@ -1809,7 +1830,8 @@ Catalyst Stone	ODY:297
 Catapult Master	ONS:10
 Catapult Squad	ONS:11
 Catastrophe	USG:6
-Catch	DGM:125a
+Catch	DGM:125
+Catch // Release	DGM:125
 Cateran Brute	MMQ:120
 Cateran Enforcer	MMQ:121
 Cateran Kidnappers	MMQ:122
@@ -1923,8 +1945,10 @@ Chainer's Edict	VMA:108
 Chainer, Dementia Master	TOR:56
 Chainflinger	ODY:181
 Chains of Mephistopheles	MED:63
-Chalice of Death	DKA:146b
-Chalice of Life	DKA:146a
+Chalice of Death	DKA:146
+Chalice of Death // Chalice of Life	DKA:146
+Chalice of Life	DKA:146
+Chalice of Life // Chalice of Death	DKA:146
 Chalice of the Void	MRD:150
 Chamber of Manipulation	ODY:76
 Chambered Nautilus	MMQ:64
@@ -1967,7 +1991,8 @@ Channel Harm	FRF:7
 Channel the Suns	5DN:84
 Chant of Vitu-Ghazi	RAV:7
 Chant of the Skifsang	DKA:31
-Chaos	HOP:104b
+Chaos	HOP:104
+Chaos // Order	HOP:104
 Chaos Charm	MIR:163
 Chaos Harlequin	ALL:102
 Chaos Imps	RTR:90
@@ -2050,7 +2075,8 @@ Chorus of Woe	S99:68
 Chorus of the Conclave	RAV:195
 Chorus of the Tides	BNG:33
 Chosen by Heliod	THS:5
-Chosen of Markov	DKA:55a
+Chosen of Markov	DKA:55
+Chosen of Markov // Markov's Servant	DKA:55
 Chromanticore	BNG:144
 Chromatic Armor	ICE:361
 Chromatic Lantern	RTR:226
@@ -2115,7 +2141,8 @@ City of Traitors	TPR:237
 Civic Guildmage	MIR:211
 Civic Saber	RTR:227
 Civic Wayfinder	RAV:157
-Civilized Scholar	ISD:47a
+Civilized Scholar	ISD:47
+Civilized Scholar // Homicidal Brute	ISD:47
 Claim of Erebos	BNG:64
 Clairvoyance	ICE:63
 Clan Defiance	GTC:151
@@ -2165,7 +2192,8 @@ Clockwork Hydra	TSP:253
 Clockwork Steed	ME2:205
 Clockwork Swarm	ME4:192
 Clockwork Vorrac	MRD:156
-Cloistered Youth	ISD:8a
+Cloistered Youth	ISD:8
+Cloistered Youth // Unholy Fiend	ISD:8
 Clone	ONS:75
 Clone Legion	DTK:48
 Clone Shell	SOM:143
@@ -2501,7 +2529,8 @@ Crescendo of War	VMA:21
 Crested Craghorn	LGN:91
 Crevasse	LEG:138
 Crib Swap	LRW:11
-Crime	DIS:150a
+Crime	DIS:150
+Crime // Punishment	DIS:150
 Crimson Acolyte	INV:11
 Crimson Hellkite	MIR:167
 Crimson Kobolds	ME3:93
@@ -2716,7 +2745,8 @@ Dance of the Dead	ME2:83
 Dance of the Skywise	DTK:50
 Dancing Scimitar	ARN:75
 Dandan	TSB:19
-Dangerous	DGM:122a
+Dangerous	DGM:122
+Dangerous // Armed	DGM:122
 Dangerous Wager	AVR:131
 Daraja Griffin	VIS:102
 Darba	PCY:111
@@ -2825,17 +2855,20 @@ Dawnstrider	MMQ:237
 Dawnstrike Paladin	M14:15
 Dawntreader Elk	DKA:111
 Daxos of Meletis	THS:191
-Day	APC:131b
+Day	APC:131
+Day // Night	APC:131
 Day of Destiny	BOK:1
 Day of Judgment	ZEN:9
 Day of the Dragons	SCG:31
 Day's Undoing	ORI:51
 Daybreak Coronet	FUT:21
-Daybreak Ranger	ISD:176a
+Daybreak Ranger	ISD:176
+Daybreak Ranger // Nightfall Predator	ISD:176
 Daze	NMS:30
 Dazzling Beauty	MIR:212
 Dazzling Ramparts	KTK:6
-Dead	PLC:113a
+Dead	PLC:113
+Dead // Gone	PLC:113
 Dead Drop	KTK:67
 Dead Reckoning	WWK:56
 Dead Reveler	RTR:62
@@ -2858,7 +2891,8 @@ Deadshot Minotaur	ARB:52
 Deadwood Treefolk	PLC:126
 Deal Broker	CNS:61
 Dearly Departed	ISD:9
-Death	FNMP:78b
+Death	FNMP:78
+Death // Life	FNMP:78
 Death Baron	HOP:25
 Death Bomb	PLS:41
 Death Charmer	PCY:61
@@ -2995,12 +3029,15 @@ Delif's Cone	FEM:169
 Delif's Cube	FEM:170
 Delirium	MIR:320
 Delirium Skeins	DIS:41
-Deliver	INV:292b
+Deliver	INV:292
+Deliver // Stand	INV:292
 Delraich	MMQ:133
 Deluge	ODY:80
 Delusions of Mediocrity	ULG:30
-Delver of Secrets	ISD:51a
-Demand	DIS:157b
+Delver of Secrets	ISD:51
+Delver of Secrets // Insectile Aberration	ISD:51
+Demand	DIS:157
+Demand // Supply	DIS:157
 Dematerialize	ODY:81
 Dementia Bat	NPH:55
 Dementia Sliver	TSP:236
@@ -3084,7 +3121,8 @@ Destructive Urge	USG:180
 Destructor Dragon	FRF:127
 Detainment Spell	TSP:12
 Detention Sphere	RTR:155
-Determined	DIS:149b
+Determined	DIS:149
+Determined // Bound	DIS:149
 Detonate	MRD:88
 Detritivore	PLC:96
 Deus of Calamity	SHM:204
@@ -3093,7 +3131,8 @@ Devastating Dreams	TOR:95
 Devastating Summons	ROE:140
 Devastation	S99:94
 Devastation Tide	AVR:48
-Development	DIS:155b
+Development	DIS:155
+Development // Research	DIS:155
 Deviant Glee	RTR:65
 Devil's Play	MBP:40
 Devoted Caretaker	ODY:18
@@ -3168,7 +3207,8 @@ Dirge of Dread	ONS:138
 Dirgur Nemesis	DTK:51
 Dirtcowl Wurm	TMP:115
 Dirtwater Wraith	MIR:15
-Dirty	DGM:126a
+Dirty	DGM:126
+Dirty // Down	DGM:126
 Dirty Wererat	ODY:130
 Disappear	UDS:30
 Disarm	MRD:32
@@ -3266,7 +3306,8 @@ Do or Die	INV:102
 Dodecapod	TSB:108
 Dogged Hunter	ODY:20
 Dogpile	RAV:120
-Dokai, Weaver of Life	CHK:202b
+Dokai, Weaver of Life	CHK:202
+Dokai, Weaver of Life // Budoka Gardener	CHK:202
 Dolmen Gate	LRW:256
 Domestication	ROE:61
 Dominaria's Judgment	PLS:4
@@ -3305,7 +3346,8 @@ Doubtless One	ONS:27
 Douse	USG:70
 Douse in Gloom	GPT:49
 Dovescape	DIS:143
-Down	DGM:126b
+Down	DGM:126
+Down // Dirty	DGM:126
 Downdraft	WTH:67
 Downhill Charge	NMS:79
 Downpour	M13:48
@@ -3644,7 +3686,8 @@ Eladamri's Call	PLS:106
 Eladamri's Vineyard	TMP:118
 Eladamri, Lord of Leaves	TMP:117
 Eland Umbra	ROE:19
-Elbrus, the Binding Blade	DKA:147a
+Elbrus, the Binding Blade	DKA:147
+Elbrus, the Binding Blade // Withengar Unbound	DKA:147
 Elder Cathar	ISD:12
 Elder Druid	ICE:120
 Elder Land Wurm	MED:11
@@ -3806,7 +3849,8 @@ Endless Whispers	5DN:49
 Endless Wurm	USG:249
 Endoskeleton	USG:294
 Endrek Sahr, Master Breeder	TSP:106
-Ends	DIS:153b
+Ends	DIS:153
+Ends // Odds	DIS:153
 Endure	EVE:5
 Enduring Ideal	SOK:9
 Enduring Renewal	TSB:7
@@ -3853,7 +3897,8 @@ Entangler	PCY:7
 Entangling Trap	LRW:13
 Entangling Vines	M10:181
 Enter the Infinite	GTC:34
-Entering	MLP:22b
+Entering	MLP:22
+Entering // Breaking	MLP:22
 Enthralling Victor	ORI:142
 Entomb	PD3:14
 Entomber Exarch	NPH:59
@@ -3882,8 +3927,10 @@ Equinox	LEG:182
 Equipoise	VIS:103
 Eradicate	UDS:60
 Erase	ULG:7
-Erayo's Essence	SOK:35b
-Erayo, Soratami Ascendant	SOK:35a
+Erayo's Essence	SOK:35
+Erayo's Essence // Erayo, Soratami Ascendant	SOK:35
+Erayo, Soratami Ascendant	SOK:35
+Erayo, Soratami Ascendant // Erayo's Essence	SOK:35
 Erdwal Ripper	DKA:86
 Erebos's Emissary	THS:86
 Erebos, God of the Dead	THS:85
@@ -3900,7 +3947,8 @@ Errantry	ME2:124
 Erratic Explosion	PC2:41
 Erratic Mutation	PLC:41
 Erratic Portal	TPR:222
-Error	DIS:158b
+Error	DIS:158
+Error // Trial	DIS:158
 Ersatz Gnomes	MIR:266
 Ertai's Familiar	WTH:38
 Ertai's Meddling	TMP:61
@@ -4089,14 +4137,16 @@ Faith Healer	USG:14
 Faith's Fetters	RAV:16
 Faith's Reward	M13:14
 Faith's Shield	DKA:7
-Faithful Squire	BOK:3a
+Faithful Squire	BOK:3
+Faithful Squire // Kaiso, Memory of Loyalty	BOK:3
 Faithless Looting	MBP:39
 Falkenrath Aristocrat	DKA:138
 Falkenrath Exterminator	AVR:134
 Falkenrath Marauders	ISD:141
 Falkenrath Noble	ISD:100
 Falkenrath Torturer	DKA:60
-Fall	DIS:156b
+Fall	DIS:156
+Fall // Rise	DIS:156
 Fall of the Gavel	RTR:161
 Fall of the Hammer	BNG:93
 Fallen Angel	LEG:11
@@ -4134,7 +4184,8 @@ Fangren Hunter	MRD:119
 Fangren Marauder	MBS:79
 Fangren Pathcutter	5DN:87
 Fanning the Flames	TPR:130
-Far	DGM:127a
+Far	DGM:127
+Far // Away	DGM:127
 Far Wanderings	TOR:125
 Farbog Boneflinger	DKA:61
 Farbog Explorer	AVR:21
@@ -4304,7 +4355,8 @@ Final Revels	LRW:113
 Final Strike	POR:16
 Final-Sting Faerie	MOR:63
 Finest Hour	ARB:126
-Fire	FNMP:79a
+Fire	FNMP:79
+Fire // Ice	FNMP:79
 Fire Ambush	PTK:111
 Fire Ants	USG:187
 Fire Bowman	PTK:112
@@ -4439,7 +4491,8 @@ Fleeting Aven	ONS:83
 Fleeting Distraction	ROE:67
 Fleeting Image	ULG:31
 Flensermite	MBS:41
-Flesh	DGM:128a
+Flesh	DGM:128
+Flesh // Blood	DGM:128
 Flesh Allergy	SOM:62
 Flesh Carver	C14:22
 Flesh Reaver	USG:136
@@ -4759,7 +4812,8 @@ Gangrenous Zombies	ME2:92
 Gargantuan Gorilla	MED:119
 Gargoyle Castle	M10:225
 Gargoyle Sentinel	M15:216
-Garruk Relentless	ISD:181a
+Garruk Relentless	ISD:181
+Garruk Relentless // Garruk, the Veil-Cursed	ISD:181
 Garruk Wildspeaker	MBP:16
 Garruk's Companion	M12:175
 Garruk's Horde	MLP:15
@@ -4767,7 +4821,8 @@ Garruk's Packleader	M15:283
 Garruk, Apex Predator	MBP:104
 Garruk, Caller of Beasts	MBP:76
 Garruk, Primal Hunter	M13:174
-Garruk, the Veil-Cursed	ISD:181b
+Garruk, the Veil-Cursed	ISD:181
+Garruk, the Veil-Cursed // Garruk Relentless	ISD:181
 Garza Zol, Plague Queen	CSP:129
 Garza's Assassin	CSP:57
 Gaseous Form	TPR:51
@@ -4783,8 +4838,10 @@ Gather Courage	RAV:165
 Gather Specimens	ALA:45
 Gather the Townsfolk	GRC:79
 Gatherer of Graces	GPT:85
-Gatstaf Howler	ISD:182b
-Gatstaf Shepherd	ISD:182a
+Gatstaf Howler	ISD:182
+Gatstaf Howler // Gatstaf Shepherd	ISD:182
+Gatstaf Shepherd	ISD:182
+Gatstaf Shepherd // Gatstaf Howler	ISD:182
 Gauntlet of Might	ME4:202
 Gauntlet of Power	TSP:255
 Gauntlets of Chaos	ME3:196
@@ -4849,7 +4906,8 @@ Ghastlord of Fugue	SHM:162
 Ghastly Conscription	FRF:70
 Ghastly Demise	ODY:139
 Ghastly Discovery	SHM:39
-Ghastly Haunting	DKA:50b
+Ghastly Haunting	DKA:50
+Ghastly Haunting // Soul Seizer	DKA:50
 Ghastly Remains	LGN:71
 Ghave, Guru of Spores	CMD:200
 Ghazban Ogre	MED:120
@@ -4955,7 +5013,8 @@ Gilt-Leaf Seer	LRW:215
 Giltspire Avenger	CON:108
 Gisela, Blade of Goldnight	AVR:209
 Gitaxian Probe	NPH:35
-Give	DGM:129a
+Give	DGM:129
+Give // Take	DGM:129
 Glacial Chasm	V12:7
 Glacial Crasher	M15:57
 Glacial Crevasses	ME2:127
@@ -5192,7 +5251,8 @@ Godsire	ALA:170
 Godtoucher	ALA:133
 Godtracker of Jund	ARB:55
 Goham Djinn	INV:107
-Goka the Unjust	CHK:173b
+Goka the Unjust	CHK:173
+Goka the Unjust // Initiate of Blood	CHK:173
 Gold Myr	SOM:157
 Gold-Forged Sentinel	ORI:226
 Golden Bear	PO2:67
@@ -5230,7 +5290,8 @@ Goliath Beetle	UDS:107
 Goliath Sphinx	WWK:28
 Goliath Spider	RAV:168
 Gomazoa	ZEN:46
-Gone	PLC:113b
+Gone	PLC:113
+Gone // Dead	PLC:113
 Gore Swine	FRF:103
 Gore Vassal	MBS:7
 Gore-House Chainwalker	RTR:96
@@ -5412,7 +5473,8 @@ Grixis Panorama	C13:293
 Grixis Slavedriver	CON:46
 Grixis Sojourners	ARB:112
 Grizzled Leotau	ARB:69
-Grizzled Outcasts	ISD:185a
+Grizzled Outcasts	ISD:185
+Grizzled Outcasts // Krallenhorde Wantons	ISD:185
 Grizzled Wolverine	ICE:192
 Grizzly Bears	S99:129
 Grizzly Fate	VMA:215
@@ -5573,7 +5635,8 @@ Hankyu	CHK:253
 Hanna's Custody	TMP:234
 Hanna, Ship's Navigator	JR:84
 Hanweir Lancer	AVR:138
-Hanweir Watchkeep	ISD:145a
+Hanweir Watchkeep	ISD:145
+Hanweir Watchkeep // Bane of Hanweir	ISD:145
 Hapless Researcher	JUD:42
 Harabaz Druid	WWK:105
 Harbinger of Night	MIR:26
@@ -5797,7 +5860,8 @@ Hidden Retreat	STH:106
 Hidden Spider	USG:264
 Hidden Stag	USG:265
 Hidden Strings	DGM:12
-Hide	DIS:151a
+Hide	DIS:151
+Hide // Seek	DIS:151
 Hideous End	ZEN:98
 Hideous Laughter	CHK:115
 Hideous Visage	M12:100
@@ -5825,8 +5889,10 @@ Hindering Touch	SCG:37
 Hindervines	GTC:124
 Hint of Insanity	ODY:143
 Hinterland Harbor	ISD:241
-Hinterland Hermit	DKA:94a
-Hinterland Scourge	DKA:94b
+Hinterland Hermit	DKA:94
+Hinterland Hermit // Hinterland Scourge	DKA:94
+Hinterland Scourge	DKA:94
+Hinterland Scourge // Hinterland Hermit	DKA:94
 Hipparion	ICE:255
 Hired Giant	MMQ:194
 Hired Muscle	BOK:69
@@ -5836,7 +5902,8 @@ Hisoka's Guard	CHK:68
 Hisoka, Minamo Sensei	CHK:66
 Hissing Iguanar	PC2:46
 Hissing Miasma	GPT:51
-Hit	DIS:152a
+Hit	DIS:152
+Hit // Run	DIS:152
 Hitchclaw Recluse	ORI:181
 Hive Mind	M10:54
 Hive Stirrings	MGDC:28
@@ -5874,12 +5941,15 @@ Homarid Shaman	FEM:42
 Homarid Spawning Bed	MED:36
 Homarid Warrior	FEM:44
 Homeward Path	CMD:277
-Homicidal Brute	ISD:47b
+Homicidal Brute	ISD:47
+Homicidal Brute // Civilized Scholar	ISD:47
 Homicidal Seclusion	AVR:108
 Homing Lightning	GTC:96
 Homing Sliver	PDS:19
-Homura's Essence	SOK:103b
-Homura, Human Ascendant	SOK:103a
+Homura's Essence	SOK:103
+Homura's Essence // Homura, Human Ascendant	SOK:103
+Homura, Human Ascendant	SOK:103
+Homura, Human Ascendant // Homura's Essence	SOK:103
 Honden of Cleansing Fire	CHK:14
 Honden of Infinite Rage	CHK:172
 Honden of Life's Web	CHK:213
@@ -5960,8 +6030,10 @@ Howling Fury	S99:82
 Howling Gale	ODY:244
 Howling Mine	M10:212
 Howling Wolf	MMQ:252
-Howlpack Alpha	PTC:51b
-Howlpack of Estwald	ISD:209b
+Howlpack Alpha	PTC:51
+Howlpack Alpha // Mayor of Avabruck	PTC:51
+Howlpack of Estwald	ISD:209
+Howlpack of Estwald // Villagers of Estwald	ISD:209
 Howltooth Hollow	LRW:269
 Hua Tuo, Honored Physician	PTK:137
 Huang Zhong, Shu General	PTK:8
@@ -6011,7 +6083,8 @@ Hunting Moa	UDS:109
 Hunting Pack	SCG:121
 Hunting Triad	MOR:127
 Hunting Wilds	PLC:130
-Huntmaster of the Fells	DKA:140a
+Huntmaster of the Fells	DKA:140
+Huntmaster of the Fells // Ravager of the Fells	DKA:140
 Hurkyl's Recall	ATQ:54
 Hurloon Minotaur	ME3:102
 Hurloon Shaman	WTH:108
@@ -6057,7 +6130,8 @@ Icatian Scout	ME2:17
 Icatian Skirmishers	FEM:161
 Icatian Store	FEM:183
 Icatian Town	MED:18
-Ice	FNMP:79b
+Ice	FNMP:79
+Ice // Fire	FNMP:79
 Ice Cage	M12:57
 Ice Cauldron	ME4:206
 Ice Cave	APC:24
@@ -6101,7 +6175,8 @@ Illuminate	APC:63
 Illuminated Folio	SHM:254
 Illuminated Wings	UDS:34
 Illumination	MIR:225
-Illusion	APC:129a
+Illusion	APC:129
+Illusion // Reality	APC:129
 Illusionary Armor	M14:59
 Illusionary Forces	MED:38
 Illusionary Mask	ME3:197
@@ -6234,7 +6309,8 @@ Infused Arrows	5DN:133
 Ingenious Thief	S99:40
 Ingot Chewer	LRW:180
 Inheritance	ME2:18
-Initiate of Blood	CHK:173a
+Initiate of Blood	CHK:173
+Initiate of Blood // Goka the Unjust	CHK:173
 Initiates of the Ebon Hand	FEM:16
 Ink Dissolver	MOR:36
 Ink-Eyes, Servant of Oni	V13:13
@@ -6259,7 +6335,8 @@ Inquisitor's Flail	ISD:227
 Inquisitor's Snare	SHM:8
 Insatiable Harpy	THS:92
 Insatiable Souleater	NPH:140
-Insectile Aberration	ISD:51b
+Insectile Aberration	ISD:51
+Insectile Aberration // Delver of Secrets	ISD:51
 Inside Out	EVE:103
 Insidious Bookworms	ALL:12
 Insidious Dreams	TOR:66
@@ -6272,7 +6349,8 @@ Inspired Sprite	MOR:37
 Inspiring Call	DTK:191
 Inspirit	ONS:41
 Instigator	MMQ:140
-Instigator Gang	ISD:149a
+Instigator Gang	ISD:149
+Instigator Gang // Wildblood Pack	ISD:149
 Instill Energy	ME4:157
 Instill Furor	RAV:134
 Instill Infection	SOM:68
@@ -6335,7 +6413,8 @@ Iron-Heart Chimera	VIS:146
 Ironclaw Buzzardiers	TSP:165
 Ironclaw Curse	HML:96
 Ironclaw Orcs	ME2:132
-Ironfang	ISD:168b
+Ironfang	ISD:168
+Ironfang // Village Ironsmith	ISD:168
 Ironfist Crusher	ONS:42
 Ironhoof Ox	PO2:70
 Ironroot Treefolk	LEB:112
@@ -6539,7 +6618,8 @@ Junk Golem	ODY:300
 Junktroller	RAV:264
 Junkyo Bell	CHK:258
 Juntu Stakes	INV:304
-Jushi Apprentice	CHK:70a
+Jushi Apprentice	CHK:70
+Jushi Apprentice // Tomoya the Revealer	CHK:70
 Just Fate	PO2:137
 Justice	ICE:366
 Juvenile Gloomwidow	SHM:121
@@ -6563,7 +6643,8 @@ Kagemaro's Clutch	SOK:74
 Kagemaro, First to Suffer	SOK:73
 Kaho, Minamo Historian	SOK:41
 Kaijin of the Vanishing Touch	BOK:39
-Kaiso, Memory of Loyalty	BOK:3b
+Kaiso, Memory of Loyalty	BOK:3
+Kaiso, Memory of Loyalty // Faithful Squire	BOK:3
 Kalastria Highborn	WWK:59
 Kaleidostone	CON:137
 Kalitas, Bloodchief of Ghet	ZEN:99
@@ -6690,7 +6771,8 @@ Kemba's Skyguard	SOM:13
 Kemba, Kha Regent	SOM:12
 Kemuri-Onna	SOK:76
 Kentaro, the Smiling Cat	BOK:13
-Kenzo the Hardhearted	CHK:2b
+Kenzo the Hardhearted	CHK:2
+Kenzo the Hardhearted // Bushi Tenderfoot	CHK:2
 Keranos, God of Storms	JOU:151
 Kessig Cagebreakers	ISD:189
 Kessig Malcontents	AVR:142
@@ -6773,7 +6855,8 @@ Kitsune Dawnblade	SOK:16
 Kitsune Diviner	CHK:26
 Kitsune Healer	CHK:27
 Kitsune Loreweaver	SOK:17
-Kitsune Mystic	CHK:28a
+Kitsune Mystic	CHK:28
+Kitsune Mystic // Autumn-Tail, Kitsune Sage	CHK:28
 Kitsune Palliator	BOK:14
 Kitsune Riftwalker	CHK:29
 Kiyomaro, First to Stand	SOK:18
@@ -6884,8 +6967,10 @@ Kraken Hatchling	ZEN:50
 Kraken of the Straits	BNG:42
 Kraken's Eye	M12:211
 Krakilin	TPR:177
-Krallenhorde Killer	DKA:133b
-Krallenhorde Wantons	ISD:185b
+Krallenhorde Killer	DKA:133
+Krallenhorde Killer // Wolfbitten Captive	DKA:133
+Krallenhorde Wantons	ISD:185
+Krallenhorde Wantons // Grizzled Outcasts	ISD:185
 Kranioceros	CON:67
 Krark's Thumb	MRD:190
 Krark-Clan Engineers	5DN:70
@@ -6928,7 +7013,8 @@ Krovikan Scoundrel	CSP:64
 Krovikan Sorcerer	VMA:77
 Krovikan Vampire	ME2:102
 Krovikan Whispers	CSP:39
-Kruin Outlaw	ISD:152a
+Kruin Outlaw	ISD:152
+Kruin Outlaw // Terror of Kruin Pass	ISD:152
 Kruin Striker	AVR:143
 Krumar Bond-Kin	KTK:77
 Kruphix's Insight	JOU:129
@@ -6946,8 +7032,10 @@ Kulrath Knight	SHM:190
 Kumano's Blessing	BOK:111
 Kumano's Pupils	CHK:177
 Kumano, Master Yamabushi	CHK:176
-Kuon's Essence	SOK:78b
-Kuon, Ogre Ascendant	SOK:78a
+Kuon's Essence	SOK:78
+Kuon's Essence // Kuon, Ogre Ascendant	SOK:78
+Kuon, Ogre Ascendant	SOK:78
+Kuon, Ogre Ascendant // Kuon's Essence	SOK:78
 Kurgadon	SCG:124
 Kurkesh, Onakke Ancient	M15:153
 Kuro's Taken	SOK:79
@@ -6984,7 +7072,8 @@ Lagonna-Band Trailblazer	JOU:14
 Lair Delve	AVR:184
 Lairwatch Giant	LRW:29
 Lake of the Dead	VMA:302
-Lambholt Elder	DKA:122a
+Lambholt Elder	DKA:122
+Lambholt Elder // Silverpelt Werewolf	DKA:122
 Lammastide Weave	LRW:226
 Lance	LEB:213
 Lancers en-Kor	STH:108
@@ -7147,7 +7236,8 @@ Liege of the Hollows	WTH:73
 Liege of the Pit	TSP:113
 Liege of the Tangle	SOM:123
 Lieutenant Kirtar	ODY:29
-Life	FNMP:78a
+Life	FNMP:78
+Life // Death	FNMP:78
 Life Burst	ODY:30
 Life Chisel	ME3:199
 Life Matrix	LEG:229
@@ -7308,7 +7398,8 @@ Looter il-Kor	TSP:66
 Lord Magnus	LEG:283
 Lord of Atlantis	TSB:24
 Lord of Extinction	ARB:91
-Lord of Lineage	ISD:90b
+Lord of Lineage	ISD:90
+Lord of Lineage // Bloodline Keeper	ISD:90
 Lord of Shatterskull Pass	ROE:156
 Lord of Tresserhorn	MED:149
 Lord of the Pit	LEB:23
@@ -7322,7 +7413,8 @@ Loreseeker's Stone	C14:56
 Lorthos, the Tidemaker	ZEN:53
 Lose Calm	DTK:147
 Lose Hope	5DN:52
-Loss	DGM:130b
+Loss	DGM:130
+Loss // Profit	DGM:130
 Lost Auramancers	FUT:11
 Lost Hours	FUT:69
 Lost Leonin	NPH:13
@@ -7359,7 +7451,8 @@ Loxodon Smiter	RTR:178
 Loxodon Stalwart	5DN:11
 Loxodon Warhammer	MRD:201
 Loxodon Wayfarer	SOM:15
-Loyal Cathar	DKA:13a
+Loyal Cathar	DKA:13
+Loyal Cathar // Unhallowed Cathar	DKA:13
 Loyal Gyrfalcon	EVE:11
 Loyal Pegasus	BNG:19
 Loyal Retainers	PTK:12
@@ -7369,8 +7462,10 @@ Lu Meng, Wu General	PTK:46
 Lu Su, Wu Advisor	PTK:47
 Lu Xun, Scholar General	PTK:48
 Lucent Liminid	FUT:24
-Ludevic's Abomination	MLP:16b
-Ludevic's Test Subject	MLP:16a
+Ludevic's Abomination	MLP:16
+Ludevic's Abomination // Ludevic's Test Subject	MLP:16
+Ludevic's Test Subject	MLP:16
+Ludevic's Test Subject // Ludevic's Abomination	MLP:16
 Lull	USG:267
 Lullmage Mentor	ZEN:54
 Lumbering Satyr	MMQ:257
@@ -7505,7 +7600,8 @@ Malakir Bloodwitch	ZEN:100
 Malakir Cullblade	ORI:108
 Malevolent Awakening	ODY:147
 Malfegor	PTC:39
-Malice	INV:293b
+Malice	INV:293
+Malice // Spite	INV:293
 Malicious Advice	PLS:114
 Malicious Affliction	C14:25
 Malicious Intent	AVR:147
@@ -7622,7 +7718,8 @@ Market Festival	JOU:130
 Markov Blademaster	DKA:96
 Markov Patrician	ISD:107
 Markov Warlord	DKA:97
-Markov's Servant	DKA:55b
+Markov's Servant	DKA:55
+Markov's Servant // Chosen of Markov	DKA:55
 Maro	MIR:126
 Marrow Bats	C13:82
 Marrow Chomper	ARB:93
@@ -7716,7 +7813,8 @@ Maw of the Obzedat	DGM:83
 Mawcor	TPR:59
 Mayael the Anima	C13:199
 Mayael's Aria	ARB:121
-Mayor of Avabruck	PTC:51a
+Mayor of Avabruck	PTC:51
+Mayor of Avabruck // Howlpack Alpha	PTC:51
 Maze Abomination	DGM:26
 Maze Behemoth	DGM:43
 Maze Glider	DGM:13
@@ -7790,7 +7888,8 @@ Merchant Ship	ARN:23
 Merchant of Secrets	LGN:44
 Merciless Eviction	GTC:177
 Merciless Executioner	FRF:76
-Merciless Predator	ISD:159b
+Merciless Predator	ISD:159
+Merciless Predator // Reckless Waif	ISD:159
 Mercurial Chemister	RTR:180
 Mercurial Kite	SCG:39
 Mercurial Pretender	PTC:84
@@ -8124,7 +8223,8 @@ Monastery Loremaster	DTK:63
 Monastery Mentor	FRF:20
 Monastery Siege	FRF:43
 Monastery Swiftspear	KTK:118
-Mondronen Shaman	MLP:17a
+Mondronen Shaman	MLP:17
+Mondronen Shaman // Tovolar's Magehunter	MLP:17
 Mongrel Pack	TMP:131
 Monk Idealist	USG:20
 Monk Realist	USG:21
@@ -8152,7 +8252,8 @@ Moonlit Wake	MMQ:29
 Moonmist	ISD:195
 Moonring Island	SHM:276
 Moonring Mirror	CHK:262
-Moonscarred Werewolf	DKA:125b
+Moonscarred Werewolf	DKA:125
+Moonscarred Werewolf // Scorned Villager	DKA:125
 Moonsilver Spear	PTC:53
 Moonveil Dragon	DKA:99
 Moonwing Moth	SOK:20
@@ -8513,17 +8614,20 @@ New Frontiers	ODY:257
 New Prahv Guildmage	RTR:181
 Nezumi Bone-Reader	CHK:127
 Nezumi Cutthroat	CHK:128
-Nezumi Graverobber	CMD:92a
+Nezumi Graverobber	CMD:92
+Nezumi Graverobber // Nighteyes the Desecrator	CMD:92
 Nezumi Ronin	CHK:130
 Nezumi Shadow-Watcher	BOK:74
-Nezumi Shortfang	CHK:131a
+Nezumi Shortfang	CHK:131
+Nezumi Shortfang // Stabwhisker the Odious	CHK:131
 Niall Silvain	DRK:45
 Niblis of the Breath	DKA:44
 Niblis of the Mist	DKA:15
 Niblis of the Urn	DKA:16
 Nicol Bolas	TSB:98
 Nicol Bolas, Planeswalker	M13:199
-Night	APC:131a
+Night	APC:131
+Night // Day	APC:131
 Night Dealings	CHK:132
 Night Revelers	ISD:153
 Night Soil	ME2:173
@@ -8532,8 +8636,10 @@ Night of Souls' Betrayal	CHK:133
 Night's Whisper	DDM:68
 Nightbird's Clutches	ISD:154
 Nightcreep	DIS:49
-Nighteyes the Desecrator	CMD:92b
-Nightfall Predator	ISD:176b
+Nighteyes the Desecrator	CMD:92
+Nighteyes the Desecrator // Nezumi Graverobber	CMD:92
+Nightfall Predator	ISD:176
+Nightfall Predator // Daybreak Ranger	ISD:176
 Nightfire Giant	M15:109
 Nightguard Patrol	RAV:26
 Nighthaze	ROE:118
@@ -8737,7 +8843,8 @@ Obzedat's Aid	DGM:89
 Obzedat, Ghost Council	GTC:182
 Ocular Halo	DIS:28
 Oculus	MBS:29
-Odds	DIS:153a
+Odds	DIS:153
+Odds // Ends	DIS:153
 Odious Trow	EVE:125
 Odric, Master Tactician	M13:23
 Odunos River Trawler	BNG:79
@@ -8876,7 +8983,8 @@ Ordeal of Heliod	THS:25
 Ordeal of Nylea	THS:170
 Ordeal of Purphoros	THS:131
 Ordeal of Thassa	THS:58
-Order	HOP:104a
+Order	HOP:104
+Order // Chaos	HOP:104
 Order of Leitbur	MED:22
 Order of Succession	C13:52
 Order of Whiteclay	SHM:16
@@ -8906,7 +9014,8 @@ Oriss, Samite Guardian	FUT:28
 Ornate Kanzashi	BOK:157
 Ornitharch	BNG:23
 Ornithopter	MRD:224
-Orochi Eggwatcher	CHK:233a
+Orochi Eggwatcher	CHK:233
+Orochi Eggwatcher // Shidako, Broodmistress	CHK:233
 Orochi Hatchery	CHK:266
 Orochi Leafcaller	CHK:234
 Orochi Ranger	CHK:235
@@ -8976,7 +9085,8 @@ Pack Rat	RTR:73
 Pack's Disdain	MOR:73
 Pact of Negation	MMA:56
 Pact of the Titan	FUT:103
-Pain	INV:294a
+Pain	INV:294
+Pain // Suffering	INV:294
 Pain Kami	CHK:183
 Pain Magnification	DIS:121
 Pain Seer	MGDC:32
@@ -9545,7 +9655,8 @@ Profane Command	LRW:135
 Profane Memento	M15:226
 Profane Prayers	ONS:162
 Profaner of the Dead	DTK:70
-Profit	DGM:130a
+Profit	DGM:130
+Profit // Loss	DGM:130
 Profound Journey	DTK:30
 Progenitor Mimic	DGM:92
 Progenitus	MMA:182
@@ -9565,7 +9676,8 @@ Prosperity	VIS:40
 Prossh, Skyraider of Kher	C13:204
 Protean Hulk	DIS:90
 Protean Hydra	M11:194
-Protect	DGM:131a
+Protect	DGM:131
+Protect // Serve	DGM:131
 Protective Bubble	LRW:80
 Protective Sphere	INV:26
 Proteus Machine	SCG:141
@@ -9633,14 +9745,16 @@ Puncturing Light	ROE:41
 Punish Ignorance	ALA:183
 Punish the Enemy	DGM:35
 Punishing Fire	ZEN:142
-Punishment	DIS:150b
+Punishment	DIS:150
+Punishment // Crime	DIS:150
 Puppet Conjurer	ALA:82
 Puppet Master	LEG:69
 Puppet Strings	TMP:294
 Puppet's Verdict	MMQ:208
 Puppeteer	ODY:97
 Puppeteer Clique	SHM:75
-Pure	DIS:154a
+Pure	DIS:154
+Pure // Simple	DIS:154
 Pure Intentions	SOK:25
 Pure Reflection	INV:27
 Purelace	LEB:218
@@ -9873,7 +9987,8 @@ Ramosian Revivalist	FUT:30
 Ramosian Sergeant	MMQ:39
 Ramosian Sky Marshal	MMQ:40
 Rampaging Baloths	ZEN:178
-Rampaging Werewolf	ISD:165b
+Rampaging Werewolf	ISD:165
+Rampaging Werewolf // Tormented Pariah	ISD:165
 Rampant Elephant	INV:28
 Rampant Growth	TPR:187
 Rampart Crawler	MMQ:156
@@ -9907,7 +10022,8 @@ Rats' Feast	JUD:71
 Rattleblaze Scarecrow	SHM:259
 Rattleclaw Mystic	PTC:115
 Ravaged Highlands	ODY:324
-Ravager of the Fells	DKA:140b
+Ravager of the Fells	DKA:140
+Ravager of the Fells // Huntmaster of the Fells	DKA:140
 Ravages of War	PTK:17
 Ravaging Blaze	ORI:159
 Ravaging Horde	PTK:118
@@ -9919,7 +10035,8 @@ Raven's Crime	MMA:95
 Raven's Run Dragoon	SHM:235
 Ravenous Baboons	EXO:97
 Ravenous Baloth	ONS:278
-Ravenous Demon	PTC:52a
+Ravenous Demon	PTC:52
+Ravenous Demon // Archdemon of Greed	PTC:52
 Ravenous Leucrocota	JOU:136
 Ravenous Rats	UDS:68
 Ravenous Skirge	USG:152
@@ -9960,8 +10077,10 @@ Reach of Branches	MOR:132
 Reach of Shadows	FRF:81
 Read the Bones	THS:101
 Read the Runes	ONS:104
-Ready	DGM:132a
-Reality	APC:129b
+Ready	DGM:132
+Ready // Willing	DGM:132
+Reality	APC:129
+Reality // Illusion	APC:129
 Reality Acid	PLC:45
 Reality Anchor	TPR:188
 Reality Ripple	MIR:87
@@ -10011,7 +10130,8 @@ Reckless One	ONS:222
 Reckless Reveler	BNG:106
 Reckless Scholar	ZEN:60
 Reckless Spite	TMP:46
-Reckless Waif	ISD:159a
+Reckless Waif	ISD:159
+Reckless Waif // Merciless Predator	ISD:159
 Reckless Wurm	PLC:120
 Reclaim	M12:191
 Reclamation	ICE:122
@@ -10078,7 +10198,8 @@ Reki, the History of Kamigawa	SOK:142
 Rekindled Flame	EVE:61
 Reknit	SHM:236
 Relearn	WTH:51
-Release	DGM:125b
+Release	DGM:125
+Release // Catch	DGM:125
 Release the Ants	MOR:98
 Relentless Assault	VIS:91
 Relentless Rats	M11:113
@@ -10142,7 +10263,8 @@ Reroute	RAV:139
 Rescind	VMA:90
 Rescue	UDS:44
 Rescue from the Underworld	THS:102
-Research	DIS:155a
+Research	DIS:155
+Research // Development	DIS:155
 Research Assistant	M15:77
 Research the Deep	MOR:46
 Reset	ME3:48
@@ -10321,7 +10443,8 @@ Riptide Pilferer	PLC:60
 Riptide Replicator	ONS:309
 Riptide Shapeshifter	ONS:109
 Riptide Survivor	SCG:48
-Rise	DIS:156a
+Rise	DIS:156
+Rise // Fall	DIS:156
 Rise from the Grave	M13:107
 Rise of Eagles	JOU:49
 Rise of the Dark Realms	M14:111
@@ -10464,7 +10587,8 @@ Rotting Giant	ODY:158
 Rotting Legion	M11:115
 Rotting Mastodon	KTK:87
 Rotting Rats	HOP:39
-Rough	PLC:114a
+Rough	PLC:114
+Rough // Tumble	PLC:114
 Roughshod Mentor	SHM:128
 Rouse	MMQ:157
 Rouse the Mob	JOU:109
@@ -10502,7 +10626,8 @@ Rumbling Crescendo	USG:210
 Rumbling Slum	HOP:93
 Rummaging Goblin	M15:159
 Rummaging Wizard	ONS:110
-Run	DIS:152b
+Run	DIS:152
+Run // Hit	DIS:152
 Run Wild	ONS:279
 Rune Snag	CSP:46
 Rune of Protection: Artifacts	USG:35
@@ -10514,8 +10639,10 @@ Rune of Protection: Red	USG:40
 Rune of Protection: White	USG:41
 Rune-Cervin Rider	SHM:20
 Rune-Scarred Demon	M12:106
-Rune-Tail's Essence	SOK:27b
-Rune-Tail, Kitsune Ascendant	SOK:27a
+Rune-Tail's Essence	SOK:27
+Rune-Tail's Essence // Rune-Tail, Kitsune Ascendant	SOK:27
+Rune-Tail, Kitsune Ascendant	SOK:27
+Rune-Tail, Kitsune Ascendant // Rune-Tail's Essence	SOK:27
 Runeboggle	GPT:33
 Runechanter's Pike	ISD:231
 Runeclaw Bear	M15:197
@@ -10715,8 +10842,10 @@ Sarkhan's Triumph	DTK:154
 Sarkhan, the Dragonspeaker	KTK:119
 Sarpadian Empires, Vol. VII	TSP:263
 Saruli Gatekeepers	DGM:48
-Sasaya's Essence	SOK:145b
-Sasaya, Orochi Ascendant	SOK:145a
+Sasaya's Essence	SOK:145
+Sasaya's Essence // Sasaya, Orochi Ascendant	SOK:145
+Sasaya, Orochi Ascendant	SOK:145
+Sasaya, Orochi Ascendant // Sasaya's Essence	SOK:145
 Satyr Firedancer	BNG:108
 Satyr Grovedancer	JOU:139
 Satyr Hedonist	THS:174
@@ -10830,7 +10959,8 @@ Scorchwalker	GTC:104
 Scoria Cat	PCY:101
 Scoria Elemental	SOM:102
 Scoria Wurm	USG:212
-Scorned Villager	DKA:125a
+Scorned Villager	DKA:125
+Scorned Villager // Moonscarred Werewolf	DKA:125
 Scornful AEther-Lich	CON:34
 Scornful Egotist	SCG:50
 Scour	UDS:18
@@ -10867,7 +10997,8 @@ Screaming Seahawk	ONS:112
 Screamreach Brawler	DTK:155
 Screams from Within	DST:52
 Screams of the Damned	ODY:160
-Screeching Bat	ISD:114a
+Screeching Bat	ISD:114
+Screeching Bat // Stalking Vampire	ISD:114
 Screeching Buzzard	ONS:165
 Screeching Drake	PO2:44
 Screeching Griffin	RAV:29
@@ -10983,7 +11114,8 @@ Seedling Charm	MIR:138
 Seeds of Innocence	MIR:139
 Seeds of Strength	RAV:227
 Seedtime	JUD:130
-Seek	DIS:151b
+Seek	DIS:151
+Seek // Hide	DIS:151
 Seek the Horizon	SOK:147
 Seeker	LEG:204
 Seeker of Skybreak	TMP:148
@@ -11110,7 +11242,8 @@ Servant of Nefarox	M13:108
 Servant of Tymaret	BNG:82
 Servant of Volrath	TMP:50
 Servant of the Scale	DTK:203
-Serve	DGM:131b
+Serve	DGM:131
+Serve // Protect	DGM:131
 Seshiro the Anointed	CHK:241
 Set Adrift	KTK:54
 Setessan Battle Priest	THS:29
@@ -11218,7 +11351,8 @@ Sheltering Word	AVR:192
 Sheoldred, Whispering One	PTC:49
 Shepherd of Rot	ONS:168
 Shepherd of the Lost	ZEN:34
-Shidako, Broodmistress	CHK:233b
+Shidako, Broodmistress	CHK:233
+Shidako, Broodmistress // Orochi Eggwatcher	CHK:233
 Shield Bearer	ME2:35
 Shield Dancer	PCY:23
 Shield Mate	EXO:19
@@ -11433,7 +11567,8 @@ Silvergill Adept	LRW:86
 Silvergill Douser	LRW:87
 Silverglade Elemental	MMQ:269
 Silverglade Pathfinder	MMQ:270
-Silverpelt Werewolf	DKA:122b
+Silverpelt Werewolf	DKA:122
+Silverpelt Werewolf // Lambholt Elder	DKA:122
 Silverskin Armor	MBS:132
 Silverstorm Samurai	BOK:22
 Silvos, Rogue Elemental	VMA:231
@@ -11455,7 +11590,8 @@ Simic Ragworm	DIS:93
 Simic Signet	DIS:166
 Simic Sky Swallower	DIS:130
 Simoon	VIS:136
-Simple	DIS:154b
+Simple	DIS:154
+Simple // Pure	DIS:154
 Simplify	ODY:269
 Simulacrum	LEB:37
 Sin COllector	FNMP:163
@@ -11836,7 +11972,8 @@ Soul Reap	EVE:44
 Soul Rend	MIR:42
 Soul Scourge	TOR:85
 Soul Sculptor	USG:53
-Soul Seizer	DKA:50a
+Soul Seizer	DKA:50
+Soul Seizer // Ghastly Haunting	DKA:50
 Soul Shepherd	WTH:142
 Soul Shred	POR:35
 Soul Snare	CMD:32
@@ -12058,7 +12195,8 @@ Spiritual Guardian	POR:189
 Spiritual Sanctuary	LEG:207
 Spiritual Visit	SOK:29
 Spiritualize	ODY:53
-Spite	INV:293a
+Spite	INV:293
+Spite // Malice	INV:293
 Spite of Mogis	JOU:113
 Spitebellows	MOR:105
 Spiteflame Witch	SHM:197
@@ -12148,7 +12286,8 @@ Squirrel Wrangler	PCY:127
 Stab Wound	RTR:78
 Stabbing Pain	M11:118
 Stabilizer	SCG:142
-Stabwhisker the Odious	CHK:131b
+Stabwhisker the Odious	CHK:131
+Stabwhisker the Odious // Nezumi Shortfang	CHK:131
 Staff of Domination	5DN:156
 Staff of Nin	MLP:19
 Staff of Zegon	ME4:229
@@ -12166,7 +12305,8 @@ Stalking Assassin	INV:277
 Stalking Bloodsucker	ODY:163
 Stalking Stones	TPR:245
 Stalking Tiger	PTK:149
-Stalking Vampire	ISD:114b
+Stalking Vampire	ISD:114
+Stalking Vampire // Screeching Bat	ISD:114
 Stalking Vengeance	DIS:73
 Stalking Yeti	CSP:98
 Stalwart Shield-Bearers	ROE:46
@@ -12177,7 +12317,8 @@ Stampeding Elk Herd	DTK:208
 Stampeding Rhino	M12:196
 Stampeding Serow	SOK:150
 Stampeding Wildebeests	VIS:71
-Stand	INV:292a
+Stand	INV:292
+Stand // Deliver	INV:292
 Stand Firm	DDL:21
 Stand Together	DST:84
 Stand or Fall	INV:171
@@ -12407,7 +12548,8 @@ Stronghold Zeppelin	NMS:47
 Structural Collapse	GTC:107
 Struggle for Sanity	CHK:145
 Stubborn Denial	KTK:56
-Student of Elements	CHK:93a
+Student of Elements	CHK:93
+Student of Elements // Tobita, Master of Winds	CHK:93
 Student of Ojutai	DTK:40
 Student of Warfare	ROE:47
 Stuffy Doll	TSP:264
@@ -12438,7 +12580,8 @@ Sudden Spoiling	TSP:135
 Sudden Storm	BNG:53
 Sudden Strength	VMA:233
 Suffer the Past	ROE:128
-Suffering	INV:294b
+Suffering	INV:294
+Suffering // Pain	INV:294
 Suffocating Blast	APC:124
 Suffocation	ALL:57
 Suicidal Charge	CON:128
@@ -12524,7 +12667,8 @@ Suntouched Myr	HOP:128
 Sunweb	MIR:246
 Superior Numbers	MIR:142
 Supplant Form	MGDC:42
-Supply	DIS:157a
+Supply	DIS:157
+Supply // Demand	DIS:157
 Supply-Line Cranes	JOU:28
 Suppress	APC:52
 Suppression Field	RAV:31
@@ -12678,7 +12822,8 @@ Taj-Nar Swordsmith	MRD:27
 Tajic, Blade of the Legion	DGM:107
 Tajuru Archer	ZEN:185
 Tajuru Preserver	ROE:211
-Take	DGM:129b
+Take	DGM:129
+Take // Give	DGM:129
 Take Possession	MMA:66
 Take Up Arms	KTK:26
 Takeno's Cavalry	BOK:24
@@ -12762,7 +12907,8 @@ Tavern Swindler	RTR:79
 Tawnos's Coffin	MED:169
 Tawnos's Wand	ME4:231
 Tawnos's Weaponry	ME4:232
-Tear	DGM:135a
+Tear	DGM:135
+Tear // Wear	DGM:135
 Teardrop Kami	BOK:55
 Tears of Rage	DST:70
 Tectonic Break	MMQ:216
@@ -12892,7 +13038,8 @@ Territorial Baloth	ZEN:188
 Territorial Dispute	MMQ:217
 Territorial Roc	DTK:43
 Terror	S00:111
-Terror of Kruin Pass	ISD:152b
+Terror of Kruin Pass	ISD:152
+Terror of Kruin Pass // Kruin Outlaw	ISD:152
 Terrus Wurm	RTR:80
 Test of Endurance	JUD:29
 Test of Faith	MMA:33
@@ -13018,9 +13165,11 @@ Thousand-Year Elixir	LRW:263
 Thousand-legged Kami	CHK:246
 Thraben Doomsayer	DKA:25
 Thraben Heretic	DKA:26
-Thraben Militia	ISD:38b
+Thraben Militia	ISD:38
+Thraben Militia // Thraben Sentry	ISD:38
 Thraben Purebloods	ISD:37
-Thraben Sentry	ISD:38a
+Thraben Sentry	ISD:38
+Thraben Sentry // Thraben Militia	ISD:38
 Thraben Valiant	DDL:6
 Thragtusk	M13:193
 Thran Dynamo	V13:7
@@ -13181,11 +13330,14 @@ Tivadar of Thorn	TSP:44
 Tivadar's Crusade	MED:28
 To Arms!	GPT:20
 Tobias Andrion	ME3:181
-Tobita, Master of Winds	CHK:93b
-Toil	DGM:133b
+Tobita, Master of Winds	CHK:93
+Tobita, Master of Winds // Student of Elements	CHK:93
+Toil	DGM:133
+Toil // Trouble	DGM:133
 Toil to Renown	SHM:130
 Toils of Night and Day	BOK:57
-Tok-Tok, Volcano Born	CHK:153b
+Tok-Tok, Volcano Born	CHK:153
+Tok-Tok, Volcano Born // Akki Lavarunner	CHK:153
 Tolaria	LEG:253
 Tolaria West	FUT:173
 Tolarian Academy	VMA:319
@@ -13204,7 +13356,8 @@ Tombstalker	MMA:102
 Tombstone Stairwell	MIR:47
 Tome Scour	M14:75
 Tomorrow, Azami's Familiar	BOK:58
-Tomoya the Revealer	CHK:70b
+Tomoya the Revealer	CHK:70
+Tomoya the Revealer // Jushi Apprentice	CHK:70
 Tonic Peddler	MMQ:54
 Tooth and Claw	TMP:210
 Tooth and Nail	MRD:134
@@ -13224,7 +13377,8 @@ Torii Watchward	SOK:30
 Torment	STH:23
 Tormented Angel	UDS:22
 Tormented Hero	THS:108
-Tormented Pariah	ISD:165a
+Tormented Pariah	ISD:165
+Tormented Pariah // Rampaging Werewolf	ISD:165
 Tormented Soul	PC2:38
 Tormenting Voice	KTK:123
 Tormentor Exarch	NPH:97
@@ -13259,7 +13413,8 @@ Touch of the Eternal	M13:37
 Touchstone	WTH:161
 Tourach's Chant	FEM:32
 Tourach's Gate	FEM:33
-Tovolar's Magehunter	MLP:17b
+Tovolar's Magehunter	MLP:17
+Tovolar's Magehunter // Mondronen Shaman	MLP:17
 Tower Above	SHM:131
 Tower Defense	GTC:137
 Tower Drake	RTR:55
@@ -13385,7 +13540,8 @@ Treva's Charm	PLS:129
 Treva's Ruins	PLS:143
 Treva, the Renewer	INV:280
 Triad of Fates	THS:206
-Trial	DIS:158a
+Trial	DIS:158
+Trial // Error	DIS:158
 Triangle of War	VMA:288
 Triassic Egg	ME4:235
 Tribal Flames	TSB:70
@@ -13432,7 +13588,8 @@ Tropical Storm	MIR:144
 Trostani's Judgment	RTR:28
 Trostani's Summoner	MGDC:27
 Trostani, Selesnya's Voice	RTR:206
-Trouble	DGM:133a
+Trouble	DGM:133
+Trouble // Toil	DGM:133
 Troubled Healer	PCY:27
 Troublesome Spirit	PCY:52
 Truce	HML:125
@@ -13457,7 +13614,8 @@ Tuknir Deathlock	ME3:184
 Tuktuk Grunts	ZEN:152
 Tuktuk Scrapper	WWK:94
 Tuktuk the Explorer	ROE:169
-Tumble	PLC:114b
+Tumble	PLC:114
+Tumble // Rough	PLC:114
 Tumble Magnet	SOM:218
 Tundra	VMA:322
 Tundra Kavu	APC:71
@@ -13468,7 +13626,8 @@ Tunnel Vision	RAV:72
 Tunneler Wurm	JUD:135
 Turbulent Dreams	TOR:49
 Turf Wound	INV:177
-Turn	DGM:134b
+Turn	DGM:134
+Turn // Burn	DGM:134
 Turn Aside	SOM:49
 Turn the Tables	DST:18
 Turn the Tide	MBS:35
@@ -13531,8 +13690,10 @@ Ulasht, the Hate Seed	GPT:136
 Ulcerate	M15:119
 Ultimate Price	RTR:82
 Ulvenwald Bear	DKA:129
-Ulvenwald Mystics	ISD:208a
-Ulvenwald Primordials	ISD:208b
+Ulvenwald Mystics	ISD:208
+Ulvenwald Mystics // Ulvenwald Primordials	ISD:208
+Ulvenwald Primordials	ISD:208
+Ulvenwald Primordials // Ulvenwald Mystics	ISD:208
 Ulvenwald Tracker	AVR:200
 Umara Raptor	ZEN:75
 Umbilicus	USG:312
@@ -13588,11 +13749,13 @@ Unexpectedly Absent	C13:25
 Unflinching Courage	DGM:111
 Unforge	DST:71
 Unfulfilled Desires	MIR:345
-Unhallowed Cathar	DKA:13b
+Unhallowed Cathar	DKA:13
+Unhallowed Cathar // Loyal Cathar	DKA:13
 Unhallowed Pact	CNS:131
 Unhinge	TOR:87
 Unholy Citadel	LEG:254
-Unholy Fiend	ISD:8b
+Unholy Fiend	ISD:8
+Unholy Fiend // Cloistered Youth	ISD:8
 Unholy Grotto	ONS:327
 Unholy Hunger	ORI:125
 Unholy Strength	M11:119
@@ -13915,9 +14078,11 @@ Vile Requiem	USG:167
 Village Bell-Ringer	ISD:41
 Village Cannibals	ISD:125
 Village Elder	MIR:149
-Village Ironsmith	ISD:168a
+Village Ironsmith	ISD:168
+Village Ironsmith // Ironfang	ISD:168
 Village Survivors	DKA:130
-Villagers of Estwald	ISD:209a
+Villagers of Estwald	ISD:209
+Villagers of Estwald // Howlpack of Estwald	ISD:209
 Villainous Ogre	CHK:148
 Villainous Wealth	PTC:126
 Vindicate	JR:78
@@ -14187,7 +14352,8 @@ Wandering Wolf	AVR:202
 Wanderlust	MED:137
 Wanderwine Hub	LRW:280
 Wanderwine Prophets	LRW:95
-Wane	INV:296b
+Wane	INV:296
+Wane // Wax	INV:296
 Waning Wurm	PLC:83
 War Barge	TSB:116
 War Behemoth	KTK:29
@@ -14281,7 +14447,8 @@ Wave of Vitriol	C14:51
 Wavecrash Triton	THS:74
 Waves of Aggression	EVE:148
 Waveskimmer Aven	ALA:207
-Wax	INV:296a
+Wax	INV:296
+Wax // Wane	INV:296
 Waxmane Baku	BOK:29
 Way of the Thief	GTC:56
 Wayfarer's Bauble	DDI:63
@@ -14293,7 +14460,8 @@ Wayward Soul	TPR:78
 Weakness	ME4:101
 Weakstone	ME4:239
 Weapon Surge	DGM:40
-Wear	DGM:135b
+Wear	DGM:135
+Wear // Tear	DGM:135
 Wear Away	CHK:250
 Weathered Bodyguards	TSP:46
 Weathered Wayfarer	ONS:59
@@ -14324,7 +14492,8 @@ Welding Jar	MRD:274
 Welkin Guide	ALA:30
 Welkin Hawk	EXO:25
 Welkin Tern	ZEN:76
-Well	DGM:121b
+Well	DGM:121
+Well // Alive	DGM:121
 Well of Discovery	PCY:140
 Well of Ideas	C14:20
 Well of Knowledge	WTH:162
@@ -14335,7 +14504,8 @@ Wellgabber Apothecary	LRW:47
 Wellspring	MIR:110
 Wellwisher	ONS:300
 Werebear	ODY:282
-Werewolf Ransacker	DKA:81b
+Werewolf Ransacker	DKA:81
+Werewolf Ransacker // Afflicted Deserter	DKA:81
 Western Paladin	USG:168
 Wetland Sambar	KTK:62
 Whalebone Glider	ICE:324
@@ -14428,7 +14598,8 @@ Wild Ricochet	M14:162
 Wild Slash	FRF:118
 Wild Swing	SHM:108
 Wild Wurm	TMP:212
-Wildblood Pack	ISD:149b
+Wildblood Pack	ISD:149
+Wildblood Pack // Instigator Gang	ISD:149
 Wildcall	FRF:146
 Wilderness Elemental	CSP:134
 Wilderness Hypnotist	EVE:32
@@ -14445,7 +14616,8 @@ Will of the Naga	FRF:58
 Will-Forged Golem	M15:239
 Will-o'-the-Wisp	LEB:44
 Willbender	TSB:36
-Willing	DGM:132b
+Willing	DGM:132
+Willing // Ready	DGM:132
 Willow Dryad	POR:119
 Willow Elf	S99:152
 Willow Faerie	HML:74
@@ -14533,7 +14705,8 @@ Witchbane Orb	ISD:236
 Witches' Eye	THS:222
 Witchstalker	M14:202
 Withdraw	PCY:54
-Withengar Unbound	DKA:147b
+Withengar Unbound	DKA:147
+Withengar Unbound // Elbrus, the Binding Blade	DKA:147
 Withered Wretch	TSB:54
 Withering Boon	MIR:50
 Withering Gaze	POR:79
@@ -14557,7 +14730,8 @@ Wojek Halberdiers	GTC:208
 Wojek Siren	RAV:37
 Wolf Pack	PTK:158
 Wolf-Skull Shaman	MOR:140
-Wolfbitten Captive	DKA:133a
+Wolfbitten Captive	DKA:133
+Wolfbitten Captive // Krallenhorde Killer	DKA:133
 Wolfbriar Elemental	WWK:118
 Wolfcaller's Howl	C14:52
 Wolfhunter's Quiver	DKA:154

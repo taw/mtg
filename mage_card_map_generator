@@ -49,6 +49,26 @@ class MageCardMapGenerator
         best_version = versions.sort_by{|v| [v.include?("UNH") ? 1 : 0, v]}[-1]
         @cards_best_versions[card] = best_version
       end
+      # Fix split cards
+      split_cards = {}
+      @cards_best_versions.each do |card, version|
+        if version =~ /\A(.*)[ab]\z/
+          split_cards[$1] ||= {}
+          split_cards[$1][version] = card
+        end
+      end
+      # There seems to be no pattern here, just add them in all combinations
+      split_cards.each do |version, subcards|
+        if subcards.size != 2
+          warn "Expected 2 parts of split card: #{subcards.inspect}"
+          next
+        end
+        a, b = subcards.values
+        @cards_best_versions[a] = version
+        @cards_best_versions[b] = version
+        @cards_best_versions["#{a} // #{b}"] = version
+        @cards_best_versions["#{b} // #{a}"] = version
+      end
     end
     @cards_best_versions
   end
