@@ -12,7 +12,11 @@ class Cockarice2MageConverter
   def convert!(source_path, target_path)
     parser = CockatriceDeckParser.new
     parser.parse!(source_path.read)
-    parser.deck.save_as_dck!(target_path)
+    if parser.deck.mage_compatible?
+      parser.deck.save_as_dck!(target_path)
+    else
+      warn "Deck uses card not in mage: #{source_path}, skipping"
+    end
   end
 
   def map_path(path)

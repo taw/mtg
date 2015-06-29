@@ -10,6 +10,7 @@ end
 
 class Deck
   attr_accessor :name, :comment
+  attr_reader :main, :side
 
   def initialize
     @main = Hash.new(0)
@@ -100,10 +101,12 @@ class Deck
         card = fixed_card
       end
     end
-    unless mage_cards[card]
-      warn "No card `#{card}' in mage database"
-    end
+    return nil unless mage_cards[card]
     "[#{ mage_cards[card] }] #{card}"
+  end
+
+  def mage_compatible?
+    (@main.keys + @side.keys).all?{|card| mage_card_version(card) }
   end
 
   def to_dck
