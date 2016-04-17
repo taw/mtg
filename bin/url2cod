@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require "trollop"
-require_relative "cockatrice"
+require_relative "../lib/cockatrice"
 require "open-uri"
 require "nokogiri"
 
@@ -24,10 +24,12 @@ class DeckImporter
     doc.css(".deck-list-text").each do |node|
       deck = Deck.new
       node.css(".sorted-by-overview-container").css(".row").map(&:text).each do |line|
+        line.strip!
         raise "Parse error: `#{line}'" unless line =~ /\A(\d+)\s+(.*)\z/
         deck.add_card! $2, $1.to_i, false
       end
       node.css(".sorted-by-sideboard-container").css(".row").map(&:text).each do |line|
+        line.strip!
         raise "Parse error: `#{line}'" unless line =~ /\A(\d+)\s+(.*)\z/
         deck.add_card! $2, $1.to_i, true
       end
