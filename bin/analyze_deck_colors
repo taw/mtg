@@ -1,13 +1,18 @@
 #!/usr/bin/env ruby
 
+require "pathname"
 require "set"
 
 class CardColors
   attr_reader :uses, :generates
+  def colors_path
+    Pathname(__dir__) + "../data/colors.tsv"
+  end
+
   def initialize
     @generates = {}
     @uses = {}
-    File.open("#{__dir__}/data/colors.tsv").each_line{|line|
+    colors_path.readlines.each{|line|
       n, g, u = line.chomp.split(/\t/, 3)
       @generates[n] = Set[*g.split(//)]
       @uses[n] = Set[*u.split(//)]
