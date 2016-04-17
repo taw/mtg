@@ -7,7 +7,7 @@ class CardColors
   def initialize
     @generates = {}
     @uses = {}
-    File.open("colors.tsv").each_line{|line|
+    File.open("#{__dir__}/data/colors.tsv").each_line{|line|
       n, g, u = line.chomp.split(/\t/, 3)
       @generates[n] = Set[*g.split(//)]
       @uses[n] = Set[*u.split(//)]
