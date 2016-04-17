@@ -1,0 +1,30 @@
+// NAME: Jiachen Tao: Blue-Red Eldrazi
+// COMMENTS: http://magic.wizards.com/en/events/coverage/ptogw
+3 Cavern of Souls
+3 Dismember
+4 Drowner of Hope
+4 Eldrazi Mimic
+3 Eldrazi Obligator
+4 Eldrazi Skyspawner
+4 Eldrazi Temple
+4 Endless One
+4 Eye of Ugin
+1 Gemstone Caverns
+2 Island
+4 Reality Smasher
+2 Ruination Guide
+4 Scalding Tarn
+4 Shivan Reef
+2 Steam Vents
+4 Thought-Knot Seer
+4 Vile Aggregate
+
+Sideboard
+2 Chalice of the Void
+2 Gut Shot
+3 Hurkyl's Recall
+1 Ratchet Bomb
+2 Relic of Progenitus
+1 Spellskite
+3 Stubborn Denial
+1 Tomb of the Spirit Dragon

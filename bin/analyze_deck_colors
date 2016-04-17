@@ -53,7 +53,7 @@ class Deck
     name
   end
   def color
-    key = {"w" => 0, "u" => 1, "b" => 2, "r" => 3, "g" => 4}
+    key = {"w" => 0, "u" => 1, "b" => 2, "r" => 3, "g" => 4, "c" => 5}
     (@generates & @uses).to_a.sort_by{|c| key[c]}.join
   end
 end
