@@ -1,6 +1,6 @@
 require_relative "spec_helper"
 
-describe "txt2cod" do
+describe "cod2txt" do
   let(:binary) { Pathname(__dir__)+"../bin/cod2txt" }
   let(:txt) { `#{binary} <#{deck_path}` }
   describe "Gruul aggro" do

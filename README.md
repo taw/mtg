@@ -3,12 +3,9 @@ mtg
 
 Magic the Gathering scripts.
 
-contents
-========
+scripts
+=======
 
-* `analyze_deck_colors` - reports colors of the deck according to correct algorithm [ http://t-a-w.blogspot.com/2013/03/simple-and-correct-algorithm-for.html ]
-* `generate_colors_tsv` - generate colors.tsv from cockatrice's cards.xml
-* `colors.tsv` - generated colors.tsv up to Commander 2013
-* `magic_xml.rb` - bundled for convenience [ https://github.com/taw/magic-xml ]
-* `txt2cod` - convert plaintext deck formats to Cockatrice's cod
-* `cod2txt` - convert Cockatrice's .cod to .txt format
+* `bin/txt2cod` - convert plaintext deck formats to Cockatrice's cod
+* `bin/cod2txt` - convert Cockatrice's .cod to .txt format
+* `bin/cod2dck` - convert Cockatrice's .cod to XMage's .dck

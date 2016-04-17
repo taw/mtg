@@ -1,9 +1,14 @@
 require_relative "magic_xml"
+require "pathname"
 
 class File
   def self.write(path, content)
-    File.open(path, 'w') do |fh|
-      fh.print content
+    if path.is_a?(IO)
+      path.write(content)
+    else
+      File.open(path, 'w') do |fh|
+        fh.print content
+      end
     end
   end
 end
@@ -87,8 +92,12 @@ class Deck
     out
   end
 
+  def mage_cards_path
+    Pathname(__dir__) + "../data/mage_cards.txt"
+  end
+
   def mage_cards
-    @mage_cards ||= Hash[File.readlines("mage_cards.txt").map{|x| x.chomp.split("\t")}]
+    @mage_cards ||= Hash[mage_cards_path.readlines.map{|x| x.chomp.split("\t")}]
   end
 
   def mage_card_version(card)

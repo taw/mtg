@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require_relative "cockatrice"
+require_relative "../lib/cockatrice"
 require "pathname"
 
 class Cockarice2MageConverter
@@ -26,7 +26,9 @@ class Cockarice2MageConverter
   end
 
   def run!
-    if @input_path.directory?
+    if @input_path.is_a?(IO)
+      convert!(@input_path, @output_path)
+    elsif @input_path.directory?
       @input_path.find do |source_path|
         next if source_path.directory?
         target_path = map_path(source_path)
@@ -40,14 +42,17 @@ class Cockarice2MageConverter
   end
 end
 
-unless ARGV.size == 2
+if ARGV.size == 2
+  input_path = Pathname(ARGV[0])
+  output_path = Pathname(ARGV[1])
+
+  Cockarice2MageConverter.new(input_path, output_path).run!
+elsif ARGV.size == 0
+  Cockarice2MageConverter.new(STDIN, STDOUT).run!
+else
   STDERR.puts "Converts cockatrice to mage format"
   STDERR.puts "Usage #{$0} deck.cod deck.dck"
   STDERR.puts "   or #{$0} cod_folder/ dck_folder/"
+  STDERR.puts "   or #{$0} <deck.cod >deck.dck"
   exit 1
 end
-
-input_path = Pathname(ARGV[0])
-output_path = Pathname(ARGV[1])
-
-Cockarice2MageConverter.new(input_path, output_path).run!
