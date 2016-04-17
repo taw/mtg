@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require "trollop"
-require_relative "cockatrice"
+require_relative "../lib/cockatrice"
 
 opts = Trollop::options do
   opt :input, "input (default STDIN)", type: :string

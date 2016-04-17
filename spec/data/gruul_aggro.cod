@@ -1,0 +1,28 @@
+<cockatrice_deck>
+  <deckname>Gruul Aggro</deckname>
+  <comments>Gruul Smash!</comments>
+  <zone name='main'>
+    <card name='Boros Reckoner' number='4' price='0'/>
+    <card name='Brimstone Volley' number='4' price='0'/>
+    <card name='Burning-Tree Emissary' number='4' price='0'/>
+    <card name='Flinthoof Boar' number='4' price='0'/>
+    <card name='Ghor-Clan Rampager' number='3' price='0'/>
+    <card name='Hellrider' number='4' price='0'/>
+    <card name='Lightning Mauler' number='4' price='0'/>
+    <card name='Mountain' number='12' price='0'/>
+    <card name='Pillar of Flame' number='1' price='0'/>
+    <card name='Rakdos Cackler' number='4' price='0'/>
+    <card name='Rootbound Crag' number='4' price='0'/>
+    <card name='Searing Spear' number='4' price='0'/>
+    <card name='Stomping Ground' number='4' price='0'/>
+    <card name='Stromkirk Noble' number='4' price='0'/>
+  </zone>
+  <zone name='side'>
+    <card name='Blasphemous Act' number='2' price='0'/>
+    <card name='Grafdigger&apos;s Cage' number='3' price='0'/>
+    <card name='Mizzium Mortars' number='1' price='0'/>
+    <card name='Skullcrack' number='4' price='0'/>
+    <card name='Traitorous Blood' number='2' price='0'/>
+    <card name='Volcanic Strength' number='3' price='0'/>
+  </zone>
+</cockatrice_deck>
