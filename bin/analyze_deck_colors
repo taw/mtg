@@ -8,7 +8,6 @@ class CardColors
   def colors_path
     Pathname(__dir__) + "../data/colors.tsv"
   end
-
   def initialize
     @generates = {}
     @uses = {}
@@ -34,7 +33,7 @@ class Deck
     list.each{|line|
       line.strip!
       next unless line =~ /\A(\d+)x?\s*(.*)/
-      @cards << [$1.to_i, $2]
+      @cards << [$1.to_i, cleanup_name($2)]
     }
     @cards.each{|cnt, name|
       if CardColors.instance.include?(name)
@@ -44,6 +43,14 @@ class Deck
         warn "Unknown card: #{name}"
       end
     }
+  end
+  def cleanup_name(name)
+    name = name.dup
+    name.gsub!("’", "'")
+    name.gsub!("Æ", "AE")
+    name.gsub!(/\AAether/, "AEther")
+    name.gsub!(%r[\s*(/+|&)\s*], " // ")
+    name
   end
   def color
     key = {"w" => 0, "u" => 1, "b" => 2, "r" => 3, "g" => 4}
