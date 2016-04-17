@@ -77,15 +77,34 @@ class Card
   end
 end
 
-cards = {}
-data = JSON.parse(open("AllSets-x.json").read)
+class CardDatabase
+  def initialize
+    @cards = {}
+  end
 
-data.each do |set_code, set|
-  set["cards"].each do |card|
-    cards[card["name"]] = Card.new(card)
+  def import!
+    data = JSON.parse(open("AllSets-x.json").read)
+    data.each do |set_code, set|
+      set["cards"].each do |card|
+        add_card! card
+      end
+    end
+  end
+
+  def add_card!(card)
+    @cards[card["name"]] = Card.new(card)
+  end
+
+  def print!
+    puts @cards.values.map(&:data).sort.map{|name, gen, use|
+      [name, gen, use].join("\t")
+    }.uniq
+  end
+
+  def run!
+    import!
+    print!
   end
 end
 
-puts cards.values.map(&:data).sort.map{|name, gen, use|
-  [name, gen, use].join("\t")
-}.uniq
+CardDatabase.new.run!
