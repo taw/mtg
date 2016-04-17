@@ -12,5 +12,12 @@ scripts
 * `cod2txt` - convert Cockatrice's .cod to .txt format
 * `cod2dck` - convert Cockatrice's .cod to XMage's .dck
 * `url2cod` - download decklists from URL and convert to .cod (a few popular websites supported)
-* `generate_colors_tsv_mtgjson` - generate data/colors.tsv from mtgjson's AllSets-x.json (recommended)
-* `generate_colors_tsv_cockatrice` - generate data/colors.tsv from cockatrice's cards.xml (use mtgjson instead)
+
+
+data management
+===============
+
+These are used to generate data in `data/`, you probably won't need to run them yourself
+
+* `generate_colors_tsv_mtgjson` - generate `data/colors.tsv` from mtgjson's AllSets-x.json (recommended)
+* `generate_colors_tsv_cockatrice` - generate `data/colors.tsv` from cockatrice's cards.xml (use mtgjson instead)
