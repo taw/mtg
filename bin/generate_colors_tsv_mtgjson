@@ -18,6 +18,14 @@ class Card
     @name ||= cleanup_name(@data["name"])
   end
 
+  def names
+    @names ||= if @data["names"]
+      @data["names"].map{|n| cleanup_name(n)}
+    else
+      [name]
+    end
+  end
+
   def manacost
     @manacost ||= (@data["manaCost"] || "").downcase
   end
@@ -118,8 +126,8 @@ end
 
 class CardDatabase
   def initialize
-    @card_parts = {}
-    @cards = {}
+    @cards = Set[]
+    @parts = {}
   end
 
   def import!
@@ -132,8 +140,9 @@ class CardDatabase
   end
 
   def add_card!(card_data)
-    card = Card.new(card_data)
-    @cards[card.name] = card
+    part = Card.new(card_data)
+    @cards << part.names
+    @parts[part.name] = part
   end
 
   def format_mana(mana)
@@ -141,9 +150,26 @@ class CardDatabase
     mana.sort_by{|c| order.fetch(c) }.join
   end
 
-  def each_card
-    @cards.values.each do |card|
+  def each_part
+    @parts.values.each do |card|
       yield(card.name, format_mana(card.generated_colors), format_mana(card.used_colors))
+    end
+  end
+
+  def each_card
+    @cards.each do |parts|
+      gen = format_mana(parts.map{|c| @parts[c].generated_colors}.inject(&:|))
+      used = format_mana(parts.map{|c| @parts[c].used_colors}.inject(&:|))
+      parts.each do |p|
+        yield(p, gen, used)
+      end
+      if parts.size == 2
+        yield parts.join(" // "), gen, used
+        yield parts.reverse.join(" // "), gen, used
+      end
+      if parts.size > 2
+        yield parts.join(" // "), gen, used
+      end
     end
   end
 
