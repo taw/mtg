@@ -11,3 +11,5 @@ scripts
 * `txt2cod` - convert plaintext deck formats to Cockatrice's cod
 * `cod2txt` - convert Cockatrice's .cod to .txt format
 * `cod2dck` - convert Cockatrice's .cod to XMage's .dck
+* `generate_colors_tsv_mtgjson` - generate data/colors.tsv from mtgjson's AllSets-x.json (recommended)
+* `generate_colors_tsv_cockatrice` - generate data/colors.tsv from cockatrice's cards.xml (use mtgjson instead)

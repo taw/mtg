@@ -1,0 +1,82 @@
+#!/usr/bin/env ruby
+
+require "json"
+
+class Card
+  def initialize(data)
+    @data = data
+    @name = data["name"]
+    @manacost = data["manaCost"] || ""
+    @type = (data["types"] || []).join(" ")
+    @text = data["text"] || ""
+    @generated_colors = []
+    @used_colors = []
+    parse_manacost!
+    parse_text!
+    parse_type!
+    simplify_colors!
+  end
+
+  def data
+    [@name, @generated_colors, @used_colors]
+  end
+
+  def simplify_colors!
+    key = {"w" => 0, "u" => 1, "b" => 2, "r" => 3, "g" => 4, "c" => 5}
+    @generated_colors = @generated_colors.join.gsub(/[^wubrg]/, "").split(//).uniq.sort_by{|c| key[c]}.join
+    @used_colors = @used_colors.join.gsub(/[^wubrgc]/, "").split(//).uniq.sort.sort_by{|c| key[c]}.join
+  end
+
+  def parse_manacost!
+    m = @manacost.downcase.sub(/\A(\{(\d+|x|y|z)\})+/, "").gsub("{hw}", "{w}")
+    @used_colors << $1 while m.sub!(/\A\{([wubrgc]|[wubrg2]\/[wubrgp])\}/i, "")
+    raise "WTF mana: #{m}" unless m.empty?
+  end
+
+  def parse_cost!(cost)
+    raise "WTF COST? #{cost}" if cost =~ /mana pool/ and cost =~ /\{/
+    @used_colors += cost.scan(/\{(.*?)\}/).flatten.map(&:downcase)
+  end
+
+  def parse_effect!(effect)
+    @generated_colors += effect.scan(/\{(.*?)\}/).flatten.map(&:downcase)
+    @generated_colors << "wubrg" if effect =~ /any/
+  end
+
+  def parse_text!
+    @text.split("\n").each{|line|
+      line.gsub!(/\{(\d+|X|T)\}/){ $1 }
+      @used_colors << "(w/b)" if line =~ /\bExtort\b/i
+      next unless line =~ /\{|mana/
+      # This is sort of dubious
+      if line.sub!(/Adds? (.*) to (?:your|his or her|that player's) mana pool/i, "")
+        parse_effect! $1
+      end
+      if line.sub!(/Add to (?:your|his or her) mana pool (.*)/i, "")
+        parse_effect! $1
+      end
+      parse_cost! line
+    }
+  end
+
+  def parse_type!
+    @generated_colors << "w" if @type =~ /\bPlains\b/i
+    @generated_colors << "u" if @type =~ /\bIsland\b/i
+    @generated_colors << "b" if @type =~ /\bSwamp\b/i
+    @generated_colors << "r" if @type =~ /\bMountain\b/i
+    @generated_colors << "g" if @type =~ /\bForest\b/i
+  end
+end
+
+cards = {}
+data = JSON.parse(open("AllSets-x.json").read)
+
+data.each do |set_code, set|
+  set["cards"].each do |card|
+    cards[card["name"]] = Card.new(card)
+  end
+end
+
+puts cards.values.map(&:data).map{|name, gen, use|
+  [name, gen, use].join("\t")
+}.uniq
