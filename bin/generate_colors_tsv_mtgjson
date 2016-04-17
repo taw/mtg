@@ -1,20 +1,33 @@
 #!/usr/bin/env ruby
 
 require "json"
+require "set"
 
 class Card
+  attr_reader :generated_colors, :used_colors
   def initialize(data)
     @data = data
-    @name = cleanup_name(data["name"])
-    @manacost = data["manaCost"] || ""
-    @type = data["type"] || ""
-    @text = data["text"] || ""
-    @generated_colors = []
-    @used_colors = []
+    @generated_colors = Set[]
+    @used_colors = Set[]
     parse_manacost!
     parse_text!
     parse_type!
-    simplify_colors!
+  end
+
+  def name
+    @name ||= cleanup_name(@data["name"])
+  end
+
+  def manacost
+    @manacost ||= (@data["manaCost"] || "").downcase
+  end
+
+  def type
+    @type ||= @data["type"] || ""
+  end
+
+  def text
+    @text ||= @data["text"] || ""
   end
 
   def cleanup_name(name)
@@ -26,36 +39,62 @@ class Card
     name
   end
 
-  def data
-    [@name, @generated_colors, @used_colors]
-  end
-
   def simplify_colors!
     key = {"w" => 0, "u" => 1, "b" => 2, "r" => 3, "g" => 4, "c" => 5}
     @generated_colors = @generated_colors.join.gsub(/[^wubrg]/, "").split(//).uniq.sort_by{|c| key[c]}.join
     @used_colors = @used_colors.join.gsub(/[^wubrgc]/, "").split(//).uniq.sort.sort_by{|c| key[c]}.join
   end
 
-  def parse_manacost!
-    m = @manacost.downcase.sub(/\A(\{(\d+|x|y|z)\})+/, "").gsub("{hw}", "{w}")
-    @used_colors << $1 while m.sub!(/\A\{([wubrgc]|[wubrg2]\/[wubrgp])\}/i, "")
-    raise "WTF mana: #{m}" unless m.empty?
+  def add_gen!(gen)
+    gen = gen.sub("h", "")
+    case gen
+    when /\A(\d+|x|y|z|∞)\z/
+      # skip
+    when /\A[wubrgc]\z/
+      @generated_colors << gen
+    else
+      raise "Unrecognized cost #{gen}"
+    end
   end
 
-  def parse_cost!(cost)
-    raise "WTF COST? #{cost}" if cost =~ /mana pool/ and cost =~ /\{/
-    @used_colors += cost.scan(/\{(.*?)\}/).flatten.map(&:downcase)
+  def add_cost!(cost)
+    cost = cost.sub("2/", "").sub("/p", "").sub("h", "")
+    case cost
+    when /\A(\d+|x|y|z|s|½|t|q|p)\z/
+      # skip
+    when /\A[wubrgc]\z/
+      @used_colors << cost
+    when /\A([wubrg])\/([wubrg])\z/
+      @used_colors << $1 << $2
+    else
+      raise "Unrecognized cost #{cost}"
+    end
+  end
+
+  def parse_manacost!
+    manacost.gsub(/\A\{|\}\z/,"").split("}{").each do |cost|
+      add_cost! cost
+    end
+  end
+
+  def parse_cost!(costs)
+    raise "WTF COST? #{costs}" if costs =~ /mana pool/ and costs =~ /\{/
+    costs.scan(/\{(.*?)\}/).flatten.map(&:downcase).each do |cost|
+      add_cost! cost
+    end
   end
 
   def parse_effect!(effect)
-    @generated_colors += effect.scan(/\{(.*?)\}/).flatten.map(&:downcase)
-    @generated_colors << "wubrg" if effect =~ /any/
+    effect.scan(/\{(.*?)\}/).flatten.map(&:downcase).each do |gen|
+      add_gen! gen
+    end
+    @generated_colors += ["w", "u", "b", "r", "g"] if effect =~ /any/
   end
 
   def parse_text!
-    @text.split("\n").each{|line|
+    text.split("\n").each{|line|
       line.gsub!(/\{(\d+|X|T)\}/){ $1 }
-      @used_colors << "(w/b)" if line =~ /\bExtort\b/i
+      @used_colors << "w" << "b" if line =~ /\bExtort\b/i
       next unless line =~ /\{|mana/
       # This is sort of dubious
       if line.sub!(/Adds? (.*) to (?:your|his or her|that player's) mana pool/i, "")
@@ -79,6 +118,7 @@ end
 
 class CardDatabase
   def initialize
+    @card_parts = {}
     @cards = {}
   end
 
@@ -91,14 +131,26 @@ class CardDatabase
     end
   end
 
-  def add_card!(card)
-    @cards[card["name"]] = Card.new(card)
+  def add_card!(card_data)
+    card = Card.new(card_data)
+    @cards[card.name] = card
+  end
+
+  def format_mana(mana)
+    order = {"w"=>0, "u"=>1, "b"=>2, "r"=>3, "g"=>4, "c"=>5}
+    mana.sort_by{|c| order.fetch(c) }.join
+  end
+
+  def each_card
+    @cards.values.each do |card|
+      yield(card.name, format_mana(card.generated_colors), format_mana(card.used_colors))
+    end
   end
 
   def print!
-    puts @cards.values.map(&:data).sort.map{|name, gen, use|
-      [name, gen, use].join("\t")
-    }.uniq
+    enum_for(:each_card).sort.each do |name, gen, use|
+      puts [name, gen, use].join("\t")
+    end
   end
 
   def run!
