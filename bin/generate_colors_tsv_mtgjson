@@ -5,9 +5,9 @@ require "json"
 class Card
   def initialize(data)
     @data = data
-    @name = data["name"]
+    @name = cleanup_name(data["name"])
     @manacost = data["manaCost"] || ""
-    @type = (data["types"] || []).join(" ")
+    @type = data["type"] || ""
     @text = data["text"] || ""
     @generated_colors = []
     @used_colors = []
@@ -15,6 +15,15 @@ class Card
     parse_text!
     parse_type!
     simplify_colors!
+  end
+
+  def cleanup_name(name)
+    name = name.dup
+    name.gsub!("’", "'")
+    name.gsub!("Æ", "AE")
+    name.gsub!(/\AAether/, "AEther")
+    name.gsub!(%r[\s*(/+|&)\s*], " // ")
+    name
   end
 
   def data
@@ -77,6 +86,6 @@ data.each do |set_code, set|
   end
 end
 
-puts cards.values.map(&:data).map{|name, gen, use|
+puts cards.values.map(&:data).sort.map{|name, gen, use|
   [name, gen, use].join("\t")
 }.uniq
