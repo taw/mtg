@@ -1,0 +1,29 @@
+<cockatrice_deck>
+  <deckname>Brian DeMars Atarka Red</deckname>
+  <comments>http://magic.wizards.com/en/articles/archive/top-decks/evolving-mana-bases-2016-04-15</comments>
+  <zone name='main'>
+    <card name='Abbot of Keral Keep' number='4' price='0'/>
+    <card name='Arlinn Kord // Arlinn, Embraced by the Moon' number='2' price='0'/>
+    <card name='Atarka&apos;s Command' number='4' price='0'/>
+    <card name='Chandra, Fire of Kaladesh // Chandra, Roaring Flame' number='1' price='0'/>
+    <card name='Cinder Glade' number='4' price='0'/>
+    <card name='Dragon Fodder' number='4' price='0'/>
+    <card name='Exquisite Firecraft' number='4' price='0'/>
+    <card name='Falkenrath Gorger' number='4' price='0'/>
+    <card name='Forest' number='1' price='0'/>
+    <card name='Game Trail' number='4' price='0'/>
+    <card name='Lightning Berserker' number='2' price='0'/>
+    <card name='Mountain' number='12' price='0'/>
+    <card name='Pia and Kiran Nalaar' number='2' price='0'/>
+    <card name='Reckless Bushwhacker' number='4' price='0'/>
+    <card name='Titan&apos;s Strength' number='4' price='0'/>
+    <card name='Village Messenger // Moonrise Intruder' number='2' price='0'/>
+    <card name='Zurgo Bellstriker' number='2' price='0'/>
+  </zone>
+  <zone name='side'>
+    <card name='Act of Treason' number='3' price='0'/>
+    <card name='Fiery Impulse' number='4' price='0'/>
+    <card name='Hangarback Walker' number='4' price='0'/>
+    <card name='Thunderbreak Regent' number='4' price='0'/>
+  </zone>
+</cockatrice_deck>

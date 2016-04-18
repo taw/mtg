@@ -1,0 +1,29 @@
+<cockatrice_deck>
+  <deckname>Esper Control</deckname>
+  <comments>http://magic.wizards.com/en/articles/archive/top-decks/evolving-mana-bases-2016-04-15</comments>
+  <zone name='main'>
+    <card name='Anguished Unmaking' number='2' price='0'/>
+    <card name='Anticipate' number='3' price='0'/>
+    <card name='Declaration in Stone' number='4' price='0'/>
+    <card name='Dragonlord Ojutai' number='4' price='0'/>
+    <card name='Dragonlord Silumgar' number='1' price='0'/>
+    <card name='Dragonlord&apos;s Prerogative' number='1' price='0'/>
+    <card name='Evolving Wilds' number='4' price='0'/>
+    <card name='Island' number='5' price='0'/>
+    <card name='Jace, Vryn&apos;s Prodigy' number='4' price='0'/>
+    <card name='Ojutai&apos;s Command' number='2' price='0'/>
+    <card name='Plains' number='2' price='0'/>
+    <card name='Planar Outburst' number='2' price='0'/>
+    <card name='Port Town' number='4' price='0'/>
+    <card name='Prairie Stream' number='4' price='0'/>
+    <card name='Shambling Vent' number='3' price='0'/>
+    <card name='Silkwrap' number='2' price='0'/>
+    <card name='Silumgar&apos;s Scorn' number='4' price='0'/>
+    <card name='Sorin, Grim Nemesis' number='1' price='0'/>
+    <card name='Stasis Snare' number='2' price='0'/>
+    <card name='Sunken Hollow' number='3' price='0'/>
+    <card name='Swamp' number='1' price='0'/>
+    <card name='Void Shatter' number='2' price='0'/>
+  </zone>
+  <zone name='side'/>
+</cockatrice_deck>

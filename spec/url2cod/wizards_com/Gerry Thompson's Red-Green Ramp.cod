@@ -1,0 +1,23 @@
+<cockatrice_deck>
+  <deckname>Gerry Thompson's Red-Green Ramp</deckname>
+  <comments>http://magic.wizards.com/en/articles/archive/top-decks/evolving-mana-bases-2016-04-15</comments>
+  <zone name='main'>
+    <card name='Chandra, Flamecaller' number='4' price='0'/>
+    <card name='Dragonlord Atarka' number='2' price='0'/>
+    <card name='Evolving Wilds' number='4' price='0'/>
+    <card name='Explosive Vegetation' number='4' price='0'/>
+    <card name='Forest' number='9' price='0'/>
+    <card name='Kozilek&apos;s Return' number='3' price='0'/>
+    <card name='Mountain' number='3' price='0'/>
+    <card name='Nissa&apos;s Pilgrimage' number='4' price='0'/>
+    <card name='Oath of Nissa' number='3' price='0'/>
+    <card name='Ruin in Their Wake' number='4' price='0'/>
+    <card name='Sanctum of Ugin' number='3' price='0'/>
+    <card name='Sylvan Advocate' number='4' price='0'/>
+    <card name='Traverse the Ulvenwald' number='4' price='0'/>
+    <card name='Ulamog, the Ceaseless Hunger' number='1' price='0'/>
+    <card name='Wastes' number='4' price='0'/>
+    <card name='World Breaker' number='4' price='0'/>
+  </zone>
+  <zone name='side'/>
+</cockatrice_deck>
