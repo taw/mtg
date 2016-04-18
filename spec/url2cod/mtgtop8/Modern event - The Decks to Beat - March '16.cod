@@ -1,0 +1,37 @@
+<cockatrice_deck>
+  <deckname>Modern event - The Decks to Beat - March '16</deckname>
+  <comments>http://mtgtop8.com/event?e=11914&amp;f=MO</comments>
+  <zone name='main'>
+    <card name='Adarkar Wastes' number='4' price='0'/>
+    <card name='Cavern of Souls' number='2' price='0'/>
+    <card name='Dismember' number='3' price='0'/>
+    <card name='Drowner of Hope' number='4' price='0'/>
+    <card name='Eldrazi Displacer' number='4' price='0'/>
+    <card name='Eldrazi Mimic' number='4' price='0'/>
+    <card name='Eldrazi Skyspawner' number='4' price='0'/>
+    <card name='Eldrazi Temple' number='4' price='0'/>
+    <card name='Endless One' number='4' price='0'/>
+    <card name='Eye of Ugin' number='4' price='0'/>
+    <card name='Flooded Strand' number='4' price='0'/>
+    <card name='Hallowed Fountain' number='2' price='0'/>
+    <card name='Island' number='1' price='0'/>
+    <card name='Path to Exile' number='3' price='0'/>
+    <card name='Plains' number='1' price='0'/>
+    <card name='Reality Smasher' number='4' price='0'/>
+    <card name='Tendo Ice Bridge' number='1' price='0'/>
+    <card name='Thought-Knot Seer' number='4' price='0'/>
+    <card name='Tomb of the Spirit Dragon' number='1' price='0'/>
+    <card name='Ulamog, the Ceaseless Hunger' number='1' price='0'/>
+    <card name='Urborg, Tomb of Yawgmoth' number='1' price='0'/>
+  </zone>
+  <zone name='side'>
+    <card name='All Is Dust' number='1' price='0'/>
+    <card name='Cyclonic Rift' number='1' price='0'/>
+    <card name='Hurkyl&apos;s Recall' number='3' price='0'/>
+    <card name='Oblivion Sower' number='2' price='0'/>
+    <card name='Rest in Peace' number='2' price='0'/>
+    <card name='Stony Silence' number='2' price='0'/>
+    <card name='Stubborn Denial' number='3' price='0'/>
+    <card name='Vesuva' number='1' price='0'/>
+  </zone>
+</cockatrice_deck>
