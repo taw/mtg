@@ -36,4 +36,12 @@ describe "url2cod" do
       run
     end
   end
+
+  describe "mtggoldfish" do
+    let(:url) { "http://www.mtggoldfish.com/archetype/vintage-ravager-shops-23449" }
+    let(:reference_dir) { "mtggoldfish" }
+    it do
+      run
+    end
+  end
 end

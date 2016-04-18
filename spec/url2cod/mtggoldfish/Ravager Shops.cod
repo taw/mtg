@@ -1,0 +1,42 @@
+<cockatrice_deck>
+  <deckname>Ravager Shops</deckname>
+  <comments>http://www.mtggoldfish.com/archetype/vintage-ravager-shops-23449</comments>
+  <zone name='main'>
+    <card name='Ancient Tomb' number='4' price='0'/>
+    <card name='Black Lotus' number='1' price='0'/>
+    <card name='Chalice of the Void' number='1' price='0'/>
+    <card name='Coercive Portal' number='2' price='0'/>
+    <card name='Crucible of Worlds' number='3' price='0'/>
+    <card name='Ghost Quarter' number='3' price='0'/>
+    <card name='Lodestone Golem' number='4' price='0'/>
+    <card name='Mishra&apos;s Factory' number='3' price='0'/>
+    <card name='Mishra&apos;s Workshop' number='4' price='0'/>
+    <card name='Mox Emerald' number='1' price='0'/>
+    <card name='Mox Jet' number='1' price='0'/>
+    <card name='Mox Pearl' number='1' price='0'/>
+    <card name='Mox Ruby' number='1' price='0'/>
+    <card name='Mox Sapphire' number='1' price='0'/>
+    <card name='Null Rod' number='3' price='0'/>
+    <card name='Phyrexian Metamorph' number='2' price='0'/>
+    <card name='Phyrexian Revoker' number='4' price='0'/>
+    <card name='Porcelain Legionnaire' number='3' price='0'/>
+    <card name='Razormane Masticore' number='2' price='0'/>
+    <card name='Sol Ring' number='1' price='0'/>
+    <card name='Sphere of Resistance' number='4' price='0'/>
+    <card name='Strip Mine' number='1' price='0'/>
+    <card name='Thorn of Amethyst' number='4' price='0'/>
+    <card name='Tolarian Academy' number='1' price='0'/>
+    <card name='Trinisphere' number='1' price='0'/>
+    <card name='Wasteland' number='4' price='0'/>
+  </zone>
+  <zone name='side'>
+    <card name='Batterskull' number='1' price='0'/>
+    <card name='Crucible of Worlds' number='1' price='0'/>
+    <card name='Dismember' number='1' price='0'/>
+    <card name='Grafdigger&apos;s Cage' number='4' price='0'/>
+    <card name='Leyline of Sanctity' number='2' price='0'/>
+    <card name='Leyline of the Void' number='4' price='0'/>
+    <card name='Phyrexian Metamorph' number='1' price='0'/>
+    <card name='Wurmcoil Engine' number='1' price='0'/>
+  </zone>
+</cockatrice_deck>
