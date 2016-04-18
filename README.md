@@ -21,3 +21,4 @@ These are used to generate data in `data/`, you probably won't need to run them 
 
 * `generate_colors_tsv_mtgjson` - generate `data/colors.tsv` from mtgjson's AllSets-x.json (recommended)
 * `generate_colors_tsv_cockatrice` - generate `data/colors.tsv` from cockatrice's cards.xml (use mtgjson instead)
+* `mage_card_map_generator` - generate `data/mage_cards.txt`

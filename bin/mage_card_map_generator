@@ -74,7 +74,7 @@ class MageCardMapGenerator
   end
 
   def run!
-    open("mage_cards.txt", "w") do |fh|
+    open("data/mage_cards.txt", "w") do |fh|
       cards_best_version.sort.each do |card, best_version|
         fh.puts "#{card}\t#{best_version}"
       end
@@ -82,11 +82,9 @@ class MageCardMapGenerator
   end
 end
 
-# Generates mage_cards.txt
-
 unless ARGV.size == 2
   STDERR.puts "Usage: #{$0} /path/to/mtg-sets-data.txt /path/to/mtg-cards-data.txt"
-  STDERR.puts "It generates mage_cards.txt"
+  STDERR.puts "It generates data/mage_cards.txt"
   exit 1
 end
 
