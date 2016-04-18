@@ -1,0 +1,28 @@
+<cockatrice_deck>
+  <deckname>Mono-White Humans</deckname>
+  <comments>http://sales.starcitygames.com/deckdatabase/displaydeck.php?DeckID=101059</comments>
+  <zone name='main'>
+    <card name='Always Watching' number='4' price='0'/>
+    <card name='Archangel of Tithes' number='1' price='0'/>
+    <card name='Consul&apos;s Lieutenant' number='4' price='0'/>
+    <card name='Declaration in Stone' number='4' price='0'/>
+    <card name='Dragon Hunter' number='3' price='0'/>
+    <card name='Gryff&apos;s Boon' number='3' price='0'/>
+    <card name='Knight of the White Orchid' number='4' price='0'/>
+    <card name='Kytheon, Hero of Akros' number='3' price='0'/>
+    <card name='Plains' number='20' price='0'/>
+    <card name='Stasis Snare' number='2' price='0'/>
+    <card name='Thalia&apos;s Lieutenant' number='4' price='0'/>
+    <card name='Thraben Inspector' number='4' price='0'/>
+    <card name='Town Gossipmonger' number='4' price='0'/>
+  </zone>
+  <zone name='side'>
+    <card name='Archangel of Tithes' number='3' price='0'/>
+    <card name='Eerie Interlude' number='2' price='0'/>
+    <card name='Hallowed Moonlight' number='2' price='0'/>
+    <card name='Hanweir Militia Captain' number='3' price='0'/>
+    <card name='Hidden Dragonslayer' number='1' price='0'/>
+    <card name='Silkwrap' number='3' price='0'/>
+    <card name='Stasis Snare' number='1' price='0'/>
+  </zone>
+</cockatrice_deck>

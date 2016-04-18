@@ -6,7 +6,7 @@ VCR.configure do |config|
   config.hook_into :webmock
 end
 
-VCR.insert_cassette('network', :record => ENV["record"] ? :new_episodes : :none)
+VCR.insert_cassette('network', :record => ENV["RECORD"] ? :new_episodes : :none)
 
 END {
   VCR.eject_cassette
