@@ -1,5 +1,3 @@
-require_relative "spec_helper"
-
 describe "txt2cod" do
   let(:binary) { Pathname(__dir__)+"../bin/txt2cod" }
   let(:cod) { XML.parse(`#{binary} <#{deck_path}`) }

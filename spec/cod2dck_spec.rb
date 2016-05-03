@@ -1,5 +1,3 @@
-require_relative "spec_helper"
-
 describe "cod2dck" do
   let(:binary) { Pathname(__dir__)+"../bin/cod2dck" }
   let(:txt) { `#{binary} <#{deck_path}` }

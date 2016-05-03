@@ -1,5 +1,3 @@
-require_relative "spec_helper"
-
 describe "analyze_deck_colors" do
   let(:binary) { Pathname(__dir__)+"../bin/cleanup_decklist" }
   let(:cleaned_up_decklist) { `#{binary} <#{deck_path}` }

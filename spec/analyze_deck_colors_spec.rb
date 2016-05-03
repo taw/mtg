@@ -1,5 +1,3 @@
-require_relative "spec_helper"
-
 describe "analyze_deck_colors" do
   let(:binary) { Pathname(__dir__)+"../bin/analyze_deck_colors" }
   let(:colors) { `#{binary} <#{deck_path}`.chomp }

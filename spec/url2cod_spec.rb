@@ -1,9 +1,3 @@
-# webmock/rspec
-
-require_relative "spec_helper"
-require "tmpdir"
-require "pry"
-
 describe "url2cod" do
   let(:binary) { Pathname(__dir__)+"../bin/url2cod" }
   let(:run) do

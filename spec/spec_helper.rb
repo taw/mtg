@@ -1,5 +1,7 @@
 require "pathname"
 require_relative "../lib/magic_xml"
+require "tmpdir"
+require "pry"
 
 def Dir.chtmpdir
   Dir.mktmpdir do |dir|
