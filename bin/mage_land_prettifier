@@ -30,19 +30,27 @@ class MageLandPrettyfier
     end
   end
 
-  def run!(output)
-    @lines.each do |line|
-      output.puts prettify_line(line)
-    end
+  def run!
+    @lines.map{|line| prettify_line(line)}.join
   end
 end
 
 case ARGV.size
 when 0
-  MageLandPrettyfier.new(STDIN).run!(STDOUT)
+  puts MageLandPrettyfier.new(STDIN).run!
 when 1
-  file = Pathname(ARGV[0]).open
-  MageLandPrettyfier.new(file).run!(STDOUT)
+  file_in = Pathname(ARGV[0]).open
+  puts MageLandPrettyfier.new(file_in).run!
+when 2
+  if ARGV[0] == "-i"
+    file_in  = Pathname(ARGV[1]).open
+    output = MageLandPrettyfier.new(file_in).run!
+    Pathname(ARGV[1]).write(output)
+  else
+    file_in  = Pathname(ARGV[0]).open
+    output = MageLandPrettyfier.new(file_in).run!
+    Pathname(ARGV[1]).write(output)
+  end
 else
   STDERR.puts "Usage: #{$0} [file.dck]"
   STDERR.puts "It will read from STDIN if no argument is passed"
