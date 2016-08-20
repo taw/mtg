@@ -43,10 +43,11 @@ class MageCardMapGenerator
     unless @cards_best_versions
       @cards_best_versions = {}
       cards_all_versions.each do |card, versions|
-        # Take Unhinged for basic lands, whatever you want for everything else
+        # Take Unhinged for basic lands, Expedictions for nonbasics,
+        # whatever you want for everything else
         # Generally it would be nice to prefer more recent printings,
         # but let's not overcomplicate things for now
-        best_version = versions.sort_by{|v| [v.include?("UNH") ? 1 : 0, v]}[-1]
+        best_version = versions.sort_by{|v| [v.include?("UNH") || v.include?("EXP") ? 1 : 0, v]}[-1]
         @cards_best_versions[card] = best_version
       end
       # Fix split cards
