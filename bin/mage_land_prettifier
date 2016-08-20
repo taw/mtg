@@ -1,0 +1,49 @@
+#!/usr/bin/env ruby
+
+require "pathname"
+
+class MageLandPrettyfier
+  def initialize(source)
+    @lines = source.readlines
+  end
+
+  def overrides
+    unless @overrides
+      @overrides = {}
+      (Pathname(__dir__) + "../data/mage_cards.txt").readlines.each do |line|
+        name, edition = line.chomp.split("\t", 2)
+        if edition =~ /\AEXP:/ or ["Plains", "Island", "Swamp", "Mountain", "Forest"].include?(name)
+          @overrides[name] = edition
+        end
+      end
+    end
+    @overrides
+  end
+
+  def prettify_line(line)
+    line.gsub(/\[.*?\] (.*?)(?=[\r\n])/) do
+      if overrides[$1]
+        "[#{overrides[$1]}] #{$1}"
+      else
+        $&
+      end
+    end
+  end
+
+  def run!(output)
+    @lines.each do |line|
+      output.puts prettify_line(line)
+    end
+  end
+end
+
+case ARGV.size
+when 0
+  MageLandPrettyfier.new(STDIN).run!(STDOUT)
+when 1
+  file = Pathname(ARGV[0]).open
+  MageLandPrettyfier.new(file).run!(STDOUT)
+else
+  STDERR.puts "Usage: #{$0} [file.dck]"
+  STDERR.puts "It will read from STDIN if no argument is passed"
+end

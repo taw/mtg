@@ -15,9 +15,9 @@ describe "cod2dck" do
       12 [UNH:139] Mountain
       1 [FNMP:150] Pillar of Flame
       4 [RTR:220] Rakdos Cackler
-      4 [PDS:32] Rootbound Crag
+      4 [M13:228] Rootbound Crag
       4 [M13:147] Searing Spear
-      4 [GTC:247] Stomping Ground
+      4 [EXP:9] Stomping Ground
       4 [ISD:164] Stromkirk Noble
       SB: 2 [ISD:130] Blasphemous Act
       SB: 3 [DKA:149] Grafdigger's Cage
