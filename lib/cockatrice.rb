@@ -167,6 +167,10 @@ class Deck
   def save_txt!
     save_as_txt! find_free_filename(".txt")
   end
+
+  def save_dck!
+    save_as_dck! find_free_filename(".dck")
+  end
 end
 
 class CockatriceDeckParser
