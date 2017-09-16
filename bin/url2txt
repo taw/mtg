@@ -4,5 +4,5 @@ require_relative "../lib/cockatrice"
 require_relative "../lib/url_importer"
 
 ARGV.each do |url|
-  UrlImporter.new(url).parse.each(&:save!)
+  UrlImporter.new(url).parse.each(&:save_txt!)
 end
