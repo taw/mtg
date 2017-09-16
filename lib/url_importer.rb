@@ -35,6 +35,17 @@ class UrlImporter
     end
   end
 
+  def parse_wizardscom_displaythemedeck
+    deck = Deck.new
+    table = doc.css("b").find{|e| e.text == "#"}.parent.parent.parent
+    table.css("tr")[1..-1].map{|tr| tr.css("td")[0,2].map(&:text)}.each do |count, name|
+      deck.add_card! name, count.to_i, false
+    end
+    deck.name = doc.css("h2").text.strip
+    deck.comment = url
+    [deck]
+  end
+
   def parse_wizardscom
     doc.css(".deck").map do |node|
       title = node.css('heading').text.strip
@@ -107,7 +118,11 @@ class UrlImporter
   def parse
     case host
     when "www.wizards.com"
-      parse_wizardscom # Old website
+      if url =~ /displaythemedeck.asp/
+        parse_wizardscom_displaythemedeck
+      else
+        parse_wizardscom # Old website
+      end
     when "magic.wizards.com"
       parse_magicwizardscom # New website
     when "sales.starcitygames.com"
