@@ -127,5 +127,5 @@ class DeckImporter
 end
 
 ARGV.each do |url|
-  importer = DeckImporter.new(url).import!
+  DeckImporter.new(url).import!
 end

@@ -74,7 +74,7 @@ class Deck
     # Don't prettyprint within these
     deckname << @name
     comments << @comment
-    out
+    out.to_s + "\n"
   end
 
   def to_txt
