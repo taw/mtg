@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+lines = STDIN.readlines
+lines.each do |line|
+  if line =~ /\A(\d+)\s*(.*)/
+    $1.to_i.times do
+      puts $2
+    end
+  else
+    puts line
+  end
+end
