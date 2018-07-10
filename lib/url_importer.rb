@@ -115,6 +115,25 @@ class UrlImporter
     [deck]
   end
 
+  def parse_gamepedia
+    doc.css(".ext-scryfall-deck").map do |node|
+      deck = Deck.new
+      title = node.css(".ext-scryfall-decktitle").text.strip
+      node.css(".ext-scryfall-decksection").each do |section|
+        header = section.css("h4").text.strip
+        in_sideboard = header =~ /\ASideboard\s*\(\d+\)\z/
+        section.css("p").each do |row|
+          count = row.css(".ext-scryfall-deckcardcount").text.strip.to_i
+          name = row.css("a.ext-scryfall-link").text.strip
+          deck.add_card! name, count, in_sideboard
+        end
+      end
+      deck.name = title
+      deck.comment = @url
+      deck
+    end
+  end
+
   def parse
     case host
     when "www.wizards.com"
@@ -131,6 +150,8 @@ class UrlImporter
       parse_mtgtop8
     when "www.mtggoldfish.com"
       parse_mtggoldfish
+    when "mtg.gamepedia.com"
+      parse_gamepedia
     else
       raise "Don't know how to import from #{host}"
     end
