@@ -283,7 +283,7 @@ class PimpUpXmageDecklist
   end
 
   memoize def cards
-    @decklist.scan(/^\d+\s+\[(.*?)\]\s*(.*?)\r?$/).map(&:reverse)
+    @decklist.scan(/^(?:SB:\s*)?\d+\s+\[(.*?)\]\s*(.*?)\r?$/).map(&:reverse)
   end
 
   memoize def pimpable_cards
