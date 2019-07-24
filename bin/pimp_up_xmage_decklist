@@ -272,7 +272,7 @@ PimpUpList = [
   ["Wurmcoil Engine", "MPS", "54"],
   ["Yixlid Jailer", "FUT", "93"],
   ["Zoetic Cavern", "FUT", "180"],
-].to_h{|n,s,e| [n, "#{s}:#{e}"] }
+].map{|n,s,e| [n, "#{s}:#{e}"] }.to_h
 
 class PimpUpXmageDecklist
   extend Memoist
