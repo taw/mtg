@@ -301,6 +301,12 @@ class PimpUpXmageDecklist
   end
 end
 
-ARGV.each do |path|
-  PimpUpXmageDecklist.new(path).call
+if ARGV == ["--list"]
+  PimpUpList.each do |n, c|
+    puts "1 [#{c}] #{n}"
+  end
+else
+  ARGV.each do |path|
+    PimpUpXmageDecklist.new(path).call
+  end
 end
