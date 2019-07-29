@@ -302,6 +302,8 @@ class PimpUpXmageDecklist
     pimpable_cards.each do |c,v|
       @pimped_up_decklist.gsub!("[#{v}]", "[#{PimpUpList[c]}]")
     end
+    # These need to be removed, unclear why
+    @pimped_up_decklist.gsub!(/^LAYOUT .*\n/, "")
     Pathname("#{@path}.bak").write(@decklist)
     @path.write(@pimped_up_decklist)
   end
