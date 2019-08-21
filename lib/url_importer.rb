@@ -124,7 +124,7 @@ class UrlImporter
         in_sideboard = header =~ /\ASideboard\s*\(\d+\)\z/
         section.css("p").each do |row|
           count = row.css(".ext-scryfall-deckcardcount").text.strip.to_i
-          name = row.css("a.ext-scryfall-link").text.strip
+          name = row.css("a.ext-scryfall-link,a.ext-scryfall-cardname").text.strip
           deck.add_card! name, count, in_sideboard
         end
       end
