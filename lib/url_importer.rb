@@ -92,7 +92,10 @@ class UrlImporter
 
   def parse_mtggoldfish
     deck = Deck.new
-    title = doc.css("h2")[0].text.strip.gsub(/\u00A0/, " ").sub(/\s+Suggest a Better Name/, "")
+    title = doc.css("h1.deck-view-title")[0]
+      .text.strip
+      .gsub(/\s+/, " ")
+      .sub(/\s+Suggest a Better Name/, "")
     in_sideboard = false
     doc.css("#tab-online .deck-view-deck-table tr").each do |row|
       header = row.css(".deck-header").text.strip
