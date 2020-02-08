@@ -94,7 +94,7 @@ class UrlImporter
     deck = Deck.new
     title = doc.css("h1.deck-view-title")[0]
       .text.strip
-      .gsub(/\s+/, " ")
+      .gsub(/[[:space:]]+/, " ")
       .sub(/\s+Suggest a Better Name/, "")
     in_sideboard = false
     doc.css("#tab-online .deck-view-deck-table tr").each do |row|
