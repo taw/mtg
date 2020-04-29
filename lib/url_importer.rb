@@ -13,7 +13,7 @@ class UrlImporter
   end
 
   def doc
-    @doc ||= Nokogiri::HTML(open(url).read)
+    @doc ||= Nokogiri::HTML(URI.open(url).read)
   end
 
   def parse_magicwizardscom
@@ -52,7 +52,7 @@ class UrlImporter
       link = URI.parse(@url) + node.css('.dekoptions a')[0][:href]
       parser = TextDeckParser.new
       parser.empty_line_starts_sideboard = true
-      deck = parser.parse! open(link)
+      deck = parser.parse! URI.open(link)
       deck.name = title
       deck.comment = url
       deck
