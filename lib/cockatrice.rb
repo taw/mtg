@@ -52,6 +52,8 @@ class Deck
     name.gsub!(%r[\s*(/+|&)\s*], " // ")
     # Strip expansion name if any
     name.sub!(/\A\[[A-Z0-9]+\]\s+/, "")
+    # Strip expansion name + number if any
+    name.sub!(/\A\[[A-Z0-9]+:\S+\]\s+/, "")
     name
   end
 
