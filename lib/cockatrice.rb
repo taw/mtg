@@ -223,7 +223,7 @@ class TextDeckParser
       deck.add_card! $2, $1.to_i, true
     when /\A(\d+)\s*(.*)\z/
       deck.add_card! $2, $1.to_i, @in_sideboard
-    when /\ASideboard:?/i
+    when /\ASideboard:?/i, /\A\[Sideboard\]/i
       @in_sideboard = true
     when ""
       @in_sideboard = true if empty_line_starts_sideboard
