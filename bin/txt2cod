@@ -1,10 +1,10 @@
 #!/usr/bin/env ruby
 
-require "trollop"
+require "optimist"
 require_relative "../lib/cockatrice"
 require "open-uri"
 
-opts = Trollop::options do
+opts = Optimist::options do
   opt :name, "Deck name", type: :string
   opt :comment, "Comment", type: :string, defaul: ""
   opt :input, "input (default STDIN)", type: :string

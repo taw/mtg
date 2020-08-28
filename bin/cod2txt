@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 
-require "trollop"
+require "optimist"
 require_relative "../lib/cockatrice"
 
-opts = Trollop::options do
+opts = Optimist::options do
   opt :input, "input (default STDIN)", type: :string
   opt :output, "output (default STDOUT)", type: :string
   opt :autofilename, "select file name based on deck name", type: :boolean, default: false
