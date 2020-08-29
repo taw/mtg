@@ -19,6 +19,10 @@ class UrlImporter
   def parse_magicwizardscom
     doc.css(".deck-list-text").map do |node|
       deck = Deck.new
+      node.parent.css(".commander-card-header").map(&:text).each do |line|
+        raise "Parse error: `#{line}'" unless line =~ /\A\s*COMMANDER:\s*(.*?)\s*\z/
+        deck.add_card_cmd! $1, 1
+      end
       node.css(".sorted-by-overview-container").css(".row").map(&:text).each do |line|
         line.strip!
         raise "Parse error: `#{line}'" unless line =~ /\A(\d+)\s+(.*)\z/

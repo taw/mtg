@@ -30,4 +30,12 @@ describe "url2txt" do
       run
     end
   end
+
+  describe "www.wizards.com" do
+    let(:url) { "https://magic.wizards.com/en/articles/archive/news/commander-2016-edition-decklists-2016-10-28" }
+    let(:reference_dir) { "wizards" }
+    it do
+      run
+    end
+  end
 end
