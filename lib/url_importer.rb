@@ -79,18 +79,20 @@ class UrlImporter
   def parse_mtgtop8
     title = doc.title.sub(" @ mtgtop8.com", "")
     deck = Deck.new
-    in_sideboard = false
+    zone = :main
+    # G14 - cards
+    # O13 - headers, two are special, rest are like "37 LANDS"
     doc.css(".G14,.O13").sort.each do |node|
       text = node.text
       if node['class'] == 'G14'
         raise "Parse error: `#{text}'" unless text =~ /\A(\d+)\s+(.*)/
-        if in_sideboard
-          deck.add_card_side! $2, $1.to_i
-        else
-          deck.add_card_main! $2, $1.to_i
-        end
+        deck.send("add_card_#{zone}!", $2, $1.to_i)
       elsif text == "SIDEBOARD"
-        in_sideboard = true
+        zone = :side
+      elsif text == "COMMANDER"
+        zone = :cmd
+      else
+        zone = :main
       end
     end
     deck.name = title
