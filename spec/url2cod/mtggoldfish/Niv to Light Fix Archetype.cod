@@ -1,0 +1,56 @@
+<cockatrice_deck>
+  <deckname>Niv to Light Fix Archetype</deckname>
+  <comments>https://www.mtggoldfish.com/archetype/niv-to-light-83149596-72ba-4d65-ba7d-1ed648eb583f</comments>
+  <zone name='main'>
+    <card name='Abundant Growth' number='4' price='0'/>
+    <card name='Assassin&apos;s Trophy' number='3' price='0'/>
+    <card name='Breeding Pool' number='1' price='0'/>
+    <card name='Bring to Light' number='3' price='0'/>
+    <card name='Expansion // Explosion' number='1' price='0'/>
+    <card name='Force of Negation' number='2' price='0'/>
+    <card name='Godless Shrine' number='1' price='0'/>
+    <card name='Hallowed Fountain' number='1' price='0'/>
+    <card name='Ice-Fang Coatl' number='4' price='0'/>
+    <card name='Izzet Charm' number='2' price='0'/>
+    <card name='Kaya&apos;s Guile' number='4' price='0'/>
+    <card name='Ketria Triome' number='1' price='0'/>
+    <card name='Kolaghan&apos;s Command' number='1' price='0'/>
+    <card name='Lightning Helix' number='4' price='0'/>
+    <card name='Misty Rainforest' number='4' price='0'/>
+    <card name='Niv-Mizzet Reborn' number='3' price='0'/>
+    <card name='Ojutai&apos;s Command' number='1' price='0'/>
+    <card name='Omen of the Sea' number='4' price='0'/>
+    <card name='Opt' number='1' price='0'/>
+    <card name='Overgrown Tomb' number='1' price='0'/>
+    <card name='Pillar of the Paruns' number='3' price='0'/>
+    <card name='Prismatic Vista' number='4' price='0'/>
+    <card name='Savai Triome' number='1' price='0'/>
+    <card name='Shadow of Doubt' number='1' price='0'/>
+    <card name='Snapcaster Mage' number='1' price='0'/>
+    <card name='Snow-Covered Forest' number='1' price='0'/>
+    <card name='Snow-Covered Island' number='1' price='0'/>
+    <card name='Snow-Covered Mountain' number='1' price='0'/>
+    <card name='Snow-Covered Plains' number='1' price='0'/>
+    <card name='Snow-Covered Swamp' number='1' price='0'/>
+    <card name='Stomping Ground' number='1' price='0'/>
+    <card name='Supreme Verdict' number='1' price='0'/>
+    <card name='Teferi, Time Raveler' number='3' price='0'/>
+    <card name='Uro, Titan of Nature&apos;s Wrath' number='2' price='0'/>
+    <card name='Watery Grave' number='1' price='0'/>
+    <card name='Windswept Heath' number='4' price='0'/>
+    <card name='Wooded Foothills' number='3' price='0'/>
+    <card name='Wrenn and Six' number='4' price='0'/>
+    <card name='Yorion, Sky Nomad' number='1' price='0'/>
+  </zone>
+  <zone name='side'>
+    <card name='AEther Gust' number='2' price='0'/>
+    <card name='Ashiok, Dream Render' number='2' price='0'/>
+    <card name='Boil' number='1' price='0'/>
+    <card name='Crumble to Dust' number='1' price='0'/>
+    <card name='Deafening Clarion' number='1' price='0'/>
+    <card name='Force of Negation' number='2' price='0'/>
+    <card name='Spell Queller' number='1' price='0'/>
+    <card name='Unmoored Ego' number='1' price='0'/>
+    <card name='Veil of Summer' number='3' price='0'/>
+  </zone>
+</cockatrice_deck>

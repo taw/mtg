@@ -147,7 +147,7 @@ class UrlImporter
       end
     when "magic.wizards.com"
       parse_magicwizardscom # New website
-    when "sales.starcitygames.com"
+    when "sales.starcitygames.com", "old.starcitygames.com"
       parse_scg
     when "www.mtgtop8.com", "mtgtop8.com"
       parse_mtgtop8

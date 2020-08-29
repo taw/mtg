@@ -16,7 +16,7 @@ describe "url2cod" do
   end
 
   describe "SCG" do
-    let(:url) { "http://sales.starcitygames.com/deckdatabase/displaydeck.php?DeckID=101059" }
+    let(:url) { "http://old.starcitygames.com/decks/101059" }
     let(:reference_dir) { "scg" }
     it do
       run
@@ -32,7 +32,7 @@ describe "url2cod" do
   end
 
   describe "mtggoldfish" do
-    let(:url) { "http://www.mtggoldfish.com/archetype/vintage-ravager-shops-23449" }
+    let(:url) { "https://www.mtggoldfish.com/archetype/niv-to-light-83149596-72ba-4d65-ba7d-1ed648eb583f" }
     let(:reference_dir) { "mtggoldfish" }
     it do
       run
