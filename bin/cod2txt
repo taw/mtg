@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require "optimist"
-require_relative "../lib/cockatrice"
+require_relative "../lib/mtg"
 
 opts = Optimist::options do
   opt :input, "input (default STDIN)", type: :string

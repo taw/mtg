@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require_relative "../lib/cockatrice"
+require_relative "../lib/mtg"
 require_relative "../lib/url_importer"
 
 ARGV.each do |url|
