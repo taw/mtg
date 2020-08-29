@@ -1,0 +1,50 @@
+// NAME: Rin and Seri, Inseparable Fix Archetype
+// COMMENTS: https://www.mtggoldfish.com/archetype/brawl-rin-and-seri-inseparable-grn
+COMMANDER: 1 Rin and Seri, Inseparable
+1 Selfless Savior
+1 Alpine Houndmaster
+1 Alpine Watchdog
+1 Bronzehide Lion
+1 Daxos, Blessed by the Sun
+1 Gallia of the Endless Dance
+1 Igneous Cur
+1 Pack Leader
+1 Regal Leosaur
+1 Anax, Hardened in the Forge
+1 Bolt Hound
+1 Faeburrow Elder
+1 Feline Sovereign
+1 Grumgully, the Generous
+1 Kaheera, the Orphanguard
+1 Radha, Heart of Keld
+1 Arasta of the Endless Web
+1 Cubwarden
+1 Haktos the Unscarred
+1 Renata, Called to the Hunt
+1 Tectonic Giant
+1 Keeper of Fables
+1 Purphoros, Bronze-Blooded
+1 Rienne, Angel of Rebirth
+1 Beanstalk Giant
+1 Ajani, the Greathearted
+1 Giant Growth
+1 Shock
+1 Once Upon a Time
+1 Idyllic Tutor
+1 Escape to the Wilds
+1 Wolfwillow Haven
+1 Furious Rise
+1 Hydra's Growth
+1 Outlaws' Merriment
+1 Animal Sanctuary
+1 Blossoming Sands
+7 Forest
+6 Mountain
+4 Plains
+1 Rugged Highlands
+1 Temple of Abandon
+1 Temple of Plenty
+1 Temple of Triumph
+1 Wind-Scarred Crag
+
+Sideboard

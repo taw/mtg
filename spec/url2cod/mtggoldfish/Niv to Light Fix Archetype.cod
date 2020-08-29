@@ -40,7 +40,6 @@
     <card name='Windswept Heath' number='4' price='0'/>
     <card name='Wooded Foothills' number='3' price='0'/>
     <card name='Wrenn and Six' number='4' price='0'/>
-    <card name='Yorion, Sky Nomad' number='1' price='0'/>
   </zone>
   <zone name='side'>
     <card name='AEther Gust' number='2' price='0'/>
@@ -52,5 +51,6 @@
     <card name='Spell Queller' number='1' price='0'/>
     <card name='Unmoored Ego' number='1' price='0'/>
     <card name='Veil of Summer' number='3' price='0'/>
+    <card name='Yorion, Sky Nomad' number='1' price='0'/>
   </zone>
 </cockatrice_deck>

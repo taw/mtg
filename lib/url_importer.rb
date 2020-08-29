@@ -106,7 +106,7 @@ class UrlImporter
       .text.strip
       .gsub(/[[:space:]]+/, " ")
       .sub(/\s+Suggest a Better Name/, "")
-    in_sideboard = false
+    zone = :side
     doc.css("#tab-online .deck-view-deck-table tr").each do |row|
       header = row.css(".deck-header").text.strip
       if header.empty?
@@ -118,13 +118,15 @@ class UrlImporter
           warn "Names don't match: `#{name}' `#{name2}'"
           name = name2
         end
-        if in_sideboard
-          deck.add_card_side! name, count
-        else
-          deck.add_card_main! name, count
-        end
+        deck.send("add_card_#{zone}!", name, count)
       elsif header =~ /\ASideboard\s*\(\d+\)\z/
-        in_sideboard = true
+        zone = :side
+      elsif header == "Companion"
+        zone = :side
+      elsif header == "Commander"
+        zone = :cmd
+      else
+        zone = :main
       end
     end
     deck.name = title

@@ -1,0 +1,52 @@
+// NAME: Niv to Light Fix Archetype
+// COMMENTS: https://www.mtggoldfish.com/archetype/niv-to-light-83149596-72ba-4d65-ba7d-1ed648eb583f
+4 Ice-Fang Coatl
+1 Snapcaster Mage
+2 Uro, Titan of Nature's Wrath
+3 Niv-Mizzet Reborn
+4 Wrenn and Six
+3 Teferi, Time Raveler
+1 Opt
+3 Assassin's Trophy
+2 Izzet Charm
+4 Lightning Helix
+1 Shadow of Doubt
+2 Force of Negation
+4 Kaya's Guile
+1 Kolaghan's Command
+1 Ojutai's Command
+1 Supreme Verdict
+3 Bring to Light
+1 Expansion // Explosion
+4 Abundant Growth
+4 Omen of the Sea
+1 Breeding Pool
+1 Godless Shrine
+1 Hallowed Fountain
+1 Ketria Triome
+4 Misty Rainforest
+1 Overgrown Tomb
+3 Pillar of the Paruns
+4 Prismatic Vista
+1 Savai Triome
+1 Snow-Covered Forest
+1 Snow-Covered Island
+1 Snow-Covered Mountain
+1 Snow-Covered Plains
+1 Snow-Covered Swamp
+1 Stomping Ground
+1 Watery Grave
+4 Windswept Heath
+3 Wooded Foothills
+
+Sideboard
+1 Yorion, Sky Nomad
+3 Veil of Summer
+2 AEther Gust
+2 Ashiok, Dream Render
+1 Deafening Clarion
+2 Force of Negation
+1 Spell Queller
+1 Unmoored Ego
+1 Boil
+1 Crumble to Dust

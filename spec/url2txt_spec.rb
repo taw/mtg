@@ -7,9 +7,25 @@ describe "url2txt" do
     end
   end
 
-  describe "mtgtop8" do
+  describe "mtgtop8 - commander (goes into cmd)" do
     let(:url) { "https://www.mtgtop8.com/event?e=27053&d=412626&f=EDH" }
     let(:reference_dir) { "mtgtop8" }
+    it do
+      run
+    end
+  end
+
+  describe "mtggoldfish - companion (goes into sideboard)" do
+    let(:url) { "https://www.mtggoldfish.com/archetype/niv-to-light-83149596-72ba-4d65-ba7d-1ed648eb583f" }
+    let(:reference_dir) { "mtggoldfish_companion" }
+    it do
+      run
+    end
+  end
+
+  describe "mtggoldfish - commander (goes into cmd)" do
+    let(:url) { "https://www.mtggoldfish.com/archetype/brawl-rin-and-seri-inseparable-grn" }
+    let(:reference_dir) { "mtggoldfish_commander" }
     it do
       run
     end
