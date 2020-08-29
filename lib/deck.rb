@@ -1,10 +1,11 @@
 class Deck
   attr_accessor :name, :comment
-  attr_reader :main, :side
+  attr_reader :main, :side, :cmd
 
   def initialize
     @main = Hash.new(0)
     @side = Hash.new(0)
+    @cmd = Hash.new(0)
     @name = ""
     @comment = ""
   end
@@ -15,6 +16,13 @@ class Deck
 
   def each_side_card(&blk)
     @side.to_a.sort.each(&blk)
+  end
+
+  def side_and_cmd
+    result = Hash.new(0)
+    @side.each{|c,n| result[c] += n}
+    @cmd.each{|c,n| result[c] += n}
+    result
   end
 
   def zone_to_xml(zone, name)
@@ -42,21 +50,24 @@ class Deck
     name
   end
 
-  def add_card!(name, number, sideboard)
-    name = canonical_name(name)
-    if sideboard
-      @side[name] += number
-    else
-      @main[name] += number
-    end
+  def add_card_main!(name, number)
+    @main[canonical_name(name)] += number
+  end
+
+  def add_card_side!(name, number)
+    @side[canonical_name(name)] += number
+  end
+
+  def add_card_cmd!(name, number)
+    @cmd[canonical_name(name)] += number
   end
 
   def to_cod
     out = xml(:cockatrice_deck)
     out << (deckname = xml(:deckname))
     out << (comments = xml(:comments))
-    out << zone_to_xml(@main, :main)
-    out << zone_to_xml(@side, :side)
+    out << zone_to_xml(main, :main)
+    out << zone_to_xml(side_and_cmd, :side)
     out.add_pretty_printing!
     # Don't prettyprint within these
     deckname << @name
@@ -68,6 +79,9 @@ class Deck
     out = ""
     out << "// NAME: #{@name}\n"
     out << "// COMMENTS: #{@comment.gsub(/\s+/, " ")}\n" unless @comment.nil? or @comment.empty?
+    @cmd.each do |n,c|
+      out << "COMMANDER: #{c} #{n}\n"
+    end
     @main.each do |n,c|
       out << "#{c} #{n}\n"
     end
@@ -107,10 +121,14 @@ class Deck
 
   def to_dck
     out = ""
-    @main.each do |n,c|
+    cmd.each do |n,c|
+      # Not official
+      out << "#{c} #{mage_card_version(n)}"
+    end
+    main.each do |n,c|
       out << "#{c} #{mage_card_version(n)}\n"
     end
-    @side.each do |n,c|
+    side.each do |n,c|
       out << "SB: #{c} #{mage_card_version(n)}\n"
     end
     out

@@ -22,12 +22,12 @@ class UrlImporter
       node.css(".sorted-by-overview-container").css(".row").map(&:text).each do |line|
         line.strip!
         raise "Parse error: `#{line}'" unless line =~ /\A(\d+)\s+(.*)\z/
-        deck.add_card! $2, $1.to_i, false
+        deck.add_card_main! $2, $1.to_i
       end
       node.css(".sorted-by-sideboard-container").css(".row").map(&:text).each do |line|
         line.strip!
         raise "Parse error: `#{line}'" unless line =~ /\A(\d+)\s+(.*)\z/
-        deck.add_card! $2, $1.to_i, true
+        deck.add_card_side! $2, $1.to_i
       end
       deck.name = node.parent.parent.css("h4").text
       deck.comment = url
@@ -39,7 +39,7 @@ class UrlImporter
     deck = Deck.new
     table = doc.css("b").find{|e| e.text == "#"}.parent.parent.parent
     table.css("tr")[1..-1].map{|tr| tr.css("td")[0,2].map(&:text)}.each do |count, name|
-      deck.add_card! name, count.to_i, false
+      deck.add_card_main! name, count.to_i
     end
     deck.name = doc.css("h2").text.strip
     deck.comment = url
@@ -64,7 +64,11 @@ class UrlImporter
     doc.css(".deck_card_wrapper li").each do |cards|
       in_sideboard = !cards.ancestors(".deck_sideboard").empty?
       raise "Parse error: `#{cards}'" unless cards.text =~ /\A(\d+)\s+(.*)/
-      deck.add_card! $2, $1.to_i, in_sideboard
+      if in_sideboard
+        deck.add_card_side! $2, $1.to_i
+      else
+        deck.add_card_main! $2, $1.to_i
+      end
     end
     title = doc.css(".deck_title").text
     deck.name = title
@@ -80,7 +84,11 @@ class UrlImporter
       text = node.text
       if node['class'] == 'G14'
         raise "Parse error: `#{text}'" unless text =~ /\A(\d+)\s+(.*)/
-        deck.add_card! $2, $1.to_i, in_sideboard
+        if in_sideboard
+          deck.add_card_side! $2, $1.to_i
+        else
+          deck.add_card_main! $2, $1.to_i
+        end
       elsif text == "SIDEBOARD"
         in_sideboard = true
       end
@@ -108,7 +116,11 @@ class UrlImporter
           warn "Names don't match: `#{name}' `#{name2}'"
           name = name2
         end
-        deck.add_card! name, count, in_sideboard
+        if in_sideboard
+          deck.add_card_side! name, count
+        else
+          deck.add_card_main! name, count
+        end
       elsif header =~ /\ASideboard\s*\(\d+\)\z/
         in_sideboard = true
       end
@@ -128,7 +140,11 @@ class UrlImporter
         section.css("p").each do |row|
           count = row.css(".ext-scryfall-deckcardcount").text.strip.to_i
           name = row.css("a.ext-scryfall-link,a.ext-scryfall-cardname").text.strip
-          deck.add_card! name, count, in_sideboard
+          if in_sideboard
+            deck.add_card_side! name, count
+          else
+            deck.add_card_main! name, count
+          end
         end
       end
       deck.name = title
