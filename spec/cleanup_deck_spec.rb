@@ -1,10 +1,11 @@
 describe "analyze_deck_colors" do
   let(:binary) { Pathname(__dir__)+"../bin/cleanup_decklist" }
   let(:cleaned_up_decklist) { `#{binary} <#{deck_path}` }
+
   describe "Gruul aggro" do
     let(:deck_path) { Pathname(__dir__)+"data/gruul_aggro.txt" }
     let(:expected) {
-      """
+      <<~EOF
       12 Mountain
       4 Stomping Ground
       4 Rootbound Crag
@@ -25,17 +26,17 @@ describe "analyze_deck_colors" do
       SB: 4 Skullcrack
       SB: 2 Traitorous Blood
       SB: 3 Volcanic Strength
-      """
+      EOF
     }
     it do
-      expect(cleaned_up_decklist).to eq(expected.chomp.gsub(/^\s+/, ""))
+      expect(cleaned_up_decklist).to eq(expected)
     end
   end
 
   describe "UWR flash" do
     let(:deck_path) { Pathname(__dir__)+"data/uwr_flash.txt" }
     let(:expected) {
-      """
+      <<~EOF
       4 Augur of Bolas
       3 Snapcaster Mage
       4 Restoration Angel
@@ -67,10 +68,10 @@ describe "analyze_deck_colors" do
       SB: 1 Supreme Verdict
       SB: 3 Archangel of Thune
       SB: 2 AEtherling
-      """
+      EOF
     }
     it do
-      expect(cleaned_up_decklist).to eq(expected.chomp.gsub(/^\s+/, ""))
+      expect(cleaned_up_decklist).to eq(expected)
     end
   end
 end

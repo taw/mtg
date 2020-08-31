@@ -4,7 +4,7 @@ describe "cod2txt" do
   describe "Gruul aggro" do
     let(:deck_path) { Pathname(__dir__)+"data/gruul_aggro.cod" }
     let(:expected) {
-      """
+      <<~EOF
       // NAME: Gruul Aggro
       // COMMENTS: Gruul Smash!
       4 Boros Reckoner
@@ -29,10 +29,10 @@ describe "cod2txt" do
       4 Skullcrack
       2 Traitorous Blood
       3 Volcanic Strength
-      """
+      EOF
     }
     it do
-      expect(txt.strip.gsub(/^ +/, "")).to eq(expected.strip.gsub(/^ +/, ""))
+      expect(txt).to eq(expected)
     end
   end
 end

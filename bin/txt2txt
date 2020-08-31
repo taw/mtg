@@ -1,0 +1,31 @@
+#!/usr/bin/env ruby
+
+require "optimist"
+require_relative "../lib/mtg"
+require "open-uri"
+
+opts = Optimist::options do
+  opt :name, "Deck name", type: :string
+  opt :comment, "Comment", type: :string, defaul: ""
+  opt :input, "input (default STDIN)", type: :string
+  opt :output, "output (default STDOUT)", type: :string
+  opt :dailymtg, "use format from DailyMTG (sideboard indicated by empty line)", type: :boolean, default: false
+  opt :verbose, "print warnings for weird input", type: :boolean, default: false
+  opt :autofilename, "select file name based on deck name", type: :boolean, default: false
+end
+
+parser = TextDeckParser.new
+parser.empty_line_starts_sideboard = opts[:dailymtg]
+parser.verbose = opts[:verbose]
+parser.deck.name = "Unknown"
+parser.parse!(opts[:input] ? open(opts[:input]).readlines : STDIN.readlines)
+parser.deck.name = opts[:name] if opts[:name]
+parser.deck.comment = opts[:comment] if opts[:comment]
+
+if opts[:output]
+  parser.deck.save_as_txt!(opts[:output])
+elsif opts[:autofilename]
+  parser.deck.save_txt!
+else
+  puts parser.deck.to_txt
+end

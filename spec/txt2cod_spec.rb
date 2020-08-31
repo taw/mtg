@@ -1,10 +1,11 @@
 describe "txt2cod" do
   let(:binary) { Pathname(__dir__)+"../bin/txt2cod" }
   let(:cod) { XML.parse(`#{binary} <#{deck_path}`) }
+
   describe "Gruul aggro" do
     let(:deck_path) { Pathname(__dir__)+"data/gruul_aggro.txt" }
     let(:expected) {
-      """
+      <<~EOF
       <cockatrice_deck>
         <deckname>Unknown</deckname>
         <comments></comments>
@@ -33,7 +34,7 @@ describe "txt2cod" do
           <card name='Volcanic Strength' number='3' price='0'/>
         </zone>
       </cockatrice_deck>
-      """
+      EOF
     }
     it do
       expect(cod.remove_pretty_printing!).to eq(XML.parse(expected).remove_pretty_printing!)
@@ -43,7 +44,7 @@ describe "txt2cod" do
   describe "UWR flash" do
     let(:deck_path) { Pathname(__dir__)+"data/uwr_flash.txt" }
     let(:expected) {
-      """
+      <<~EOF
       <cockatrice_deck>
         <deckname>Unknown</deckname>
         <comments/>
@@ -83,7 +84,7 @@ describe "txt2cod" do
           <card name='Supreme Verdict' number='1' price='0'/>
         </zone>
       </cockatrice_deck>
-      """
+      EOF
     }
     it do
       expect(cod.remove_pretty_printing!).to eq(XML.parse(expected).remove_pretty_printing!)

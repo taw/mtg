@@ -4,7 +4,7 @@ class TextDeckParser
 
   def initialize
     @deck = Deck.new
-    @in_sideboard = false
+    @zone = :main
     @verbose = false
     @empty_line_starts_sideboard = false
   end
@@ -28,15 +28,17 @@ class TextDeckParser
     when /\ASB:\s*(\d+)\s*(.*)\z/
       deck.add_card_main! $2, $1.to_i
     when /\A(\d+)\s*(.*)\z/
-      if @in_sideboard
-        deck.add_card_side! $2, $1.to_i
-      else
-        deck.add_card_main! $2, $1.to_i
-      end
+      deck.send("add_card_#{@zone}!", $2, $1.to_i)
     when /\ASideboard:?/i, /\A\[Sideboard\]/i
-      @in_sideboard = true
+      @zone = :side
+    when /\A\[Commander\]/i
+      @zone = :cmd
+    when /\A\[Main\]/i
+      @zone = :main
     when ""
-      @in_sideboard = true if empty_line_starts_sideboard
+      @zone = :side if empty_line_starts_sideboard
+    when /\AName\s*=\s*(.*)/i
+      deck.name = $1.strip
     when /\A\/\/(.*)/
       process_comment! $1.strip
     else

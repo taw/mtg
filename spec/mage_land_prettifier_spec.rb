@@ -1,10 +1,11 @@
 describe "mage_land_prettifier" do
   let(:binary) { Pathname(__dir__)+"../bin/mage_land_prettifier" }
   let(:txt) { `#{binary} <#{deck_path}` }
+
   describe "Gruul aggro" do
     let(:deck_path) { Pathname(__dir__)+"data/jeskai_control.dck" }
     let(:expected) {
-      """
+      <<~EOF
       4 [SOI:247] Nahiri, the Harbinger
       3 [WWK:133] Celestial Colonnade
       4 [CON:15] Path to Exile
@@ -44,10 +45,10 @@ describe "mage_land_prettifier" do
       SB: 2 [BFZ:128] Crumble to Dust
       SB: 1 [TSP:83] Teferi, Mage of Zhalfir
       SB: 1 [BFZ:76] Dispel
-      """
+      EOF
     }
     it do
-      expect(txt.strip.gsub(/^ +/, "").tr("\r", "")).to eq(expected.strip.gsub(/^ +/, ""))
+      expect(txt.tr("\r", "")).to eq(expected)
     end
   end
 end

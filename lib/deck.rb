@@ -47,6 +47,13 @@ class Deck
     name.sub!(/\A\[[A-Z0-9]+\]\s+/, "")
     # Strip expansion name + number if any
     name.sub!(/\A\[[A-Z0-9]+:\S+\]\s+/, "")
+    # Strip Forge annotations
+    parts = name.split("|")
+    if parts.size > 1
+      name = parts[0]
+      # 2nd is expansion code
+      # 3rd is some internal Forge id that means nothing to anyone else
+    end
     name
   end
 
