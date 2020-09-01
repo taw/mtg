@@ -20,8 +20,8 @@ class Deck
 
   def side_and_cmd
     result = Hash.new(0)
-    @side.each{|c,n| result[c] += n}
-    @cmd.each{|c,n| result[c] += n}
+    @side.each { |c, n| result[c] += n }
+    @cmd.each { |c, n| result[c] += n }
     result
   end
 
@@ -38,11 +38,11 @@ class Deck
     # and what people type in their decklists online
     name = name.dup
     # Unicode
-    name.gsub!("’", "'")
+    name.tr!("’", "'")
     name.gsub!("Æ", "AE")
     name.gsub!(/\AAether/, "AEther")
     # Split/Fuse cards
-    name.gsub!(%r[\s*(/+|&)\s*], " // ")
+    name.gsub!(%r{\s*(/+|&)\s*}, " // ")
     # Strip expansion name if any
     name.sub!(/\A\[[A-Z0-9]+\]\s+/, "")
     # Strip expansion name + number if any
@@ -85,16 +85,16 @@ class Deck
   def to_txt
     out = ""
     out << "// NAME: #{@name}\n"
-    out << "// COMMENTS: #{@comment.gsub(/\s+/, " ")}\n" unless @comment.nil? or @comment.empty?
-    @cmd.each do |n,c|
+    out << "// COMMENTS: #{@comment.gsub(/\s+/, " ")}\n" unless @comment.nil? || @comment.empty?
+    @cmd.each do |n, c|
       out << "COMMANDER: #{c} #{n}\n"
     end
-    @main.each do |n,c|
+    @main.each do |n, c|
       out << "#{c} #{n}\n"
     end
     out << "\n"
     out << "Sideboard\n"
-    @side.each do |n,c|
+    @side.each do |n, c|
       out << "#{c} #{n}\n"
     end
     out
@@ -105,37 +105,37 @@ class Deck
   end
 
   def mage_cards
-    @mage_cards ||= Hash[mage_cards_path.readlines.map{|x| x.chomp.split("\t")}]
+    @mage_cards ||= Hash[mage_cards_path.readlines.map { |x| x.chomp.split("\t") }]
   end
 
   def mage_card_version(card)
     unless mage_cards[card]
-      fixed_card = mage_cards.keys.find do |c|
+      fixed_card = mage_cards.keys.find { |c|
         card.unicode_normalize(:nfd).downcase.scan(/[a-z]/).join ==
-           c.unicode_normalize(:nfd).downcase.scan(/[a-z]/).join
-      end
+          c.unicode_normalize(:nfd).downcase.scan(/[a-z]/).join
+      }
       if mage_cards[fixed_card]
         card = fixed_card
       end
     end
     return nil unless mage_cards[card]
-    "[#{ mage_cards[card] }] #{card}"
+    "[#{mage_cards[card]}] #{card}"
   end
 
   def mage_compatible?
-    (@main.keys + @side.keys).all?{|card| mage_card_version(card) }
+    (@main.keys + @side.keys).all? { |card| mage_card_version(card) }
   end
 
   def to_dck
     out = ""
-    cmd.each do |n,c|
+    cmd.each do |n, c|
       # Not official
       out << "#{c} #{mage_card_version(n)}"
     end
-    main.each do |n,c|
+    main.each do |n, c|
       out << "#{c} #{mage_card_version(n)}\n"
     end
-    side.each do |n,c|
+    side.each do |n, c|
       out << "SB: #{c} #{mage_card_version(n)}\n"
     end
     out
@@ -164,8 +164,8 @@ class Deck
   def find_free_filename(ext)
     suffix = ""
     cnt = 1
-    while true
-      file_name = "#{ @name.gsub("/", "") }#{ suffix }#{ ext }"
+    loop do
+      file_name = "#{@name.delete("/")}#{suffix}#{ext}"
       return file_name unless File.exist?(file_name)
       cnt += 1
       suffix = " #{cnt}"

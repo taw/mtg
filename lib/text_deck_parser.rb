@@ -10,7 +10,7 @@ class TextDeckParser
   end
 
   def debug!(msg)
-    STDERR.puts(msg) if @verbose
+    warn(msg) if @verbose
   end
 
   def process_comment!(comment)

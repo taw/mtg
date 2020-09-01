@@ -7,10 +7,10 @@ VCR.configure do |config|
 end
 
 VCR.insert_cassette(
-  'network',
-  :record => ENV["RECORD"] ? :new_episodes : :none
+  "network",
+  record: ENV["RECORD"] ? :new_episodes : :none
 )
 
-END {
+at_exit {
   VCR.eject_cassette
 }

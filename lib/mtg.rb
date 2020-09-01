@@ -9,7 +9,7 @@ class File
     if path.is_a?(IO)
       path.write(content)
     else
-      File.open(path, 'w') do |fh|
+      File.open(path, "w") do |fh|
         fh.print content
       end
     end

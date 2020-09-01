@@ -41,8 +41,8 @@ class UrlImporter
 
   def parse_wizardscom_displaythemedeck
     deck = Deck.new
-    table = doc.css("b").find{|e| e.text == "#"}.parent.parent.parent
-    table.css("tr")[1..-1].map{|tr| tr.css("td")[0,2].map(&:text)}.each do |count, name|
+    table = doc.css("b").find { |e| e.text == "#" }.parent.parent.parent
+    table.css("tr")[1..-1].map { |tr| tr.css("td")[0, 2].map(&:text) }.each do |count, name|
       deck.add_card_main! name, count.to_i
     end
     deck.name = doc.css("h2").text.strip
@@ -52,8 +52,8 @@ class UrlImporter
 
   def parse_wizardscom
     doc.css(".deck").map do |node|
-      title = node.css('heading').text.strip
-      link = URI.parse(@url) + node.css('.dekoptions a')[0][:href]
+      title = node.css("heading").text.strip
+      link = URI.parse(@url) + node.css(".dekoptions a")[0][:href]
       parser = TextDeckParser.new
       parser.empty_line_starts_sideboard = true
       deck = parser.parse! URI.open(link)
@@ -88,7 +88,7 @@ class UrlImporter
     # O13 - headers, two are special, rest are like "37 LANDS"
     doc.css(".G14,.O13").sort.each do |node|
       text = node.text
-      if node['class'] == 'G14'
+      if node["class"] == "G14"
         raise "Parse error: `#{text}'" unless text =~ /\A(\d+)\s+(.*)/
         deck.send("add_card_#{zone}!", $2, $1.to_i)
       elsif text == "SIDEBOARD"
@@ -116,14 +116,14 @@ class UrlImporter
       if header.empty?
         count = row.css(".deck-col-qty").text.strip.to_i
         # Some card names are not links, warn
-        name  = row.css("td a").text.strip
+        name = row.css("td a").text.strip
         name2 = row.css("td:nth-child(2)").text.strip
         if name != name2
           warn "Names don't match: `#{name}' `#{name2}'"
           name = name2
         end
         deck.send("add_card_#{zone}!", name, count)
-      elsif header =~ /\ASideboard\s*\(\d+\)\z/
+      elsif /\ASideboard\s*\(\d+\)\z/.match?(header)
         zone = :side
       elsif header == "Companion"
         zone = :side
@@ -164,7 +164,7 @@ class UrlImporter
   def parse
     case host
     when "www.wizards.com"
-      if url =~ /displaythemedeck.asp/
+      if /displaythemedeck.asp/.match?(url)
         parse_wizardscom_displaythemedeck
       else
         parse_wizardscom # Old website
