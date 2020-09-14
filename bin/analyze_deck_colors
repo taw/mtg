@@ -48,7 +48,7 @@ class Deck
     name = name.dup
     name.gsub!("’", "'")
     name.gsub!("Æ", "AE")
-    name.gsub!(/\AAether/, "AEther")
+    name.gsub!(/\AAether/, "Aether")
     name.gsub!(%r[\s*(/+|&)\s*], " // ")
     name
   end

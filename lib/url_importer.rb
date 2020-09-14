@@ -161,6 +161,30 @@ class UrlImporter
     end
   end
 
+  def parse_tcgplayer
+    doc.css(".deckBuilderContainer").map do |node|
+      deck = Deck.new
+      deck.name = node.css("h1").text.strip
+      deck.comment = @url
+      node.css(".subdeck").each do |subdeck|
+        subdeck_header = subdeck.css("h3").text
+        if subdeck_header =~ /\AMaindeck\b/
+          zone = :main
+        elsif subdeck_header =~ /\ASideboard\b/
+          zone = :side
+        else
+          raise "Can't parse subdeck hedaer: #{subdeck_header}"
+        end
+        subdeck.css("a").each do |card|
+          count = card.css(".subdeck-group__card-qty").text.to_i
+          name = card.css(".subdeck-group__card-name").text
+          deck.send("add_card_#{zone}!", name, count)
+        end
+      end
+      deck
+    end
+  end
+
   def parse
     case host
     when "www.wizards.com"
@@ -179,6 +203,8 @@ class UrlImporter
       parse_mtggoldfish
     when "mtg.gamepedia.com"
       parse_gamepedia
+    when "decks.tcgplayer.com"
+      parse_tcgplayer
     else
       raise "Don't know how to import from #{host}"
     end

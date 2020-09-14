@@ -38,4 +38,12 @@ describe "url2txt" do
       run
     end
   end
+
+  describe "decks.tcgplayer.com" do
+    let(:url) { "https://decks.tcgplayer.com/magic/modern/meryn/simic-splendid-reclamation/1377086" }
+    let(:reference_dir) { "tcgplayer" }
+    it do
+      run
+    end
+  end
 end

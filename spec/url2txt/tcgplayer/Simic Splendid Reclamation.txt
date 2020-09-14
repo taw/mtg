@@ -1,0 +1,39 @@
+// NAME: Simic Splendid Reclamation
+// COMMENTS: https://decks.tcgplayer.com/magic/modern/meryn/simic-splendid-reclamation/1377086
+4 Arboreal Grazer
+4 Dryad of the Ilysian Grove
+1 Satyr Wayfinder
+4 Uro, Titan of Nature's Wrath
+2 Ashiok, Dream Render
+2 Cryptic Command
+4 Explore
+3 Life from the Loam
+1 Simic Growth Chamber
+4 Splendid Reclamation
+1 Breeding Pool
+3 Field of the Dead
+2 Flooded Strand
+1 Forest
+1 Ghost Quarter
+1 Island
+1 Ketria Triome
+3 Lonely Sandbar
+4 Misty Rainforest
+2 Mystic Sanctuary
+1 Oboro, Palace in the Clouds
+2 Polluted Delta
+1 Scalding Tarn
+1 Snow-Covered Forest
+1 Snow-Covered Island
+1 Tranquil Thicket
+3 Valakut, the Molten Pinnacle
+1 Waterlogged Grove
+1 Zagoth Triome
+
+Sideboard
+4 AEther Gust
+2 Ashiok, Dream Render
+3 Dismember
+1 Elder Gargaroth
+3 Mystical Dispute
+2 Tireless Tracker
