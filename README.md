@@ -14,6 +14,7 @@ scripts
 * `txt2dck` - convert plaintext deck format to XMage
 * `txt2txt` - convert plaintext deck format to plaintext deck format (i.e. normalize the decklist)
 * `url2cod` - download decklists from URL and convert to .cod (a few popular websites supported)
+* `url2dck` - download decklists from URL and convert to XMage .dck format
 * `url2txt` - download decklists from URL and convert to .txt format
 
 

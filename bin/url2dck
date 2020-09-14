@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/mtg"
+require_relative "../lib/url_importer"
+
+ARGV.each do |url|
+  UrlImporter.new(url).parse.each(&:save_dck!)
+end
