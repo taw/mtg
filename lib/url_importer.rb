@@ -106,15 +106,15 @@ class UrlImporter
 
   def parse_mtggoldfish
     deck = Deck.new
-    title = doc.css("h1.deck-view-title")[0]
+    title = doc.css("h1.deck-view-title,h1.title")[0]
       .text.strip
       .gsub(/[[:space:]]+/, " ")
       .sub(/\s+Suggest a Better Name/, "")
     zone = :side
     doc.css("#tab-online .deck-view-deck-table tr").each do |row|
-      header = row.css(".deck-header").text.strip
+      header = row.css(".deck-header,th").text.strip
       if header.empty?
-        count = row.css(".deck-col-qty").text.strip.to_i
+        count = row.css("td:nth-child(1)").text.strip.to_i
         # Some card names are not links, warn
         name = row.css("td a").text.strip
         name2 = row.css("td:nth-child(2)").text.strip
@@ -125,9 +125,9 @@ class UrlImporter
         deck.send("add_card_#{zone}!", name, count)
       elsif /\ASideboard\s*\(\d+\)\z/.match?(header)
         zone = :side
-      elsif header == "Companion"
+      elsif header =~ /Companion/
         zone = :side
-      elsif header == "Commander"
+      elsif header =~ /Commander/
         zone = :cmd
       else
         zone = :main
