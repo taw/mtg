@@ -201,7 +201,7 @@ class UrlImporter
       parse_mtgtop8
     when "www.mtggoldfish.com"
       parse_mtggoldfish
-    when "mtg.gamepedia.com"
+    when "mtg.gamepedia.com", "mtg.fandom.com"
       parse_gamepedia
     when "decks.tcgplayer.com"
       parse_tcgplayer
