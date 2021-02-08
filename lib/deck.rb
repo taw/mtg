@@ -118,8 +118,12 @@ class Deck
         card = fixed_card
       end
     end
-    return nil unless mage_cards[card]
-    "[#{mage_cards[card]}] #{card}"
+    if mage_cards[card]
+      "[#{mage_cards[card]}] #{card}"
+    else
+      warn "Cannot find Mage card #{card}"
+      nil
+    end
   end
 
   def mage_compatible?
