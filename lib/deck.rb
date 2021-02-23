@@ -100,26 +100,42 @@ class Deck
     out
   end
 
-  def mage_cards_path
-    Pathname(__dir__) + "../data/mage_cards.txt"
+  def xmage_cards_path
+    Pathname(__dir__) + "../data/xmage_cards.txt"
   end
 
-  def mage_cards
-    @mage_cards ||= Hash[mage_cards_path.readlines.map { |x| x.chomp.split("\t") }]
+  # This really needs best version picker, it's quite otherwise
+  # Post-processing with pimp up is not really best idea
+  def xmage_cards
+    @xmage_cards ||= begin
+      xmage_cards_path
+        .readlines
+        .map{|row| row.chomp.split("\t") }
+        .group_by{|r| r[1] }
+        .map{|name, versions|
+          [name, versions.map{|s,_,n| [s.upcase, n]}.last.join(":")]
+        }.to_h
+    end
+    @xmage_cards
   end
 
   def mage_card_version(card)
-    unless mage_cards[card]
-      fixed_card = mage_cards.keys.find { |c|
+    unless xmage_cards[card]
+      fixed_card = xmage_cards.keys.find { |c|
         card.unicode_normalize(:nfd).downcase.scan(/[a-z]/).join ==
           c.unicode_normalize(:nfd).downcase.scan(/[a-z]/).join
       }
-      if mage_cards[fixed_card]
+      card_part = card.split("//")[0].strip
+      fixed_card ||= xmage_cards.keys.find { |c|
+        card_part.unicode_normalize(:nfd).downcase.scan(/[a-z]/).join ==
+          c.unicode_normalize(:nfd).downcase.scan(/[a-z]/).join
+      }
+      if xmage_cards[fixed_card]
         card = fixed_card
       end
     end
-    if mage_cards[card]
-      "[#{mage_cards[card]}] #{card}"
+    if xmage_cards[card]
+      "[#{xmage_cards[card]}] #{card}"
     else
       warn "Cannot find Mage card #{card}"
       nil
