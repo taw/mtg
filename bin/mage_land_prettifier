@@ -10,10 +10,10 @@ class MageLandPrettyfier
   def overrides
     unless @overrides
       @overrides = {}
-      (Pathname(__dir__) + "../data/mage_cards.txt").readlines.each do |line|
-        name, edition = line.chomp.split("\t", 2)
-        if edition =~ /\AEXP:/ or ["Plains", "Island", "Swamp", "Mountain", "Forest"].include?(name)
-          @overrides[name] = edition
+      (Pathname(__dir__) + "../data/xmage_cards.txt").readlines.each do |line|
+        set_code, name, number = line.chomp.split("\t", 3)
+        if set_code == "exp" or ["Plains", "Island", "Swamp", "Mountain", "Forest"].include?(name)
+          @overrides[name] = "#{set_code.upcase}:#{number}"
         end
       end
     end
