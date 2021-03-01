@@ -24,14 +24,14 @@ describe "mage_land_prettifier" do
         1 [10E:61] Wrath of God
         2 [RAV:213] Lightning Helix
         1 [EXP:24] Arid Mesa
-        1 [UNH:139] Mountain
+        1 [UST:215] Mountain
         1 [ISD:240] Ghost Quarter
         1 [MOR:55] Vendilion Clique
         1 [EXP:14] Sacred Foundry
         3 [TSP:48] Ancestral Vision
         2 [RAV:63] Remand
-        2 [UNH:137] Island
-        1 [UNH:136] Plains
+        2 [UST:213] Island
+        1 [UST:212] Plains
         1 [THS:112] Anger of the Gods
         SB: 2 [DGM:135] Wear // Tear
         SB: 1 [M12:40] Timely Reinforcements
