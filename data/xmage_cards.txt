@@ -551,6 +551,7 @@ m20	Angel of Vitality	4
 m19	Angel of the Dawn	7
 jmp	Angel of the Dire Hour	85
 hou	Angel of the God-Pharaoh	4
+c21	Angel of the Ruins	11
 m12	Angel's Feather	202
 tsp	Angel's Grace	3
 ala	Angel's Herald	2
@@ -2929,7 +2930,7 @@ m12	Chasm Drake	48
 bfz	Chasm Guide	143
 m15	Chasm Skulker	46
 9ed	Chastise	9
-2xm	Chatter of the Squirrel	157
+sld	Chatter of the Squirrel	195
 iko	Checkpoint Officer	5
 ugl	Checks and Balances	16
 bbd	Cheering Fanatic	58
@@ -3298,7 +3299,7 @@ tmp	Commander Greven il-Vec	115
 avr	Commander's Authority	13
 c19	Commander's Insignia	2
 cmr	Commander's Plate	305
-khc	Commander's Sphere	99
+c21	Commander's Sphere	239
 thb	Commanding Presence	7
 ons	Commando Raid	195
 war	Commence the Endgame	45
@@ -3945,7 +3946,7 @@ dom	Danitha Capashen, Paragon	12
 pcy	Darba	111
 aer	Daredevil Dragster	149
 med	Daretti, Ingenious Iconoclast	GR3
-mb1	Daretti, Scrap Savant	898
+c21	Daretti, Scrap Savant	164
 cmr	Dargo, the Shipwrecker	172
 csp	Darien, King of Kjeldor	4
 dom	Darigaaz Reincarnated	193
@@ -5771,6 +5772,7 @@ mh1	Excavating Anurid	163
 pcy	Excavation	33
 dom	Excavation Elephant	17
 iko	Excavation Mole	150
+c21	Excavation Technique	16
 tmp	Excavator	287
 pcy	Excise	8
 mh1	Exclude	48
@@ -6082,7 +6084,7 @@ ons	Feeding Frenzy	147
 isd	Feeling of Dread	14
 leg	Feint	146
 gs1	Feiyi Snake	24
-c19	Feldon of the Third Path	141
+c21	Feldon of the Third Path	169
 tsb	Feldon's Cane	109
 bng	Felhide Brawler	70
 ths	Felhide Minotaur	87
@@ -11488,7 +11490,7 @@ drk	Miracle Worker	13
 uma	Miraculous Recovery	26
 hou	Mirage Mirror	165
 c13	Mirari	246
-ppro	Mirari's Wake	2008
+c17	Mirari's Wake	181
 zen	Mire Blight	104
 plc	Mire Boa	135
 pls	Mire Kavu	67
@@ -11705,6 +11707,7 @@ ema	Monk Idealist	21
 cmd	Monk Realist	20
 mmq	Monkey Cage	307
 unh	Monkey Monkey Monkey	104
+c21	Monologue Tax	19
 m12	Monomania	102
 5ed	Mons's Goblin Raiders	251
 ice	Monsoon	298
@@ -13055,7 +13058,7 @@ ss3	Past in Flames	4
 iko	Patagia Tiger	26
 dis	Patagia Viper	89
 uma	Patchwork Gnomes	231
-khc	Path of Ancestry	117
+sld	Path of Ancestry	250
 sok	Path of Anger's Flame	109
 m14	Path of Bravery	26
 rix	Path of Discovery	142
@@ -19199,7 +19202,7 @@ rtr	Trestle Troll	205
 inv	Treva's Attendant	315
 dde	Treva's Charm	61
 pls	Treva's Ruins	143
-ppro	Treva, the Renewer	2009
+dde	Treva, the Renewer	49
 ths	Triad of Fates	206
 dis	Trial	158a
 akh	Trial of Ambition	113
