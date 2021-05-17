@@ -74,7 +74,7 @@ describe "txt2cod" do
             <card name='Warleader&apos;s Helix' number='2' price='0'/>
           </zone>
           <zone name='side'>
-            <card name='AEtherling' number='2' price='0'/>
+            <card name='Aetherling' number='2' price='0'/>
             <card name='Archangel of Thune' number='3' price='0'/>
             <card name='Celestial Flare' number='1' price='0'/>
             <card name='Counterflux' number='2' price='0'/>

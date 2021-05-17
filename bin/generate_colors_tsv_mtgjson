@@ -41,8 +41,8 @@ class Card
   def cleanup_name(name)
     name = name.dup
     name.gsub!("’", "'")
-    name.gsub!("Æ", "AE")
-    name.gsub!(/\AAether/, "AEther")
+    name.gsub!("Æ", "Ae")
+    name.gsub!(/\AAether/, "Aether")
     name.gsub!(%r[\s*(/+|&)\s*], " // ")
     name
   end

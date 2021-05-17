@@ -39,8 +39,8 @@ class Deck
     name = name.dup
     # Unicode
     name.tr!("’", "'")
-    name.gsub!("Æ", "AE")
-    name.gsub!(/\AAether/, "AEther")
+    name.gsub!("Æ", "Ae")
+    name.gsub!(/\AAether/, "Aether")
     # Split/Fuse cards
     name.gsub!(%r{\s*(/+|&)\s*}, " // ")
     # Strip expansion name if any

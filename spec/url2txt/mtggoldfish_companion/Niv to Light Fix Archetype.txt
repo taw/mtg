@@ -42,7 +42,7 @@
 Sideboard
 1 Yorion, Sky Nomad
 3 Veil of Summer
-2 AEther Gust
+2 Aether Gust
 2 Ashiok, Dream Render
 1 Deafening Clarion
 2 Force of Negation

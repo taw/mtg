@@ -47,7 +47,7 @@ class Deck
   def cleanup_name(name)
     name = name.dup
     name.gsub!("’", "'")
-    name.gsub!("Æ", "AE")
+    name.gsub!("Æ", "Ae")
     name.gsub!(/\AAether/, "Aether")
     name.gsub!(%r[\s*(/+|&)\s*], " // ")
     name

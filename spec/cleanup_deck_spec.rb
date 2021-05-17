@@ -67,7 +67,7 @@ describe "analyze_deck_colors" do
         SB: 3 Rhox Faithmender
         SB: 1 Supreme Verdict
         SB: 3 Archangel of Thune
-        SB: 2 AEtherling
+        SB: 2 Aetherling
       EOF
     }
     it do

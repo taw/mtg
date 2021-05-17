@@ -31,7 +31,7 @@
 1 Zagoth Triome
 
 Sideboard
-4 AEther Gust
+4 Aether Gust
 2 Ashiok, Dream Render
 3 Dismember
 1 Elder Gargaroth

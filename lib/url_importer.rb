@@ -173,7 +173,7 @@ class UrlImporter
         elsif subdeck_header =~ /\ASideboard\b/
           zone = :side
         else
-          raise "Can't parse subdeck hedaer: #{subdeck_header}"
+          raise "Can't parse subdeck header: #{subdeck_header}"
         end
         subdeck.css("a").each do |card|
           count = card.css(".subdeck-group__card-qty").text.to_i
