@@ -13642,7 +13642,7 @@ all	Phantasmal Sphere	32
 inv	Phantasmal Terrain	65
 ody	Phantatog	291
 m11	Phantom Beast	69
-wc03	Phantom Centaur	dh127sb
+mb1	Phantom Centaur	1292†
 jud	Phantom Flock	16
 rtr	Phantom General	16
 ima	Phantom Monster	69
