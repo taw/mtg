@@ -18616,7 +18616,7 @@ fut	Sword of the Meek	165
 gpt	Sword of the Paruns	156
 khm	Sword of the Realms	15b
 xln	Sword-Point Diplomacy	126
-afc	Swords to Plowshares	75
+sld	Swords to Plowshares	364
 bng	Swordwise Centaur	142
 grn	Sworn Companions	27
 all	Sworn Defender	19
