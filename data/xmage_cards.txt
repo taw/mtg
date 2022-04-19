@@ -5596,7 +5596,7 @@ eld	Embereth Paladin	121
 eld	Embereth Shieldbreaker	122a
 eld	Embereth Skyblazer	321
 akh	Emberhorn Minotaur	130
-ons	Embermage Goblin	200
+ons	Embermage Goblin	200†
 ori	Embermaw Hellion	141
 som	Embersmith	87
 shm	Emberstrike Duo	185
@@ -18616,7 +18616,7 @@ fut	Sword of the Meek	165
 gpt	Sword of the Paruns	156
 khm	Sword of the Realms	15b
 xln	Sword-Point Diplomacy	126
-sld	Swords to Plowshares	364
+sld	Swords to Plowshares	1021
 bng	Swordwise Centaur	142
 grn	Sworn Companions	27
 all	Sworn Defender	19
