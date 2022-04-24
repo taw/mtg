@@ -12198,7 +12198,7 @@ ala	Mosstodon	139
 lrw	Mosswort Bridge	270
 mor	Mothdust Changeling	42
 mh1	Mother Bear	171
-sld	Mother of Runes	296
+sld	Mother of Runes	473
 chk	Mothrider Samurai	34
 mh2	Mount Velus Manticore	136
 ust	Mountain	215
