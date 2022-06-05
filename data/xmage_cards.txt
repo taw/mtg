@@ -21873,7 +21873,7 @@ dgm	Zhur-Taa Ancient	119
 dgm	Zhur-Taa Druid	120
 rna	Zhur-Taa Goblin	215
 gtc	Zhur-Taa Swine	210
-iko	Zilortha, Strength Incarnate	275
+iko	Zilortha, Strength Incarnate	275a
 stx	Zimone, Quandrix Prodigy	250
 iko	Zirda, the Dawnwaker	233
 mir	Zirilan of the Claw	204
