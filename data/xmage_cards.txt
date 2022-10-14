@@ -656,7 +656,7 @@ iko	Anticipate	40
 znr	Anticognition	45
 eve	Antler Skulkin	167
 jud	Anurid Barkripper	104
-wc03	Anurid Brushhopper	dz137sb
+jud	Anurid Brushhopper	137
 ons	Anurid Murkdiver	124
 tor	Anurid Scavenger	119
 jud	Anurid Swarmsnapper	105
@@ -693,7 +693,7 @@ uma	Apprentice Necromancer	84
 p02	Apprentice Sorcerer	32
 2xm	Apprentice Wizard	40
 akh	Approach of the Second Sun	4
-wc03	Aquamoeba	dh24
+tor	Aquamoeba	24
 plc	Aquamorph Entity	33
 dis	Aquastrand Spider	80
 rix	Aquatic Incursion	32
@@ -2650,7 +2650,7 @@ zen	Caravan Hurda	5
 isd	Caravan Vigil	173
 ema	Carbonize	122
 tsp	Careful Consideration	52
-wc03	Careful Study	dh70
+ody	Careful Study	70
 rav	Caregiver	6
 thb	Careless Celebrant	129
 nph	Caress of Phyrexia	53
@@ -2819,7 +2819,7 @@ ice	Centaur Archer	282
 ths	Centaur Battlemaster	154
 ema	Centaur Chieftain	160
 m20	Centaur Courser	168
-wc03	Centaur Garden	dh316
+ody	Centaur Garden	316
 ons	Centaur Glade	251
 rtr	Centaur Healer	148
 war	Centaur Nurturer	156
@@ -3431,7 +3431,7 @@ akh	Comply	221b
 afc	Component Pouch	59
 10e	Composite Golem	318
 7ed	Compost	235
-wc03	Compulsion	dz34
+tor	Compulsion	34
 rav	Compulsive Research	40
 akh	Compulsory Rest	9
 kld	Concealed Courtyard	245
@@ -5774,7 +5774,7 @@ avr	Entreat the Angels	20
 c18	Entreat the Dead	15
 dis	Entropic Eidolon	45
 exo	Entropic Specter	61
-wc03	Envelop	dh39sb
+jud	Envelop	39
 stx	Environmental Sciences	1
 c20	Eon Frolicker	33
 5dn	Eon Hub	120
@@ -6621,7 +6621,7 @@ mmq	Flaming Sword	190
 ptk	Flanking Troops	5
 5ed	Flare	230
 dis	Flaring Flame-Kin	62
-wc03	Flaring Pain	we89sb
+jud	Flaring Pain	89
 a25	Flash	57
 rav	Flash Conscription	124
 8ed	Flash Counter	78
@@ -7685,7 +7685,7 @@ s99	Goblin General	101
 ori	Goblin Glory Chaser	150
 gnt	Goblin Goliath	4
 jmp	Goblin Goon	326
-wc03	Goblin Grappler	we100
+lgn	Goblin Grappler	100
 m12	Goblin Grenade	140
 wth	Goblin Grenadiers	104
 zen	Goblin Guide	126
@@ -7748,7 +7748,7 @@ inv	Goblin Spy	145
 c16	Goblin Spymaster	19
 mrd	Goblin Striker	94
 vis	Goblin Swine-Rider	81
-wc03	Goblin Taskmaster	we210
+ons	Goblin Taskmaster	210
 dgm	Goblin Test Pilot	74
 mir	Goblin Tinkerer	180
 rix	Goblin Trailblazer	105
@@ -10367,7 +10367,7 @@ scg	Krosan Drover	122
 dom	Krosan Druid	167
 tsp	Krosan Grip	202
 ons	Krosan Groundshaker	271
-wc03	Krosan Reclamation	dh122
+jud	Krosan Reclamation	122
 tor	Krosan Restorer	130
 mh1	Krosan Tusker	169
 znc	Krosan Verge	134
@@ -12076,7 +12076,7 @@ rix	Moment of Craving	79
 m20	Moment of Heroism	30
 mmq	Moment of Silence	28
 rix	Moment of Triumph	15
-wc03	Moment's Peace	dz251
+ody	Moment's Peace	251
 tsp	Momentary Blink	29
 roe	Momentous Fall	197
 uds	Momentum	113
@@ -17572,7 +17572,7 @@ pls	Sparkcaster	126
 m21	Sparkhunter Masticore	240
 m10	Sparkmage Apprentice	158
 ogw	Sparkmage's Gambit	117
-wc03	Sparksmith	we235
+f03	Sparksmith	10
 fut	Sparkspitter	109
 m19	Sparktongue Dragon	159
 5dn	Sparring Collar	154
@@ -20473,7 +20473,7 @@ g18	Vengeant Vampire	GP3
 m11	Vengeful Archon	37
 scg	Vengeful Dead	80
 mh1	Vengeful Devil	152
-wc03	Vengeful Dreams	dz21
+tor	Vengeful Dreams	21
 mor	Vengeful Firebrand	111
 m12	Vengeful Pharaoh	116
 khm	Vengeful Reaper	116
