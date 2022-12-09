@@ -36,6 +36,21 @@ class UrlImporter
       deck.name = node.parent.parent.css("h4").text
       deck.comment = url
       deck
+    end + doc.css("deck-list").map do |node|
+      deck = Deck.new
+      node.css("main-deck").text.strip.split("\n").each do |line|
+        line.strip!
+        raise "Parse error: `#{line}'" unless line =~ /\A(\d+)\s+(.*)\z/
+        deck.add_card_main! $2, $1.to_i
+      end
+      node.css("side-deck").text.strip.split("\n").each do |line|
+        line.strip!
+        raise "Parse error: `#{line}'" unless line =~ /\A(\d+)\s+(.*)\z/
+        deck.add_card_side! $2, $1.to_i
+      end
+      deck.name = node["deck-title"]
+      deck.comment = url
+      deck
     end
   end
 

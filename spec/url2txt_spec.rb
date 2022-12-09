@@ -31,9 +31,25 @@ describe "url2txt" do
     end
   end
 
-  describe "www.wizards.com" do
+  describe "www.wizards.com - old" do
     let(:url) { "https://magic.wizards.com/en/articles/archive/news/commander-2016-edition-decklists-2016-10-28" }
     let(:reference_dir) { "wizards" }
+    it do
+      run
+    end
+  end
+
+  describe "www.wizards.com - new" do
+    let(:url) { "https://magic.wizards.com/en/news/announcements/starter-commander-decks-decklists-2022-10-20" }
+    let(:reference_dir) { "wizards2" }
+    it do
+      run
+    end
+  end
+
+  describe "www.wizards.com - new with sb" do
+    let(:url) { "https://magic.wizards.com/en/articles/archive/news/pioneer-challenger-decks-2021-08-24" }
+    let(:reference_dir) { "wizards3" }
     it do
       run
     end
