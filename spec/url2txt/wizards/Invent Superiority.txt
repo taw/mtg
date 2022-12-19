@@ -1,5 +1,5 @@
 // NAME: Invent Superiority
-// COMMENTS: https://magic.wizards.com/en/articles/archive/news/commander-2016-edition-decklists-2016-10-28
+// SOURCE: https://magic.wizards.com/en/articles/archive/news/commander-2016-edition-decklists-2016-10-28
 COMMANDER: 1 Breya, Etherium Shaper
 1 Daretti, Scrap Savant
 1 Myr Retriever

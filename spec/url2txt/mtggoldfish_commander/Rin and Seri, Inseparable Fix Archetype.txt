@@ -1,5 +1,5 @@
 // NAME: Rin and Seri, Inseparable Fix Archetype
-// COMMENTS: https://www.mtggoldfish.com/archetype/brawl-rin-and-seri-inseparable-grn
+// SOURCE: https://www.mtggoldfish.com/archetype/brawl-rin-and-seri-inseparable-grn
 COMMANDER: 1 Rin and Seri, Inseparable
 1 Selfless Savior
 1 Alpine Houndmaster

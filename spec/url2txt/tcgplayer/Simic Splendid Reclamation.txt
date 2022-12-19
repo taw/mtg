@@ -1,5 +1,5 @@
 // NAME: Simic Splendid Reclamation
-// COMMENTS: https://decks.tcgplayer.com/magic/modern/meryn/simic-splendid-reclamation/1377086
+// SOURCE: https://decks.tcgplayer.com/magic/modern/meryn/simic-splendid-reclamation/1377086
 4 Arboreal Grazer
 4 Dryad of the Ilysian Grove
 1 Satyr Wayfinder

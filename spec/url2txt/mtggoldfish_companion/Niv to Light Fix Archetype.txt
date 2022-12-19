@@ -1,5 +1,5 @@
 // NAME: Niv to Light Fix Archetype
-// COMMENTS: https://www.mtggoldfish.com/archetype/niv-to-light-83149596-72ba-4d65-ba7d-1ed648eb583f
+// SOURCE: https://www.mtggoldfish.com/archetype/niv-to-light-83149596-72ba-4d65-ba7d-1ed648eb583f
 4 Ice-Fang Coatl
 1 Snapcaster Mage
 2 Uro, Titan of Nature's Wrath

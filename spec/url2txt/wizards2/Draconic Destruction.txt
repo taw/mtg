@@ -1,5 +1,5 @@
 // NAME: Draconic Destruction
-// COMMENTS: https://magic.wizards.com/en/news/announcements/starter-commander-decks-decklists-2022-10-20
+// SOURCE: https://magic.wizards.com/en/news/announcements/starter-commander-decks-decklists-2022-10-20
 1 Atarka, World Render
 1 Akoum Hellkite
 1 Chain Reaction

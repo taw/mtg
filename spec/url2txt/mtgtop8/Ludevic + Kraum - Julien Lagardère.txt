@@ -1,5 +1,5 @@
 // NAME: Ludevic + Kraum - Julien Lagardère
-// COMMENTS: https://www.mtgtop8.com/event?e=27053&d=412626&f=EDH
+// SOURCE: https://www.mtgtop8.com/event?e=27053&d=412626&f=EDH
 COMMANDER: 1 Kraum, Ludevic's Opus
 COMMANDER: 1 Ludevic, Necro-Alchemist
 1 Arid Mesa

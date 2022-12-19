@@ -1,5 +1,5 @@
 // NAME: Chaos Incarnate
-// COMMENTS: https://magic.wizards.com/en/news/announcements/starter-commander-decks-decklists-2022-10-20
+// SOURCE: https://magic.wizards.com/en/news/announcements/starter-commander-decks-decklists-2022-10-20
 1 Kardur, Doomscourge
 1 Archfiend of Depravity
 1 Bloodgift Demon

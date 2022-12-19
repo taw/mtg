@@ -1,5 +1,5 @@
 // NAME: Jiachen Tao: Blue-Red Eldrazi
-// COMMENTS: http://magic.wizards.com/en/events/coverage/ptogw
+// SOURCE: http://magic.wizards.com/en/events/coverage/ptogw
 3 Cavern of Souls
 3 Dismember
 4 Drowner of Hope

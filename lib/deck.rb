@@ -85,7 +85,7 @@ class Deck
   def to_txt
     out = ""
     out << "// NAME: #{@name}\n"
-    out << "// COMMENTS: #{@comment.gsub(/\s+/, " ")}\n" unless @comment.nil? || @comment.empty?
+    out << "// SOURCE: #{@comment.gsub(/\s+/, " ")}\n" unless @comment.nil? || @comment.empty?
     @cmd.each do |n, c|
       out << "COMMANDER: #{c} #{n}\n"
     end

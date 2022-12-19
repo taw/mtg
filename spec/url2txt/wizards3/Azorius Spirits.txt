@@ -1,5 +1,5 @@
 // NAME: Azorius Spirits
-// COMMENTS: https://magic.wizards.com/en/articles/archive/news/pioneer-challenger-decks-2021-08-24
+// SOURCE: https://magic.wizards.com/en/articles/archive/news/pioneer-challenger-decks-2021-08-24
 1 Brazen Borrower
 2 Mausoleum Wanderer
 2 Remorseful Cleric

@@ -6,7 +6,7 @@ describe "cod2txt" do
     let(:expected) {
       <<~EOF
         // NAME: Gruul Aggro
-        // COMMENTS: Gruul Smash!
+        // SOURCE: Gruul Smash!
         4 Boros Reckoner
         4 Brimstone Volley
         4 Burning-Tree Emissary
