@@ -3331,7 +3331,6 @@ ori	Chandra, Fire of Kaladesh	135a
 m21	Chandra, Flame's Catalyst	332
 m20	Chandra, Flame's Fury	294
 ogw	Chandra, Flamecaller	104
-htr16	Chandra, Gremlin Wrangler	1
 m21	Chandra, Heart of Fire	135
 m20	Chandra, Novice Pyromancer	128
 kld	Chandra, Pyrogenius	265
