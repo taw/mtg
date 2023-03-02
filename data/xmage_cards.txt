@@ -1964,7 +1964,9 @@ one	Bladed Ambassador	5
 avr	Bladed Bracers	213
 som	Bladed Pinions	140
 mbs	Bladed Sentinel	98
+one	Bladegraft Aspirant	122
 cmr	Bladegriff Prototype	300
+one	Bladehold War-Whip	197
 bok	Blademane Baku	95
 lrw	Blades of Velis Vel	152
 mid	Bladestitched Skaab	212
@@ -2662,6 +2664,7 @@ cmr	Brinelin, the Moon Kraken	60
 eld	Bring Back	212b
 bbd	Bring Down	26
 ktk	Bring Low	103
+one	Bring the Ending	44
 eld	Bring to Life	38b
 bfz	Bring to Light	209
 rna	Bring to Trial	5
@@ -4983,6 +4986,7 @@ akh	Deem Worthy	127
 dmr	Deep Analysis	46
 mh1	Deep Forest Hermit	161
 dom	Deep Freeze	50
+clb	Deep Gnome Terramancer	607
 ody	Deep Reconnaissance	236
 fem	Deep Spawn	17
 drk	Deep Water	23
@@ -6742,6 +6746,7 @@ c16	Evolutionary Escalation	22
 ori	Evolutionary Leap	176
 dmu	Evolved Sleeper	93
 one	Evolved Spinoderm	166
+one	Evolving Adaptive	167
 snc	Evolving Door	144
 bro	Evolving Wilds	261
 dom	Evra, Halcyon Witness	16
@@ -6786,6 +6791,7 @@ dde	Exotic Curse	56
 pls	Exotic Disease	43
 con	Exotic Orchard	142
 snc	Exotic Pets	185
+one	Expand the Sphere	168
 stx	Expanded Anatomy	2
 grn	Expansion	224a
 ogw	Expedite	108
@@ -6858,6 +6864,7 @@ emn	Extricator of Sin	23a
 mh2	Extruder	296
 stx	Extus, Oriq Overlord	149a
 ala	Exuberant Firestoker	99
+one	Exuberant Fuseling	129
 iko	Exuberant Wolfbear	151
 emn	Exultant Cultist	59
 rix	Exultant Skymarcher	7
@@ -6866,6 +6873,7 @@ bng	Eye Gouge	67
 s99	Eye Spy	38
 5ed	Eye for an Eye	30
 c13	Eye of Doom	243
+one	Eye of Malcator	50
 chk	Eye of Nowhere	59
 mmq	Eye of Ramos	294
 vis	Eye of Singularity	4
@@ -7719,6 +7727,7 @@ snc	Forge Boss	189
 m15	Forge Devil	140
 c18	Forge of Heroes	58
 jou	Forgeborn Oreads	98
+one	Forgehammer Centurion	130
 bng	Forgestoker Dragon	98
 6ed	Forget	70
 bro	Forging the Anchor	50
@@ -7951,6 +7960,7 @@ m21	Furious Rise	144
 exo	Furnace Brood	84
 som	Furnace Celebration	90
 dst	Furnace Dragon	62
+one	Furnace Punisher	132
 nph	Furnace Scamp	84
 one	Furnace Skullbomb	228
 sth	Furnace Spirit	87
@@ -8222,6 +8232,7 @@ dst	Geth's Grimoire	123
 onc	Geth's Summons	11
 nph	Geth's Verdict	61
 som	Geth, Lord of the Vault	64
+one	Geth, Thane of Contracts	95
 mh2	Geyadrone Dihada	199
 zen	Geyser Glider	124
 bfz	Geyserfield Stalker	111
@@ -11131,6 +11142,7 @@ neo	Kairi, the Swirling Sky	60
 bok	Kaiso, Memory of Loyalty	3b
 neo	Kaito Shizuki	226
 neo	Kaito's Pursuit	103
+one	Kaito, Dancing Shadow	204
 afr	Kalain, Reclusive Painter	225
 c20	Kalamax, the Stormsire	9
 bfz	Kalastria Healer	114
@@ -11805,6 +11817,7 @@ leg	Lady Evangela	240
 leg	Lady Orca	241
 ptk	Lady Sun	45
 ptk	Lady Zhurong, Warrior Queen	139
+clb	Lae'zel's Acrobatics	30
 clb	Lae'zel, Vlaakith's Champion	29
 clb	Laelia, the Blade Reforged	801
 roe	Lagac Lizard	154
@@ -13040,6 +13053,7 @@ one	Maze Skullbomb	231
 dmr	Maze of Ith	250
 tmp	Maze of Shadows	319
 dgm	Maze's End	152
+one	Maze's Mantle	174
 m21	Mazemind Tome	232
 2xm	Mazirek, Kraul Death Priest	209
 clb	Mazzy, Truesword Paladin	283
@@ -13925,6 +13939,7 @@ nec	Myojin of Towering Might	38
 mrd	Myr Adapter	210
 som	Myr Battlesphere	180
 one	Myr Convert	234
+one	Myr Custodian	235
 mrd	Myr Enforcer	211
 som	Myr Galvanizer	181
 mrd	Myr Incubator	212
@@ -14704,7 +14719,7 @@ arb	Offering to Asha	9
 iko	Offspring's Revenge	198
 stx	Oggyar Battle-Seer	209
 snc	Ognis, the Dragon's Lash	210
-pi13	Ogre Arsonist	11
+p02	Ogre Arsonist	110
 m14	Ogre Battledriver	148
 p02	Ogre Berserker	111
 eld	Ogre Errant	132
@@ -15521,6 +15536,7 @@ cmr	Phyrexian Triniform	331
 nph	Phyrexian Unlife	18
 mbs	Phyrexian Vatmother	52
 10e	Phyrexian Vault	337
+one	Phyrexian Vindicator	27
 dmu	Phyrexian Vivisector	100
 vis	Phyrexian Walker	152
 all	Phyrexian War Beast	127a
@@ -15852,6 +15868,7 @@ soi	Press for Answers	80
 ogw	Press into Service	114
 dtk	Press the Advantage	196
 znr	Pressure Point	33
+j22	Preston, the Vanisher	8
 mmq	Pretender's Claim	151
 grn	Prey Upon	143
 roe	Prey's Vengeance	205
@@ -16826,6 +16843,7 @@ chk	Reito Lantern	267
 neo	Reito Sentinel	256
 mrd	Reiver Demon	75
 stx	Reject	50
+one	Reject Imperfection	67
 usg	Rejuvenate	271
 cmr	Rejuvenating Springs	354
 nem	Rejuvenation Chamber	137
@@ -17652,6 +17670,7 @@ emn	Ruthless Disposal	103
 frf	Ruthless Instincts	136
 nph	Ruthless Invasion	93
 xln	Ruthless Knave	119
+one	Ruthless Predation	182
 ktk	Ruthless Ripper	88
 akh	Ruthless Sniper	105
 nec	Ruthless Technomancer	35
@@ -18512,9 +18531,11 @@ ddf	Serrated Biskelion	46
 iko	Serrated Scorpion	99
 dst	Serum Powder	138
 mbs	Serum Raker	31
+one	Serum Snare	68
 one	Serum Sovereign	405
 mrd	Serum Tank	240
 5dn	Serum Visions	36
+one	Serum-Core Chimera	215
 m13	Servant of Nefarox	108
 bng	Servant of Tymaret	82
 tmp	Servant of Volrath	156
@@ -19745,6 +19766,7 @@ frf	Soulflayer	84
 mh1	Soulherder	214
 xana	Soulhunter Rakshasa	35
 afr	Soulknife Spy	75
+one	Soulless Jailer	241
 hop	Soulless One	41
 chk	Soulless Revival	144
 m20	Soulmender	37
@@ -21523,6 +21545,7 @@ one	The Dross Pits	251
 dmu	The Elder Dragon War	121
 war	The Elderspell	89
 dom	The Eldest Reborn	90
+one	The Eternal Wanderer	11
 dmc	The Ever-Changing 'Dane	30
 one	The Fair Basilica	252
 bro	The Fall of Kroog	133
@@ -23575,6 +23598,7 @@ ths	Vulpine Goliath	183
 mrd	Vulshok Battlegear	272
 mrd	Vulshok Battlemaster	110
 m11	Vulshok Berserker	159
+onc	Vulshok Factory	16
 mrd	Vulshok Gauntlets	273
 som	Vulshok Heartstoker	107
 9ed	Vulshok Morningstar	315
@@ -24462,6 +24486,7 @@ afc	Wulfgar of Icewind Dale	56
 m12	Wurm's Tooth	223
 tsp	Wurmcalling	234
 mps	Wurmcoil Engine	54
+onc	Wurmquake	19
 mrd	Wurmskin Forger	140
 gpt	Wurmweaver Coil	99
 lrw	Wydwen, the Biting Gale	253
@@ -24634,6 +24659,7 @@ zen	Zendikar Farguide	194
 ori	Zendikar Incarnate	219
 ogw	Zendikar Resurgent	147
 ori	Zendikar's Roil	209
+one	Zenith Chronicler	246
 iko	Zenith Flare	217
 akh	Zenith Seeker	77
 usg	Zephid	113
