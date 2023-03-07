@@ -2236,6 +2236,7 @@ vow	Bloodsworn Knight	97b
 vow	Bloodsworn Squire	97a
 voc	Bloodsworn Steward	144
 dom	Bloodtallow Candle	212
+40k	Bloodthirster	73
 mid	Bloodthirsty Adversary	129
 m20	Bloodthirsty Aerialist	91
 gn3	Bloodthirsty Blade	114
