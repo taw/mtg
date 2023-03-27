@@ -3621,6 +3621,7 @@ drk	City of Shadows	116
 vis	City of Solitude	102
 exo	City of Traitors	143
 bro	Cityscape Leveler	233
+ymid	Citystalker Connoisseur	27
 grn	Citywatch Sphinx	33
 grn	Citywide Bust	4
 snc	Civic Gardener	140
@@ -4543,6 +4544,7 @@ isd	Curse of the Nightly Hunt	137
 isd	Curse of the Pierced Heart	138
 mic	Curse of the Restless Dead	18
 ths	Curse of the Swine	46
+ymid	Cursebound Witch	24
 avr	Cursebreak	14
 shm	Cursecatcher	34
 inv	Cursed Flesh	98
@@ -6803,6 +6805,7 @@ znr	Expedition Healer	13
 zen	Expedition Map	201
 ogw	Expedition Raptor	18
 znr	Expedition Skulker	101
+ymid	Expedition Supplier	6
 stx	Expel	18
 rix	Expel from Orazca	37
 snc	Expendable Lackey	43
@@ -6959,6 +6962,7 @@ m13	Faith's Reward	14
 dka	Faith's Shield	7
 emn	Faithbearer Paladin	25
 vow	Faithbound Judge	12a
+ymid	Faithful Disciple	7
 mid	Faithful Mending	221
 bok	Faithful Squire	3a
 dka	Faithless Looting	87
@@ -10779,6 +10783,7 @@ bok	Isao, Enlightened Bushi	129
 m19	Isareth the Awakener	104
 cmr	Ishai, Ojutai Dragonspeaker	520
 bok	Ishi-Ishi, Akki Crackshot	110
+ymid	Ishkanah, Broodmother	52
 emn	Ishkanah, Grafwidow	162
 ust	Island	213
 4ed	Island Fish Jasconius	78
@@ -11398,6 +11403,7 @@ c18	Kestia, the Cultivator	42
 m20	Kethis, the Hidden Hand	211
 iko	Ketria Crystal	236
 iko	Ketria Triome	310
+ymid	Key to the Archive	59
 kld	Key to the City	220
 gtc	Keymaster Rogue	39
 tmp	Kezzerdrix	139
@@ -11450,6 +11456,7 @@ vow	Kindly Ancestor	22a
 soi	Kindly Stranger	119a
 c17	Kindred Boon	5
 c17	Kindred Charge	27
+ymid	Kindred Denial	18
 clb	Kindred Discovery	81
 c17	Kindred Dominance	18
 afc	Kindred Summons	163
@@ -14678,6 +14685,7 @@ dtk	Obscuring Aether	194
 c20	Obscuring Haze	61
 ths	Observant Alseid	24
 mid	Obsessive Astronomer	152
+ymid	Obsessive Collector	19
 dmr	Obsessive Search	61
 soi	Obsessive Skinner	220
 m21	Obsessive Stitcher	223
@@ -19776,6 +19784,7 @@ thb	Soulreaper of Mogis	115
 gpt	Souls of the Faultless	131
 dst	Soulscour	14
 mir	Soulshriek	145
+ymid	Soulstealer Axe	60
 akh	Soulstinger	108
 roe	Soulsurge Elemental	163
 dis	Soulsworn Jury	17
@@ -20797,6 +20806,7 @@ ice	Sunstone	341
 mid	Sunstreak Phoenix	162
 lgn	Sunstrike Legionnaire	22
 m14	Suntail Hawk	40
+ymid	Suntail Squadron	11
 5dn	Suntouched Myr	160
 8ed	Sunweb	52
 ust	Super-Duper Death Ray	97
@@ -21998,6 +22008,7 @@ cst	Tinder Wall	270
 mbs	Tine Shrike	17
 v09	Tinker	14
 jmp	Tinybones, Trinket Thief	17
+ymid	Tireless Angler	23
 mid	Tireless Hauler	203a
 m15	Tireless Missionaries	39
 mh2	Tireless Provisioner	180
