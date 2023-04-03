@@ -14544,6 +14544,7 @@ mid	Novice Occultist	117
 dis	Novijen Sages	27
 dis	Novijen, Heart of Progress	175
 unh	Now I Know My ABC's	41
+one	Noxious Assault	176
 frf	Noxious Dragon	77
 pcy	Noxious Field	70
 mps	Noxious Gearhulk	3
