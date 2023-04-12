@@ -979,7 +979,7 @@ xln	Arguel's Blood Fast	90a
 mh1	Aria of Flame	118
 exp	Arid Mesa	24
 m19	Arisen Gorgon	292
-2xm	Arixmethes, Slumbering Isle	189
+mul	Arixmethes, Slumbering Isle	32
 2x2	Arjun, the Shifting Flame	172
 scg	Ark of Blight	140
 soi	Arlinn Kord	243a
@@ -1159,6 +1159,7 @@ emn	Assembled Alphas	117
 mmq	Assembly Hall	286
 tsp	Assembly-Worker	248
 mrd	Assert Authority	30
+mom	Assimilate Essence	47
 grn	Assure	221a
 clb	Astarion's Thirst	114
 clb	Astarion, the Decadent	265
@@ -1190,7 +1191,7 @@ ody	Atogatog	286
 mom	Atraxa's Fall	176
 one	Atraxa's Skitterfang	223
 one	Atraxa, Grand Unifier	196
-sld	Atraxa, Praetors' Voice	453
+mul	Atraxa, Praetors' Voice	33
 thb	Atris, Oracle of Half-Truths	209
 clb	Atrocious Experiment	115
 neo	Atsushi, the Blazing Sky	134
@@ -1559,6 +1560,7 @@ arb	Bant Sojourners	125
 arb	Bant Sureblade	143
 dka	Bar the Door	2
 afr	Bar the Gate	47
+mom	Baral and Kari Zev	218
 aer	Baral's Expertise	29
 aer	Baral, Chief of Compliance	28
 jud	Barbarian Bully	79
@@ -2598,6 +2600,7 @@ ori	Brawler's Plate	224
 moc	Brawn	292
 eld	Brazen Borrower	39a
 xln	Brazen Buccaneers	134
+j22	Brazen Cannonade	31
 afr	Brazen Dwarf	134
 rix	Brazen Freebooter	95
 kld	Brazen Scourge	107
@@ -2753,7 +2756,7 @@ m20	Brought Back	9
 mb1	Browbeat	876
 mrd	Brown Ouphe	115
 cst	Browse	25
-2xm	Brudiclad, Telchor Engineer	193
+mul	Brudiclad, Telchor Engineer	36
 afr	Bruenor Battlehammer	219
 avr	Bruna, Light of Alabaster	208
 emn	Bruna, the Fading Light	15a
@@ -4689,6 +4692,7 @@ chk	Dance of Shadows	108
 ice	Dance of the Dead	118
 eld	Dance of the Manse	186
 dtk	Dance of the Skywise	50
+moc	Dance with Calamity	29
 soi	Dance with Devils	150
 9ed	Dancing Scimitar	292
 afr	Dancing Sword	8
@@ -5133,6 +5137,7 @@ war	Deliver Unto Evil	85
 mmq	Delraich	133
 10e	Deluge	79
 7ed	Delusions of Mediocrity	70
+moc	Deluxe Dragster	21
 mid	Delver of Secrets	47a
 afr	Delver's Torch	10
 dis	Demand	157b
@@ -6442,6 +6447,7 @@ bro	Emergency Weld	93
 xln	Emergent Growth	188
 stx	Emergent Sequence	129
 iko	Emergent Ultimatum	185
+moc	Emergent Woodwurm	37
 zen	Emeria Angel	11
 znr	Emeria Captain	11
 bfz	Emeria Shepherd	22
@@ -6721,6 +6727,8 @@ isd	Essence of the Wild	178
 c18	Estrid's Invocation	8
 c18	Estrid, the Masked	40
 vow	Estwald Shieldbasher	11
+mom	Etali, Primal Conqueror	137a
+mom	Etali, Primal Sickness	137b
 rix	Etali, Primal Storm	100
 som	Etched Champion	154
 mom	Etched Familiar	101
@@ -6970,7 +6978,7 @@ stx	Eyetwitch	70
 som	Ezuri's Archers	120
 som	Ezuri's Brigade	121
 clb	Ezuri's Predation	824
-2x2	Ezuri, Claw of Progress	211
+mul	Ezuri, Claw of Progress	38
 som	Ezuri, Renegade Leader	119
 one	Ezuri, Stalker of Spheres	201
 c21	Ezzaroot Channeler	60
@@ -9759,6 +9767,7 @@ bfz	Hedron Archive	223
 bfz	Hedron Blade	224
 zen	Hedron Crab	47
 ogw	Hedron Crawler	164
+moc	Hedron Detonator	31
 roe	Hedron Matrix	218
 wwk	Hedron Rover	125
 zen	Hedron Scrabbler	204
@@ -10462,7 +10471,7 @@ gtc	Immortal Servitude	220
 afc	Immovable Rod	7
 clb	Imoen, Mystic Trickster	77
 40k	Imotekh the Stormlord	5
-cmr	Imoti, Celebrant of Bounty	280
+mul	Imoti, Celebrant of Bounty	43
 plc	Imp's Mischief	72
 cm2	Impact Resonance	107
 dtk	Impact Tremors	140
@@ -10622,6 +10631,7 @@ khm	Infernal Pet	99
 isd	Infernal Plunge	148
 m19	Infernal Reckoning	102
 m21	Infernal Scarring	105
+moc	Infernal Sovereign	75
 und	Infernal Spawn of Evil	38
 wth	Infernal Tribute	73
 dis	Infernal Tutor	46
@@ -11215,7 +11225,7 @@ bro	Junkyard Genius	214
 chk	Junkyo Bell	258
 inv	Juntu Stakes	304
 4ed	Junún Efreet	143
-cmr	Juri, Master of the Revue	282
+mul	Juri, Master of the Revue	46
 chk	Jushi Apprentice	70a
 p02	Just Fate	17
 soi	Just the Wind	71
@@ -11381,6 +11391,7 @@ arb	Kathari Bomber	41
 arb	Kathari Remnant	23
 ala	Kathari Screecher	47
 c20	Kathril, Aspect Warper	10
+moc	Katilda and Lier	446
 vow	Katilda's Rising Dawn	21b
 vow	Katilda, Dawnhart Martyr	21a
 mid	Katilda, Dawnhart Prime	230
@@ -12028,7 +12039,7 @@ cst	Lat-Nam's Legacy	30b
 avr	Latch Seeker	63
 mor	Latchkey Faerie	39
 mh2	Late to Dinner	19
-cmr	Lathiel, the Bounteous Dawn	285
+mul	Lathiel, the Bounteous Dawn	50
 m19	Lathliss, Dragon Queen	149
 kld	Lathnu Hellion	121
 aer	Lathnu Sailback	89
@@ -12473,6 +12484,7 @@ mid	Locked in the Cemetery	60
 tsp	Locket of Yesterdays	258
 shm	Lockjaw Snapper	255
 eld	Locthwain Gargoyle	225
+moc	Locthwain Lancer	27
 eld	Locthwain Paladin	93
 sok	Locust Miser	80
 mir	Locust Swarm	226
@@ -15904,6 +15916,8 @@ avr	Polluted Dead	116
 exp	Polluted Delta	17
 dmr	Polluted Mire	253
 iko	Pollywog Symbiote	63
+mom	Polukranos Reborn	200a
+mom	Polukranos, Engine of Ruin	200b
 thb	Polukranos, Unchained	224
 ths	Polukranos, World Eater	172
 m10	Polymorph	67
@@ -16726,6 +16740,7 @@ unh	Rare-B-Gone	119
 clb	Rasaad yn Bashir	37
 mir	Rashida Scalebane	35
 hml	Rashka the Slayer	12
+moc	Rashmi and Ragavan	8
 kld	Rashmi, Eternities Crafter	184
 leg	Rasputin Dreamweaver	253
 dmc	Rasputin, the Oneiromancer	40
@@ -17289,7 +17304,7 @@ inv	Rewards of Diversity	32
 chk	Reweave	82
 m21	Rewind	63
 10e	Reya Dawnbringer	35
-cmr	Reyav, Master Smith	290
+mul	Reyav, Master Smith	57
 cmr	Reyhan, Last of the Abzan	534
 akh	Rhet-Crop Spearmaster	26
 grn	Rhizome Lurcher	196
@@ -17603,7 +17618,9 @@ isd	Rolling Temblor	161
 bfz	Rolling Thunder	154
 dmu	Rona's Vortex	63
 dom	Rona, Disciple of Gix	203
+mom	Rona, Herald of Invasion	75a
 dmu	Rona, Sheoldred's Faithful	216
+mom	Rona, Tolarian Obliterator	75b
 sok	Ronin Cavekeeper	111
 bok	Ronin Cliffrider	116
 chk	Ronin Houndmaster	184
@@ -18031,6 +18048,7 @@ ktk	Sandsteppe Citadel	241
 frf	Sandsteppe Mastodon	137
 frf	Sandsteppe Outcast	25
 dtk	Sandsteppe Scavenger	200
+moc	Sandsteppe War Riders	39
 bfz	Sandstone Bridge	243
 ody	Sandstone Deadfall	307
 mmq	Sandstone Needle	326
@@ -18247,6 +18265,7 @@ m12	Scepter of Empires	216
 con	Scepter of Fugue	53
 con	Scepter of Insight	33
 40k	Sceptre of Eternal Glory	166
+moc	Schema Thief	24
 one	Scheming Aspirant	107
 snc	Scheming Fence	219
 m20	Scheming Symmetry	113
@@ -21257,7 +21276,7 @@ pls	Tahngarth, Talruum Hero	74
 3ed	Taiga	287
 ktk	Taigam's Scheming	57
 dtk	Taigam's Strike	81
-c17	Taigam, Ojutai Master	46
+mul	Taigam, Ojutai Master	60
 c17	Taigam, Sidisi's Hand	47
 dtk	Tail Slash	161
 dmu	Tail Swipe	182
@@ -21551,6 +21570,7 @@ moc	Temple of the False God	437
 9ed	Temporal Adept	102
 usg	Temporal Aperture	310
 mrd	Temporal Cascade	52
+mom	Temporal Cleansing	80
 inv	Temporal Distortion	79
 tsp	Temporal Eddy	85
 plc	Temporal Extortion	81
@@ -22125,6 +22145,7 @@ c13	Tidal Force	62
 fem	Tidal Influence	28
 9ed	Tidal Kraken	105
 6ed	Tidal Surge	102
+mom	Tidal Terror	82
 inv	Tidal Visionary	80
 mb1	Tidal Warrior	525
 mb1	Tidal Wave	526
@@ -22600,6 +22621,7 @@ neo	Tribute to Horobi	124a
 isd	Tribute to Hunger	119
 dmu	Tribute to Urborg	113
 c20	Tribute to the Wild	193
+mom	Tribute to the World Tree	211
 tsp	Trickbind	88
 ons	Trickery Charm	119
 w17	Tricks of the Trade	14
@@ -23326,6 +23348,7 @@ grn	Venerated Loxodon	30
 one	Venerated Rotpriest	192
 roe	Venerated Teacher	93
 9ed	Vengeance	S2
+mom	Vengeant Earth	212
 g18	Vengeant Vampire	GP3
 clb	Vengeful Ancestor	812
 m11	Vengeful Archon	37
@@ -24787,7 +24810,7 @@ g07	Yawgmoth's Will	3
 mh1	Yawgmoth, Thran Physician	116
 m10	Yawning Fissure	164
 arn	Ydwen Efreet	44
-c21	Yedora, Grave Gardener	70
+mul	Yedora, Grave Gardener	30
 ptk	Yellow Scarves Cavalry	125
 ptk	Yellow Scarves General	126
 ptk	Yellow Scarves Troops	127
