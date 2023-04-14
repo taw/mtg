@@ -4025,6 +4025,7 @@ rtr	Conjured Currency	33
 gpt	Conjurer's Ban	108
 5dn	Conjurer's Bauble	112
 avr	Conjurer's Closet	214
+moc	Conjurer's Mantle	12
 grn	Connive	222a
 6ed	Conquer	171
 roe	Conquering Manticore	139
@@ -4785,6 +4786,7 @@ mbs	Darksteel Plate	104
 dst	Darksteel Reactor	114
 nph	Darksteel Relic	134
 som	Darksteel Sentinel	152
+moc	Darksteel Splicer	13
 isd	Darkthicket Wolf	175
 ulg	Darkwatch Elves	99
 40k	Darkwater Catacombs	274
@@ -11749,6 +11751,7 @@ chk	Kodama of the South Tree	223
 neo	Kodama of the West Tree	199
 chk	Kodama's Might	224
 chk	Kodama's Reach	225
+mom	Kogla and Yidaro	244
 iko	Kogla, the Titan Ape	162
 bro	Koilos Roc	55
 chk	Kokusho, the Evening Star	122
@@ -13617,6 +13620,7 @@ c17	Mirror of the Forebears	54
 isd	Mirror-Mad Phantasm	68
 mom	Mirror-Shield Hoplite	247
 con	Mirror-Sigil Sergeant	12
+moc	Mirror-Style Master	32
 vow	Mirrorhall Mimic	68a
 eld	Mirrormade	55
 ogw	Mirrorpool	174
@@ -14193,6 +14197,7 @@ znr	Nahiri's Binding	29
 znr	Nahiri's Lithoforming	151
 soi	Nahiri's Machinations	28
 war	Nahiri's Stoneblades	139
+mom	Nahiri's Warcrafting	155
 emn	Nahiri's Wrath	137
 znr	Nahiri, Heir of the Ancients	230
 war	Nahiri, Storm of Stone	233
@@ -16695,6 +16700,7 @@ xln	Rampaging Ferocidon	154
 mom	Rampaging Geoderm	251
 hou	Rampaging Hippo	128
 grn	Rampaging Monument	239
+mom	Rampaging Raptor	160
 rna	Rampaging Rendhorn	135
 isd	Rampaging Werewolf	165b
 inv	Rampant Elephant	28
@@ -17956,6 +17962,7 @@ mh2	Said	60a
 mmq	Sailmonger	95
 rix	Sailor of Means	49
 clb	Sailors' Bane	93
+moc	Saint Traft and Rem Karolus	9
 cmr	Sakashima of a Thousand Faces	89
 sok	Sakashima the Impostor	53
 cmr	Sakashima's Protege	90
@@ -22526,6 +22533,7 @@ zen	Trapmaker's Snare	74
 eld	Trapped in the Tower	33
 bok	Traproot Kami	147
 mrd	Trash for Treasure	109
+mom	Traumatic Revelation	127
 con	Traumatic Visions	36
 m14	Traumatize	77
 isd	Travel Preparations	206
