@@ -261,6 +261,7 @@ j22	Aftershock	129
 wwk	Agadeem Occultist	48
 znr	Agadeem's Awakening	90a
 znr	Agadeem, the Undercrypt	90b
+one	Against All Odds	1
 dst	Ageless Entity	73
 stx	Ageless Guardian	8
 scg	Ageless Sentinels	1
@@ -1390,6 +1391,7 @@ rtr	Axebane Stag	116
 lrw	Axegrinder Giant	151
 leg	Axelrod Gunnarson	219
 khm	Axgard Armory	250
+mom	Axgard Artisan	332
 khm	Axgard Braggart	1
 khm	Axgard Cavalry	121
 one	Axiom Engraver	120
@@ -2511,6 +2513,7 @@ chk	Boseiju, Who Shelters All	273
 mrd	Bosh, Iron Golem	147
 mor	Bosk Banneret	114
 ncc	Boss's Chauffeur	13
+mom	Botanical Brawler	220
 snc	Botanical Plaza	247
 kld	Botanical Sanctum	244
 clb	Bothersome Quasit	628
@@ -3053,6 +3056,7 @@ snc	Capenna Express	139
 cn2	Capital Punishment	40
 mh2	Caprichrome	9
 m10	Capricious Efreet	131
+one	Capricious Hellraiser	125
 por	Capricious Sorcerer	43
 c20	Capricopian	58
 mp2	Capsize	32
@@ -3983,6 +3987,7 @@ one	Compleat Devotion	7
 mom	Compleated Conjurer	49b
 mom	Compleated Huntmaster	96
 bfz	Complete Disregard	90
+mom	Complete the Circuit	52
 nem	Complex Automaton	128
 ons	Complicate	76
 akh	Comply	221b
@@ -4005,6 +4010,7 @@ grn	Conclave Guildmage	162
 m21	Conclave Mentor	216
 ori	Conclave Naturalists	171
 rav	Conclave Phalanx	10
+moc	Conclave Sledge-Captain	36
 grn	Conclave Tribunal	6
 rav	Conclave's Blessing	11
 grn	Concoct	222b
@@ -4095,6 +4101,7 @@ all	Contagion	45
 som	Contagion Clasp	144
 som	Contagion Engine	145
 som	Contagious Nim	58
+one	Contagious Vorrac	164
 stx	Containment Breach	125
 neo	Containment Construct	243
 ogw	Containment Membrane	52
@@ -5807,6 +5814,7 @@ stx	Dramatic Finale	180
 rtr	Dramatic Rescue	156
 kld	Dramatic Reversal	44
 neo	Dramatist's Puppet	244
+mom	Drana and Linvala	222
 ogw	Drana's Chosen	84
 bfz	Drana's Emissary	210
 znr	Drana's Silencer	99
@@ -6311,6 +6319,7 @@ dis	Elemental Resonance	83
 stx	Elemental Summoning	183
 ogw	Elemental Uprising	130
 c21	Elementalist's Palette	76
+moc	Elenda and Azor	6
 rix	Elenda, the Dusk Rose	157
 ody	Elephant Ambush	240
 vis	Elephant Grass	104
@@ -6361,6 +6370,7 @@ som	Elspeth Tirel	6
 thb	Elspeth's Devotee	272
 thb	Elspeth's Nightmare	91
 mom	Elspeth's Smite	13
+moc	Elspeth's Talent	72
 med	Elspeth, Knight-Errant	GR1
 ths	Elspeth, Sun's Champion	9
 thb	Elspeth, Sun's Nemesis	14
@@ -6948,6 +6958,7 @@ avr	Exquisite Blood	102
 ori	Exquisite Firecraft	143
 cmr	Exquisite Huntmaster	122
 som	Exsanguinate	61
+moc	Exsanguinator Cavalry	26
 40k	Exterminatus	120
 tmp	Extinction	135
 iko	Extinction Event	88
@@ -7500,6 +7511,7 @@ plc	Firefright Mage	99
 ktk	Firehoof Cavalry	11
 rav	Firemane Angel	205
 gtc	Firemane Avenger	163
+moc	Firemane Commando	73
 bfz	Firemantle Mage	145
 tsp	Firemaw Kavu	153
 war	Firemind Vessel	237
@@ -8362,6 +8374,7 @@ mh2	Geyadrone Dihada	199
 zen	Geyser Glider	124
 bfz	Geyserfield Stalker	111
 som	Ghalma's Warden	8
+mom	Ghalta and Mavren	225
 rix	Ghalta, Primal Hunger	130
 m19	Ghastbark Twins	181
 shm	Ghastlord of Fugue	162
@@ -10702,6 +10715,7 @@ stx	Infuse with Vitality	194
 bfz	Infuse with the Elements	175
 5dn	Infused Arrows	133
 khm	Inga Rune-Eyes	64
+mom	Inga and Esika	229
 clb	Ingenious Artillerist	182
 mh1	Ingenious Infiltrator	204
 j22	Ingenious Leonin	5
@@ -10847,12 +10861,15 @@ war	Invading Manticore	134
 sth	Invasion Plans	89
 mom	Invasion of Alara	230a
 mom	Invasion of Amonkhet	231a
+mom	Invasion of Arcavios	61a
 mom	Invasion of Azgol	232a
 mom	Invasion of Belenon	20a
 mom	Invasion of Dominaria	21a
 mom	Invasion of Eldraine	113a
 mom	Invasion of Ergamon	233a
 mom	Invasion of Fiora	114a
+mom	Invasion of Gobakhan	22a
+mom	Invasion of Ikoria	190a
 mom	Invasion of Innistrad	115a
 mom	Invasion of Ixalan	191a
 mom	Invasion of Kaladesh	234a
@@ -10865,6 +10882,7 @@ mom	Invasion of Mercadia	147a
 mom	Invasion of Moag	237a
 mom	Invasion of Muraganda	192a
 mom	Invasion of New Capenna	238a
+mom	Invasion of New Phyrexia	239a
 mom	Invasion of Pyrulea	240a
 mom	Invasion of Ravnica	1a
 mom	Invasion of Regatha	148a
@@ -10900,6 +10918,7 @@ mmq	Inviolability	23
 m15	Invisibility	61
 isd	Invisible Stalker	60
 soi	Invocation of Saint Traft	246
+mom	Invocation of the Founders	61b
 neo	Invoke Calamity	147
 neo	Invoke Despair	101
 neo	Invoke Justice	21
@@ -11598,6 +11617,7 @@ isd	Kessig Wolf	151
 isd	Kessig Wolf Run	243
 vow	Kessig Wolfrider	165
 c18	Kestia, the Cultivator	42
+one	Kethek, Crucible Goliath	206
 m20	Kethis, the Hidden Hand	211
 iko	Ketria Crystal	236
 iko	Ketria Triome	310
@@ -12411,6 +12431,7 @@ bng	Lightning Volley	101
 vow	Lightning Wolf	168
 jmp	Lightning-Core Excavator	32
 xln	Lightning-Rig Crew	150
+mom	Lightshield Array	22b
 dtk	Lightwalker	24
 m10	Lightwielder Paladin	19
 lrw	Lignify	228
@@ -12435,6 +12456,7 @@ m11	Liliana's Specter	104
 m19	Liliana's Spoils	294
 m21	Liliana's Standard Bearer	110
 m21	Liliana's Steward	111
+moc	Liliana's Talent	76
 war	Liliana's Triumph	98
 m21	Liliana, Death Mage	328
 akh	Liliana, Death Wielder	275
@@ -16576,6 +16598,7 @@ soi	Quilled Wolf	222
 bok	Quillmane Baku	48
 eve	Quillspike	126
 stx	Quintorius, Field Historian	220
+mom	Quintorius, Loremaster	250
 dmu	Quirion Beastcaller	175
 vis	Quirion Druid	116
 m21	Quirion Dryad	198
@@ -17799,6 +17822,7 @@ clb	Rowan Kenrith	805
 por	Rowan Treefolk	184
 eld	Rowan's Battleguard	306
 eld	Rowan's Stalwarts	307
+moc	Rowan's Talent	77
 eld	Rowan, Fearless Sparkmage	304
 stx	Rowan, Scholar of Sparks	156a
 xln	Rowdy Crew	159
@@ -19229,6 +19253,7 @@ bbd	Sickle Dancer	50
 shm	Sickle Ripper	77
 nph	Sickleslicer	157
 mir	Sidar Jabari	39
+moc	Sidar Jabari of Zhalfir	5
 cmr	Sidar Kondo of Jamuraa	535
 chk	Sideswipe	187
 hou	Sidewinder Naga	134
@@ -21583,6 +21608,7 @@ mir	Teeka's Dragon	320
 zen	Teetering Peaks	226
 znr	Teeterpeak Ambusher	169
 bro	Teething Wurmlet	192
+mom	Teferi Akosa of Zhalfir	239b
 m21	Teferi's Ageless Insight	76
 inv	Teferi's Care	43
 mir	Teferi's Curse	96
@@ -23014,6 +23040,7 @@ avr	Uncanny Speed	163
 m20	Unchained Berserker	164
 neo	Uncharted Haven	281
 bok	Unchecked Growth	148
+moc	Uncivil Unrest	35
 xln	Unclaimed Territory	258
 tsb	Uncle Istvan	51
 m19	Uncomfortable Chill	82
@@ -25077,6 +25104,7 @@ gtc	Zhur-Taa Swine	210
 snc	Ziatora's Envoy	232
 snc	Ziatora's Proving Ground	261
 snc	Ziatora, the Incinerator	231
+mom	Zilortha, Apex of Ikoria	190b
 iko	Zilortha, Strength Incarnate	275a
 mom	Zimone and Dina	257
 stx	Zimone, Quandrix Prodigy	250
@@ -25135,6 +25163,7 @@ mh2	Zuran Orb	300
 cst	Zuran Spellcaster	112
 dtk	Zurgo Bellstriker	169
 ktk	Zurgo Helmsmasher	214
+mom	Zurgo and Ojutai	258
 ncc	Zurzoth, Chaos Rider	278
 unh	Zzzyxas's Abyss	70
 ust	capital offense	52
