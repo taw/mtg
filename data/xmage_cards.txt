@@ -3653,6 +3653,7 @@ m15	Circle of Flame	135
 9ed	Circle of Protection: Red	11
 tmp	Circle of Protection: Shadow	12
 8ed	Circle of Protection: White	14
+ons	Circle of Solace	13
 clb	Circle of the Land Druid	220
 afr	Circle of the Moon Druid	177
 wth	Circling Vultures	64
@@ -8583,6 +8584,7 @@ emn	Give No Ground	29
 mh1	Giver of Runes	13
 bro	Gix's Caress	96
 bro	Gix's Command	97
+bro	Gix, Yawgmoth Praetor	95
 bro	Gixian Infiltrator	98
 bro	Gixian Puppeteer	99
 bro	Gixian Skullflayer	100
@@ -8884,6 +8886,7 @@ m20	Goblin Ringleader	143
 4ed	Goblin Rock Sled	199
 m15	Goblin Roughrider	146
 zen	Goblin Ruinblaster	127
+ice	Goblin Sappers	189
 mir	Goblin Scouts	178
 unh	Goblin Secret Agent	79
 sld	Goblin Settler	1076
@@ -10212,6 +10215,7 @@ xln	Hostage Taker	223
 hou	Hostile Desert	178
 mid	Hostile Hostel	264a
 m20	Hostile Minotaur	331
+bro	Hostile Negotiations	105
 mor	Hostile Realm	91
 snc	Hostile Takeover	191
 lrw	Hostility	176
@@ -10270,6 +10274,7 @@ afr	Hulking Bugbear	149
 8ed	Hulking Cyclops	195
 soi	Hulking Devil	165
 s99	Hulking Goblin	107
+bro	Hulking Metamorph	79
 uds	Hulking Ogre	87
 40k	Hull Breach	224
 cmr	Hullbreacher	74
@@ -10666,6 +10671,7 @@ soi	Infectious Curse	97b
 m19	Infectious Horror	101
 rav	Infectious Host	91
 one	Infectious Inquiry	97
+jud	Infectious Rage	92
 lgn	Infernal Caretaker	76
 phuk	Infernal Contract	13
 ice	Infernal Darkness	135
@@ -13862,6 +13868,7 @@ thb	Mogis's Favor	107
 ths	Mogis's Marauder	97
 jou	Mogis's Warhound	104
 bng	Mogis, God of Slaughter	151
+moc	Moira and Teshar	7
 dmc	Moira, Urborg Haunt	6
 m10	Mold Adder	194
 leg	Mold Demon	112
@@ -15098,6 +15105,7 @@ scg	One with Nature	125
 sok	One with Nothing	84
 nec	One with the Kami	27
 m19	One with the Machine	66
+bro	One with the Multiverse	59
 thb	One with the Stars	59
 unf	One-Clown Band	117
 isd	One-Eyed Scarecrow	230
@@ -15397,6 +15405,7 @@ khc	Pact of the Serpent	9
 fut	Pact of the Titan	103
 kld	Padeem, Consul of Innovation	59
 dmr	Pain	209a
+moc	Pain Distributor	33
 chk	Pain Kami	183
 dis	Pain Magnification	121
 bng	Pain Seer	80
@@ -17057,6 +17066,7 @@ vow	Reclusive Taxidermist	214
 usg	Reclusive Wight	153
 dmr	Recoil	197
 m19	Recollect	197
+bro	Recommission	22
 exo	Reconnaissance	17
 iko	Reconnaissance Mission	65
 stx	Reconstruct History	222
@@ -18192,6 +18202,7 @@ vow	Sanguine Statuette	177
 m20	Sanitarium Skeleton	112
 arb	Sanity Gnawers	44
 eve	Sanity Grinding	29
+brc	Sanwell, Avenger Ace	52
 eve	Sapling of Colfenor	128
 mir	Sapphire Charm	89
 clb	Sapphire Dragon	94a
@@ -20099,6 +20110,7 @@ dvd	Souldrinker	39
 cmr	Soulfire Eruption	201
 frf	Soulfire Grand Master	27
 frf	Soulflayer	84
+jud	Soulgorger Orgg	99
 mh1	Soulherder	214
 xana	Soulhunter Rakshasa	35
 afr	Soulknife Spy	75
@@ -21890,6 +21902,7 @@ khm	The Bloodsky Massacre	207
 afr	The Book of Exalted Deeds	4
 afr	The Book of Vile Darkness	91
 mom	The Broken Sky	241b
+brc	The Brothers' War	22
 5ed	The Brute	272
 eld	The Cauldron of Eternity	82
 mid	The Celestus	252
@@ -21967,6 +21980,7 @@ one	The Seedcore	259
 neo	The Shattered States Era	162a
 unf	The Space Family Goblinson	179
 bro	The Stasis Coffin	245
+bro	The Stone Brain	247
 one	The Surgical Bay	260
 40k	The Swarmlord	4
 leg	The Tabernacle at Pendrell Vale	307
@@ -24820,6 +24834,7 @@ grn	Worldsoul Colossus	215
 rtr	Worldspine Wurm	140
 eve	Worm Harvest	131
 jud	Wormfang Behemoth	55
+jud	Wormfang Crab	56
 dmr	Wormfang Drake	74
 jud	Wormfang Manta	58
 jud	Wormfang Newt	59
