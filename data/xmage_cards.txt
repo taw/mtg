@@ -291,6 +291,7 @@ thb	Agonizing Remorse	83
 m20	Agonizing Syphon	83
 ala	Agony Warp	153
 gtc	Agoraphobia	30
+j22	Agrus Kos, Eternal Soldier	1
 rav	Agrus Kos, Wojek Veteran	190
 akh	Ahn-Crop Champion	194
 akh	Ahn-Crop Crasher	117
@@ -1371,6 +1372,7 @@ stx	Awaken the Blood Avatar	149b
 rna	Awaken the Erstwhile	61
 mom	Awaken the Maelstrom	230b
 c15	Awaken the Sky Tyrant	24
+one	Awaken the Sleeper	119
 bro	Awaken the Woods	170
 rix	Awakened Amalgam	175
 neo	Awakened Awareness	47
@@ -1982,6 +1984,7 @@ rna	Blade Juggler	63
 lgn	Blade Sliver	88
 nph	Blade Splicer	4
 clb	Blade of Selves	301
+one	Blade of Shared Souls	42
 zen	Blade of the Bloodchief	196
 neo	Blade of the Oni	89
 fut	Blade of the Sixth Pride	19
@@ -3110,6 +3113,7 @@ som	Carnifex Demon	57
 rna	Carnival	222a
 rtr	Carnival Hellsteed	147
 uds	Carnival of Souls	55
+one	Carnivorous Canopy	162
 m15	Carnivorous Moss-Beast	170
 4ed	Carnivorous Plant	235
 exo	Carnophage	53
@@ -3476,6 +3480,7 @@ dom	Charge	10
 sok	Charge Across the Araba	4
 stx	Charge Through	124
 iko	Charge of the Forever-Beast	147
+one	Charge of the Mites	6
 bng	Charging Badger	118
 por	Charging Bandits	84
 bbd	Charging Binox	66
@@ -3622,6 +3627,7 @@ plc	Chronozoa	37
 5ed	Chub Toad	283
 eld	Chulane, Teller of Tales	326
 tor	Churning Eddy	32
+one	Churning Reservoir	127
 m19	Cinder Barrens	248
 mir	Cinder Cloud	165
 exo	Cinder Crawler	80
@@ -3639,6 +3645,7 @@ shm	Cinderbones	59
 znr	Cinderclasm	136
 shm	Cinderhaze Wretch	60
 khm	Cinderheart Giant	126
+one	Cinderslash Ravager	200
 rna	Cindervines	161
 vow	Cipherbound Spirit	79b
 plc	Circle of Affliction	66
@@ -4025,6 +4032,7 @@ j22	Conductor of Cacophony	20
 emn	Conduit of Emrakul	124b
 bfz	Conduit of Ruin	4
 emn	Conduit of Storms	124a
+one	Conduit of Worlds	163
 clb	Cone of Cold	61
 w16	Cone of Flame	12
 ody	Confessor	15
@@ -8985,6 +8993,7 @@ avr	Goldnight Redeemer	23
 khm	Goldspan Dragon	139
 khm	Goldvein Pick	239
 one	Goldwarden's Helm	13
+onc	Goldwardens' Gambit	13
 som	Golem Artisan	159
 som	Golem Foundry	160
 som	Golem's Heart	161
@@ -9211,6 +9220,7 @@ afr	Green Dragon	186
 4ed	Green Mana Battery	323
 ice	Green Scarab	28
 clb	Green Slime	636
+one	Green Sun's Twilight	169
 mbs	Green Sun's Zenith	81
 4ed	Green Ward	27
 aer	Greenbelt Rampager	107
@@ -10827,6 +10837,7 @@ akh	Insult	213a
 cmd	Insurrection	126
 isd	Intangible Virtue	19
 grn	Integrity	227a
+clb	Intellect Devourer	132
 c14	Intellectual Offering	15
 neo	Intercessor's Arrest	20
 tmp	Interdict	69
@@ -12665,6 +12676,7 @@ nph	Lost Leonin	13
 ice	Lost Order of Jarkeld	43
 6ed	Lost Soul	142
 xln	Lost Vale	235b
+jud	Lost in Thought	45
 ths	Lost in a Labyrinth	52
 isd	Lost in the Mist	63
 dka	Lost in the Woods	123
@@ -12729,6 +12741,7 @@ isd	Ludevic's Abomination	64b
 isd	Ludevic's Test Subject	64a
 cmr	Ludevic, Necro-Alchemist	525
 mid	Ludevic, Necrogenius	233a
+one	Lukka, Bound to Ruin	207
 iko	Lukka, Coppercoat Outcast	125
 stx	Lukka, Wayward Bonder	153b
 dmr	Lull	169
@@ -12890,6 +12903,7 @@ ori	Magmatic Insight	155
 mh1	Magmatic Sinkhole	135
 one	Magmatic Sprinter	140
 roe	Magmaw	158
+j22	Magnanimous Magistrate	7
 dst	Magnetic Flux	25
 mbs	Magnetic Mine	113
 4ed	Magnetic Mountain	209
@@ -14299,6 +14313,7 @@ soi	Nagging Thoughts	74
 znr	Nahiri's Binding	29
 znr	Nahiri's Lithoforming	151
 soi	Nahiri's Machinations	28
+one	Nahiri's Sacrifice	142
 war	Nahiri's Stoneblades	139
 mom	Nahiri's Warcrafting	155
 emn	Nahiri's Wrath	137
@@ -14306,6 +14321,7 @@ znr	Nahiri, Heir of the Ancients	230
 war	Nahiri, Storm of Stone	233
 med	Nahiri, the Harbinger	WS7
 c14	Nahiri, the Lithomancer	10
+one	Nahiri, the Unforgiving	211
 thb	Naiad of Hidden Coves	56
 dmu	Najal, the Storm Runner	208
 sld	Najeela, the Blade-Blossom	1032
@@ -14563,6 +14579,7 @@ rtr	New Prahv Guildmage	181
 ncc	Next of Kin	62
 thb	Nexus Wardens	184
 m19	Nexus of Fate	306
+onc	Neyali, Suns' Vanguard	2
 jmp	Neyith of the Dire Hunt	30
 rix	Nezahal, Primal Tide	45
 neo	Nezumi Bladeblesser	115
@@ -15892,6 +15909,7 @@ tsb	Pirate Ship	28
 xln	Pirate's Cutlass	242
 rix	Pirate's Pillage	109
 xln	Pirate's Prize	68
+j22	Pirated Copy	16
 mh2	Piru, the Volatile	207
 mbs	Piston Sledge	124
 grn	Piston-Fist Cyclops	217
@@ -15945,6 +15963,7 @@ gpt	Plagued Rusalka	56
 mbs	Plaguemaw Beast	87
 ust	Plains	212
 afr	Planar Ally	31
+j22	Planar Atlas	51
 usg	Planar Birth	31
 mps	Planar Bridge	45
 jud	Planar Chaos	97
@@ -17089,6 +17108,7 @@ afr	Red Dragon	160
 a25	Red Elemental Blast	147
 4ed	Red Mana Battery	343
 ice	Red Scarab	49
+one	Red Sun's Twilight	145
 mbs	Red Sun's Zenith	74
 4ed	Red Ward	44
 mom	Redcap Heelslasher	161
@@ -17447,6 +17467,7 @@ m10	Rhox Pikemaster	26
 snc	Rhox Pummeler	155
 mh1	Rhox Veteran	24
 ala	Rhox War Monk	188
+one	Rhuk, Hexgold Nabber	407
 mor	Rhys the Exiled	135
 shm	Rhys the Redeemed	237
 pcy	Rhystic Cave	142
@@ -19805,6 +19826,7 @@ sld	Sliver Overlord	10
 sth	Sliver Queen	129
 fut	Sliversmith	163
 dst	Slobad, Goblin Tinkerer	69
+one	Slobad, Iron Goblin	149
 mid	Slogurk, the Overslime	242
 ulg	Slow Motion	42
 bfz	Sludge Crawler	98
@@ -21377,6 +21399,7 @@ kld	Syndicate Trafficker	101
 dst	Synod Artificer	34
 5dn	Synod Centurion	161
 mrd	Synod Sanctum	252
+onc	Synthesis Pod	23
 khc	Synthetic Destiny	44
 vow	Syphon Essence	84
 mic	Syphon Flesh	129
@@ -23062,6 +23085,7 @@ m19	Uncomfortable Chill	82
 scg	Uncontrolled Infestation	108
 hou	Unconventional Tactics	27
 dgm	Uncovered Clues	19
+one	Unctus's Retrofitter	76
 one	Unctus, Grand Metatect	75
 isd	Undead Alchemist	84
 mh1	Undead Augur	112
@@ -23737,6 +23761,7 @@ ala	Violent Ultimatum	206
 mor	Violet Pall	81
 ths	Viper's Kiss	109
 nph	Viral Drake	49
+one	Viral Spawning	194
 shm	Viridescent Wisps	132
 dst	Viridian Acolyte	89
 nph	Viridian Betrayers	124
