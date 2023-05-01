@@ -1228,6 +1228,7 @@ shm	Augury Adept	137
 m11	Augury Owl	45
 khm	Augury Raven	44
 stx	Augusta, Dean of Order	155b
+j22	Auntie Blyte, Bad Influence	30
 lrw	Auntie's Hovel	267
 mor	Auntie's Snitch	57
 bok	Aura Barbs	94
@@ -1641,6 +1642,7 @@ dmc	Baru, Wurmspeaker	26
 tsp	Basal Sliver	96
 fem	Basal Thrull	34a
 tsp	Basalt Gargoyle	145
+mir	Basalt Golem	294
 2xm	Basalt Monolith	232
 khm	Basalt Ravager	122
 cma	Basandra, Battle Seraph	174
@@ -3358,6 +3360,7 @@ dmr	Chainer, Dementia Master	77
 mh2	Chainer, Nightmare Adept	289
 neo	Chainflail Centipede	90
 ody	Chainflinger	181
+j22	Chains of Custody	3
 leg	Chains of Mephistopheles	91
 thb	Chainweb Aracnir	167
 war	Chainwhip Cyclops	118
@@ -5491,6 +5494,7 @@ isd	Disciple of Griselbrand	98
 pls	Disciple of Kangee	3
 usg	Disciple of Law	11
 ons	Disciple of Malice	139
+j22	Disciple of Perdition	23
 ths	Disciple of Phenax	84
 csp	Disciple of Tevesh Szat	55
 gtc	Disciple of the Old Ways	118
@@ -8889,6 +8893,7 @@ rtr	Goblin Rally	95
 con	Goblin Razerunners	64
 6ed	Goblin Recruiter	186
 mrd	Goblin Replica	178
+j22	Goblin Researcher	34
 csp	Goblin Rimerunner	83
 m20	Goblin Ringleader	143
 4ed	Goblin Rock Sled	199
@@ -11717,6 +11722,7 @@ mor	Kinsbaile Cavalier	15
 cmr	Kinsbaile Courier	29
 m15	Kinsbaile Skirmisher	16
 shm	Kinscaer Harpoonist	41
+one	Kinzu of the Bleak Coven	406
 thb	Kiora Bests the Sea God	52
 war	Kiora's Dambreaker	58
 jou	Kiora's Dismissal	44
@@ -13835,6 +13841,7 @@ war	Mizzium Tank	138
 gpt	Mizzium Transreliquat	153
 2x2	Mizzix of the Izmagnus	257
 sta	Mizzix's Mastery	43
+j22	Mizzix, Replica Rider	35
 grn	Mnemonic Betrayal	189
 cmr	Mnemonic Deluge	82
 rav	Mnemonic Nexus	59
@@ -16829,6 +16836,7 @@ g18	Rampaging Brontodon	GP5
 dom	Rampaging Cyclops	139
 xln	Rampaging Ferocidon	154
 mom	Rampaging Geoderm	251
+j22	Rampaging Growth	43
 hou	Rampaging Hippo	128
 grn	Rampaging Monument	239
 mom	Rampaging Raptor	160
@@ -17481,6 +17489,7 @@ pcy	Rhystic Syphon	76
 pcy	Rhystic Tutor	77
 rna	Rhythm of the Wild	201
 gs1	Rhythmic Water Vortex	18
+one	Ria Ivor, Bane of Bladehold	214
 pcy	Rib Cage Spider	121
 pcy	Ribbon Snake	46
 akh	Ribbons	223b
@@ -20583,6 +20592,7 @@ m15	Staff of the Death Magus	232
 m15	Staff of the Flame Magus	233
 ust	Staff of the Letter Magus	159
 m15	Staff of the Mind Magus	234
+onc	Staff of the Storyteller	10
 m15	Staff of the Sun Magus	235
 m15	Staff of the Wild Magus	236
 ons	Stag Beetle	285
@@ -21964,6 +21974,7 @@ mom	The Great Synthesis	65b
 mom	The Great Work	169b
 rna	The Haunt of Hightower	273
 10e	The Hive	324
+40k	The Horus Heresy	126
 slx	The Howling Abomination	13
 one	The Hunter Maze	253
 rix	The Immortal Sun	180
@@ -22623,7 +22634,7 @@ nph	Toxic Nim	75
 vow	Toxic Scorpion	224
 jud	Toxic Stench	74
 40k	Toxicrene	101
-sld	Toxin Sliver	635
+sld	Toxin Sliver	635φ
 vow	Toxrill, the Corrosive	132
 mmq	Toymaker	314
 arb	Trace of Abundance	142
