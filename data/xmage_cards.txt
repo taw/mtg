@@ -11258,6 +11258,7 @@ mir	Jolrael's Centaur	222
 pcy	Jolrael's Favor	116
 tsb	Jolrael, Empress of Beasts	81
 m21	Jolrael, Mwonvuli Recluse	191
+mat	Jolrael, Voice of Zhalfir	33
 mir	Jolt	70
 nem	Jolting Merfolk	34
 one	Jor Kadeen, First Goldwarden	203
@@ -21979,6 +21980,7 @@ slx	The Howling Abomination	13
 one	The Hunter Maze	253
 rix	The Immortal Sun	180
 neo	The Kami War	227a
+mat	The Kenriths' Royal Funeral	34
 dmc	The Lady of Otaria	35
 leg	The Lady of the Mountain	263
 mp2	The Locust God	51
