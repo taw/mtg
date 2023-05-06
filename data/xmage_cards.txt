@@ -1039,6 +1039,7 @@ vis	Army Ants	126
 arn	Army of Allah	2
 isd	Army of the Damned	87
 khm	Arni Brokenbrow	120
+mat	Arni Metalbrow	16
 khm	Arni Slays the Troll	201
 ice	Arnjlot's Ascent	57
 dmu	Aron, Benalia's Ruin	193
@@ -5009,6 +5010,7 @@ moc	Death-Greeter's Champion	30
 nph	Death-Hood Cobra	108
 dst	Death-Mask Duplicant	115
 afr	Death-Priest of Myrkul	95
+mat	Death-Rattle Oni	13
 ths	Deathbellow Raider	117
 thb	Deathbellow War Cry	294
 dmu	Deathbloom Gardener	159
@@ -14391,6 +14393,7 @@ dom	Naru Meha, Master Wizard	59
 hml	Narwhal	35
 c20	Nascent Metamorph	36
 neo	Nashi, Moon Sage's Scion	114
+mat	Nashi, Moon's Legacy	39
 stx	Nassari, Dean of Expression	160b
 lrw	Nath of the Gilt-Leaf	250
 lrw	Nath's Buffoon	129
@@ -23317,6 +23320,7 @@ vis	Urborg Mindsucker	71
 mir	Urborg Panther	150
 inv	Urborg Phantom	132
 dmu	Urborg Repossession	114
+mat	Urborg Scavengers	15
 inv	Urborg Shambler	133
 inv	Urborg Skeleton	134
 wth	Urborg Stalker	85
