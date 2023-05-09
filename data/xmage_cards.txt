@@ -706,6 +706,7 @@ nem	Animate Land	101
 eld	Animating Faerie	38a
 kld	Animation Module	194
 ori	Animist's Awakening	169
+mat	Animist's Might	20
 neo	Animus of Night's Reach	109b
 c19	Anje Falkenrath	37
 voc	Anje's Ravager	141
@@ -2305,6 +2306,7 @@ mh2	Blossoming Calm	7
 kld	Blossoming Defense	146
 mom	Blossoming Sands	268
 wth	Blossoming Wreath	120
+mat	Blot Out	12
 stx	Blot Out the Sky	167
 eld	Blow Your House Down	114
 shm	Blowfly Infestation	58
@@ -13381,6 +13383,7 @@ bng	Meletis Astronomer	43
 ths	Meletis Charlatan	54
 mbs	Melira's Keepers	83
 nph	Melira, Sylvok Outcast	115
+one	Melira, the Living Cure	209
 chk	Meloku the Clouded Mirror	74
 som	Melt Terrain	97
 usg	Meltdown	203
@@ -14340,6 +14343,7 @@ soi	Nagging Thoughts	74
 znr	Nahiri's Binding	29
 znr	Nahiri's Lithoforming	151
 soi	Nahiri's Machinations	28
+mat	Nahiri's Resolve	37
 one	Nahiri's Sacrifice	142
 war	Nahiri's Stoneblades	139
 mom	Nahiri's Warcrafting	155
@@ -14479,6 +14483,7 @@ dtk	Necromaster Dragon	226
 m21	Necromentia	116
 40k	Necron Deathmark	42
 40k	Necron Monolith	161
+40k	Necron Overlord	43
 iko	Necropanther	196
 som	Necropede	185
 rav	Necroplasm	98
@@ -22508,6 +22513,7 @@ chk	Tok-Tok, Volcano Born	153b
 leg	Tolaria	308
 fut	Tolaria West	173
 usg	Tolarian Academy	330
+mat	Tolarian Contempt	8
 wth	Tolarian Drake	55
 inv	Tolarian Emissary	81
 wth	Tolarian Entrancer	56
@@ -22869,6 +22875,7 @@ thb	Triton Waverider	78
 avr	Triumph of Cruelty	122
 avr	Triumph of Ferocity	198
 dom	Triumph of Gerrard	38
+40k	Triumph of Saint Katherine	17
 nph	Triumph of the Hordes	123
 afr	Triumphant Adventurer	237
 sld	Triumphant Reckoning	1005
