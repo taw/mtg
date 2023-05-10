@@ -4747,6 +4747,7 @@ dgm	Dangerous	122b
 avr	Dangerous Wager	131
 dom	Danitha Capashen, Paragon	12
 dmu	Danitha, Benalia's Hope	15
+mat	Danitha, New Benalia's Light	29
 afc	Danse Macabre	22
 snc	Dapper Shieldmate	9
 6ed	Daraja Griffin	14
@@ -15884,6 +15885,7 @@ dgm	Phytoburst	46
 rav	Phytohydra	218
 m15	Phytotitan	191
 kld	Pia Nalaar	124
+mat	Pia Nalaar, Consul of Revival	42
 ori	Pia and Kiran Nalaar	157
 aer	Pia's Revolution	91
 ody	Pianna, Nomad Captain	39
@@ -17753,6 +17755,7 @@ wth	Roc Hatchling	113
 bro	Roc Hunter	150
 3ed	Roc of Kher Ridges	172
 snc	Rocco, Cabaretti Caterer	218
+mat	Rocco, Street Chef	44
 10e	Rock Badger	226
 mir	Rock Basilisk	279
 3ed	Rock Hydra	173
@@ -22717,6 +22720,7 @@ snc	Tramway Station	258
 mom	Tranquil Cove	275
 mir	Tranquil Domain	245
 m19	Tranquil Expanse	259
+mat	Tranquil Frillback	24
 chk	Tranquil Garden	284
 6ed	Tranquil Grove	258
 apc	Tranquil Path	89
