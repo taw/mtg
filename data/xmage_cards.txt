@@ -20686,6 +20686,7 @@ ori	Starfield of Nyx	33
 tmp	Starke of Rath	205
 7ed	Starlight	49
 10e	Starlight Invoker	47
+unf	Starlight Spectacular	28
 por	Starlit Angel	30
 thb	Starlit Mantle	67
 clb	Starlit Sanctum	917
@@ -21671,6 +21672,7 @@ c20	Tayam, Luminous Enigma	16
 znr	Tazeem Raptor	43
 znr	Tazeem Roilmage	84
 znr	Tazri, Beacon of Unity	44
+mat	Tazri, Stalwart Survivor	6
 stx	Teach by Example	241
 stx	Teachings of the Archaics	57
 neo	Teachings of the Kirin	212a
