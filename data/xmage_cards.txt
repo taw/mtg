@@ -24999,7 +24999,7 @@ clb	Wyrm's Crossing Patrol	51
 afr	Xanathar, Guild Kingpin	239
 snc	Xander's Lounge	260
 ncc	Xander's Pact	43
-c18	Xantcha, Sleeper Agent	50
+plg21	Xantcha, Sleeper Agent	C1
 wth	Xanthic Statue	163
 ema	Xantid Swarm	193
 m10	Xathrid Demon	122
@@ -25118,7 +25118,7 @@ afr	Yuan-Ti Fang-Blade	128
 afr	Yuan-Ti Malison	86
 sok	Yuki-Onna	120
 bok	Yukora, the Prisoner	90
-cmr	Yuriko, the Tiger's Shadow	542
+plg21	Yuriko, the Tiger's Shadow	C2
 cmr	Yurlok of Scorch Thrash	293
 mh2	Yusri, Fortune's Flame	218
 mh2	Zabaz, the Glimmerwasp	243
