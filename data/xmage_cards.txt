@@ -613,6 +613,7 @@ con	Ancient Ziggurat	141
 soi	Ancient of the Equinox	194b
 40k	And They Shall Know No Fear	9
 inv	Andradite Leech	93
+ltr	Andúril, Flame of the West	236
 hou	Angel of Condemnation	3
 soi	Angel of Deliverance	2
 gpt	Angel of Despair	101
@@ -801,6 +802,8 @@ m12	Arachnus Spinner	162
 m12	Arachnus Web	163
 kld	Aradara Express	195
 ltr	Aragorn and Arwen, Wed	287
+ltr	Aragorn, Company Leader	191
+ltc	Aragorn, King of Gondor	5
 ltr	Aragorn, the Uniter	192
 sld	Arahbo, Roar of the World	25
 sok	Arashi, the Sky Asunder	121
@@ -913,6 +916,7 @@ arb	Architects of Will	17
 mid	Archive Haunt	68b
 zen	Archive Trap	41
 9ed	Archivist	60
+ltc	Archivist of Gondor	18
 clb	Archivist of Oghma	4
 zen	Archmage Ascension	42
 stx	Archmage Emeritus	37
@@ -1882,6 +1886,7 @@ lrw	Benthicore	53
 exo	Bequeathal	106
 mid	Bereaved Survivor	4a
 7ed	Bereavement	120
+ltc	Beregond of the Guard	9
 khm	Berg Strider	47
 sld	Berserk	1003
 lgn	Berserk Murlodont	117
@@ -1909,10 +1914,13 @@ mmq	Bifurcate	230
 plc	Big Game Hunter	63
 stx	Big Play	122
 snc	Big Score	102
+ltr	Bilbo's Ring	298
+ltc	Bilbo, Birthday Celebrant	48
 ltr	Bilbo, Retired Burglar	196
 bng	Bile Blight	61
 bok	Bile Urchin	61
 one	Bilious Skulldweller	83
+ltr	Bill the Pony	3
 inv	Bind	182
 clb	Bind Spirit	128b
 khm	Bind the Monster	48
@@ -2508,6 +2516,7 @@ voc	Boreas Charger	79
 leg	Boris Devilboon	223
 neo	Born to Drive	6
 ltr	Borne Upon a Wind	44
+ltc	Boromir, Gondor's Hope	49
 dgm	Boros Battleshaper	58
 grn	Boros Challenger	156
 gtc	Boros Charm	148
@@ -3700,6 +3709,7 @@ neo	Circuit Mender	242
 grn	Circuitous Route	125
 unf	Circuits Act	103
 dmr	Circular Logic	42
+ltr	Cirith Ungol Patrol	80
 ori	Citadel Castellan	213
 clb	Citadel Gate	349
 frf	Citadel Siege	8
@@ -4256,6 +4266,7 @@ wwk	Corrupted Zendikon	55
 sth	Corrupting Licid	54
 mom	Corruption of Towashi	53
 jmp	Corsair Captain	11
+ltc	Corsairs of Umbar	19
 wwk	Cosi's Ravager	77
 zen	Cosi's Trickster	45
 khm	Cosima, God of the Voyage	50a
@@ -4720,6 +4731,7 @@ dis	Cytoplast Manipulator	23
 dis	Cytoplast Root-Kin	81
 dis	Cytoshape	108
 dis	Cytospawn Shambler	82
+ltc	Círdan the Shipwright	50
 6ed	D'Avenant Archer	15
 tsp	D'Avenant Healer	11
 dom	D'Avenant Trapper	11
@@ -4906,6 +4918,7 @@ scg	Dawn Elemental	7
 thb	Dawn Evangel	8
 emn	Dawn Gryff	19
 grn	Dawn of Hope	8
+ltr	Dawn of a New Age	5
 tor	Dawn of the Dead	59
 bng	Dawn to Dusk	6
 5dn	Dawn's Reflection	85
@@ -5203,6 +5216,7 @@ ody	Delaying Shield	17
 znr	Deliberate	56
 fem	Delif's Cone	84
 fem	Delif's Cube	85
+ltr	Delighted Halfling	158
 ust	Delighted Killbot	145b
 afr	Delina, Wild Mage	138
 mir	Delirium	260
@@ -5265,6 +5279,7 @@ grn	Demotion	9
 xln	Demystify	8
 dtk	Den Protector	181
 afr	Den of the Bugbear	254
+ltr	Denethor, Ruling Steward	198
 ugl	Denied!	22
 10e	Denizen of the Deep	80
 mid	Dennick, Pious Apparition	217b
@@ -5719,6 +5734,7 @@ jou	Doomwake Giant	66
 m14	Door of Destinies	208
 m13	Door to Nothingness	203
 rtr	Doorkeeper	37
+ltr	Doors of Durin	199
 lrw	Doran, the Siege Tower	247
 sld	Doric, Nature's Warden	1241a
 sld	Doric, Owlbear Avenger	1241b
@@ -6236,6 +6252,7 @@ gn2	Earthshaker Giant	5
 hou	Earthshaker Khenra	90
 gs1	Earthshaking Si	31
 mor	Earwig Squad	60
+ltr	East-Mark Cavalier	9
 ltr	Easterling Vanguard	83
 8ed	Eastern Paladin	131
 ltr	Eastfarthing Farmer	8
@@ -6323,6 +6340,7 @@ mh1	Eladamri's Call	197
 tmp	Eladamri's Vineyard	223
 tmp	Eladamri, Lord of Leaves	224
 roe	Eland Umbra	19
+ltr	Elanor Gardner	286
 dmu	Elas il-Kor, Sadistic Pilgrim	198
 dka	Elbrus, the Binding Blade	147a
 clb	Elder Brain	125
@@ -6420,6 +6438,7 @@ clb	Elminster	274
 clb	Elminster's Simulacrum	68
 mic	Eloise, Nephalia Sleuth	3
 ltr	Elrond, Lord of Rivendell	49
+ltr	Elrond, Master of Healing	200
 shm	Elsewhere Flask	250
 2x2	Elsha of the Infinite	208
 thb	Elspeth Conquers Death	13
@@ -6475,6 +6494,7 @@ dmu	Elvish Hydromancer	162
 und	Elvish Impersonators	62
 uds	Elvish Lookout	103
 8ed	Elvish Lyrist	242
+ltr	Elvish Mariner	283
 m15	Elvish Mystic	173
 ons	Elvish Pathcutter	256
 8ed	Elvish Pioneer	243
@@ -6684,6 +6704,7 @@ nem	Ensnare	32
 mps	Ensnaring Bridge	37
 m15	Ensoul Artifact	54
 5dn	Ensouled Scimitar	119
+ltr	Ent's Fury	164
 ltr	Ent-Draught Basin	238
 pcy	Entangler	7
 lrw	Entangling Trap	13
@@ -6696,6 +6717,7 @@ m21	Enthralling Hold	49
 ori	Enthralling Victor	142
 neo	Enthusiastic Mechanaut	218
 stx	Enthusiastic Study	99
+ltr	Entish Restoration	163
 mp2	Entomb	23
 nph	Entomber Exarch	59
 cmr	Entourage of Trest	224
@@ -6753,6 +6775,7 @@ thb	Erebos's Intervention	94
 ori	Erebos's Titan	94
 thb	Erebos, Bleak-Hearted	93
 ths	Erebos, God of the Dead	85
+ltc	Erestor of the Council	53
 mb1	Erg Raiders	647
 jud	Erhnam Djinn	113
 clb	Erinis, Gloom Stalker	230
@@ -6761,6 +6784,7 @@ ltr	Erkenbrand, Lord of Westfold	123
 tsb	Eron the Relentless	61
 4ed	Erosion	70
 all	Errand of Duty	2a
+ltr	Errand-Rider of Gondor	11
 tsp	Errant Doomsayers	15
 tsp	Errant Ephemeron	60
 ice	Errant Minion	68
@@ -7233,6 +7257,8 @@ sth	Fanning the Flames	80
 dgm	Far	127a
 clb	Far Traveler	17
 znc	Far Wanderings	66
+ltr	Faramir, Field Commander	14
+ltc	Faramir, Steward of Gondor	54
 dka	Farbog Boneflinger	61
 avr	Farbog Explorer	21
 soi	Farbog Revenant	110
@@ -7852,6 +7878,7 @@ m13	Fog Bank	52
 nem	Fog Patch	104
 ulg	Fog of Gnats	53
 bro	Fog of War	180
+ltr	Fog on the Barrow-Downs	16
 emn	Fogwalker	60
 mb1	Foil	384
 5dn	Fold into Aether	31
@@ -7970,6 +7997,7 @@ m19	Forsaken Sanctuary	250
 vow	Forsaken Thresher	256b
 mir	Forsaken Wastes	125
 afr	Forsworn Paladin	104
+ltc	Forth Eorlingas!	56
 4ed	Fortified Area	26
 bro	Fortified Beachhead	262
 bfz	Fortified Rampart	27
@@ -8068,6 +8096,7 @@ csp	Freyalise's Radiance	108
 ice	Freyalise's Winds	241
 cc1	Freyalise, Llanowar's Fury	1
 frf	Friendly Fire	101
+ltr	Friendly Rivalry	204
 ody	Frightcrawler	138
 isd	Frightful Delusion	57
 ons	Frightshroud Courier	149
@@ -8078,6 +8107,7 @@ m20	Frilled Sandwalla	340
 m20	Frilled Sea Serpent	61
 iko	Frillscare Mentor	121
 ltr	Frodo Baggins	205
+ltc	Frodo, Adventurous Hobbit	2
 ltr	Frodo, Determined Hero	289
 ltr	Frodo, Sauron's Bane	18
 tmp	Frog Tongue	228
@@ -8233,6 +8263,7 @@ mh2	Gaea's Will	162
 ncc	Gahiji, Honored One	340
 ths	Gainsay	49
 snc	Gala Greeters	148
+ltc	Galadhrim Ambush	38
 ltr	Galadhrim Bow	167
 ltr	Galadhrim Guide	168
 ltr	Galadriel, Gift-Giver	296
@@ -8273,6 +8304,8 @@ mor	Game-Trail Changeling	123
 dmr	Gamekeeper	162
 clb	Ganax, Astral Hunter	176
 ltr	Gandalf the Grey	207
+ltr	Gandalf the White	19
+ltr	Gandalf's Sanction	208
 ltr	Gandalf, Friend of the Shire	50
 bbd	Gang Up	47
 avr	Gang of Devils	136
@@ -8650,8 +8683,11 @@ ori	Gilt-Leaf Winnower	99
 rix	Giltgrove Stalker	131
 con	Giltspire Avenger	108
 moc	Gimbal, Gremlin Prodigy	3
+ltc	Gimli of the Glittering Caves	32
 ltr	Gimli's Axe	130
 ltr	Gimli's Fury	131
+ltr	Gimli, Counter of Kills	129
+ltr	Gimli, Mournful Avenger	209
 eld	Gingerbread Cabin	245
 eld	Gingerbrute	219
 grn	Gird for Battle	12
@@ -8864,7 +8900,7 @@ dst	Goblin Archaeologist	63
 m21	Goblin Arsonist	147
 m10	Goblin Artillery	138
 atq	Goblin Artisans	26
-m20	Goblin Assailant	330
+ltr	Goblin Assailant	295
 lgn	Goblin Assassin	95
 ala	Goblin Assault	101
 war	Goblin Assault Team	129
@@ -8941,7 +8977,7 @@ afr	Goblin Javelineer	144
 m15	Goblin Kaboomist	144
 10e	Goblin King	207
 fem	Goblin Kites	57
-sld	Goblin Lackey	20
+sld	Goblin Lackey	1311
 f07	Goblin Legionnaire	6
 grn	Goblin Locksmith	104
 lgn	Goblin Lookout	101
@@ -9120,6 +9156,7 @@ aer	Gonti's Machinations	63
 kld	Gonti, Lord of Luxury	84
 mh1	Good-Fortune Unicorn	201
 cmr	Gor Muldrak, Amphinologist	277
+ltr	Gorbag of Minas Morgul	86
 frf	Gore Swine	103
 mbs	Gore Vassal	7
 rtr	Gore-House Chainwalker	96
@@ -9277,6 +9314,7 @@ leg	Great Defender	16
 bro	Great Desert Prospector	7
 mrd	Great Furnace	282
 khm	Great Hall of Starnheim	259
+ltr	Great Hall of the Citadel	254
 bng	Great Hart	15
 ltc	Great Oak Guardian	247
 m10	Great Sable Stag	186
@@ -9485,6 +9523,7 @@ vow	Gryff Rider	15
 avr	Gryff Vanguard	59
 soi	Gryff's Boon	20
 vow	Gryffwing Cavalry	16
+ltr	Gríma Wormtongue	88
 ptk	Guan Yu's 1,000-Li March	7
 ptk	Guan Yu, Sainted Warrior	6
 pls	Guard Dogs	5
@@ -9788,6 +9827,7 @@ thb	Hateful Eidolon	101
 exo	Hatred	64
 dmu	Haughty Djinn	52
 vow	Hauken's Insight	65b
+ltr	Haunt of the Dead Marshes	90
 apc	Haunted Angel	12
 ons	Haunted Cadaver	154
 soi	Haunted Cloak	257
@@ -10182,6 +10222,7 @@ mom	Hoarding Broodlord	110
 m15	Hoarding Dragon	149
 afr	Hoarding Ogre	146
 bro	Hoarding Recluse	186
+ltr	Hobbit's Sting	20
 pls	Hobble	7
 m21	Hobblefiend	152
 mid	Hobbling Zombie	106
@@ -10294,6 +10335,7 @@ cn2	Horn of Greed	211
 mmq	Horn of Plenty	298
 mmq	Horn of Ramos	299
 clb	Horn of Valhalla	26a
+ltr	Horn of the Mark	241
 iko	Hornbash Mentor	159
 rtr	Horncaller's Chant	128
 inv	Horned Cheetah	251
@@ -11926,7 +11968,7 @@ fut	Knight of Sursi	10
 vis	Knight of Valor	11
 m20	Knight of the Ebon Legion	105
 tsp	Knight of the Holy Nimbus	26
-eld	Knight of the Keep	19
+ltr	Knight of the Keep	291
 rna	Knight of the Last Breath	188
 vis	Knight of the Mists	36
 mom	Knight of the New Coalition	25
@@ -12213,6 +12255,7 @@ mmq	Land Grant	255
 2xm	Land Tax	20
 leg	Land's Edge	158
 zen	Landbind Ritual	24
+ltr	Landroval, Horizon Witness	21
 mh2	Landscaper Colos	18
 uds	Landslide	92
 ori	Languish	105
@@ -12384,8 +12427,11 @@ m21	Legion's Judgment	24
 xln	Legion's Landing	22a
 cst	Legions of Lim-Dûl	142
 bro	Legions to Ashes	215
+ltc	Legolas Greenleaf	40
 ltr	Legolas, Counter of Kills	212
+ltr	Legolas, Master Archer	173
 mic	Leinore, Autumn Sovereign	1
+ltr	Lembas	243
 m19	Lena, Selfless Champion	21
 mh2	Lens Flare	20
 ktk	Lens of Clarity	223
@@ -12786,6 +12832,7 @@ mh2	Lose Focus	49
 5dn	Lose Hope	52
 c21	Losheel, Clockwork Scholar	18
 dgm	Loss	130b
+ltc	Lossarnach Captain	16
 fut	Lost Auramancers	11
 fut	Lost Hours	69
 ltr	Lost Isle Calling	61
@@ -13222,6 +13269,7 @@ clb	Marble Diamond	320
 mh2	Marble Gargoyle	21
 leg	Marble Priest	286
 9ed	Marble Titan	26
+ltr	March from the Black Gate	94
 bfz	March from the Tomb	214
 neo	March of Burgeoning Life	201
 neo	March of Otherworldly Light	28
@@ -13367,6 +13415,7 @@ vow	Massive Might	208
 gtc	Massive Raid	100
 ody	Master Apothecary	32
 gtc	Master Biomancer	176
+clb	Master Chef	241
 9ed	Master Decoy	27
 9ed	Master Healer	28
 khm	Master Skald	19
@@ -13510,6 +13559,7 @@ hop	Menacing Ogre	59
 cn2	Menagerie Liberator	67
 9ed	Mending Hands	29
 dgm	Mending Touch	44
+ltr	Meneldor, Swift Savior	62
 ptk	Meng Huo's Horde	143
 ptk	Meng Huo, Barbarian King	142
 avr	Mental Agony	114
@@ -13586,6 +13636,8 @@ eve	Merrow Levitator	26
 lrw	Merrow Reejerey	74
 shm	Merrow Wavebreakers	44
 mor	Merrow Witsniper	40
+ltr	Merry, Esquire of Rohan	215
+ltc	Merry, Warden of Isengard	61
 fem	Merseine	23a
 dmu	Mesa Cavalier	26
 m12	Mesa Enchantress	25
@@ -13993,6 +14045,7 @@ war	Mobilized District	249
 neo	Mobilizer Mech	65
 emn	Mockery of Nature	10
 clb	Mocking Doppelganger	617
+ltc	Model of Unity	78
 mh2	Moderation	206
 clb	Modify Memory	83
 nem	Mogg Alarm	93
@@ -14093,6 +14146,7 @@ unf	Monoxa, Midway Manager	173
 ice	Monsoon	298
 clb	Monster Manual	242a
 eve	Monstrify	70
+ltc	Monstrosity of the Lake	22
 arb	Monstrous Carabid	43
 8ed	Monstrous Growth	266
 exo	Monstrous Hound	89
@@ -14458,6 +14512,7 @@ one	Nahiri's Sacrifice	142
 war	Nahiri's Stoneblades	139
 mom	Nahiri's Warcrafting	155
 emn	Nahiri's Wrath	137
+mat	Nahiri, Forged in Fury	36
 znr	Nahiri, Heir of the Ancients	230
 war	Nahiri, Storm of Stone	233
 med	Nahiri, the Harbinger	WS7
@@ -14509,6 +14564,7 @@ c20	Nascent Metamorph	36
 neo	Nashi, Moon Sage's Scion	114
 mat	Nashi, Moon's Legacy	39
 stx	Nassari, Dean of Expression	160b
+ltr	Nasty End	99
 lrw	Nath of the Gilt-Leaf	250
 lrw	Nath's Buffoon	129
 lrw	Nath's Elite	231
@@ -15054,6 +15110,7 @@ hou	Oasis Ritualist	124
 aer	Oath of Ajani	131
 ogw	Oath of Chandra	113
 c16	Oath of Druids	159
+ltc	Oath of Eorl	64
 exo	Oath of Ghouls	69
 ogw	Oath of Gideon	30
 ogw	Oath of Jace	60
@@ -15211,6 +15268,7 @@ mid	Olag, Ludevic's Hubris	233b
 und	Old Fogey	67
 shm	Old Ghastbark	232
 afr	Old Gnawbone	197
+ltr	Old Man Willow	217
 arn	Old Man of the Sea	18
 40k	Old One Eye	96
 vow	Old Rutstein	244
@@ -15369,6 +15427,7 @@ mh2	Orchard Strider	169
 mor	Orchard Warden	131
 10e	Orcish Artillery	220
 csp	Orcish Bloodpainter	94
+ltr	Orcish Bowmasters	103
 tsp	Orcish Cannonade	172
 ice	Orcish Cannoneers	205
 5ed	Orcish Captain	254
@@ -15609,6 +15668,7 @@ dis	Paladin of Prahv	14
 one	Paladin of Predation	178
 xln	Paladin of the Bloodstained	25
 afr	Paladin's Shield	30
+ltr	Palantír of Orthanc	247
 ice	Pale Bears	256
 nem	Pale Moon	36
 arb	Pale Recluse	74
@@ -16063,6 +16123,7 @@ eld	Piper of the Swarm	100
 ody	Piper's Melody	261
 ltr	Pippin's Bravery	182
 ltr	Pippin, Guard of the Citadel	218
+ltc	Pippin, Warden of Isengard	65
 bbd	Pir's Whim	73
 sld	Pir, Imaginative Rascal	1050
 plc	Piracy Charm	58
@@ -16341,6 +16402,7 @@ sok	Presence of the Wise	23
 soi	Press for Answers	80
 ogw	Press into Service	114
 dtk	Press the Advantage	196
+ltr	Press the Enemy	65
 znr	Pressure Point	33
 j22	Preston, the Vanisher	8
 mmq	Pretender's Claim	151
@@ -16452,6 +16514,7 @@ dtk	Pristine Skywise	228
 nph	Pristine Talisman	151
 uds	Private Research	41
 rav	Privileged Position	251
+ltc	Prize Pig	43
 soi	Prized Amalgam	249
 m13	Prized Elephant	27
 eld	Prized Griffin	24
@@ -17678,6 +17741,7 @@ emn	Ride Down	188
 afc	Ride the Avalanche	54
 eld	Rider in Need	21b
 avr	Riders of Gavony	33
+ltc	Riders of Rohan	67
 ala	Ridge Rannet	111
 plc	Ridged Kusite	78
 8ed	Ridgeline Rager	215
@@ -17738,6 +17802,7 @@ mps	Rings of Brighthearth	21
 ltr	Ringsight	220
 lrw	Ringskipper	81
 ori	Ringwarden Owl	68
+ltr	Ringwraiths	284
 c21	Rionya, Fire Dancer	55
 dgm	Riot Control	6
 isd	Riot Devils	160
@@ -17776,6 +17841,7 @@ mid	Rise of the Ants	196
 m14	Rise of the Dark Realms	111
 khm	Rise of the Dread Marn	107
 eve	Rise of the Hobgoblins	145
+ltr	Rise of the Witch-king	221
 thb	Rise to Glory	225
 bng	Rise to the Challenge	107
 dtk	Risen Executioner	116
@@ -18161,6 +18227,7 @@ avr	Rush of Blood	154
 bfz	Rush of Ice	84
 2xm	Rush of Knowledge	66
 kld	Rush of Vitality	99
+ltr	Rush the Room	147
 bbd	Rushblade Commander	77
 stx	Rushed Rebirth	228
 pls	Rushing River	30
@@ -18434,6 +18501,7 @@ inv	Saproling Infestation	208
 dom	Saproling Migration	178
 dmr	Saproling Symbiosis	175
 shm	Sapseep Forest	279
+ltr	Saradoc, Master of Buckland	282
 ody	Sarcatog	293
 tmp	Sarcomancy	154
 fut	Sarcomite Myr	56
@@ -19168,6 +19236,7 @@ m14	Shadowborn Apostle	114
 m14	Shadowborn Demon	115
 m15	Shadowcloak Vampire	113
 xln	Shadowed Caravel	246
+ltr	Shadowfax, Lord of Horses	227
 ala	Shadowfeed	86
 voc	Shadowgrange Archfiend	22
 clb	Shadowheart, Dark Justiciar	146
@@ -19179,6 +19248,7 @@ tmp	Shadowstorm	202
 akh	Shadowstorm Vizier	206
 stx	Shadrix Silverquill	230
 mid	Shady Traveler	120a
+ltr	Shagrat, Loot Bearer	228
 fut	Shah of Naar Isle	119
 stx	Shaile, Dean of Radiance	158a
 rix	Shake the Foundations	113
@@ -20003,6 +20073,7 @@ shm	Slinking Giant	106
 inv	Slinking Serpent	274
 uds	Slinking Skirge	71
 dom	Slinn Voda, the Rising Deep	66
+ltr	Slip On the Ring	31
 snc	Slip Out the Back	62
 ogw	Slip Through Space	47
 ncc	Slippery Bogbonder	312
@@ -20087,6 +20158,7 @@ rna	Smothering Tithe	22
 ncc	Smuggler's Buggy	84
 kld	Smuggler's Copter	235
 ncc	Smuggler's Share	21
+ltr	Sméagol, Helpful Guide	231
 pcy	Snag	124
 6ed	Snake Basket	312
 fut	Snake Cult Initiation	89
@@ -21024,6 +21096,7 @@ m19	Stone Quarry	256
 9ed	Stone Rain	221
 bro	Stone Retrieval Unit	248
 5ed	Stone Spirit	271
+ltr	Stone of Erech	251
 rav	Stone-Seeder Hierophant	184
 arn	Stone-Throwing Devils	33
 ody	Stone-Tongue Basilisk	276
@@ -22182,6 +22255,7 @@ mh1	The First Sliver	200
 40k	The First Tyrannic War	121
 dom	The Flame of Keld	123
 40k	The Flesh Is Weak	122
+ltc	The Gaffer	12
 soi	The Gitrog Monster	245
 40k	The Golden Throne	157
 mom	The Grand Evolution	213b
@@ -22189,6 +22263,7 @@ ori	The Great Aurora	179
 eld	The Great Henge	161
 mom	The Great Synthesis	65b
 mom	The Great Work	169b
+ltr	The Grey Havens	255
 rna	The Haunt of Hightower	273
 10e	The Hive	324
 40k	The Horus Heresy	126
@@ -22884,7 +22959,7 @@ eld	Trail of Crumbs	179
 soi	Trail of Evidence	93
 ktk	Trail of Mystery	154
 ice	Trailblazer	272
-zen	Trailblazer's Boots	208
+ltr	Trailblazer's Boots	398
 clb	Trailblazer's Torch	340
 mom	Trailblazing Historian	168
 gpt	Train of Thought	39
@@ -22932,6 +23007,7 @@ one	Transplant Theorist	73
 scg	Trap Digger	24
 ktk	Trap Essence	209
 mmq	Trap Runner	55
+ltc	Trap the Trespassers	25
 zen	Trapfinder's Trick	73
 eve	Trapjaw Kelpie	164
 rix	Trapjaw Tyrant	29
@@ -22943,6 +23019,7 @@ mom	Traumatic Revelation	127
 con	Traumatic Visions	36
 m14	Traumatize	77
 isd	Travel Preparations	206
+ltc	Travel Through Caradhras	44
 thb	Traveler's Amulet	240
 cns	Traveler's Cloak	109
 vow	Traveling Minister	39
@@ -22982,6 +23059,7 @@ eld	Treats to Share	150b
 emn	Tree of Perdition	109
 isd	Tree of Redemption	207
 mrd	Tree of Tales	285
+ltc	Treebeard, Gracious Host	73
 lrw	Treefolk Harbinger	239
 inv	Treefolk Healer	218
 ulg	Treefolk Mystic	114
@@ -24892,6 +24970,7 @@ phpr	Windseeker Centaur	3
 ktk	Windstorm	157
 rna	Windstorm Drake	60
 exp	Windswept Heath	20
+ltc	Windswift Slice	45
 ala	Windwright Mage	208
 sok	Wine of Blood and Iron	161
 bro	Wing Commando	73
