@@ -1085,6 +1085,7 @@ ths	Artisan's Sorrow	151
 mom	Artistic Refusal	46
 dom	Arvad the Cursed	191
 slx	Arvinox, the Mind Flail	1
+ltr	Arwen Undómiel	194
 ltr	Arwen's Gift	39
 ltr	Arwen, Mortal Queen	193
 dom	Aryel, Knight of Windgrace	192
@@ -1647,6 +1648,7 @@ m21	Barrin, Tolarian Archmage	45
 clb	Barroom Brawl	217
 wth	Barrow Ghoul	61
 eld	Barrow Witches	77
+ltr	Barrow-Blade	237
 afr	Barrowin of Clan Undurr	218
 leg	Bartel Runeaxe	222
 avr	Barter in Blood	85
@@ -2670,6 +2672,7 @@ bfz	Breaker of Armies	3
 dgm	Breaking	124a
 ddk	Breaking Point	67
 inv	Breaking Wave	48
+ltr	Breaking of the Fellowship	117
 khm	Breakneck Berserker	124
 soi	Breakneck Rider	147a
 2x2	Breakthrough	41
@@ -8266,6 +8269,7 @@ snc	Gala Greeters	148
 ltc	Galadhrim Ambush	38
 ltr	Galadhrim Bow	167
 ltr	Galadhrim Guide	168
+ltr	Galadriel of Lothlórien	206
 ltr	Galadriel, Gift-Giver	296
 stx	Galazeth Prismari	189
 chk	Gale Force	209
@@ -8307,6 +8311,7 @@ ltr	Gandalf the Grey	207
 ltr	Gandalf the White	19
 ltr	Gandalf's Sanction	208
 ltr	Gandalf, Friend of the Shire	50
+ltr	Gandalf, White Rider	290
 bbd	Gang Up	47
 avr	Gang of Devils	136
 7ed	Gang of Elk	247
@@ -8858,6 +8863,7 @@ leg	Glyph of Destruction	150
 leg	Glyph of Doom	100
 leg	Glyph of Life	15
 leg	Glyph of Reincarnation	189
+ltr	Glóin, Dwarf Emissary	132
 m20	Gnarlback Rhino	300
 shm	Gnarled Effigy	251
 vow	Gnarled Grovestrider	198b
@@ -9663,6 +9669,7 @@ cmr	Halana, Kessig Ranger	231
 ody	Halberdier	196
 rav	Halcyon Glaze	54
 c20	Haldan, Avid Arcanist	2
+ltc	Haldir, Lórien Lieutenant	39
 afr	Half-Elf Monk	19
 leg	Halfdane	229
 wwk	Halimar Depths	137
@@ -12847,6 +12854,7 @@ ths	Lost in a Labyrinth	52
 isd	Lost in the Mist	63
 dka	Lost in the Woods	123
 ltr	Lost to Legend	22
+ltr	Lothlórien Lookout	175
 ltr	Lotho, Corrupt Shirriff	213
 grn	Lotleth Giant	74
 rtr	Lotleth Troll	177
@@ -12987,6 +12995,7 @@ mor	Lys Alana Bowmaster	130
 lrw	Lys Alana Huntmaster	229
 lrw	Lys Alana Scarblade	122
 dis	Lyzolda, the Blood Witch	117
+ltr	Lórien Revealed	60
 ptk	Ma Chao, Western Warrior	116
 avr	Maalfeld Twins	112
 slx	Maarika, Brutal Gladiator	15
@@ -13883,6 +13892,7 @@ wwk	Mire's Toll	60
 sok	Miren, the Moaning Well	163
 dgm	Mirko Vosk, Mind Drinker	85
 ltr	Mirkwood Bats	95
+ltc	Mirkwood Elk	41
 ltr	Mirkwood Spider	178
 exo	Mirozel	41
 mom	Mirran Banesplitter	154
@@ -14210,12 +14220,14 @@ wwk	Mordant Dragon	85
 afr	Mordenkainen	64
 afr	Mordenkainen's Polymorph	65
 ltr	Mordor Muster	96
+ltr	Mordor Trebuchet	97
 dgm	Morgue Burst	86
 ody	Morgue Theft	151
 sth	Morgue Thrull	65
 ddh	Morgue Toad	47
 ltr	Morgul-Knife Wound	98
 ltr	Moria Marauder	138
+ltc	Moria Scavenger	63
 wth	Morinfen	75
 som	Moriok Reaver	70
 som	Moriok Replica	178
@@ -18534,6 +18546,7 @@ dgm	Saruli Gatekeepers	48
 ltr	Saruman of Many Colors	223
 ltr	Saruman the White	67
 ltr	Saruman's Trickery	68
+ltc	Saruman, the White Hand	8
 mid	Saryth, the Viper's Fang	197
 sok	Sasaya's Essence	145b
 sok	Sasaya, Orochi Ascendant	145a
@@ -19443,6 +19456,7 @@ aer	Shipwreck Moray	45
 mid	Shipwreck Sifters	74
 ths	Shipwreck Singer	203
 ltr	Shire Scarecrow	249
+ltr	Shire Shirriff	30
 ltr	Shire Terrace	261
 bok	Shirei, Shizo's Caretaker	81
 chk	Shisato, Whispering Hunter	242
@@ -20282,6 +20296,7 @@ shm	Somnomancer	149
 usg	Somnophore	97
 vis	Song of Blood	94
 iko	Song of Creation	210
+ltc	Song of Eärendil	69
 dom	Song of Freyalise	179
 afc	Song of Inspiration	42
 exo	Song of Serenity	125
@@ -21252,6 +21267,7 @@ rix	Strength of the Pack	145
 wwk	Strength of the Tajuru	113
 stx	Strict Proctor	33
 rix	Strider Harness	183
+ltr	Strider, Ranger of the North	232
 mh2	Strike It Rich	143
 m14	Striking Sliver	157
 mh1	String of Disappearances	72
@@ -22210,6 +22226,8 @@ dom	The Antiquities War	42
 brc	The Archimandrite	26
 mom	The Argent Etchings	12b
 one	The Autonomous Furnace	247
+ltc	The Balrog of Moria	46
+ltr	The Balrog, Durin's Bane	195
 ltr	The Balrog, Flame of Udûn	297
 ltr	The Bath Song	40
 ltr	The Battle of Bywater	2
@@ -23335,6 +23353,7 @@ bfz	Ugin's Insight	87
 ktk	Ugin's Nexus	227
 war	Ugin, the Ineffable	2
 med	Ugin, the Spirit Dragon	WS1
+ltr	Uglúk of the White Hand	235
 c20	Ukkima, Stalking Shadow	17
 plc	Uktabi Drake	141
 wth	Uktabi Efreet	143
@@ -24299,6 +24318,7 @@ xln	Vona, Butcher of Magan	231
 leg	Voodoo Doll	298
 inv	Voracious Cobra	288
 con	Voracious Dragon	75
+ltr	Voracious Fell Beast	113
 iko	Voracious Greatshark	70
 eve	Voracious Hatchling	97
 m20	Voracious Hydra	200
@@ -24372,6 +24392,7 @@ eve	Wake Thrasher	31
 uds	Wake of Destruction	99
 mb1	Wake of Vultures	818
 c14	Wake the Dead	31
+ltc	Wake the Dragon	74
 c21	Wake the Past	75
 dgm	Wake the Reflections	10
 mid	Wake to Slaughter	250
@@ -25543,3 +25564,7 @@ mom	Zurgo and Ojutai	258
 ncc	Zurzoth, Chaos Rider	278
 unh	Zzzyxas's Abyss	70
 ust	capital offense	52
+ltr	Éomer of the Riddermark	121
+ltr	Éowyn, Fearless Knight	201
+ltr	Éowyn, Lady of Rohan	10
+ltc	Éowyn, Shieldmaiden	1
