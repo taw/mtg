@@ -7261,6 +7261,7 @@ dgm	Far	127a
 clb	Far Traveler	17
 znc	Far Wanderings	66
 ltr	Faramir, Field Commander	14
+ltr	Faramir, Prince of Ithilien	202
 ltc	Faramir, Steward of Gondor	54
 dka	Farbog Boneflinger	61
 avr	Farbog Explorer	21
@@ -15991,6 +15992,7 @@ bng	Pheres-Band Raiders	133
 jou	Pheres-Band Thunderhoof	134
 bng	Pheres-Band Tromper	134
 jou	Pheres-Band Warchief	135
+ltr	Phial of Galadriel	248
 csp	Phobian Phantasm	66
 dmu	Phoenix Chick	140
 thb	Phoenix of Ash	148
@@ -17464,6 +17466,7 @@ znr	Relic Vial	250
 vis	Relic Ward	16
 dmu	Relic of Legends	236
 ala	Relic of Progenitus	218
+ltc	Relic of Sauron	79
 ogw	Relief Captain	32
 uds	Reliquary Monk	14
 m19	Reliquary Tower	254
@@ -18564,6 +18567,7 @@ ths	Satyr Rambler	139
 m15	Satyr Wayfinder	198
 thb	Satyr's Cunning	152
 rna	Sauroform Hybrid	140
+ltr	Sauron's Ransom	225
 ltc	Sauron, Lord of the Rings	4
 ltr	Sauron, the Dark Lord	224
 ltr	Sauron, the Lidless Eye	288
@@ -19240,6 +19244,7 @@ ltr	Shadow Summoning	226
 40k	Shadow in the Warp	140
 rav	Shadow of Doubt	253
 snc	Shadow of Mortality	94
+ltr	Shadow of the Enemy	107
 akh	Shadow of the Grave	107
 dmu	Shadow-Rite Priest	106
 mid	Shadowbeast Sighting	198
@@ -19361,6 +19366,7 @@ eve	Shell Skulkin	173
 chk	Shell of the Last Kappa	269
 lrw	Shelldock Isle	272
 ltr	Shelob's Ambush	108
+ltr	Shelob, Child of Ungoliant	230
 mh1	Shelter	28
 dtk	Sheltered Aerie	206
 akh	Sheltered Thicket	248
@@ -25078,6 +25084,7 @@ eld	Witch's Oven	237
 eld	Witch's Vengeance	111
 vow	Witch's Web	227
 gpt	Witch-Maw Nephilim	138
+ltr	Witch-king of Angmar	114
 ltr	Witch-king, Bringer of Ruin	293
 isd	Witchbane Orb	236
 ths	Witches' Eye	222
