@@ -2519,6 +2519,7 @@ leg	Boris Devilboon	223
 neo	Born to Drive	6
 ltr	Borne Upon a Wind	44
 ltc	Boromir, Gondor's Hope	49
+ltr	Boromir, Warden of the Tower	4
 dgm	Boros Battleshaper	58
 grn	Boros Challenger	156
 gtc	Boros Charm	148
@@ -16893,6 +16894,7 @@ rtr	Racecourse Fury	104
 snc	Racers' Ring	253
 ulg	Rack and Ruin	89
 nem	Rackling	136
+ltr	Radagast the Brown	184
 ltc	Radagast, Wizard of Wilds	66
 dmu	Radha's Firebrand	141
 dmu	Radha, Coalition Warlord	211
@@ -18365,6 +18367,7 @@ m19	Sai, Master Thopterist	69
 mom	Saiba Cryptomancer	76
 neo	Saiba Trespassers	77
 mh2	Said	60a
+ltc	Sail into the West	68
 mmq	Sailmonger	95
 rix	Sailor of Means	49
 clb	Sailors' Bane	93
