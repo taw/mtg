@@ -1,5 +1,5 @@
-require "open-uri"
 require "nokogiri"
+require "httparty"
 
 class UrlImporter
   attr_reader :url
@@ -13,7 +13,13 @@ class UrlImporter
   end
 
   def doc
-    @doc ||= Nokogiri::HTML(URI.open(url).read)
+    # mtggoldfish needs Accept headers or it will 406. It won't take */*.
+    # Copied a working one from Chrome
+    @doc ||= begin
+      chrome_accept_line = "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+      data = HTTParty.get(url, headers: {"Accept" => chrome_accept_line}).body
+      Nokogiri::HTML(data)
+    end
   end
 
   def parse_magicwizardscom
