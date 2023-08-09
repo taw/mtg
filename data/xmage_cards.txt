@@ -3442,6 +3442,7 @@ mid	Champion of the Perished	91
 roe	Champion's Drake	56
 mps	Champion's Helm	7
 ptk	Champion's Victory	39
+ltc	Champions of Minas Tirith	10
 hou	Chance	153b
 mh2	Chance Encounter	277
 grn	Chance for Glory	159
@@ -8300,6 +8301,7 @@ ltc	Galadhrim Ambush	38
 ltr	Galadhrim Bow	167
 ltr	Galadhrim Guide	168
 ltr	Galadriel of Lothlórien	206
+ltc	Galadriel, Elven-Queen	3
 ltr	Galadriel, Gift-Giver	296
 stx	Galazeth Prismari	189
 chk	Gale Force	209
@@ -8341,6 +8343,7 @@ ltr	Gandalf the Grey	207
 ltr	Gandalf the White	19
 ltr	Gandalf's Sanction	208
 ltr	Gandalf, Friend of the Shire	50
+ltc	Gandalf, Westward Voyager	6
 ltr	Gandalf, White Rider	290
 bbd	Gang Up	47
 avr	Gang of Devils	136
@@ -11359,7 +11362,7 @@ dmu	Jaya, Fiery Negotiator	133
 war	Jaya, Venerated Firemage	135
 ori	Jayemdae Tome	231
 cmm	Jazal Goldmane	32
-leg	Jedit Ojanen	234
+pl22	Jedit Ojanen	2
 plc	Jedit Ojanen of Efrava	131
 dmc	Jedit Ojanen, Mercenary	34
 tsp	Jedit's Dragoons	25
@@ -12233,7 +12236,7 @@ m15	Kurkesh, Onakke Ancient	153
 sok	Kuro's Taken	79
 chk	Kuro, Pitlord	123
 chk	Kusari-Gama	260
-cmr	Kwain, Itinerant Meddler	284
+pl23	Kwain, Itinerant Meddler	3
 dom	Kwende, Pride of Femeref	25
 cmr	Kydele, Chosen of Kruphix	524
 m20	Kykar, Wind's Fury	212
@@ -12806,6 +12809,7 @@ afr	Loathsome Troll	192
 rtr	Lobber Crew	99
 ust	Lobe Lobber	153
 ltr	Lobelia Sackville-Baggins	93
+ltc	Lobelia, Defender of Bag End	27
 f06	Lobotomy	4
 eld	Loch Dragon	211
 shm	Loch Korrigan	71
@@ -19267,7 +19271,7 @@ thb	Setessan Skirmisher	200
 bng	Setessan Starbreaker	139
 jou	Setessan Tactics	140
 m21	Setessan Training	205
-jmp	Sethron, Hurloon General	25
+pl21	Sethron, Hurloon General	1★
 dmr	Seton's Desire	176
 tor	Seton's Scout	138
 ody	Seton, Krosan Protector	267
@@ -21823,7 +21827,7 @@ akh	Tah-Crop Elite	31
 akh	Tah-Crop Skirmisher	72
 apc	Tahngarth's Glare	70
 tmp	Tahngarth's Rage	209
-c19	Tahngarth, First Mate	50
+pl21	Tahngarth, First Mate	4
 pls	Tahngarth, Talruum Hero	74
 3ed	Taiga	287
 ktk	Taigam's Scheming	57
