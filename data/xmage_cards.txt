@@ -812,7 +812,7 @@ kld	Aradara Express	195
 ltr	Aragorn and Arwen, Wed	287
 ltr	Aragorn, Company Leader	191
 ltc	Aragorn, King of Gondor	5
-ltr	Aragorn, the Uniter	192
+ltr	Aragorn, the Uniter	643
 sld	Arahbo, Roar of the World	25
 sok	Arashi, the Sky Asunder	121
 frf	Arashin Cleric	5
@@ -1102,7 +1102,7 @@ dom	Arvad the Cursed	191
 slx	Arvinox, the Mind Flail	1
 ltr	Arwen Undómiel	194
 ltr	Arwen's Gift	39
-ltr	Arwen, Mortal Queen	193
+ltr	Arwen, Mortal Queen	742
 ltc	Arwen, Weaver of Hope	35
 dom	Aryel, Knight of Windgrace	192
 akh	As Foretold	42
@@ -8466,7 +8466,7 @@ mor	Game-Trail Changeling	123
 dmr	Gamekeeper	162
 clb	Ganax, Astral Hunter	176
 ltr	Gandalf the Grey	207
-ltr	Gandalf the White	19
+ltr	Gandalf the White	470
 ltr	Gandalf's Sanction	208
 ltr	Gandalf, Friend of the Shire	50
 ltc	Gandalf, Westward Voyager	6
@@ -10838,6 +10838,7 @@ ths	Ill-Tempered Cyclops	125
 vow	Ill-Tempered Loner	162a
 6ed	Illicit Auction	190
 snc	Illicit Shipment	83
+clb	Illithid Harvester	76a
 gtc	Illness in the Ranks	69
 apc	Illuminate	63
 stx	Illuminate History	108
@@ -14102,7 +14103,7 @@ bro	Mine Worker	239
 ugl	Mine, Mine, Mine!	65
 woe	Minecart Daredevil	141a
 m15	Miner's Bane	157
-ltr	Mines of Moria	257
+ltr	Mines of Moria	753
 afr	Minimus Containment	24
 ala	Minion Reflector	211
 ice	Minion of Leshrac	150
@@ -14186,6 +14187,7 @@ isd	Mirror-Mad Phantasm	68
 mom	Mirror-Shield Hoplite	247
 con	Mirror-Sigil Sergeant	12
 moc	Mirror-Style Master	32
+cmb1	Mirrored Lotus	107
 vow	Mirrorhall Mimic	68a
 eld	Mirrormade	55
 ltr	Mirrormere Guardian	179
@@ -14547,7 +14549,7 @@ clb	Mother of Runes	702
 neo	Mothrider Patrol	30
 chk	Mothrider Samurai	34
 ltc	Motivated Pony	42
-ltr	Mount Doom	258
+ltr	Mount Doom	750
 mh2	Mount Velus Manticore	136
 ust	Mountain	215
 ptk	Mountain Bandit	117
@@ -14887,7 +14889,7 @@ ala	Naya Panorama	227
 arb	Naya Sojourners	122
 c13	Naya Soulbeast	157
 c17	Nazahn, Revered Bladesmith	44
-ltr	Nazgûl	100
+ltr	Nazgûl	551
 roe	Near-Death Experience	38
 soi	Nearheath Chaplain	29
 avr	Nearheath Pilgrim	31
@@ -15721,7 +15723,7 @@ mh2	Orchard Strider	169
 mor	Orchard Warden	131
 10e	Orcish Artillery	220
 csp	Orcish Bloodpainter	94
-ltr	Orcish Bowmasters	103
+ltr	Orcish Bowmasters	554
 tsp	Orcish Cannonade	172
 ice	Orcish Cannoneers	205
 5ed	Orcish Captain	254
@@ -16511,6 +16513,7 @@ pls	Planeswalker's Scorn	52
 war	Planewide Celebration	172
 woe	Plant Beans	161b
 por	Plant Elemental	181
+clb	Plant Tadpoles	76b
 mat	Plargg and Nassari	18
 stx	Plargg, Dean of Chaos	155a
 dgm	Plasm Capture	91
@@ -18878,7 +18881,7 @@ khm	Sarulf's Packmate	192
 khm	Sarulf, Realm Eater	228
 rna	Saruli Caretaker	139
 dgm	Saruli Gatekeepers	48
-ltr	Saruman of Many Colors	223
+ltr	Saruman of Many Colors	743
 ltr	Saruman the White	67
 ltr	Saruman's Trickery	68
 ltc	Saruman, the White Hand	8
@@ -22040,7 +22043,7 @@ fut	Sword of the Meek	165
 gpt	Sword of the Paruns	156
 khm	Sword of the Realms	15b
 xln	Sword-Point Diplomacy	126
-woc	Swords to Plowshares	78
+sld	Swords to Plowshares	713
 mom	Swordsworn Cavalier	42
 bng	Swordwise Centaur	142
 grn	Sworn Companions	27
@@ -22722,7 +22725,7 @@ one	The Monumental Facade	255
 ltr	The Mouth of Sauron	216
 one	The Mycosynth Gardens	256
 khm	The Omenkeel	50b
-ltr	The One Ring	0
+ltr	The One Ring	697
 iko	The Ozolith	237
 dmc	The Peregrine Dynamo	19
 dmu	The Phasing of Zhalfir	59
