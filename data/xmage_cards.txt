@@ -109,6 +109,7 @@ afr	Acererak the Archlich	87
 leg	Acid Rain	44
 som	Acid Web Spider	108
 dtk	Acid-Spewer Dragon	86
+mir	Acidic Dagger	291
 m13	Acidic Slime	159
 h09	Acidic Sliver	13
 usg	Acidic Soil	172
@@ -503,6 +504,7 @@ soi	Alms of the Vein	98
 clb	Alora, Merry Thief	55
 gtc	Alpha Authority	114
 dka	Alpha Brawl	82
+pip	Alpha Deathclaw	91
 pls	Alpha Kavu	77
 mrd	Alpha Myr	142
 scg	Alpha Status	110
@@ -5798,6 +5800,7 @@ stx	Dina, Soul Steeper	178
 8ed	Dingus Egg	297
 wth	Dingus Staff	149
 clu	Dining Room	15
+rex	Dino DNA	20
 lcc	Dinosaur Egg	60
 rix	Dinosaur Hunter	67
 xln	Dinosaur Stampede	140
@@ -6097,6 +6100,7 @@ xln	Dowsing Dagger	235a
 lci	Dowsing Device	146a
 rav	Dowsing Shaman	159
 ust	Dr. Julius Jumblemorph	130
+pip	Dr. Madison Li	3
 40k	Drach'Nyen	117
 drb	Draco	3
 fem	Draconian Cylix	86
@@ -8297,6 +8301,7 @@ clb	Folk Hero	608
 jud	Folk Medicine	115
 hml	Folk of An-Havva	87a
 ice	Folk of the Pines	235
+mkc	Follow the Bodies	23
 rav	Followed Footsteps	51
 fut	Fomori Nomad	114
 rna	Font of Agonies	74
@@ -8357,6 +8362,7 @@ dom	Forebear's Blade	214
 eld	Foreboding Fruit	88
 soi	Foreboding Ruins	272
 vow	Foreboding Statue	256a
+mkm	Forensic Gadgeteer	57
 mkm	Forensic Researcher	58
 bfz	Forerunner of Slaughter	204
 rix	Forerunner of the Coalition	72
@@ -8798,6 +8804,7 @@ m21	Garruk, Unleashed	183
 isd	Garruk, the Veil-Cursed	181b
 cn2	Garrulous Sycophant	43
 mh2	Garth One-Eye	197
+pip	Gary Clone	16
 csp	Garza Zol, Plague Queen	129
 csp	Garza's Assassin	57
 ema	Gaseous Form	51
@@ -11554,6 +11561,7 @@ md1	Intangible Virtue	7
 grn	Integrity	227a
 clb	Intellect Devourer	132
 c14	Intellectual Offering	15
+pip	Intelligence Bobblehead	134
 neo	Intercessor's Arrest	20
 tmp	Interdict	69
 mom	Interdisciplinary Mascot	326
@@ -12737,6 +12745,7 @@ mkm	Kraul Whipcracker	213
 cmr	Kraum, Ludevic's Opus	523
 bbd	Krav, the Unredeemed	4
 ugl	Krazy Kow	48
+mkm	Krenko's Buzzcrusher	136
 m13	Krenko's Command	139
 m15	Krenko's Enforcer	152
 mkm	Krenko, Baron of Tin Street	135
@@ -12912,6 +12921,7 @@ con	Lapse of Certainty	9
 a25	Laquatus's Champion	95
 ody	Laquatus's Creativity	88
 jud	Laquatus's Disdain	44
+sld	Lara Croft, Tomb Raider	1501
 8ed	Larceny	139
 mid	Larder Zombie	58
 kld	Larger Than Life	160
@@ -12996,6 +13006,7 @@ bro	Lay Down Arms	11
 ons	Lay Waste	216
 m14	Lay of the Land	183
 gtc	Lazav, Dimir Mastermind	174
+mkm	Lazav, Wearer of Faces	216
 grn	Lazav, the Multifarious	184
 cmb1	Lazier Goblin	56
 war	Lazotep Behemoth	95
@@ -13754,6 +13765,7 @@ j22	Magnanimous Magistrate	7
 dst	Magnetic Flux	25
 mbs	Magnetic Mine	113
 4ed	Magnetic Mountain	209
+mkm	Magnetic Snuffler	254
 5dn	Magnetic Theft	74
 uds	Magnify	111
 mkm	Magnifying Glass	255
@@ -14233,6 +14245,7 @@ one	Meldweb Curator	59
 one	Meldweb Strider	60
 ice	Melee	200
 dgm	Melek, Izzet Paragon	84
+mkm	Melek, Reforged Researcher	430
 mir	Melesse Spirit	27
 bng	Meletis Astronomer	43
 ths	Meletis Charlatan	54
@@ -14296,6 +14309,7 @@ lcc	Merchant Raiders	163
 8ed	Merchant Scroll	91
 arn	Merchant Ship	17
 8ed	Merchant of Secrets	90
+mkc	Merchant of Truth	11
 eld	Merchant of the Vale	131a
 aer	Merchant's Dockhand	163
 hou	Merciless Eternal	71
@@ -15046,6 +15060,7 @@ mps	Mox Opal	19
 2ed	Mox Ruby	265
 2ed	Mox Sapphire	266
 mh1	Mox Tantalite	226
+pip	Mr. House, President and CEO	7
 snc	Mr. Orfeo, the Boulder	204
 mir	Mtenda Griffin	28
 mir	Mtenda Herder	29
@@ -15695,6 +15710,7 @@ war	Nissa, Who Shakes the World	169
 m15	Nissa, Worldwaker	187
 war	Niv-Mizzet Reborn	208
 rtr	Niv-Mizzet, Dracogenius	183
+mkm	Niv-Mizzet, Guildpact	220
 grn	Niv-Mizzet, Parun	192
 mat	Niv-Mizzet, Supreme	40
 gpt	Niv-Mizzet, the Firemind	123
@@ -15801,6 +15817,7 @@ pls	Noxious Vapors	49
 bfz	Noyan Dar, Roil Shaper	216
 eve	Nucklavee	110
 mrd	Nuisance Engine	221
+pip	Nuka-Cola Vending Machine	137
 exo	Null Brooch	136
 ogw	Null Caller	88
 mir	Null Chamber	31
@@ -15979,6 +15996,7 @@ mor	Offalsnout	71
 mkm	Offender at Large	138
 one	Offer Immortality	102
 arb	Offering to Asha	9
+mkm	Officious Interrogation	222
 iko	Offspring's Revenge	198
 stx	Oggyar Battle-Seer	209
 snc	Ognis, the Dragon's Lash	210
@@ -16095,6 +16113,7 @@ eld	On Alert	31b
 dom	On Serra's Wings	28
 mh1	On Thin Ice	20
 mkm	On the Job	30
+mkc	On the Trail	39
 mom	Onakke Javelineer	156
 cmm	Onakke Oathkeeper	722
 m21	Onakke Ogre	155
@@ -16351,6 +16370,7 @@ eld	Outmuscle	170
 bfz	Outnumber	150
 frf	Outpost Siege	110
 eve	Outrage Shaman	59
+mkm	Outrageous Robbery	97
 tsp	Outrider en-Kor	31
 ala	Outrider of Jhess	52
 avr	Outwit	70
@@ -17095,6 +17115,7 @@ mom	Polukranos Reborn	200a
 mom	Polukranos, Engine of Ruin	200b
 thb	Polukranos, Unchained	224
 ths	Polukranos, World Eater	172
+mkm	Polygraph Orb	99
 m10	Polymorph	67
 m15	Polymorphist's Jest	75
 jou	Polymorphous Rush	46
@@ -17749,6 +17770,7 @@ tor	Radiate	113
 m19	Radiating Lightning	313
 grn	Radical Idea	52
 6ed	Radjan Spirit	245
+pip	Radstorm	37
 dom	Raff Capashen, Ship's Mage	202
 dmu	Raff, Weatherlight Stalwart	212
 snc	Raffine's Guidance	25
@@ -23040,7 +23062,7 @@ vis	Teferi's Honor Guard	22
 mir	Teferi's Imp	98
 mir	Teferi's Isle	330
 tsb	Teferi's Moat	103
-2x2	Teferi's Protection	32
+sld	Teferi's Protection	1691
 m21	Teferi's Protege	77
 9ed	Teferi's Puzzle Box	312
 vis	Teferi's Realm	44
@@ -24058,6 +24080,7 @@ nph	Torpor Orb	162
 frf	Torrent Elemental	56
 stx	Torrent Sculptor	159a
 scg	Torrent of Fire	107
+mir	Torrent of Lava	199
 shm	Torrent of Souls	199
 bok	Torrent of Stone	119
 mps	Torrential Gearhulk	2
@@ -24362,6 +24385,7 @@ dgm	Trostani's Summoner	110
 rtr	Trostani, Selesnya's Voice	206
 mkm	Trostani, Three Whispers	238
 dgm	Trouble	133b
+mkc	Trouble in Pairs	15
 pcy	Troubled Healer	27
 woe	Troublemaker Ouphe	194
 pcy	Troublesome Spirit	52
@@ -24890,6 +24914,7 @@ dis	Utvara Scalper	76
 dmu	Uurg, Spawn of Turg	225
 stx	Uvilda, Dean of Perfection	160a
 chk	Uyo, Silent Prophet	99
+pip	V.A.T.S.	50
 gpt	Vacuumelt	40
 mid	Vadrik, Astral Archmage	248
 iko	Vadrok, Apex of Thunder	214
@@ -25013,6 +25038,7 @@ znr	Vastwood Thicket	216b
 wwk	Vastwood Zendikon	117
 one	Vat Emergence	112
 one	Vat of Rebirth	113
+pip	Vault 101: Birthday Party	28
 khm	Vault Robber	158
 nph	Vault Skirge	76
 som	Vault Skyward	51
@@ -25868,6 +25894,7 @@ tsp	Watcher Sliver	45
 mh1	Watcher for Tomorrow	76
 grn	Watcher in the Mist	59
 soi	Watcher in the Web	239
+mkc	Watcher of Hours	25
 ktk	Watcher of the Roost	30
 m21	Watcher of the Spheres	227
 akh	Watchers of the Dead	238
