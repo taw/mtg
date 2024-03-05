@@ -1074,6 +1074,7 @@ jou	Armament of Nyx	4
 dgm	Armed	122a
 5dn	Armed Response	2
 khm	Armed and Armored	379
+mkc	Armed with Proof	9
 neo	Armguard Familiar	46
 con	Armillary Sphere	134
 c14	Armistice	65
@@ -6490,6 +6491,7 @@ rix	Dusk Legion Zealot	70
 snc	Dusk Mangler	77
 lci	Dusk Rose Reliquary	10
 shm	Dusk Urchins	65
+mkc	Duskana, the Rage Mother	5
 xln	Duskborne Skymarcher	9
 m13	Duskdale Wurm	166
 iko	Duskfang Mentor	86
@@ -21364,6 +21366,7 @@ stx	Soothsayer Adept	55
 mmq	Soothsaying	104
 shm	Sootstoke Kindler	195
 shm	Sootwalkers	196
+mkc	Sophia, Dogged Detective	8
 plc	Sophic Centaur	139
 slx	Sophina, Spearsage Deserter	7
 sok	Soramaro, First to Dream	58
@@ -22995,6 +22998,7 @@ mrd	Tangleroot	259
 zen	Tanglesap	186
 woe	Tanglespan Lookout	188
 stx	Tangletrap	145
+mkc	Tangletrove Kelp	24
 dst	Tanglewalker	86
 onc	Tangleweave Armor	26
 mir	Taniwha	95
@@ -23102,7 +23106,7 @@ vis	Teferi's Honor Guard	22
 mir	Teferi's Imp	98
 mir	Teferi's Isle	330
 tsb	Teferi's Moat	103
-sld	Teferi's Protection	1691
+sld	Teferi's Protection	1691★
 m21	Teferi's Protege	77
 9ed	Teferi's Puzzle Box	312
 vis	Teferi's Realm	44
