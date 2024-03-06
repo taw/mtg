@@ -1330,7 +1330,7 @@ ulg	Aura Flux	27
 pcy	Aura Fracture	2
 roe	Aura Gnarlid	175
 10e	Aura Graft	67
-ncc	Aura Mutation	328
+scd	Aura Mutation	217
 cmd	Aura Shards	182
 uds	Aura Thief	26
 chk	Aura of Dominion	51
@@ -1621,6 +1621,7 @@ clb	Balor	162
 zen	Baloth Cage Trap	156
 dom	Baloth Gorger	156
 ogw	Baloth Null	152
+anb	Baloth Packhunter	90
 ogw	Baloth Pup	127
 zen	Baloth Woodcrasher	157
 ody	Balshan Beguiler	66
@@ -3938,7 +3939,7 @@ pcy	Citadel of Pain	86
 usg	Citanul Centaurs	243
 atq	Citanul Druid	31
 10e	Citanul Flute	315
-usg	Citanul Hierophants	244
+scd	Citanul Hierophants	175
 bro	Citanul Stalwart	175
 plc	Citanul Woodreaders	125
 dmu	Citizen's Arrest	11
@@ -4246,7 +4247,7 @@ tmp	Commander Greven il-Vec	115
 clu	Commander Mustard	6
 avr	Commander's Authority	13
 c21	Commander's Insight	23
-c19	Commander's Insignia	2
+scd	Commander's Insignia	13
 sld	Commander's Plate	1339
 lcc	Commander's Sphere	301
 thb	Commanding Presence	7
@@ -4284,6 +4285,7 @@ afc	Component Pouch	59
 cmm	Composer of Spring	739
 10e	Composite Golem	318
 sld	Compost	1047
+anb	Compound Fracture	46
 wot	Compulsion	15
 rav	Compulsive Research	40
 akh	Compulsory Rest	9
@@ -4915,13 +4917,13 @@ ncc	Currency Converter	81
 eld	Curry Favor	105b
 drk	Curse Artifact	43
 dka	Curse of Bloodletting	85
-c17	Curse of Bounty	30
+scd	Curse of Bounty	178
 shm	Curse of Chains	139
 c13	Curse of Chaos	105
 mic	Curse of Clinging Webs	25
 mic	Curse of Conformity	6
 isd	Curse of Death's Hold	94
-c21	Curse of Disturbance	138
+scd	Curse of Disturbance	74
 dka	Curse of Echoes	34
 dka	Curse of Exhaustion	5
 c19	Curse of Fool's Wisdom	16
@@ -5292,7 +5294,7 @@ j22	Deadly Plot	22
 m14	Deadly Recluse	168
 bro	Deadly Riposte	5
 cmm	Deadly Rollick	147
-c21	Deadly Tempest	140
+scd	Deadly Tempest	75
 stx	Deadly Vanity	157b
 grn	Deadly Visit	68
 dtk	Deadly Wanderings	94
@@ -5700,6 +5702,7 @@ frf	Destructor Dragon	127
 bro	Desynchronize	46
 tsp	Detainment Spell	12
 m19	Detection Tower	249
+mkc	Detective of the Month	21
 mkm	Detective's Satchel	196
 rtr	Detention Sphere	155
 stx	Detention Vortex	13
@@ -6287,7 +6290,7 @@ mir	Dream Fighter	63
 eve	Dream Fracture	19
 sth	Dream Halls	28
 rav	Dream Leash	45
-clb	Dream Pillager	791
+scd	Dream Pillager	139
 9ed	Dream Prowler	74
 shm	Dream Salvage	160
 woe	Dream Spoilers	85
@@ -6316,7 +6319,7 @@ roe	Dreamstone Hedron	216
 iko	Dreamtail Heron	47
 ody	Dreamwinder	83
 inv	Dredge	103
-c20	Dredge the Mire	43
+scd	Dredge the Mire	76
 bro	Dredging Claw	119
 rtr	Dreg Mangler	158
 ala	Dreg Reaver	73
@@ -7302,7 +7305,7 @@ snc	Evelyn, the Covetous	184
 fut	Even the Odds	6
 snc	Even the Score	42
 soi	Ever After	109
-c18	Ever-Watching Threshold	9
+scd	Ever-Watching Threshold	50
 mor	Everbark Shaman	121
 rix	Everdawn Champion	6
 mh1	Everdream	47
@@ -7407,6 +7410,7 @@ ulg	Expendable Troops	8
 woe	Expensive Taste	223b
 dis	Experiment Kraj	110
 gtc	Experiment One	119
+mkc	Experiment Twelve	37
 one	Experimental Augury	49
 kld	Experimental Aviator	46
 woe	Experimental Confectioner	314
@@ -7421,7 +7425,7 @@ stx	Explore the Vastlands	6b
 lci	Explorer's Cache	184
 zen	Explorer's Scope	202
 grn	Explosion	224b
-cmr	Explosion of Riches	176
+scd	Explosion of Riches	140
 m19	Explosive Apparatus	233
 clb	Explosive Crystal	160b
 neo	Explosive Entry	139
@@ -7975,6 +7979,7 @@ lrw	Final Revels	113
 akh	Final Reward	92
 por	Final Strike	94
 mor	Final-Sting Faerie	63
+mkc	Final-Word Phantom	22
 war	Finale of Devastation	160
 war	Finale of Eternity	91
 war	Finale of Glory	12
@@ -8046,7 +8051,7 @@ eld	Fires of Invention	125
 ltr	Fires of Mount Doom	294
 dka	Fires of Undeath	88
 dmu	Fires of Victory	123
-pca	Fires of Yavimaya	92
+scd	Fires of Yavimaya	228
 inv	Firescreamer	106
 m14	Fireshrieker	210
 j22	Fireslinger	130
@@ -8941,7 +8946,7 @@ bok	Genju of the Realm	151
 bok	Genju of the Spires	105
 cmm	Geode Golem	386
 lci	Geode Grotto	146b
-clb	Geode Rager	794
+scd	Geode Rager	144
 lci	Geological Appraiser	150
 bro	Geology Enthusiast	289
 mh1	Geomancer's Gambit	125
@@ -9484,6 +9489,7 @@ lgn	Goblin Lookout	101
 ice	Goblin Lyre	319
 ons	Goblin Machinist	204
 uds	Goblin Marshal	85
+mkm	Goblin Maskmaker	130
 uds	Goblin Masons	86
 mh1	Goblin Matron	129
 moc	Goblin Medics	283
@@ -9794,7 +9800,7 @@ khm	Graven Lore	61
 dtk	Gravepurge	104
 bng	Graverobber Spider	122
 mh1	Graveshifter	94
-mic	Gravespawn Sovereign	120
+scd	Gravespawn Sovereign	79
 mkm	Gravestone Strider	252
 phuk	Gravestorm	37
 dka	Gravetiller Wurm	116
@@ -10218,6 +10224,7 @@ ice	Hallowed Ground	29
 vow	Hallowed Haunting	17
 ody	Hallowed Healer	25
 ori	Hallowed Moonlight	16
+anb	Hallowed Priest	9
 mid	Hallowed Respite	227
 voc	Hallowed Spiritkeeper	88
 ice	Halls of Mist	354
@@ -11550,7 +11557,7 @@ w17	Inspiration	10
 thb	Inspire Awe	175
 mom	Inspired Charge	19
 vow	Inspired Idea	64
-khc	Inspired Sphinx	40
+scd	Inspired Sphinx	55
 mor	Inspired Sprite	37
 clb	Inspired Tinkering	183
 iko	Inspired Ultimatum	191
@@ -12218,9 +12225,9 @@ sok	Kami of the Tended Garden	134
 chk	Kami of the Waning Moon	120
 neo	Kami's Flare	150
 ncc	Kamiz, Obscura Oculus	3
-cmr	Kangee's Lieutenant	26
+scd	Kangee's Lieutenant	27
 inv	Kangee, Aerie Keeper	253
-cmr	Kangee, Sky Warden	283
+scd	Kangee, Sky Warden	234
 mkc	Kappa Cannoneer	108
 neo	Kappa Tech-Wrecker	198
 m15	Kapsho Kitefins	66
@@ -12875,7 +12882,7 @@ ori	Kytheon's Tactics	25
 ori	Kytheon, Hero of Akros	23a
 sth	Lab Rats	61
 emn	Laboratory Brute	67
-cmr	Laboratory Drudge	78
+scd	Laboratory Drudge	56
 isd	Laboratory Maniac	61
 ths	Labyrinth Champion	126
 akh	Labyrinth Guardian	60
@@ -14033,6 +14040,7 @@ ktk	Mardu Charm	186
 ktk	Mardu Hateblade	16y
 ktk	Mardu Heart-Piercer	116
 ktk	Mardu Hordechief	17
+anb	Mardu Outrider	52
 ktk	Mardu Roughrider	187
 frf	Mardu Runemark	107
 frf	Mardu Scout	108
@@ -17659,6 +17667,7 @@ dom	Pyromantic Pilgrim	278
 gpt	Pyromatics	72
 mh1	Pyrophobia	141
 scg	Pyrostatic Pillar	100
+mkm	Pyrotechnic Performer	140
 frf	Pyrotechnics	111
 bro	Pyrrhic Blast	148
 eve	Pyrrhic Revival	93
@@ -19027,6 +19036,7 @@ cmr	Rootweaver Druid	250
 bro	Rootwire Amalgam	203
 mkm	Rope	173
 cmm	Rorix Bladewing	251
+sld	Rose Noble	1580
 ncc	Rose Room Treasurer	51
 who	Rose Tyler	5
 grn	Rosemane Centaur	197
@@ -23451,6 +23461,7 @@ dom	The Flame of Keld	123
 40k	The Flesh Is Weak	122
 who	The Flood of Mars	45
 who	The Flux	86
+sld	The Fourteenth Doctor	1583
 who	The Fugitive Doctor	130
 ltc	The Gaffer	414
 soi	The Gitrog Monster	245
@@ -23485,6 +23496,7 @@ eld	The Magic Mirror	51
 dmc	The Mana Rig	28
 who	The Master, Multiplied	146
 mid	The Meathook Massacre	112
+sld	The Meep	1581
 dom	The Mending of Dominaria	173
 bro	The Mightstone and Weakstone	238a
 lci	The Millennium Calendar	257
@@ -23945,6 +23957,7 @@ mmq	Timid Drake	111
 voc	Timin, Youthful Geist	16
 und	Timmy, Power Gamer	73
 lcc	Timothar, Baron of Bats	210
+anb	Tin Street Cadet	87
 rna	Tin Street Dodger	120
 mkm	Tin Street Gossip	235
 gpt	Tin Street Hooligan	78
