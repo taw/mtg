@@ -210,7 +210,10 @@ class UrlImporter
 
   def parse_secretlair
     deck = Deck.new
-    deck.name = doc.at("h1.product-title").text.gsub("\u00a0", " ").strip
+    name = doc.at("h1.product-title").text.gsub("\u00a0", " ").strip
+    # normalize to match what repo does
+    name = name.gsub(":", "").sub(/ Foil Edition\z/, " foil")
+    deck.name = name
     deck.comment = @url
     cards = doc.at(".fa-clipboard-list-check").parent.parent.css("li").map(&:text)
     cards.each do |card|
