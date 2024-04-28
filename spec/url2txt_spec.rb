@@ -62,4 +62,20 @@ describe "url2txt" do
       run
     end
   end
+
+  describe "sld" do
+    let(:url) { "https://secretlair.wizards.com/uk/product/928759/artist-series-rovina-cai" }
+    let(:reference_dir) { "sld" }
+    it do
+      run
+    end
+  end
+
+  describe "sld foil" do
+    let(:url) { "https://secretlair.wizards.com/uk/product/928756/diabolical-dioramas-foil-edition" }
+    let(:reference_dir) { "sld_foil" }
+    it do
+      run
+    end
+  end
 end

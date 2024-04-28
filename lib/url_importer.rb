@@ -208,6 +208,24 @@ class UrlImporter
     end
   end
 
+  def parse_secretlair
+    deck = Deck.new
+    deck.name = doc.at("h1.product-title").text.gsub("\u00a0", " ").strip
+    deck.comment = @url
+    cards = doc.at(".fa-clipboard-list-check").parent.parent.css("li").map(&:text)
+    cards.each do |card|
+      case card
+      when /\A(\d)x+ Foil (.*)/
+        deck.add_card_main! "#{$2} [foil]", $1.to_i
+      when /\A(\d)x+ (.*)/
+        deck.add_card_main! $2, $1.to_i
+      else
+        warn "Can't parse contents line: #{card}"
+      end
+    end
+    [deck]
+  end
+
   def parse
     case host
     when "www.wizards.com"
@@ -228,6 +246,8 @@ class UrlImporter
       parse_gamepedia
     when "decks.tcgplayer.com"
       parse_tcgplayer
+    when "secretlair.wizards.com"
+      parse_secretlair
     else
       raise "Don't know how to import from #{host}"
     end
