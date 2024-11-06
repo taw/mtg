@@ -47,8 +47,11 @@ class UrlImporter
       node.css("main-deck").text.strip.split("\n").each do |line|
         line.strip!
         next if line.empty?
-        raise "Parse error: `#{line}'" unless line =~ /\A(\d+)\s+(.*)\z/
-        deck.add_card_main! $2, $1.to_i
+        if line =~ /\A(\d+)\s+(.*)\z/
+          deck.add_card_main! $2, $1.to_i
+        else
+          deck.add_card_main! line, 1
+        end
       end
       node.css("side-deck").text.strip.split("\n").each do |line|
         line.strip!
