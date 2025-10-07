@@ -18,7 +18,7 @@ describe "cod2dck" do
         4 [XLN:256] Rootbound Crag
         4 [M13:147] Searing Spear
         4 [EXP:9] Stomping Ground
-        4 [ISD:164] Stromkirk Noble
+        4 [FDN:632] Stromkirk Noble
         SB: 2 [ISD:130] Blasphemous Act
         SB: 3 [M20:227] Grafdigger's Cage
         SB: 1 [RTR:101] Mizzium Mortars
