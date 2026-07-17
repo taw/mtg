@@ -58,8 +58,6 @@ class Deck
   end
 end
 
-card_colors = CardColors.new
-
 if ARGV.empty?
   deck = Deck.new(STDIN.readlines)
   puts deck.color

@@ -1255,7 +1255,7 @@ class XML
                     res << c
                     yield c if block_given?
                 else
-                    res += c.children(*rest, &blk)
+                    res += c.descendants(*rest, &blk)
                 end
             end
             if c.is_a? XML

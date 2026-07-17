@@ -1,8 +1,6 @@
 #!/usr/bin/env ruby
 
 require "pathname"
-require "memoist"
-require "pry"
 
 # If there's multiple potential pimp up versions available, the nicest one is selected.
 
@@ -281,19 +279,17 @@ PimpUpList = [
 ].map{|n,s,e| [n, "#{s}:#{e}"] }.to_h
 
 class PimpUpXmageDecklist
-  extend Memoist
-
   def initialize(path)
     @path = Pathname(path)
     @decklist = @path.read
   end
 
-  memoize def cards
-    @decklist.scan(/^(?:SB:\s*)?\d+\s+\[(.*?)\]\s*(.*?)\r?$/).map(&:reverse)
+  def cards
+    @cards ||= @decklist.scan(/^(?:SB:\s*)?\d+\s+\[(.*?)\]\s*(.*?)\r?$/).map(&:reverse)
   end
 
-  memoize def pimpable_cards
-    cards.select{|c,v| PimpUpList[c] and v != PimpUpList[c] }
+  def pimpable_cards
+    @pimpable_cards ||= cards.select{|c,v| PimpUpList[c] and v != PimpUpList[c] }
   end
 
   def call
