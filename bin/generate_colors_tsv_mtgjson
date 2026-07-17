@@ -179,10 +179,10 @@ class CardDatabase
     end
   end
 
-  def run!
+  def call
     import!
     print!
   end
 end
 
-CardDatabase.new.run!
+CardDatabase.new.call

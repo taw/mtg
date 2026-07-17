@@ -2,7 +2,7 @@
 
 require "pathname"
 
-class MageLandPrettyfier
+class MageLandPrettifier
   def initialize(source)
     @lines = source.readlines
   end
@@ -30,25 +30,25 @@ class MageLandPrettyfier
     end
   end
 
-  def run!
+  def call
     @lines.map{|line| prettify_line(line)}.join
   end
 end
 
 case ARGV.size
 when 0
-  puts MageLandPrettyfier.new(STDIN).run!
+  puts MageLandPrettifier.new(STDIN).call
 when 1
   file_in = Pathname(ARGV[0]).open
-  puts MageLandPrettyfier.new(file_in).run!
+  puts MageLandPrettifier.new(file_in).call
 when 2
   if ARGV[0] == "-i"
     file_in  = Pathname(ARGV[1]).open
-    output = MageLandPrettyfier.new(file_in).run!
+    output = MageLandPrettifier.new(file_in).call
     Pathname(ARGV[1]).write(output)
   else
     file_in  = Pathname(ARGV[0]).open
-    output = MageLandPrettyfier.new(file_in).run!
+    output = MageLandPrettifier.new(file_in).call
     Pathname(ARGV[1]).write(output)
   end
 else

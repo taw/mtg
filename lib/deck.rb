@@ -116,7 +116,6 @@ class Deck
           [name, versions.map{|s,_,n| [s.upcase, n]}.last.join(":")]
         }.to_h
     end
-    @xmage_cards
   end
 
   def mage_card_version(card)
@@ -150,7 +149,7 @@ class Deck
     out = ""
     cmd.each do |n, c|
       # Not official
-      out << "#{c} #{mage_card_version(n)}"
+      out << "#{c} #{mage_card_version(n)}\n"
     end
     main.each do |n, c|
       out << "#{c} #{mage_card_version(n)}\n"

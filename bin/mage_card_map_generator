@@ -74,7 +74,7 @@ class MageCardMapGenerator
     @cards_best_versions
   end
 
-  def run!
+  def call
     open("data/mage_cards.txt", "w") do |fh|
       cards_best_version.sort.each do |card, best_version|
         fh.puts "#{card}\t#{best_version}"
@@ -90,4 +90,4 @@ unless ARGV.size == 2
 end
 
 mapgen = MageCardMapGenerator.new(ARGV[0], ARGV[1])
-mapgen.run!
+mapgen.call

@@ -2,7 +2,7 @@
 
 require_relative "../lib/mtg"
 
-class Cockarice2MageConverter
+class Cockatrice2MageConverter
   def initialize(input_path, output_path)
     @input_path  = input_path
     @output_path = output_path
@@ -24,7 +24,7 @@ class Cockarice2MageConverter
       "#{path.basename(".cod")}.dck"
   end
 
-  def run!
+  def call
     if @input_path.is_a?(IO)
       convert!(@input_path, @output_path)
     elsif @input_path.directory?
@@ -45,9 +45,9 @@ if ARGV.size == 2
   input_path = Pathname(ARGV[0])
   output_path = Pathname(ARGV[1])
 
-  Cockarice2MageConverter.new(input_path, output_path).run!
+  Cockatrice2MageConverter.new(input_path, output_path).call
 elsif ARGV.size == 0
-  Cockarice2MageConverter.new(STDIN, STDOUT).run!
+  Cockatrice2MageConverter.new(STDIN, STDOUT).call
 else
   STDERR.puts "Converts cockatrice to mage format"
   STDERR.puts "Usage #{$0} deck.cod deck.dck"
