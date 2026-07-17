@@ -25,9 +25,9 @@ class Cockatrice2MageConverter
   end
 
   def call
-    if @input_path.is_a?(IO)
+    if @input_path.is_a?(IO) || !@input_path.directory?
       convert!(@input_path, @output_path)
-    elsif @input_path.directory?
+    else
       @input_path.find do |source_path|
         next if source_path.directory?
         target_path = map_path(source_path)
@@ -35,8 +35,6 @@ class Cockatrice2MageConverter
         target_path.parent.mkpath
         convert!(source_path, target_path)
       end
-    else
-      convert!(@input_path, @output_path)
     end
   end
 end

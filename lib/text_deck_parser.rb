@@ -27,6 +27,8 @@ class TextDeckParser
     case line
     when /\ASB:\s*(\d+)\s*(.*)\z/
       deck.add_card_side! $2, $1.to_i
+    when /\ACOMMANDER:\s*(\d+)\s*(.*)\z/i
+      deck.add_card_cmd! $2, $1.to_i
     when /\A(\d+)\s*(.*)\z/
       deck.send("add_card_#{@zone}!", $2, $1.to_i)
     when /\ASideboard:?/i, /\A\[Sideboard\]/i

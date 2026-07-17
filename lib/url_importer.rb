@@ -1,5 +1,6 @@
 require "nokogiri"
 require "httparty"
+require "open-uri"
 
 class UrlImporter
   attr_reader :url
