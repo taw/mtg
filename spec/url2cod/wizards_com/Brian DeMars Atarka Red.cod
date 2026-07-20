@@ -1,29 +1,29 @@
 <cockatrice_deck>
   <deckname>Brian DeMars Atarka Red</deckname>
   <comments>http://magic.wizards.com/en/articles/archive/top-decks/evolving-mana-bases-2016-04-15</comments>
-  <zone name='main'>
-    <card name='Abbot of Keral Keep' number='4' price='0'/>
-    <card name='Arlinn Kord // Arlinn, Embraced by the Moon' number='2' price='0'/>
-    <card name='Atarka&apos;s Command' number='4' price='0'/>
-    <card name='Chandra, Fire of Kaladesh // Chandra, Roaring Flame' number='1' price='0'/>
-    <card name='Cinder Glade' number='4' price='0'/>
-    <card name='Dragon Fodder' number='4' price='0'/>
-    <card name='Exquisite Firecraft' number='4' price='0'/>
-    <card name='Falkenrath Gorger' number='4' price='0'/>
-    <card name='Forest' number='1' price='0'/>
-    <card name='Game Trail' number='4' price='0'/>
-    <card name='Lightning Berserker' number='2' price='0'/>
-    <card name='Mountain' number='12' price='0'/>
-    <card name='Pia and Kiran Nalaar' number='2' price='0'/>
-    <card name='Reckless Bushwhacker' number='4' price='0'/>
-    <card name='Titan&apos;s Strength' number='4' price='0'/>
-    <card name='Village Messenger // Moonrise Intruder' number='2' price='0'/>
-    <card name='Zurgo Bellstriker' number='2' price='0'/>
+  <zone name="main">
+    <card number="4" price="0" name="Abbot of Keral Keep"/>
+    <card number="2" price="0" name="Arlinn Kord // Arlinn, Embraced by the Moon"/>
+    <card number="4" price="0" name="Atarka's Command"/>
+    <card number="1" price="0" name="Chandra, Fire of Kaladesh // Chandra, Roaring Flame"/>
+    <card number="4" price="0" name="Cinder Glade"/>
+    <card number="4" price="0" name="Dragon Fodder"/>
+    <card number="4" price="0" name="Exquisite Firecraft"/>
+    <card number="4" price="0" name="Falkenrath Gorger"/>
+    <card number="1" price="0" name="Forest"/>
+    <card number="4" price="0" name="Game Trail"/>
+    <card number="2" price="0" name="Lightning Berserker"/>
+    <card number="12" price="0" name="Mountain"/>
+    <card number="2" price="0" name="Pia and Kiran Nalaar"/>
+    <card number="4" price="0" name="Reckless Bushwhacker"/>
+    <card number="4" price="0" name="Titan's Strength"/>
+    <card number="2" price="0" name="Village Messenger // Moonrise Intruder"/>
+    <card number="2" price="0" name="Zurgo Bellstriker"/>
   </zone>
-  <zone name='side'>
-    <card name='Act of Treason' number='3' price='0'/>
-    <card name='Fiery Impulse' number='4' price='0'/>
-    <card name='Hangarback Walker' number='4' price='0'/>
-    <card name='Thunderbreak Regent' number='4' price='0'/>
+  <zone name="side">
+    <card number="3" price="0" name="Act of Treason"/>
+    <card number="4" price="0" name="Fiery Impulse"/>
+    <card number="4" price="0" name="Hangarback Walker"/>
+    <card number="4" price="0" name="Thunderbreak Regent"/>
   </zone>
 </cockatrice_deck>

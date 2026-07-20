@@ -1,28 +1,28 @@
 <cockatrice_deck>
   <deckname>Mono-White Humans</deckname>
   <comments>http://old.starcitygames.com/decks/101059</comments>
-  <zone name='main'>
-    <card name='Always Watching' number='4' price='0'/>
-    <card name='Archangel of Tithes' number='1' price='0'/>
-    <card name='Consul&apos;s Lieutenant' number='4' price='0'/>
-    <card name='Declaration in Stone' number='4' price='0'/>
-    <card name='Dragon Hunter' number='3' price='0'/>
-    <card name='Gryff&apos;s Boon' number='3' price='0'/>
-    <card name='Knight of the White Orchid' number='4' price='0'/>
-    <card name='Kytheon, Hero of Akros' number='3' price='0'/>
-    <card name='Plains' number='20' price='0'/>
-    <card name='Stasis Snare' number='2' price='0'/>
-    <card name='Thalia&apos;s Lieutenant' number='4' price='0'/>
-    <card name='Thraben Inspector' number='4' price='0'/>
-    <card name='Town Gossipmonger' number='4' price='0'/>
+  <zone name="main">
+    <card number="4" price="0" name="Always Watching"/>
+    <card number="1" price="0" name="Archangel of Tithes"/>
+    <card number="4" price="0" name="Consul's Lieutenant"/>
+    <card number="4" price="0" name="Declaration in Stone"/>
+    <card number="3" price="0" name="Dragon Hunter"/>
+    <card number="3" price="0" name="Gryff's Boon"/>
+    <card number="4" price="0" name="Knight of the White Orchid"/>
+    <card number="3" price="0" name="Kytheon, Hero of Akros"/>
+    <card number="20" price="0" name="Plains"/>
+    <card number="2" price="0" name="Stasis Snare"/>
+    <card number="4" price="0" name="Thalia's Lieutenant"/>
+    <card number="4" price="0" name="Thraben Inspector"/>
+    <card number="4" price="0" name="Town Gossipmonger"/>
   </zone>
-  <zone name='side'>
-    <card name='Archangel of Tithes' number='3' price='0'/>
-    <card name='Eerie Interlude' number='2' price='0'/>
-    <card name='Hallowed Moonlight' number='2' price='0'/>
-    <card name='Hanweir Militia Captain' number='3' price='0'/>
-    <card name='Hidden Dragonslayer' number='1' price='0'/>
-    <card name='Silkwrap' number='3' price='0'/>
-    <card name='Stasis Snare' number='1' price='0'/>
+  <zone name="side">
+    <card number="3" price="0" name="Archangel of Tithes"/>
+    <card number="2" price="0" name="Eerie Interlude"/>
+    <card number="2" price="0" name="Hallowed Moonlight"/>
+    <card number="3" price="0" name="Hanweir Militia Captain"/>
+    <card number="1" price="0" name="Hidden Dragonslayer"/>
+    <card number="3" price="0" name="Silkwrap"/>
+    <card number="1" price="0" name="Stasis Snare"/>
   </zone>
 </cockatrice_deck>

@@ -1,4 +1,4 @@
-require_relative "magic_xml"
+require "nokogiri"
 require_relative "deck"
 require_relative "text_deck_parser"
 require_relative "cockatrice_deck_parser"

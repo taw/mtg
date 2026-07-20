@@ -1,5 +1,5 @@
 require "pathname"
-require_relative "../lib/magic_xml"
+require "nokogiri"
 require "tmpdir"
 require "pry"
 

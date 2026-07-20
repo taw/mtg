@@ -1,13 +1,13 @@
 #!/usr/bin/env ruby
 
-require_relative "../lib/magic_xml"
+require "nokogiri"
 
 class Card
   def initialize(c)
-    @name = c[:@name]
-    @manacost = c[:@manacost] || ""
-    @type = c[:@type] || ""
-    @text = c[:@text] || ""
+    @name = c.at_xpath("name")&.text
+    @manacost = c.at_xpath("manacost")&.text || ""
+    @type = c.at_xpath("type")&.text || ""
+    @text = c.at_xpath("text")&.text || ""
     @generated_colors = []
     @used_colors = []
     parse_manacost!
@@ -69,12 +69,13 @@ class Card
 end
 
 cards = []
-XML.parse_as_twigs(File.open("cards.xml")) {|node|
-  next unless node.name == :card
-  node.complete! # Read all children of <page>...</page> node
-  card = Card.new(node)
+# Streaming parse - cards.xml is far too big to load into memory as a DOM
+reader = Nokogiri::XML::Reader(File.open("cards.xml"))
+reader.each do |node|
+  next unless node.name == "card" and node.node_type == Nokogiri::XML::Reader::TYPE_ELEMENT
+  card = Card.new(Nokogiri::XML(node.outer_xml).root)
   cards << card.data
-}
+end
 puts cards.sort.map{|name, gen, use|
   [name, gen, use].join("\t")
 }.uniq

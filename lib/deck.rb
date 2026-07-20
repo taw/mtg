@@ -25,10 +25,10 @@ class Deck
     result
   end
 
-  def zone_to_xml(zone, name)
-    xml(:zone, name: name) do
-      zone.to_a.sort.each do |name, count|
-        card! number: count, price: 0, name: name
+  def zone_to_xml(builder, zone, name)
+    builder.zone(name: name) do
+      zone.to_a.sort.each do |card_name, count|
+        builder.card(number: count, price: 0, name: card_name)
       end
     end
   end
@@ -70,16 +70,16 @@ class Deck
   end
 
   def to_cod
-    out = xml(:cockatrice_deck)
-    out << (deckname = xml(:deckname))
-    out << (comments = xml(:comments))
-    out << zone_to_xml(main, :main)
-    out << zone_to_xml(side_and_cmd, :side)
-    out.add_pretty_printing!
-    # Don't prettyprint within these
-    deckname << @name
-    comments << @comment
-    out.to_s + "\n"
+    builder = Nokogiri::XML::Builder.new do |xml|
+      xml.cockatrice_deck do
+        xml.deckname @name
+        xml.comments @comment
+        zone_to_xml(xml, main, :main)
+        zone_to_xml(xml, side_and_cmd, :side)
+      end
+    end
+    # Drop the <?xml?> declaration - Cockatrice files don't have one
+    builder.to_xml.sub(/\A<\?xml.*?\?>\n/, "")
   end
 
   def to_txt

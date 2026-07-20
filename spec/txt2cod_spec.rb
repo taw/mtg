@@ -1,6 +1,10 @@
 describe "txt2cod" do
   let(:binary) { Pathname(__dir__) + "../bin/txt2cod" }
-  let(:cod) { XML.parse(`#{binary} <#{deck_path}`) }
+  let(:cod) { `#{binary} <#{deck_path}` }
+
+  def normalize_xml(str)
+    Nokogiri::XML(str, &:noblanks).canonicalize
+  end
 
   describe "Gruul aggro" do
     let(:deck_path) { Pathname(__dir__) + "data/gruul_aggro.txt" }
@@ -37,7 +41,7 @@ describe "txt2cod" do
       EOF
     }
     it do
-      expect(cod.remove_pretty_printing!).to eq(XML.parse(expected).remove_pretty_printing!)
+      expect(normalize_xml(cod)).to eq(normalize_xml(expected))
     end
   end
 
@@ -87,7 +91,7 @@ describe "txt2cod" do
       EOF
     }
     it do
-      expect(cod.remove_pretty_printing!).to eq(XML.parse(expected).remove_pretty_printing!)
+      expect(normalize_xml(cod)).to eq(normalize_xml(expected))
     end
   end
 end
