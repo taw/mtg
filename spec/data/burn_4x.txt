@@ -1,0 +1,26 @@
+// NAME: RWg Burn
+// Paul Peterson, GP Las Vegas 2017, #5-8
+// https://www.mtgsalvation.com/forums/the-game/modern/established-modern/aggro-tempo/782962-burn
+
+Lands (20)
+4x Arid Mesa
+4x Inspiring Vantage
+3x Mountain
+2x Sacred Foundry
+3x Scalding Tarn
+1x Stomping Ground
+3x Wooded Foothills
+
+Creatures (12)
+4x Eidolon of the Great Revel
+4x Goblin Guide
+4x Monastery Swiftspear
+
+Spells (28)
+4x Boros Charm
+4x Lava Spike
+4x Lightning Bolt
+4x Lightning Helix
+4x Rift Bolt
+4x Searing Blaze
+4x Skullcrack
