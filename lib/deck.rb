@@ -40,7 +40,7 @@ class Deck
     # Unicode
     name.tr!("’", "'")
     name.gsub!("Æ", "Ae")
-    name.gsub!(/\AAether/, "Aether")
+    name.gsub!(/\AAether/i, "Aether")
     # Split/Fuse cards
     name.gsub!(%r{\s*(/+|&)\s*}, " // ")
     # Strip expansion name if any

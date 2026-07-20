@@ -4,7 +4,7 @@ def cleanup_name(name)
   name = name.dup
   name.gsub!("’", "'")
   name.gsub!("Æ", "Ae")
-  name.gsub!(/\AAether/, "Aether")
+  name.gsub!(/\AAether/i, "Aether")
   name.gsub!(%r[\s*(/+|&)\s*], " // ")
   name
 end

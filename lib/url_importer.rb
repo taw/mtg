@@ -222,9 +222,9 @@ class UrlImporter
     cards = doc.at(".fa-clipboard-list-check").parent.parent.css("li").map(&:text)
     cards.each do |card|
       case card
-      when /\A(\d)x+ Foil (.*)/
+      when /\A(\d+)x+ Foil (.*)/
         deck.add_card_main! "#{$2} [foil]", $1.to_i
-      when /\A(\d)x+ (.*)/
+      when /\A(\d+)x+ (.*)/
         deck.add_card_main! $2, $1.to_i
       else
         warn "Can't parse contents line: #{card}"
