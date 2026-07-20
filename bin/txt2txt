@@ -6,7 +6,7 @@ require "open-uri"
 
 opts = Optimist::options do
   opt :name, "Deck name", type: :string
-  opt :comment, "Comment", type: :string, default: ""
+  opt :comment, "Comment", type: :string
   opt :input, "input (default STDIN)", type: :string
   opt :output, "output (default STDOUT)", type: :string
   opt :dailymtg, "use format from DailyMTG (sideboard indicated by empty line)", type: :boolean, default: false
