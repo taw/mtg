@@ -168,16 +168,19 @@ class Deck
     puts to_txt
   end
 
-  def save_as!(path)
-    File.write(path, to_cod)
+  def save_as!(output)
+    output = Pathname(output) unless output.is_a?(IO)
+    output.write(to_cod)
   end
 
-  def save_as_txt!(path)
-    File.write(path, to_txt)
+  def save_as_txt!(output)
+    output = Pathname(output) unless output.is_a?(IO)
+    output.write(to_txt)
   end
 
-  def save_as_dck!(path)
-    File.write(path, to_dck)
+  def save_as_dck!(output)
+    output = Pathname(output) unless output.is_a?(IO)
+    output.write(to_dck)
   end
 
   def find_free_filename(ext)
