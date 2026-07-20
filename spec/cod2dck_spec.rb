@@ -31,4 +31,19 @@ describe "cod2dck" do
       expect(txt).to eq(expected)
     end
   end
+
+  describe "folder mode" do
+    it "converts .cod files and skips everything else" do
+      Dir.chtmpdir do |dir|
+        input = Pathname(dir) + "in"
+        output = Pathname(dir) + "out"
+        input.mkpath
+        (input + "gruul_aggro.cod").write((Pathname(__dir__) + "data/gruul_aggro.cod").read)
+        (input + ".DS_Store").write("junk")
+        (input + "README").write("not a deck")
+        expect(system("#{binary} #{input} #{output}", out: File::NULL, err: File::NULL)).to eq(true)
+        expect(output.children.map{|p| p.basename.to_s}.sort).to eq(["gruul_aggro.dck"])
+      end
+    end
+  end
 end

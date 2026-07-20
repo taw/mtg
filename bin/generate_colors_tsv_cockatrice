@@ -5,9 +5,9 @@ require_relative "../lib/magic_xml"
 class Card
   def initialize(c)
     @name = c[:@name]
-    @manacost = c[:@manacost]
-    @type = c[:@type]
-    @text = c[:@text]
+    @manacost = c[:@manacost] || ""
+    @type = c[:@type] || ""
+    @text = c[:@text] || ""
     @generated_colors = []
     @used_colors = []
     parse_manacost!
@@ -29,11 +29,11 @@ class Card
   def parse_manacost!
     m = @manacost.sub(/\A(\d|X|Y|Z)+/, "").downcase
     @used_colors << $1 while m.sub!(/\A([WUBRG]|\([WUBRG2]\/[WUBRGP]\))/i, "")
-    puts "WTF mana: #{m}" unless m.empty?
+    warn "WTF mana: #{m}" unless m.empty?
   end
 
   def parse_cost!(cost)
-    puts "WTF COST? #{cost}" if cost =~ /mana pool/ and cost =~ /\{/
+    warn "WTF COST? #{cost}" if cost =~ /mana pool/ and cost =~ /\{/
     @used_colors += cost.scan(/\{(.*?)\}/).flatten.map(&:downcase)
   end
 

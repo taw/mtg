@@ -30,6 +30,7 @@ class Cockatrice2MageConverter
     else
       @input_path.find do |source_path|
         next if source_path.directory?
+        next unless source_path.extname.downcase == ".cod"
         target_path = map_path(source_path)
         next if target_path.exist?
         target_path.parent.mkpath
