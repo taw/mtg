@@ -5,8 +5,9 @@ require "nokogiri"
 class Card
   def initialize(c)
     @name = c.at_xpath("name")&.text
-    @manacost = c.at_xpath("manacost")&.text || ""
-    @type = c.at_xpath("type")&.text || ""
+    # Card database v4 moved these into <prop>, v3 had them on <card>
+    @manacost = (c.at_xpath("prop/manacost") || c.at_xpath("manacost"))&.text || ""
+    @type = (c.at_xpath("prop/type") || c.at_xpath("type"))&.text || ""
     @text = c.at_xpath("text")&.text || ""
     @generated_colors = []
     @used_colors = []
@@ -27,9 +28,10 @@ class Card
   end
 
   def parse_manacost!
-    m = @manacost.sub(/\A(\d|X|Y|Z)+/, "").downcase
-    @used_colors << $1 while m.sub!(/\A([WUBRG]|\([WUBRG2]\/[WUBRGP]\))/i, "")
-    warn "WTF mana: #{m}" unless m.empty?
+    # v4 costs are bare symbol soup - "3G", "1U/B", "4R/WR/W", "2WW // X2W"
+    # (v3 wrote hybrids as "(2/W)"), so just pick the colors out of it
+    @used_colors += @manacost.downcase.scan(/[wubrg]/)
+    warn "WTF mana: #{@manacost}" if @manacost =~ %r[[^0-9wubrgcsxyzph½∞/() ]]i
   end
 
   def parse_cost!(cost)
@@ -39,19 +41,24 @@ class Card
 
   def parse_effect!(effect)
     @generated_colors += effect.scan(/\{(.*?)\}/).flatten.map(&:downcase)
-    @generated_colors << "wubrg" if effect =~ /any/
+    # "Add one mana of any color", "Add three mana of any one color",
+    # "Add one mana of any type that land produced", ...
+    @generated_colors << "wubrg" if effect =~ /\bany\b[^.]{0,30}\b(colors?|types?)\b/i
   end
 
   def parse_text!
     @text.split("\n").each{|line|
+      line = line.dup
+      # Reminder text repeats mana symbols which aren't really part of the card
+      # ("...if the card's mana cost is {3}{U}{U}{B}, you add {U}{U}{B}.")
+      line.gsub!(/\(.*?\)/, "")
       line.gsub!(/\{(\d+|X|T)\}/){ $1 }
       @used_colors << "(w/b)" if line =~ /\bExtort\b/i
       next unless line =~ /\{|mana/
+      # Mana abilities, both modern ("Add {G}{G}.") and pre-2018 wording
+      # ("Add {G}{G} to your mana pool."), one clause at a time
       # This is sort of dubious
-      if line.sub!(/Adds? (.*) to (?:your|his or her|that player's) mana pool/i, "")
-        parse_effect! $1
-      end
-      if line.sub!(/Add to (?:your|his or her) mana pool (.*)/i, "")
+      while line.sub!(/\bAdds?\b([^.]*)/i, "")
         parse_effect! $1
       end
       parse_cost! line
@@ -70,7 +77,7 @@ end
 
 cards = []
 # Streaming parse - cards.xml is far too big to load into memory as a DOM
-reader = Nokogiri::XML::Reader(File.open("cards.xml"))
+reader = Nokogiri::XML::Reader(File.open(ARGV[0] || "cards.xml"))
 reader.each do |node|
   next unless node.name == "card" and node.node_type == Nokogiri::XML::Reader::TYPE_ELEMENT
   card = Card.new(Nokogiri::XML(node.outer_xml).root)

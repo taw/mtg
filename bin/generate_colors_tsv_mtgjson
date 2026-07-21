@@ -14,15 +14,16 @@ class Card
     parse_type!
   end
 
+  # Name of this face, "Fire" for "Fire // Ice"
   def name
-    @name ||= cleanup_name(@data["name"])
+    @name ||= cleanup_name(@data["faceName"] || @data["name"])
   end
 
+  # Names of all faces of the card this face belongs to
   def names
-    @names ||= if @data["names"]
-      @data["names"].map{|n| cleanup_name(n)}
-    else
-      [name]
+    @names ||= begin
+      parts = (@data["name"] || "").split(" // ").map{|n| cleanup_name(n)}.uniq
+      parts.empty? ? [name] : parts
     end
   end
 
@@ -47,68 +48,68 @@ class Card
     name
   end
 
-  def simplify_colors!
-    key = {"w" => 0, "u" => 1, "b" => 2, "r" => 3, "g" => 4, "c" => 5}
-    @generated_colors = @generated_colors.join.gsub(/[^wubrg]/, "").split(//).uniq.sort_by{|c| key[c]}.join
-    @used_colors = @used_colors.join.gsub(/[^wubrgc]/, "").split(//).uniq.sort.sort_by{|c| key[c]}.join
-  end
-
   def add_gen!(gen)
-    gen = gen.sub("h", "")
-    case gen
-    when /\A(\d+|x|y|z|∞)\z/
-      # skip
-    when /\A[wubrgc]\z/
-      @generated_colors << gen
-    else
-      raise "Unrecognized cost #{gen}"
-    end
+    @generated_colors.merge symbol_colors(gen)
   end
 
   def add_cost!(cost)
-    cost = cost.sub("2/", "").sub("/p", "").sub("h", "")
-    case cost
-    when /\A(\d+|x|y|z|s|½|t|q|p)\z/
-      # skip
-    when /\A[wubrgc]\z/
-      @used_colors << cost
-    when /\A([wubrg])\/([wubrg])\z/
-      @used_colors << $1 << $2
-    else
-      raise "Unrecognized cost #{cost}"
+    @used_colors.merge symbol_colors(cost)
+  end
+
+  # Symbols come in a lot of shapes: {G}, {2/G}, {G/P}, {G/W/P}, {HG} (half mana),
+  # as well as plenty of colorless ones like {X}, {T}, {S}, {E}, {TK}, {∞}
+  # Returns every color mentioned by the symbol, possibly none
+  def symbol_colors(symbol)
+    parts = symbol.downcase.split("/")
+    colors = parts.map{|part| part.sub(/\Ah/, "")}.grep(/\A[wubrgc]\z/)
+    if colors.empty? and parts.none?{|part| part =~ COLORLESS_SYMBOL}
+      warn_unknown_symbol! symbol
     end
+    colors
+  end
+
+  COLORLESS_SYMBOL = /\A(\d+|x|y|z|s|p|t|q|e|a|d|l|c|h|hw|hr|chaos|tk|½|∞)\z/
+
+  def warn_unknown_symbol!(symbol)
+    @@unknown_symbols ||= Set[]
+    return unless @@unknown_symbols.add?(symbol)
+    warn "Unrecognized mana symbol {#{symbol}} (#{@data["name"]})"
   end
 
   def parse_manacost!
-    manacost.gsub(/\A\{|\}\z/,"").split("}{").each do |cost|
+    manacost.scan(/\{(.*?)\}/).flatten.each do |cost|
       add_cost! cost
     end
   end
 
   def parse_cost!(costs)
-    raise "WTF COST? #{costs}" if costs =~ /mana pool/ and costs =~ /\{/
-    costs.scan(/\{(.*?)\}/).flatten.map(&:downcase).each do |cost|
+    costs.scan(/\{(.*?)\}/).flatten.each do |cost|
       add_cost! cost
     end
   end
 
   def parse_effect!(effect)
-    effect.scan(/\{(.*?)\}/).flatten.map(&:downcase).each do |gen|
+    effect.scan(/\{(.*?)\}/).flatten.each do |gen|
       add_gen! gen
     end
-    @generated_colors += ["w", "u", "b", "r", "g"] if effect =~ /any/
+    # "Add one mana of any color", "Add three mana of any one color",
+    # "Add one mana of any type that land produced", ...
+    @generated_colors.merge ["w", "u", "b", "r", "g"] if effect =~ /\bany\b[^.]{0,30}\b(colors?|types?)\b/
   end
 
   def parse_text!
     text.split("\n").each{|line|
-      line.gsub!(/\{(\d+|X|T)\}/){ $1 }
-      @used_colors << "w" << "b" if line =~ /\bExtort\b/i
+      line = line.downcase
+      # Reminder text repeats mana symbols which aren't really part of the card
+      # ("...if the card's mana cost is {3}{U}{U}{B}, you add {U}{U}{B}.")
+      line.gsub!(/\(.*?\)/, "")
+      line.gsub!(/\{(\d+|x|t)\}/){ $1 }
+      @used_colors << "w" << "b" if line =~ /\bextort\b/
       next unless line =~ /\{|mana/
+      # Mana abilities, both modern ("Add {G}{G}.") and pre-2018 wording
+      # ("Add {G}{G} to your mana pool."), one clause at a time
       # This is sort of dubious
-      if line.sub!(/Adds? (.*) to (?:your|his or her|that player's) mana pool/i, "")
-        parse_effect! $1
-      end
-      if line.sub!(/Add to (?:your|his or her) mana pool (.*)/i, "")
+      while line.sub!(/\badds?\b([^.]*)/, "")
         parse_effect! $1
       end
       parse_cost! line
@@ -116,24 +117,27 @@ class Card
   end
 
   def parse_type!
-    @generated_colors << "w" if @type =~ /\bPlains\b/i
-    @generated_colors << "u" if @type =~ /\bIsland\b/i
-    @generated_colors << "b" if @type =~ /\bSwamp\b/i
-    @generated_colors << "r" if @type =~ /\bMountain\b/i
-    @generated_colors << "g" if @type =~ /\bForest\b/i
+    @generated_colors << "w" if type =~ /\bPlains\b/i
+    @generated_colors << "u" if type =~ /\bIsland\b/i
+    @generated_colors << "b" if type =~ /\bSwamp\b/i
+    @generated_colors << "r" if type =~ /\bMountain\b/i
+    @generated_colors << "g" if type =~ /\bForest\b/i
   end
 end
 
 class CardDatabase
-  def initialize
+  def initialize(path)
+    @path = path
     @cards = Set[]
     @parts = {}
   end
 
   def import!
-    data = JSON.parse(open("AllSets-x.json").read)
-    data.each do |set_code, set|
-      set["cards"].each do |card|
+    data = JSON.parse(File.read(@path))
+    # MTGJSON v5 wraps the sets in "data", older versions are just a set map
+    sets = data["data"] || data
+    sets.each do |set_code, set|
+      (set["cards"] || []).each do |card|
         add_card! card
       end
     end
@@ -158,8 +162,11 @@ class CardDatabase
 
   def each_card
     @cards.each do |parts|
-      gen = format_mana(parts.map{|c| @parts[c].generated_colors}.inject(&:|))
-      used = format_mana(parts.map{|c| @parts[c].used_colors}.inject(&:|))
+      # Faces we never saw as their own entry (some meld backs) contribute nothing
+      known = parts.map{|c| @parts[c]}.compact
+      next if known.empty?
+      gen = known.map(&:generated_colors).inject(&:|)
+      used = known.map(&:used_colors).inject(&:|)
       parts.each do |p|
         yield(p, gen, used)
       end
@@ -174,8 +181,15 @@ class CardDatabase
   end
 
   def print!
-    enum_for(:each_card).sort.each do |name, gen, use|
-      puts [name, gen, use].join("\t")
+    # Different cards can share a name ("Fire" of "Fire // Ice" and the
+    # playtest card), so merge them into one line instead of emitting both
+    merged = {}
+    enum_for(:each_card).each do |name, gen, use|
+      gen_so_far, use_so_far = merged[name] || [Set[], Set[]]
+      merged[name] = [gen_so_far | gen, use_so_far | use]
+    end
+    merged.sort.each do |name, (gen, use)|
+      puts [name, format_mana(gen), format_mana(use)].join("\t")
     end
   end
 
@@ -185,4 +199,4 @@ class CardDatabase
   end
 end
 
-CardDatabase.new.call
+CardDatabase.new(ARGV[0] || "AllSets.json").call
