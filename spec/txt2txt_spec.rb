@@ -204,6 +204,70 @@ describe "txt2cod" do
     end
   end
 
+  # Every site writing Arena-style lines annotates them differently:
+  # `*F*` foil, `*E*` etched foil, `(F)` foil, `*CMDR*` commander,
+  # `#tags`, and Archidekt's `[Categories]` and `^Label,#colour^`
+  describe "Arena-style deck with annotations" do
+    let(:deck_path) { Pathname(__dir__) + "data/arena_annotations.txt" }
+    let(:expected) {
+      <<~EOF
+        // NAME: Unknown
+        COMMANDER: 1 Kenrith, the Returned King
+        1 Ainok Bond-Kin
+        4 Counterspell
+        1 Pegasus Guardian // Rescue the Foal
+        1 Agadeem's Awakening // Agadeem, the Undercrypt
+        1 Ashnod's Altar
+        1 Amulet of Vigor
+        1 Sol Ring
+        1 Arcane Signet
+
+        Sideboard
+        1 Containment Priest
+      EOF
+    }
+    it do
+      expect(txt).to eq(expected)
+    end
+  end
+
+  # mtg.wtf puts `[SET:NUM]` after the name, and marks foils separately
+  describe "mtg.wtf deck export" do
+    let(:deck_path) { Pathname(__dir__) + "data/mtgwtf_export.txt" }
+    let(:expected) {
+      <<~EOF
+        // NAME: Blood Rush - Dragon's Maze Event Deck
+        COMMANDER: 1 Karador, Ghost Chieftain
+        4 Lightning Bolt [foil]
+        1 Sire of Seven Deaths
+        1 Day of Judgment [foil]
+
+        Sideboard
+        2 Naturalize
+      EOF
+    }
+    it do
+      expect(txt).to eq(expected)
+    end
+  end
+
+  describe "Deckstats deck with sections as comments" do
+    let(:deck_path) { Pathname(__dir__) + "data/deckstats_sections.txt" }
+    let(:expected) {
+      <<~EOF
+        // NAME: Unknown
+        1 Ash Barrens
+        1 Blinkmoth Nexus
+
+        Sideboard
+        1 Darksteel Citadel
+      EOF
+    }
+    it do
+      expect(txt).to eq(expected)
+    end
+  end
+
   # https://www.mtgsalvation.com/forums/the-game/modern/established-modern/aggro-tempo/782962-burn
   describe "deck using 4x counts" do
     let(:deck_path) { Pathname(__dir__) + "data/burn_4x.txt" }

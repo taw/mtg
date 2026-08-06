@@ -17,9 +17,16 @@ scripts
 * `url2dck` - download decklists from URL and convert to XMage .dck format
 * `url2txt` - download decklists from URL and convert to .txt format
 
-The `txt2*` scripts autodetect MTG Arena decklists (`4 Bonecrusher Giant (ELD) 115`),
-including their `About`/`Name`, `Commander`, `Companion`, `Deck`, and `Sideboard` sections.
-The companion is skipped, as Arena also lists it in the sideboard.
+The `txt2*` scripts autodetect Arena-style decklists (`4 Bonecrusher Giant (ELD) 115`),
+which is what MTG Arena, Moxfield, Archidekt, TappedOut, ManaBox, and MTGGoldfish all
+write. That covers `About`/`Name`, `Deck`, `Commander`, `Companion`, `Maybeboard`, and
+`Sideboard` sections, `4x` counts, `*F*` / `*E*` / `(F)` finish markers, `*CMDR*`,
+Moxfield `#tags`, and Archidekt `[Categories]` and `^Labels^`.
+The companion is skipped, as Arena also lists it in the sideboard, and so is the
+maybeboard. Finish markers are dropped, this deck model has nowhere to put them.
+
+Also read: XMage `.dck`, Forge `.dck`, Deckstats (`//Main` sections and `[SET#NUM]`),
+Magic Workstation, MTGO, Apprentice, and mtg.wtf's own `[SET:NUM]` exports.
 
 
 data management

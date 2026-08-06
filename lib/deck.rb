@@ -46,7 +46,12 @@ class Deck
     # Strip expansion name if any
     name.sub!(/\A\[[A-Z0-9]+\]\s+/, "")
     # Strip expansion name + number if any
-    name.sub!(/\A\[[A-Z0-9]+:\S+\]\s+/, "")
+    # XMage uses `[ISD:144]`, Deckstats uses `[2XM#310]`,
+    # `[M10/146]` already turned into `[M10 // 146]` above
+    name.sub!(/\A\[[A-Z0-9]+\s*(?:[:#]|\/\/)\s*\S+\s*\]\s+/, "")
+    # mtg.wtf puts the expansion after the name instead: `Lightning Bolt [M10:146]`
+    # Its `[foil]` tag is left alone, that's how foils are marked here too
+    name.sub!(/\s*\[[A-Z0-9]+\s*(?:[:#]|\/\/)\s*\S+\s*\](?=\s|\z)/, "")
     # Strip Forge annotations
     parts = name.split("|")
     if parts.size > 1

@@ -1,0 +1,14 @@
+Deck
+1 Ainok Bond-Kin (2X2) 5
+4 Counterspell (CMR) 632 *F* #TargetedDisruption
+1 Pegasus Guardian // Rescue the Foal (CLB) 36
+1x Agadeem's Awakening // Agadeem, the Undercrypt (znr) 90 [Resilience,Land]
+1x Ancient Cornucopia (big) 16 [Maybeboard{noDeck}{noPrice},Mana Advantage]
+1x Ashnod's Altar (ema) 218 *F* [Mana Advantage]
+1x Amulet of Vigor (plst) WWK-121 *F* [Ramp] ^Label,#000000^
+1 Sol Ring (c21) 263 *E*
+1 Arcane Signet (ELD) 331 (F)
+1x Kenrith, the Returned King (ELD) 303 *CMDR*
+
+SIDEBOARD:
+1 Containment Priest (M21) 13

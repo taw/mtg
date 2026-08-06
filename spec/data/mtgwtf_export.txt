@@ -1,0 +1,10 @@
+// NAME: Blood Rush - Dragon's Maze Event Deck
+// URL: http://mtg.wtf/deck/dgm/blood-rush
+// DATE: 2013-05-03
+COMMANDER: 1 Karador, Ghost Chieftain [DGM:1]
+4 Lightning Bolt [M10:146] [foil]
+1 Sire of Seven Deaths [FDN:292]
+1 Day of Judgment [FDN:140] [foil]
+
+Sideboard
+2 Naturalize [M10:180]

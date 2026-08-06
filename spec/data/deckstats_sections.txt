@@ -1,0 +1,9 @@
+//Main
+1 [2XM#310] Ash Barrens
+1 Blinkmoth Nexus
+
+//Sideboard
+1 [2XM#315] Darksteel Citadel
+
+//Maybeboard
+1 [MID#159] Smoldering Egg // Ashmouth Dragon
