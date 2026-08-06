@@ -1,0 +1,33 @@
+Companion
+1 Gyruda, Doom of Depths (IKO) 221
+
+Deck
+5 Forest (THB) 287
+1 Incubation Druid (RNA) 131
+1 Plains (THB) 279
+4 Fabled Passage (ELD) 244
+1 Temple of Plenty (THB) 248
+2 Temple of Mystery (M20) 255
+1 Temple of Enlightenment (THB) 246
+4 Temple Garden (GRN) 258
+2 Island (THB) 281
+4 Hallowed Fountain (RNA) 251
+4 Breeding Pool (RNA) 246
+4 Growth Spiral (RNA) 178
+2 End-Raze Forerunners (RNA) 124
+3 Gyruda, Doom of Depths (IKO) 221
+1 Dream Trawler (THB) 214
+2 Umori, the Collector (IKO) 231
+4 Thassa, Deep-Dwelling (THB) 71
+4 Spark Double (WAR) 68
+3 Elite Guardmage (WAR) 195
+4 Paradise Druid (WAR) 171
+4 Charming Prince (ELD) 8
+
+Sideboard
+2 Disdainful Stroke (GRN) 37
+2 Return to Nature (THB) 197
+4 Aether Gust (M20) 42
+1 Gyruda, Doom of Depths (IKO) 221
+4 Destiny Spinner (THB) 168
+2 Dovin's Veto (WAR) 193

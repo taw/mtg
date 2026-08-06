@@ -1,0 +1,48 @@
+Commander
+1 Daxos, Blessed by the Sun (THB) 9
+
+Companion
+1 Lurrus of the Dream Den (IKO) 226
+
+Deck
+1 Stonecoil Serpent (ELD) 235
+1 Healer's Hawk (GRN) 14
+22 Plains (IKO) 262
+1 Ajani's Pridemate (WAR) 4
+1 Soulmender (M20) 37
+1 Hunted Witness (GRN) 15
+1 Charmed Stray (WAR) 8
+1 Beloved Princess (ELD) 7
+1 Alseid of Life's Bounty (THB) 1
+1 Charming Prince (ELD) 8
+1 Daybreak Chaplain (M20) 12
+1 Gingerbrute (ELD) 219
+1 Impassioned Orator (RNA) 12
+1 Hushbringer (ELD) 18
+1 Grateful Apparition (WAR) 17
+1 Drannith Healer (IKO) 10
+1 Haazda Marshal (GRN) 13
+1 Sworn Companions (GRN) 27
+1 Shadowspear (THB) 236
+1 The Birth of Meletis (THB) 5
+1 Sentinel's Mark (RNA) 20
+1 Battlefield Promotion (WAR) 5
+1 Dawn of Hope (GRN) 8
+1 Desperate Lunge (WAR) 266
+1 Moment of Heroism (M20) 30
+1 Rally for the Throne (ELD) 25
+1 Triumphant Surge (THB) 41
+1 Take Heart (GRN) 28
+1 Light of Hope (IKO) 20
+1 Golden Egg (ELD) 220
+1 Shatter the Sky (THB) 37
+1 Citywide Bust (GRN) 4
+1 Unbreakable Formation (RNA) 29
+1 Ravnica at War (WAR) 28
+1 Inspired Charge (M20) 24
+1 Faerie Guidemother (ELD) 11
+1 Solid Footing (IKO) 31
+1 Sentinel's Eyes (THB) 36
+
+Sideboard
+1 Lurrus of the Dream Den (IKO) 226

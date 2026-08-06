@@ -1,0 +1,33 @@
+About
+Name Prismari Midrange
+
+Deck
+2 Alrund's Epiphany (KHM) 41
+4 Bonecrusher Giant (ELD) 115
+4 Brazen Borrower (ELD) 39
+2 Den of the Bugbear (AFR) 254
+4 Dragon's Fire (AFR) 139
+4 Fabled Passage (ELD) 244
+3 Galazeth Prismari (STX) 189
+4 Goldspan Dragon (KHM) 139
+2 Hall of Storm Giants (AFR) 257
+2 Inferno of the Star Mounts (AFR) 151
+7 Island (KTK) 256
+2 Magic Missile (AFR) 154
+4 Mazemind Tome (M21) 232
+6 Mountain (KTK) 264
+2 Mystical Dispute (ELD) 58
+2 Prismari Command (STX) 214
+4 Riverglide Pathway (ZNR) 264
+2 Saw It Coming (KHM) 76
+
+Sideboard
+3 Burning Hands (AFR) 135
+1 Disdainful Stroke (KTK) 37
+2 Iymrith, Desert Doom (AFR) 62
+1 Mystical Dispute (ELD) 58
+1 Negate (MOR) 43
+2 Phoenix of Ash (THB) 148
+3 Redcap Melee (ELD) 135
+1 Shadowspear (THB) 236
+1 Test of Talents (STX) 59

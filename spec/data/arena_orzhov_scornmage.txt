@@ -1,0 +1,27 @@
+Deck
+4 Lecturing Scornmage (SOS) 87
+4 Informed Inkwright (SOS) 20
+4 Inkling Mascot (SOS) 196
+4 Scolding Administrator (SOS) 224
+4 Stirring Hopesinger (SOS) 35
+3 Sheoldred, the Apocalypse (DMU) 435
+4 Cut Down (DMU) 89
+4 Fatal Push (FCA) 9
+4 Go for the Throat (J25) 447
+2 Heartless Act (IKO) 366
+4 Concealed Courtyard (KLR) 282
+4 Caves of Koilos (DMU) 378
+4 Brightclimb Pathway // Grimclimb Pathway (ZNR) 259
+2 Restless Fortress (WOE) 259
+1 Shattered Sanctum (SOS) 260
+4 Swamp (SOS) 285
+4 Plains (SOS) 260
+
+Sideboard
+3 Thoughtseize (LRW) 145
+2 Duress (XLN) 105
+2 Ghost Vacuum (DSK) 248
+2 Power Word Kill (AFR) 114
+2 Liliana of the Veil (DMU) 373
+2 Skyclave Apparition (ZNR) 39
+2 Bitter Triumph (LCI) 91

@@ -17,6 +17,10 @@ scripts
 * `url2dck` - download decklists from URL and convert to XMage .dck format
 * `url2txt` - download decklists from URL and convert to .txt format
 
+The `txt2*` scripts autodetect MTG Arena decklists (`4 Bonecrusher Giant (ELD) 115`),
+including their `About`/`Name`, `Commander`, `Companion`, `Deck`, and `Sideboard` sections.
+The companion is skipped, as Arena also lists it in the sideboard.
+
 
 data management
 ===============
