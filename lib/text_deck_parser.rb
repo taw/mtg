@@ -5,7 +5,9 @@ class TextDeckParser
   # all read and write variations of it, so accept the whole family:
   # count can be `4` or `4x`, collector number is optional (some exporters
   # skip it) and not always a plain number (`(PLST) MH2-123`)
-  ARENA_CARD = /\A(\d+)x?\s+(.+?)\s+\(([A-Za-z0-9_]{2,7})\)(?:\s+(\S+))?\z/
+  # Archidekt leaves the set code empty for cards which never got an Arena
+  # printing, like `3 Think Twice () 92`, so accept empty parens as well
+  ARENA_CARD = /\A(\d+)x?\s+(.+?)\s+\(([A-Za-z0-9_]{2,7})?\)(?:\s+(\S+))?\z/
 
   ARENA_SECTIONS = {
     "about" => :about,

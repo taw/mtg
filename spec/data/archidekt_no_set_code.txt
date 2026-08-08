@@ -1,0 +1,7 @@
+1x Think Twice () 92
+1x Snapcaster Mage () 78
+1x Cryptic Command () 48 [Maybeboard{noDeck}{noPrice}]
+1x Isochron Scepter (5DN) 132
+
+Sideboard
+1x Dispel () 27

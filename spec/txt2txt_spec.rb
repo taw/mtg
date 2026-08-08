@@ -231,6 +231,26 @@ describe "txt2cod" do
     end
   end
 
+  # Archidekt exports cards from sets which never made it to Arena
+  # with an empty set code, like `1x Think Twice () 92`
+  describe "Archidekt deck with empty set codes" do
+    let(:deck_path) { Pathname(__dir__) + "data/archidekt_no_set_code.txt" }
+    let(:expected) {
+      <<~EOF
+        // NAME: Unknown
+        1 Think Twice
+        1 Snapcaster Mage
+        1 Isochron Scepter
+
+        Sideboard
+        1 Dispel
+      EOF
+    }
+    it do
+      expect(txt).to eq(expected)
+    end
+  end
+
   # mtg.wtf puts `[SET:NUM]` after the name, and marks foils separately
   describe "mtg.wtf deck export" do
     let(:deck_path) { Pathname(__dir__) + "data/mtgwtf_export.txt" }
